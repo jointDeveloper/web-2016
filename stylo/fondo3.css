@@ -1,0 +1,20 @@
+body{
+  background:rgba(88,154,101,.5);
+}
+
+h1{
+  background: #512368;
+  color: white;
+}
+
+.circular{
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+}
+
+footer{
+    
+}
