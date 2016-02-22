@@ -23,15 +23,15 @@ a {
 
 /* Font */
 .font {
-  font-family: ubuntu;
+  font-family: monospace;
 }
 
 .xbig {
-	font-size: 50px;
+	font-size: 40px;
 }
 
 .big {
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: bold;
 }
 
