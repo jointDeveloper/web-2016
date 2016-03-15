@@ -34,22 +34,68 @@ html, body {
 
 .cubo1 {
 	width: 33.1%;
-	height: 33.33%;
+	height: 35.33%;
   float: left;
 	border: 1px solid #d0d0d0;
-  background-color: purple;
 }
 .cubo2 {
 	width: 33.1%;
-	height: 33.33%;
+	height: 28%;
   float: left;
 	border: 1px solid #d0d0d0;
-  background-color: violet;
 }
 .cubo3 {
 	width: 33.2%;
-	height: 41.66%;
+	height: 35.33%;
   float: left;
 	border: 1px solid #d0d0d0;
-  background-color: blue;
+}
+.cubo4 {
+	width: 33.1%;
+	height: 28%;
+  float: left;
+	border: 1px solid #d0d0d0;
+}
+.cubo5 {
+	width: 33.1%;
+	height: 40.6%;
+  float: left;
+  margin-top: -40px;
+	border: 1px solid #d0d0d0;
+}
+
+.cubo6 {
+	width: 33.2%;
+	height: 28%;
+  float: left;
+	border: 1px solid #d0d0d0;
+}
+
+.cubo7 {
+	width: 33.2%;
+	height: 35.33%;
+  float: left;
+	border: 1px solid #d0d0d0;
+}
+.cubo8 {
+	width: 33.1%;
+	height: 35.33%;
+  float: left;
+  margin-top: -188px;
+	border: 1px solid #d0d0d0;
+}
+.cubo9 {
+	width: 33.1%;
+	height: 30%;
+  float: left;
+  margin-top: -160px;
+	border: 1px solid #d0d0d0;
+}
+
+.text {
+  font-size: 200%;
+  font-style: italic;
+  font-family: sans-serif;
+  text-align: center;
+  vertical-align: text-bottom;
 }
