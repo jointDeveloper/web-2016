@@ -14,11 +14,11 @@ html, body {
 	margin: 5% auto;
 }
 
-.row:after { /*Hace un salto para separar las filas y los bloques contenidos en ellas*/
+/*.row:after { 
   content: "";
   clear: both;
   display: block;
-}
+}*/
 
 .row1{
 	font-size: 200%;
@@ -72,7 +72,7 @@ html, body {
 	width: 33.3%;
 	height: 100%;
 	float: left;
-	margin-top: -22%;
+	margin-top: -21%;
 }
 
 .row2 .Video-Fotos{
@@ -80,6 +80,7 @@ html, body {
 	width: 33.4%;
 	height: 100%;
 	float: left;
+	margin-top: -7%;
 }
 
 
@@ -97,12 +98,14 @@ html, body {
 	width: 33.3%;
 	height: 100%;
 	float: left;
+	margin-top:-20.97%;
 }
 .row3 .Eventos{
 	background-color: silver;
 	width: 33.3%;
 	height: 100%;
 	float: left;
+	margin-top:-20.97%;
 }
 
 .row3 .Contactos{
@@ -110,4 +113,5 @@ html, body {
 	width: 33.4%;
 	height: 33.33%;
 	float: left;
+	margin-top: -7%;
 }
