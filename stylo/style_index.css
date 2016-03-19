@@ -1,0 +1,113 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  background-color: #fff;
+}
+
+.container {
+	max-width: 1024px;
+	background-color: #fff456;
+	width: 100%;
+	height: 80%;
+	margin: 5% auto;
+}
+
+.row:after { /*Hace un salto para separar las filas y los bloques contenidos en ellas*/
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.row1{
+	font-size: 200%;
+	font-style: italic;
+	font-family: sans-serif;
+	text-align: center;
+	vertical-align: text-bottom;
+	height: 50%; 
+}
+
+.row1 .Aprende{
+	
+	background-color: gray;
+	width: 33.3%;
+	height: 100%;
+	float: left;
+}
+.row1 .About{
+	
+	background-color: pink;
+	width: 33.3%;
+	height: 40%;
+	float: left;
+}
+
+.row1 .Comunidad{
+
+	background-color: blue;
+	width: 33.4%;
+	height: 80%;
+	float: left;
+}
+
+.row2{
+	font-size: 200%;
+	font-style: italic;
+	font-family: sans-serif;
+	text-align: center;
+	vertical-align: text-bottom;
+	height: 50%; 
+}
+
+.row2 .Unete{
+	background-color: aqua;
+	width: 33.3%;
+	height: 40%;
+	float: left;
+}
+.row2 .Perfiles{
+	background-color: lime;
+	width: 33.3%;
+	height: 100%;
+	float: left;
+	margin-top: -22%;
+}
+
+.row2 .Video-Fotos{
+	background-color: purple;
+	width: 33.4%;
+	height: 100%;
+	float: left;
+}
+
+
+.row3{
+	font-size: 200%;
+	font-style: italic;
+	font-family: sans-serif;
+	text-align: center;
+	vertical-align: text-bottom;
+	height: 30%; 
+}
+
+.row3 .Blog{
+	background-color: maroon;
+	width: 33.3%;
+	height: 100%;
+	float: left;
+}
+.row3 .Eventos{
+	background-color: silver;
+	width: 33.3%;
+	height: 100%;
+	float: left;
+}
+
+.row3 .Contactos{
+	background-color: #FF9999;
+	width: 33.4%;
+	height: 33.33%;
+	float: left;
+}
