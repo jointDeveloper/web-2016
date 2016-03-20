@@ -3,12 +3,7 @@ html, body{
   width: 100%;
   max-width: 1024px;
   margin:auto;
-}
-
-body {
-  padding: 0;
-  /*font: 250% "Lucida Grande", Helvetica, Arial, sans-serif;*/
-  font: 400 100%/1.5 "Lora",Arial;
+  /*font: 100px "Lucida Grande", Helvetica, Arial, sans-serif;*/
 }
 
 .nav-bar li a{
@@ -23,10 +18,24 @@ body {
   background-color:#434343;
 }
 
-.nav-bar > ul li{ /*que sean directos a ul li*/
+.nav-bar ul li{ /*que sean directos a ul li*/
   float: left;
 }
 
 ul, ol{
   list-style: none;
+}
+
+.ppal .col{
+  float: left;
+  margin: 0;
+  width: 50%;
+}
+
+.circular{
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
 }
