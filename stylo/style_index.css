@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   font-size: 17px;
@@ -9,9 +10,9 @@ html, body {
 .container {
 	max-width: 1024px;
 	background-color: #fff456;
-	width: 100%;
+	width: 80%;
 	height: 80%;
-	margin: 5% auto;
+	margin: auto;
 	max-height: 1024px;
 
 	font-size: 200%;
