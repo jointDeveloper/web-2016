@@ -1,0 +1,32 @@
+html, body{
+  height:100%;
+  width: 100%;
+  max-width: 1024px;
+  margin:auto;
+}
+
+body {
+  padding: 0;
+  /*font: 250% "Lucida Grande", Helvetica, Arial, sans-serif;*/
+  font: 400 100%/1.5 "Lora",Arial;
+}
+
+.nav-bar li a{
+  background-color: #4A4D52;
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 5px 10px;
+}
+
+.nav-bar li a:hover { /*cambia de color cuando se pone el mouse encima*/
+  background-color:#434343;
+}
+
+.nav-bar > ul li{ /*que sean directos a ul li*/
+  float: left;
+}
+
+ul, ol{
+  list-style: none;
+}
