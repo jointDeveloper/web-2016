@@ -1,12 +1,9 @@
 /* Azul verdoso: #78DEBC */
 body{
-  /*height:100%;*/
   width: 100%;
   max-width: 1024px;
-  /*margin: 10px;*/
   margin: auto;
   padding: 0px;
-  /*font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;*/
   background-color: #F5F5F5;
   font-size: 14px;
   border: solid 2px black;
@@ -217,6 +214,23 @@ body{
   clear: left;
   margin: 10px 45%;
   position: relative;
+}
+
+#email-me .button input{
+  /*http://www.bestcssbuttongenerator.com/#/17*/
+  border-radius: 15px;
+  border: 1px solid #D6BCD6;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  padding: 3px 7px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #E1E2ED;
+  background: #EDEDED linear-gradient(to bottom, #EDEDED 5%, #BAB1BA 100%) repeat scroll 0% 0%;
+}
+
+#email-me .button input:hover{
+  background: white;
 }
 
 /*----------FOOTER-----------*/
