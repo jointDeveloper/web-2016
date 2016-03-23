@@ -9,6 +9,8 @@ body{
   background-color: #F5F5F5;
   font-size: 14px;
   border: solid 2px black;
+  background-image: url("../images/nubes.png");
+  background-attachment: fixed;
 }
 
 .icon{
@@ -29,7 +31,7 @@ body{
   /*position: fixed;*/
   display: block;
   border: solid 2px black;
-  background-color: rgba(70,74,73,.8);
+  background-color: rgba(70,74,73,1);
   border-radius: 5px;
 }
 
@@ -78,7 +80,7 @@ body{
 #Album{
   height: 45%;
   /*background-color: rgba(120,222,188,.3);*/
-  background-color: rgba(44,143,119,.3);
+  background-color: rgba(44,143,119,.5);
   margin-bottom: 5%;
   box-shadow: 10px 10px 5px #899A95;
   border: solid 2px #464A49;
@@ -131,9 +133,6 @@ body{
   border-radius: 5px;
 }
 
-.ppal_container #info{
-  font-size: 20px;
-}
 
 .ppal_container .info{
   width: 60%;
@@ -156,6 +155,12 @@ body{
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
   border: solid 2px black;
+}
+
+.ppal_container #title{
+  font-size: 20px;
+  background-image: url("../images/nubes.png");
+  background-attachment: fixed;
 }
 /*----------EMAIL-ME-----------*/
 #email-me{
