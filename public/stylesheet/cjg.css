@@ -37,7 +37,6 @@ body{
 }
 
 #nav-bar li a{
-  /*background-color: rgba(70,74,73,.8);*/
   width: 33.3%;
   padding: 10px;
   color: white;
@@ -60,7 +59,7 @@ body{
 }
 
 #nav-bar li a:hover {
-  background-color: rgba(70,74,73,1);
+  background-color: #8A9290;
 }
 
 /*---------CONTAINER OF PPAL AND SECUNDARY-----------*/
@@ -177,8 +176,6 @@ body{
   width: 100%;
   height: 30%;
   color: white;
-  /*display: table;*/
-  /*padding: 15px;*/
   background-color: rgba(70,74,73,.8);
   border: solid 2px black;
   border-radius: 5px;
@@ -202,7 +199,6 @@ body{
 }
 
 #email-me .container1{
-  /*margin: 0px 180px;*/
   display: table;
   margin: auto;
 }
@@ -210,18 +206,17 @@ body{
 #email-me .element1{
   float: left;
   width: 50%;
-  /*padding: 30px;*/
 }
 
-#email-me .container1 #message textarea{
+#email-me .container1 #message{
   float: left;
   width: 50%;
-  /*margin: 30px 100px;*/
 }
 
 #email-me .button{
   clear: left;
-  margin: 10px auto;
+  margin: 10px 45%;
+  position: relative;
 }
 
 /*----------FOOTER-----------*/
