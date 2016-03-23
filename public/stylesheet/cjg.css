@@ -11,6 +11,13 @@ body{
   border: solid 2px black;
 }
 
+.icon{
+  width: 20px;
+  height: 20px;
+  margin: 0px 5px;
+}
+
+
 /*---------NAV-BAR---------------*/
 #nav-bar{
   width: 100%;
@@ -22,12 +29,12 @@ body{
   /*position: fixed;*/
   display: block;
   border: solid 2px black;
-  background-color: #464A49;
+  background-color: rgba(70,74,73,.8);
   border-radius: 5px;
 }
 
 #nav-bar li a{
-  background-color: #5A6964;
+  /*background-color: rgba(70,74,73,.8);*/
   width: 33.3%;
   padding: 10px;
   color: white;
@@ -50,7 +57,7 @@ body{
 }
 
 #nav-bar li a:hover {
-  background-color: #899A95;
+  background-color: rgba(70,74,73,1);
 }
 
 /*---------CONTAINER OF PPAL AND SECUNDARY-----------*/
@@ -70,7 +77,8 @@ body{
 
 #Album{
   height: 45%;
-  background-color: rgba(120,222,188,.3);
+  /*background-color: rgba(120,222,188,.3);*/
+  background-color: rgba(44,143,119,.3);
   margin-bottom: 5%;
   box-shadow: 10px 10px 5px #899A95;
   border: solid 2px #464A49;
@@ -101,8 +109,12 @@ body{
   border-radius: 5px;
 }
 
-#Links a{
+#Links div{
   display: block;
+}
+
+#Links .row{
+  padding: 5px;
 }
 
 /*---------PPAL---------------*/
@@ -110,7 +122,7 @@ body{
 .ppal_container{
   display: block;
   border: solid 2px black;
-  background-color: rgba(120,139,223,.3);
+  background-color: rgba(119,50,124,.5);
   float: left;
   width: 66.5%;
   /*margin-left: 1.5%;*/
@@ -119,14 +131,21 @@ body{
   border-radius: 5px;
 }
 
+.ppal_container #info{
+  font-size: 20px;
+}
+
 .ppal_container .info{
-  width: 50%;
+  width: 60%;
   float: right;
   margin: 0px;
+  font-family: "Palatino", Garamond, 'Comic Sans';
+  font-size: 20px;
 }
 
 .ppal_container #img_profile{
-  width: 50%;
+  width: 30%;
+  padding: 2.5%;
   float: left;
 }
 
@@ -136,6 +155,7 @@ body{
   border-radius: 150px;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
+  border: solid 2px black;
 }
 /*----------EMAIL-ME-----------*/
 #email-me{
@@ -146,8 +166,8 @@ body{
   color: white;
   display: table;
   padding: 15px;
-  background-color: rgba(44,143,119,.5);
-  border: solid 2px rgba(44,143,119,1);
+  background-color: rgba(70,74,73,.8);
+  border: solid 2px black;
   border-radius: 5px;
   margin: 10px 10px;
   margin-top: 30px;
