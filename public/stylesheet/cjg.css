@@ -23,7 +23,7 @@ body{
   display: block;
   border: solid 2px black;
   background-color: #464A49;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 #nav-bar li a{
@@ -62,22 +62,43 @@ body{
 /*---------SECUNDARY---------------*/
 .secundary_container{
   display: block;
-  border: solid 2px black;
-  background-color: pink;
   float: left;
   width: 28.5%;
-  margin-right: 1.5%;
+  margin: 0px 1.5%;
+  font-weight: bolder;
 }
 
 #Album{
-  height: 50%;
-  background-color: gray;
+  height: 45%;
+  background-color: rgba(120,222,188,.3);
+  margin-bottom: 5%;
+  box-shadow: 10px 10px 5px #899A95;
+  border: solid 2px #464A49;
+  border-radius: 5px;
+}
+
+#Album img{
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 10px auto;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+#Album img:hover{
+  opacity: 0.7;
+  border: solid 2px white;
 }
 
 #Links{
-  height: 50%;
-  background-color: white;
+  height: 45%;
+  background-color: rgba(203,133,206,.3);
   color: white;
+  margin-top: 5%;
+  box-shadow: 10px 10px 5px #899A95;
+  border: solid 2px black;
+  border-radius: 5px;
 }
 
 #Links a{
@@ -89,10 +110,13 @@ body{
 .ppal_container{
   display: block;
   border: solid 2px black;
-  background-color: yellow;
+  background-color: rgba(120,139,223,.3);
   float: left;
   width: 66.5%;
-  margin-left: 1.5%;
+  /*margin-left: 1.5%;*/
+  margin: auto;
+  box-shadow: 10px 10px 5px #899A95;
+  border-radius: 5px;
 }
 
 .ppal_container .info{
@@ -115,14 +139,19 @@ body{
 }
 /*----------EMAIL-ME-----------*/
 #email-me{
+  clear: both;
   border: solid 2px black;
   width: 100%;
   height: 30%;
   color: white;
   display: table;
   padding: 15px;
-  background-color: #2c8F77;
-  border: solid 2px black;
+  background-color: rgba(44,143,119,.5);
+  border: solid 2px rgba(44,143,119,1);
+  border-radius: 5px;
+  margin: 10px 10px;
+  margin-top: 30px;
+  font-weight: bolder;
 }
 
 #email-me form .row input{
@@ -146,4 +175,5 @@ footer{
   height: 7%;
   width: 100%;
   text-align: center;
+  border-radius: 5px;
 }
