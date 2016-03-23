@@ -2,8 +2,9 @@
 body{
   /*height:100%;*/
   width: 100%;
-  /*max-width: 1024px;*/
-  margin: 10px;
+  max-width: 1024px;
+  /*margin: 10px;*/
+  margin: auto;
   padding: 0px;
   /*font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;*/
   background-color: #F5F5F5;
@@ -124,7 +125,7 @@ body{
 .ppal_container{
   display: block;
   border: solid 2px black;
-  background-color: rgba(119,50,124,.5);
+  background-color: rgba(119,50,124,.8);
   float: left;
   width: 66.5%;
   /*margin-left: 1.5%;*/
@@ -159,8 +160,15 @@ body{
 
 .ppal_container #title{
   font-size: 20px;
+  font-weight: bolder;
   background-image: url("../images/nubes.png");
   background-attachment: fixed;
+  margin: 5px;
+  text-align: center;
+}
+
+.ppal_container #info{
+  font-weight: bold;
 }
 /*----------EMAIL-ME-----------*/
 #email-me{
@@ -169,13 +177,12 @@ body{
   width: 100%;
   height: 30%;
   color: white;
-  display: table;
-  padding: 15px;
+  /*display: table;*/
+  /*padding: 15px;*/
   background-color: rgba(70,74,73,.8);
   border: solid 2px black;
   border-radius: 5px;
-  margin: 10px 10px;
-  margin-top: 30px;
+  margin: 10px auto;
   font-weight: bolder;
 }
 
@@ -192,6 +199,29 @@ body{
 
 #email-me form .row{
   display: table-row;
+}
+
+#email-me .container1{
+  /*margin: 0px 180px;*/
+  display: table;
+  margin: auto;
+}
+
+#email-me .element1{
+  float: left;
+  width: 50%;
+  /*padding: 30px;*/
+}
+
+#email-me .container1 #message textarea{
+  float: left;
+  width: 50%;
+  /*margin: 30px 100px;*/
+}
+
+#email-me .button{
+  clear: left;
+  margin: 10px auto;
 }
 
 /*----------FOOTER-----------*/
