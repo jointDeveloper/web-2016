@@ -36,20 +36,8 @@ html, body {
 .container {
 	background-color: #fff456;
 	width: 100%;
-	height: 80%;
+	height: 78%;
 	margin: auto;
-}
-
-.row1 {
-  height: 50%;
-}
-
-.row2 {
-  height: 50%;
-}
-
-.row3 {
-  height: 30%;
 }
 
 .col {
