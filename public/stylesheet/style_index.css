@@ -1,7 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  margin: 0;
+  margin: auto auto;
   padding: 0;
   font-size: 17px;
   background-color: #fff;
@@ -20,6 +20,16 @@ html, body {
 	font-family: sans-serif;
 	text-align: center;
 	vertical-align: text-bottom;
+}
+
+.middle {
+    /*display: table-cell;
+    vertical-align: middle;
+    display: table;
+    margin: auto;*/
+  display: inline-block;
+  position: relative;
+  margin: auto auto;
 }
 
 /*.row:after {
