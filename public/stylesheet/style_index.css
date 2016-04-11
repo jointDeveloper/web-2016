@@ -1,25 +1,16 @@
+/*-----------------GENERAL------------------*/
 html, body {
   height: 100%;
   width: 100%;
   margin: auto auto;
   padding: 0;
   font-size: 17px;
-  background-color: #fff;
-}
-
-.container {
-	max-width: 1024px;
-	background-color: #fff456;
-	width: 80%;
-	height: 80%;
-	margin: auto;
-	max-height: 1024px;
-
-	font-size: 200%;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
 	font-style: italic;
-	font-family: sans-serif;
-	text-align: center;
-	vertical-align: text-bottom;
 }
 
 .middle {
@@ -32,11 +23,25 @@ html, body {
   margin: auto auto;
 }
 
-/*.row:after {
-  content: "";
-  clear: both;
-  display: block;
-}*/
+.up{/*resaltar*/
+  border: 5px solid #ccc;
+  float: left;
+  margin: 15px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -ms-transition: margin 0.5s ease-out;
+  transition: margin 0.5s ease-out;
+}
+
+.container {
+	max-width: 1024px;
+	background-color: #fff456;
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	max-height: 1024px;
+  border: 1px solid black;
+}
 
 .row1 {
   height: 50%;
@@ -56,63 +61,136 @@ html, body {
   height: 100%;
 }
 
-.Aprende{
-	background-color: gray;
-	width: 100%;
-	height: 50%;
-	float: left;
-}
+/*---------------ABOUT----------------*/
+
 .About{
 	background-color: pink;
 	width: 100%;
 	height: 20%;
 	float: left;
+  border: 1px solid black;
 }
+
+.About:hover{
+  opacity: 0.7;
+  border: solid 2px white;
+  cursor: pointer;
+}
+
+/*---------------COMUNIDAD----------------*/
 
 .Comunidad{
 	background-color: blue;
 	width: 100%;
 	height: 40%;
 	float: left;
+  border: 1px solid black;
 }
 
-
-.Unete{
-	background-color: aqua;
-	width: 100%;
-	height: 20%;
-	float: left;
+.Comunidad:hover{
+  opacity: 0.7;
+  border: solid 2px white;
+  cursor: pointer;
 }
+
+/*---------------PERFILES----------------*/
 .Perfiles{
 	background-color: lime;
 	width: 100%;
 	height: 50%;
 	float: left;
+  border: 1px solid black;
+  /*transition: 0.3s;*/
 }
 
-.Video-Fotos{
-	background-color: purple;
-	width: 100%;
-	height: 50%;
-	float: left;
+.Perfiles:hover{
+  opacity: 0.7;
+  border: solid 2px white;
+  cursor: pointer;
 }
+
+/*---------------BLOG----------------*/
 
 .Blog{
 	background-color: maroon;
 	width: 100%;
 	height: 30%;
 	float: left;
+  border: 1px solid black;
 }
+
+.Blog:hover{
+  opacity: 0.7;
+  border: solid 2px white;
+  cursor: pointer;
+}
+
+/*---------------EVENTOS----------------*/
 .Eventos{
-	background-color: silver;
+	/*background-color: silver;*/
 	width: 100%;
 	height: 30%;
 	float: left;
+  background-image: url("../images/Eventos/eventos.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: 1px solid black;
 }
 
-.Contactos{
+.Eventos:hover{
+  opacity: 0.7;
+  border: solid 2px white;
+  cursor: pointer;
+}
+
+/*---------------CONTACTO----------------*/
+
+.Contacto{
 	background-color: #FF9999;
 	width: 100%;
 	height: 10%;
 	float: left;
+  border: 1px solid black;
 }
+
+.Contacto:hover{
+  opacity: 0.7;
+  border: solid 2px white;
+  cursor: pointer;
+}
+
+/*---------------PORTAFOLIO----------------*/
+
+.Portafolio{
+	background-color: green;
+	width: 100%;
+	/*height: 10%;*/
+	float: left;
+  border: 1px solid black;
+}
+
+.Portafolio:hover{
+  opacity: 0.7;
+  border: solid 2px white;
+  cursor: pointer;
+}
+
+/*---------------APOYANOS----------------*/
+
+.Apoyanos{
+	background-color: green;
+	width: 100%;
+	/*height: 10%;*/
+	float: left;
+  border: 1px solid black;
+}
+
+.Apoyanos:hover{
+  opacity: 0.7;
+  border: solid 2px white;
+  cursor: pointer;
+}
+
+/*---------------FOOTER----------------*/
