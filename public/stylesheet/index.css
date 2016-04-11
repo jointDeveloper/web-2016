@@ -61,6 +61,19 @@ html, body {
   height: 100%;
 }
 
+/*----------HEADER--------------*/
+
+.header {
+	max-width: 1024px;
+	background-color: white;
+	width: 80%;
+	height: 10%;
+	margin: auto;
+	max-height: 1024px;
+  border: 1px solid black;
+  color: black;
+}
+
 /*---------------ABOUT----------------*/
 
 .About{
@@ -194,3 +207,23 @@ html, body {
 }
 
 /*---------------FOOTER----------------*/
+
+footer{
+  max-width: 1024px;
+	background-color: white;
+	width: 80%;
+	height: 10%;
+	margin: auto;
+	max-height: 1024px;
+  border: 1px solid black;
+  color: black;
+  text-align: center;
+  color: #0E253A;
+  vertical-align: middle;
+}
+
+footer em{
+  margin: auto;
+  padding-top: 10px;
+  font-size: 10px;
+}
