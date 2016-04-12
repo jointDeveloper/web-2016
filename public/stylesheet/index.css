@@ -34,25 +34,10 @@ html, body {
 }
 
 .container {
-	max-width: 1024px;
 	background-color: #fff456;
-	width: 80%;
-	height: 80%;
+	width: 100%;
+	height: 78%;
 	margin: auto;
-	max-height: 1024px;
-  border: 1px solid black;
-}
-
-.row1 {
-  height: 50%;
-}
-
-.row2 {
-  height: 50%;
-}
-
-.row3 {
-  height: 30%;
 }
 
 .col {
@@ -64,13 +49,10 @@ html, body {
 /*----------HEADER--------------*/
 
 .header {
-	max-width: 1024px;
 	background-color: white;
-	width: 80%;
+	width: 100%;
 	height: 10%;
 	margin: auto;
-	max-height: 1024px;
-  border: 1px solid black;
   color: black;
 }
 
@@ -79,14 +61,12 @@ html, body {
 .About{
 	background-color: pink;
 	width: 100%;
-	height: 20%;
+	height: 50%;
 	float: left;
-  border: 1px solid black;
 }
 
 .About:hover{
   opacity: 0.7;
-  border: solid 2px white;
   cursor: pointer;
 }
 
@@ -95,14 +75,12 @@ html, body {
 .Comunidad{
 	background-color: blue;
 	width: 100%;
-	height: 40%;
+	height: 50%;
 	float: left;
-  border: 1px solid black;
 }
 
 .Comunidad:hover{
   opacity: 0.7;
-  border: solid 2px white;
   cursor: pointer;
 }
 
@@ -112,13 +90,11 @@ html, body {
 	width: 100%;
 	height: 50%;
 	float: left;
-  border: 1px solid black;
   /*transition: 0.3s;*/
 }
 
 .Perfiles:hover{
   opacity: 0.7;
-  border: solid 2px white;
   cursor: pointer;
 }
 
@@ -129,12 +105,10 @@ html, body {
 	width: 100%;
 	height: 30%;
 	float: left;
-  border: 1px solid black;
 }
 
 .Blog:hover{
   opacity: 0.7;
-  border: solid 2px white;
   cursor: pointer;
 }
 
@@ -142,14 +116,13 @@ html, body {
 .Eventos{
 	/*background-color: silver;*/
 	width: 100%;
-	height: 30%;
+	height: 25%;
 	float: left;
   background-image: url("../images/Eventos/eventos.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  border: 1px solid black;
 }
 
 .Eventos:hover{
@@ -163,14 +136,12 @@ html, body {
 .Contacto{
 	background-color: #FF9999;
 	width: 100%;
-	height: 10%;
+	height: 35%;
 	float: left;
-  border: 1px solid black;
 }
 
 .Contacto:hover{
   opacity: 0.7;
-  border: solid 2px white;
   cursor: pointer;
 }
 
@@ -179,14 +150,12 @@ html, body {
 .Portafolio{
 	background-color: green;
 	width: 100%;
-	/*height: 10%;*/
+	height: 25%;
 	float: left;
-  border: 1px solid black;
 }
 
 .Portafolio:hover{
   opacity: 0.7;
-  border: solid 2px white;
   cursor: pointer;
 }
 
@@ -195,27 +164,22 @@ html, body {
 .Apoyanos{
 	background-color: green;
 	width: 100%;
-	/*height: 10%;*/
+	height: 35%;
 	float: left;
-  border: 1px solid black;
 }
 
 .Apoyanos:hover{
   opacity: 0.7;
-  border: solid 2px white;
   cursor: pointer;
 }
 
 /*---------------FOOTER----------------*/
 
 footer{
-  max-width: 1024px;
 	background-color: white;
-	width: 80%;
+	width: 100%;
 	height: 10%;
 	margin: auto;
-	max-height: 1024px;
-  border: 1px solid black;
   color: black;
   text-align: center;
   color: #0E253A;
