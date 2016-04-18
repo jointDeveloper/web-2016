@@ -1,7 +1,7 @@
 (function(){
 
   function Perfiles(){
-      window.location="views/index.html";
+      window.location="views/perfiles.html";
   }
   function Comunidad(){
       window.location="views/comunidad.html";

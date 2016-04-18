@@ -1,0 +1,118 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  background-color: #f3e5f5;
+  font-family: 'Lato', sans-serif;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.first-row {margin-top: 50px;}
+
+.content {
+  background-color: #e1bee7;
+  margin: 10px 0;
+  padding: 10px;
+}
+.container{
+  width: 90%;
+  margin: 10px auto;
+  background-color: #f3e5f5;
+}
+.center {
+  text-align: center;
+}
+
+.footer {
+  background-color: #C58DCF;
+  padding: 10px;
+}
+
+nav {
+    height: 40px;
+    width: 100%;
+    background: #ce93d8;
+    font-size: 11pt;
+    font-family: 'PT Sans', Arial, sans-serif;
+    font-weight: bold;
+    position: relative;
+    border-bottom: 2px solid #B27FBA;
+}
+nav ul {
+    padding: 0;
+    margin: 0 auto;
+    width: 800%;
+    height: 40px;
+}
+
+nav li {
+    display: inline;
+    float: left;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+nav a {
+    color: #000;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+nav li a {
+    border-right: 1px solid #ba68c8;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+
+nav li:last-child a {
+    border-right: 0;
+}
+
+nav a:hover, nav a:active {
+    background-color: #ba68c8 ;
+}
+nav a#pull {
+    display: none;
+}
+
+@font-face {
+  font-family: Cinzel;
+  src: url(../../public/fonts/Cinzel/Cinzel-Regular.ttf);
+}
+
+.style-title {
+  font-family: Cinzel;
+}
