@@ -172,9 +172,8 @@ text-align : justify;
 	display:inline-block;
 	font-size:1.25em;
 	margin:20px;
-	padding:10px 0;
+	padding:10px 3px;
 	text-align:center;
-	width:200px;
 	text-decoration:none;
 }
 
@@ -184,5 +183,71 @@ text-align : justify;
 
 .button:hover {
 	box-shadow:0px 0px 0px;
-	padding-top:7px;
+
+}
+
+
+/*Medias*/
+
+ul li a:hover + .hidden, .hidden:hover {
+	display: block;
+}
+
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+
+.show-menu {
+  text-decoration: none;
+  color: #fff;
+  background: #2f4154;
+  text-align: center;
+  padding: 10px 0;
+  display:none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+
+/*Responsive Styles*/
+
+@media (max-width : 420px){
+  .container {
+    width: 95%;
+  }
+
+	ul {
+		position: static;
+		display: none;
+	}
+	/*Create vertical spacing*/
+	li {
+		margin-bottom: 1px;
+	}
+	/*Make all menu links full width*/
+	ul li, li a, input {
+		width: 100%;
+	}
+	/*Display 'show menu' link*/
+	.show-menu {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    border-radius: 0 10px 0 10px;
+	}
+
+  #logo-nav {
+		display: none;
+	}
+
+  #logo-nav-responsive {
+    color: white;
+  }
 }
