@@ -36,7 +36,7 @@ html, body {
 .container {
 	background-color: #fff456;
 	width: 100%;
-	height: 78%;
+	height: 70%;
 	margin: auto;
 }
 
@@ -184,6 +184,8 @@ footer{
   text-align: center;
   color: #0E253A;
   vertical-align: middle;
+  position: fixed;
+  bottom: 0px;
 }
 
 footer em{
