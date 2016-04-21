@@ -46,8 +46,9 @@ html, body {
 }
 
 .footer {
-  background-color: #90a4ae;
+  background-color: #333333;
   padding: 10px;
+  color: white;
 }
 
 #logo-nav, #logo-nav-responsive {
@@ -60,8 +61,8 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #607d8b;
-  border-radius: 0 10px 0 10px;
+  background-color: #444;
+  border-radius: 10px;
 }
 
 ul.topnav li {float: left;}
@@ -84,7 +85,7 @@ ul.topnav li a:hover:not(.active) {
 }
 
 ul.topnav li a.active {
-  background-color: #607d8b;
+  background-color: #444;
 }
 
 ul.topnav ul.right {
@@ -244,7 +245,7 @@ button:hover {
     padding: 14px 15px;
     text-decoration: none;
     margin-bottom: 5px;
-    border-radius: 0 10px 0 10px;
+    border-radius: 10px;
 	}
 
   #logo-nav {
@@ -307,7 +308,7 @@ input[type=checkbox]:checked ~ #menu{
     padding: 14px 15px;
     text-decoration: none;
     margin-bottom: 5px;
-    border-radius: 0 10px 0 10px;
+    border-radius: 10px;
 	}
 
   #logo-nav {
