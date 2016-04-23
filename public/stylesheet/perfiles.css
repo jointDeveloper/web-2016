@@ -51,6 +51,10 @@ html, body {
   color: white;
 }
 
+#container-youtube{
+  background-color: #444;
+}
+
 #logo-nav, #logo-nav-responsive {
   font-size: 25px;
   font-weight: bold;
@@ -319,3 +323,4 @@ input[type=checkbox]:checked ~ #menu{
     color: white;
   }
 }
+
