@@ -10,7 +10,6 @@ html, body {
 
 [class*="col-"] {
   float: left;
-  padding: 10px;
 }
 
 .col-1 {width: 8.33%;}
@@ -29,14 +28,22 @@ html, body {
 .first-row {margin-top: 50px;}
 
 .content {
+  content: "";
+  clear: both;
+  display: block;
   background-color: white;
   margin: 10px 0;
   padding: 10px;
+  width: 100%;
+  height: 100%;
+  padding-top: 5%;
+
 }
 .container{
-  width: 90%;
+  max-width: 90%;
   margin: 10px auto;
   background-color:  #eceff1;
+  height: 100%;
 }
 .center {
   text-align: center;
@@ -63,9 +70,14 @@ ul.topnav {
   overflow: hidden;
   background-color: #444;
   border-radius: 10px;
+  position: fixed;
+  top: 0px;
+  z-index: 9999;
 }
 
-ul.topnav li {float: left;}
+ul.topnav li {
+  float: left;
+  }
 
 ul.topnav li a {
   display: block;
@@ -269,7 +281,7 @@ input[type=checkbox]{
 .show-menu {
   text-decoration: none;
   color: #fff;
-  background: #607d8b;
+  background: #444;
   text-align: center;
   padding: 10px 0;
   display:none;
