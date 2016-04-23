@@ -1,16 +1,17 @@
-const express = require('express');
-const path = require('path');
-const favicon = require('static-favicon');
-const logger = require('morgan');
-const cookieParser = require('cookie-parser');
-const bodyParser = require('body-parser');
+const express = require('express'),
+      path = require('path'),
+      favicon = require('static-favicon'),
+      logger = require('morgan'),
+      cookieParser = require('cookie-parser'),
+      bodyParser = require('body-parser'),
+      partials = require('express-partials');
 
 var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
-
+app.use(partials());
 app.use(favicon());
 app.use(logger('dev'));
 app.use(bodyParser.json());
