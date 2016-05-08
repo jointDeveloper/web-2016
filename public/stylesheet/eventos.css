@@ -68,7 +68,7 @@ html,body {
 }
 
 .subMenu a:hover {
-	background: #444;
+	background-color: gray;
 }
 
 .Logo{ /* ¡¡¡OJOOOO!!! PONERLO MÁS A LA IZQUIERDA QUE LOS OTROS BOTONES */
@@ -95,6 +95,24 @@ html,body {
   border: 1px solid black;
 }
 
+.panelleft .event:hover{
+	background-color: gray;
+}
+
+.panelleft li ul{
+	display: none;
+	min-width: 140px;
+}
+
+.panelleft li:hover > ul{
+	display: inline-block;
+	position: relative;
+}
+
+.panelleft li > ul{
+	right: -140px;
+	top: 0px;
+}
 
 /*-----------RIGHT CONTAINER----------*/
 
