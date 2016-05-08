@@ -1,0 +1,195 @@
+/*-----------------GENERAL------------------*/
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: auto auto;
+  padding: 0;
+  font-size: 17px;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+	font-style: italic;
+}
+
+.middle {
+    /*display: table-cell;
+    vertical-align: middle;
+    display: table;
+    margin: auto;*/
+  display: inline-block;
+  position: relative;
+  margin: auto auto;
+}
+
+.up{/*resaltar*/
+  border: 5px solid #ccc;
+  float: left;
+  margin: 15px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -ms-transition: margin 0.5s ease-out;
+  transition: margin 0.5s ease-out;
+}
+
+.container {
+	background-color: #fff456;
+	width: 100%;
+	height: 70%;
+	margin: auto;
+}
+
+.col {
+  width: 33.3%;
+  float: left;
+  height: 100%;
+}
+
+/*----------HEADER--------------*/
+
+.header {
+	background-color: white;
+	width: 100%;
+	height: 10%;
+	margin: auto;
+  color: black;
+}
+
+/*---------------ABOUT----------------*/
+
+.About{
+	background-color: pink;
+	width: 100%;
+	height: 50%;
+	float: left;
+}
+
+.About:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/*---------------COMUNIDAD----------------*/
+
+.Comunidad{
+	background-color: blue;
+	width: 100%;
+	height: 50%;
+	float: left;
+}
+
+.Comunidad:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/*---------------PERFILES----------------*/
+.Perfiles{
+	background-color: lime;
+	width: 100%;
+	height: 50%;
+	float: left;
+  /*transition: 0.3s;*/
+}
+
+.Perfiles:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/*---------------BLOG----------------*/
+
+.Blog{
+	background-color: maroon;
+	width: 100%;
+	height: 30%;
+	float: left;
+}
+
+.Blog:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/*---------------EVENTOS----------------*/
+.Eventos{
+	/*background-color: silver;*/
+	width: 100%;
+	height: 25%;
+	float: left;
+  background-image: url("../images/Eventos/eventos.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.Eventos:hover{
+  opacity: 0.7;
+  border: solid 2px white;
+  cursor: pointer;
+}
+
+/*---------------CONTACTO----------------*/
+
+.Contacto{
+	background-color: #FF9999;
+	width: 100%;
+	height: 35%;
+	float: left;
+}
+
+.Contacto:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/*---------------PORTAFOLIO----------------*/
+
+.Portafolio{
+	background-color: green;
+	width: 100%;
+	height: 25%;
+	float: left;
+}
+
+.Portafolio:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/*---------------APOYANOS----------------*/
+
+.Apoyanos{
+	background-color: green;
+	width: 100%;
+	height: 35%;
+	float: left;
+}
+
+.Apoyanos:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/*---------------FOOTER----------------*/
+
+footer{
+	background-color: white;
+	width: 100%;
+	height: 10%;
+	margin: auto;
+  color: black;
+  text-align: center;
+  color: #0E253A;
+  vertical-align: middle;
+  position: fixed;
+  bottom: 0px;
+}
+
+footer em{
+  margin: auto;
+  padding-top: 10px;
+  font-size: 10px;
+}
