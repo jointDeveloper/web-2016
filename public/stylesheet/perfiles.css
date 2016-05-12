@@ -60,9 +60,11 @@ html, body {
 }
 
 #logo-nav, #logo-nav-responsive {
-  font-size: 25px;
+  font-family: 'Linden Hill', serif;
+  font-size: 35px;
   font-weight: bold;
   border-bottom: 0;
+  padding: 0px 15px;
 }
 
 ul.topnav {

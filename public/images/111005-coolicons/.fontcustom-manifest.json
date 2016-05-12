@@ -1,0 +1,1648 @@
+{
+  "checksum": {
+    "previous": "6edbf92924cd25fe4efdece9026ad83bc579187d1c2f5c2642041766eff2104d",
+    "current": "6edbf92924cd25fe4efdece9026ad83bc579187d1c2f5c2642041766eff2104d"
+  },
+  "fonts": [
+    "/var/www/static/flaticon/zip_packs/111005-coolicons/font/Flaticon.ttf",
+    "/var/www/static/flaticon/zip_packs/111005-coolicons/font/Flaticon.svg",
+    "/var/www/static/flaticon/zip_packs/111005-coolicons/font/Flaticon.woff",
+    "/var/www/static/flaticon/zip_packs/111005-coolicons/font/Flaticon.eot"
+  ],
+  "glyphs": {
+    "accept": {
+      "codepoint": 61696,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/accept.svg"
+    },
+    "accept-1": {
+      "codepoint": 61697,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/accept-1.svg"
+    },
+    "advance-button": {
+      "codepoint": 61698,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/advance-button.svg"
+    },
+    "airplane-black-shape": {
+      "codepoint": 61699,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/airplane-black-shape.svg"
+    },
+    "alphabetical-order-from-a-to-z": {
+      "codepoint": 61700,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/alphabetical-order-from-a-to-z.svg"
+    },
+    "ambulance": {
+      "codepoint": 61701,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/ambulance.svg"
+    },
+    "anchor-interface-symbol": {
+      "codepoint": 61702,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/anchor-interface-symbol.svg"
+    },
+    "android-logo": {
+      "codepoint": 61703,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/android-logo.svg"
+    },
+    "android-logo-1": {
+      "codepoint": 61704,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/android-logo-1.svg"
+    },
+    "angle-arrow-pointing-down": {
+      "codepoint": 61705,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/angle-arrow-pointing-down.svg"
+    },
+    "apple-black-shape-logo-with-a-bite-hole": {
+      "codepoint": 61706,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/apple-black-shape-logo-with-a-bite-hole.svg"
+    },
+    "arrow-angle-pointing-to-right": {
+      "codepoint": 61707,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/arrow-angle-pointing-to-right.svg"
+    },
+    "arrow-long-angle-pointing-right": {
+      "codepoint": 61708,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/arrow-long-angle-pointing-right.svg"
+    },
+    "arrow-pointing-upper-right-in-a-square": {
+      "codepoint": 61709,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/arrow-pointing-upper-right-in-a-square.svg"
+    },
+    "arrows-shuffle-symbol": {
+      "codepoint": 61710,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/arrows-shuffle-symbol.svg"
+    },
+    "asterisk-black-star-shape": {
+      "codepoint": 61711,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/asterisk-black-star-shape.svg"
+    },
+    "audio-tool-for-head": {
+      "codepoint": 61712,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/audio-tool-for-head.svg"
+    },
+    "baby-cradle-silhouette": {
+      "codepoint": 61713,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/baby-cradle-silhouette.svg"
+    },
+    "back": {
+      "codepoint": 61714,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/back.svg"
+    },
+    "backward-arrows-couple": {
+      "codepoint": 61715,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/backward-arrows-couple.svg"
+    },
+    "barcode-square-variant": {
+      "codepoint": 61716,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/barcode-square-variant.svg"
+    },
+    "bars-interface-symbol": {
+      "codepoint": 61717,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/bars-interface-symbol.svg"
+    },
+    "basketball-ball-outline": {
+      "codepoint": 61718,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/basketball-ball-outline.svg"
+    },
+    "bell-black-tool-shape": {
+      "codepoint": 61719,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/bell-black-tool-shape.svg"
+    },
+    "bell-outline": {
+      "codepoint": 61720,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/bell-outline.svg"
+    },
+    "birthday-cake-of-three-cakes": {
+      "codepoint": 61721,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/birthday-cake-of-three-cakes.svg"
+    },
+    "bitbucket-logo": {
+      "codepoint": 61722,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/bitbucket-logo.svg"
+    },
+    "bitbucket-logo-1": {
+      "codepoint": 61723,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/bitbucket-logo-1.svg"
+    },
+    "bitcoin-symbol": {
+      "codepoint": 61724,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/bitcoin-symbol.svg"
+    },
+    "black-back-closed-envelope-shape": {
+      "codepoint": 61725,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/black-back-closed-envelope-shape.svg"
+    },
+    "black-folder-interface-symbol": {
+      "codepoint": 61726,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/black-folder-interface-symbol.svg"
+    },
+    "black-hand-finger-pointing-up": {
+      "codepoint": 61727,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/black-hand-finger-pointing-up.svg"
+    },
+    "black-rounded-square-shape": {
+      "codepoint": 61728,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/black-rounded-square-shape.svg"
+    },
+    "black-square-shape": {
+      "codepoint": 61729,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/black-square-shape.svg"
+    },
+    "book-gross-black-shape": {
+      "codepoint": 61730,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/book-gross-black-shape.svg"
+    },
+    "bookmark-black-shape": {
+      "codepoint": 61731,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/bookmark-black-shape.svg"
+    },
+    "box-from-side-view": {
+      "codepoint": 61732,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/box-from-side-view.svg"
+    },
+    "broken-link-interface-symbol-of-chain-links-with-a-slash": {
+      "codepoint": 61733,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/broken-link-interface-symbol-of-chain-links-with-a-slash.svg"
+    },
+    "bug-variant-of-circular-shape-with-spots": {
+      "codepoint": 61734,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/bug-variant-of-circular-shape-with-spots.svg"
+    },
+    "building-shape": {
+      "codepoint": 61735,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/building-shape.svg"
+    },
+    "calendar": {
+      "codepoint": 61736,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/calendar.svg"
+    },
+    "call-black-auricular-shape": {
+      "codepoint": 61737,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/call-black-auricular-shape.svg"
+    },
+    "call-symbol-of-an-auricular-in-a-square": {
+      "codepoint": 61738,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/call-symbol-of-an-auricular-in-a-square.svg"
+    },
+    "camping": {
+      "codepoint": 61739,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/camping.svg"
+    },
+    "camping-tent": {
+      "codepoint": 61740,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/camping-tent.svg"
+    },
+    "cardinal-points-star-of-a-circle-with-four-triangles": {
+      "codepoint": 61741,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/cardinal-points-star-of-a-circle-with-four-triangles.svg"
+    },
+    "center-alignment-symbol": {
+      "codepoint": 61742,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/center-alignment-symbol.svg"
+    },
+    "check-mark-sign": {
+      "codepoint": 61743,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/check-mark-sign.svg"
+    },
+    "checkered-flag-on-a-pole": {
+      "codepoint": 61744,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/checkered-flag-on-a-pole.svg"
+    },
+    "circle-outline-with-a-central-dot": {
+      "codepoint": 61745,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/circle-outline-with-a-central-dot.svg"
+    },
+    "circle-shape": {
+      "codepoint": 61746,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/circle-shape.svg"
+    },
+    "circular-arrow": {
+      "codepoint": 61747,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/circular-arrow.svg"
+    },
+    "circular-arrow-line": {
+      "codepoint": 61748,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/circular-arrow-line.svg"
+    },
+    "circular-arrows-couple": {
+      "codepoint": 61749,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/circular-arrows-couple.svg"
+    },
+    "circular-stairs-from-top-view": {
+      "codepoint": 61750,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/circular-stairs-from-top-view.svg"
+    },
+    "clapper-for-cinema-filming": {
+      "codepoint": 61751,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/clapper-for-cinema-filming.svg"
+    },
+    "clipboard-and-paper-sheet": {
+      "codepoint": 61752,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/clipboard-and-paper-sheet.svg"
+    },
+    "clock-circular-outline": {
+      "codepoint": 61753,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/clock-circular-outline.svg"
+    },
+    "close-cross-sign-in-a-square-button": {
+      "codepoint": 61754,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/close-cross-sign-in-a-square-button.svg"
+    },
+    "cloud-black-shape": {
+      "codepoint": 61755,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/cloud-black-shape.svg"
+    },
+    "code-interface-symbol-of-signs": {
+      "codepoint": 61756,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/code-interface-symbol-of-signs.svg"
+    },
+    "coffee-hot-black-cup-of-rounded-shapes": {
+      "codepoint": 61757,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/coffee-hot-black-cup-of-rounded-shapes.svg"
+    },
+    "commercial-label-black-shape": {
+      "codepoint": 61758,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/commercial-label-black-shape.svg"
+    },
+    "compass-tool": {
+      "codepoint": 61759,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/compass-tool.svg"
+    },
+    "compass-tool-1": {
+      "codepoint": 61760,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/compass-tool-1.svg"
+    },
+    "connection-interface-symbol-of-three-circles-with-lines-unions": {
+      "codepoint": 61761,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/connection-interface-symbol-of-three-circles-with-lines-unions.svg"
+    },
+    "contrast-interface-circular-symbol-half-black-half-white": {
+      "codepoint": 61762,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/contrast-interface-circular-symbol-half-black-half-white.svg"
+    },
+    "control-of-rectangular-shape": {
+      "codepoint": 61763,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/control-of-rectangular-shape.svg"
+    },
+    "credit-card-back-view": {
+      "codepoint": 61764,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/credit-card-back-view.svg"
+    },
+    "crop-interface-symbol": {
+      "codepoint": 61765,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/crop-interface-symbol.svg"
+    },
+    "cross-sign": {
+      "codepoint": 61766,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/cross-sign.svg"
+    },
+    "currency-symbol": {
+      "codepoint": 61767,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/currency-symbol.svg"
+    },
+    "daily-calendar-empty-page": {
+      "codepoint": 61768,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/daily-calendar-empty-page.svg"
+    },
+    "delete-cross-interface-symbol": {
+      "codepoint": 61769,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/delete-cross-interface-symbol.svg"
+    },
+    "descendant-arrow-angle": {
+      "codepoint": 61770,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/descendant-arrow-angle.svg"
+    },
+    "diamond-ring-shape": {
+      "codepoint": 61771,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/diamond-ring-shape.svg"
+    },
+    "dice-on-three-face": {
+      "codepoint": 61772,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/dice-on-three-face.svg"
+    },
+    "discapacity-wheels-chair-circular-sign": {
+      "codepoint": 61773,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/discapacity-wheels-chair-circular-sign.svg"
+    },
+    "dislike-hand-symbol": {
+      "codepoint": 61774,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/dislike-hand-symbol.svg"
+    },
+    "dollar-bill": {
+      "codepoint": 61775,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/dollar-bill.svg"
+    },
+    "dollar-symbol": {
+      "codepoint": 61776,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/dollar-symbol.svg"
+    },
+    "double-left-arrows-angles": {
+      "codepoint": 61777,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/double-left-arrows-angles.svg"
+    },
+    "down-arrow": {
+      "codepoint": 61778,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/down-arrow.svg"
+    },
+    "down-arrow-1": {
+      "codepoint": 61779,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/down-arrow-1.svg"
+    },
+    "down-arrow-black-triangular-variant-symbol": {
+      "codepoint": 61780,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/down-arrow-black-triangular-variant-symbol.svg"
+    },
+    "down-arrow-in-a-circle": {
+      "codepoint": 61781,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/down-arrow-in-a-circle.svg"
+    },
+    "down-arrow-in-a-circle-1": {
+      "codepoint": 61782,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/down-arrow-in-a-circle-1.svg"
+    },
+    "down-arrow-in-a-circle-2": {
+      "codepoint": 61783,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/down-arrow-in-a-circle-2.svg"
+    },
+    "down-arrow-triangle-in-a-square-of-gross-line": {
+      "codepoint": 61784,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/down-arrow-triangle-in-a-square-of-gross-line.svg"
+    },
+    "down-black-arrow": {
+      "codepoint": 61785,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/down-black-arrow.svg"
+    },
+    "download-arrow": {
+      "codepoint": 61786,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/download-arrow.svg"
+    },
+    "download-from-internet-interface-symbol": {
+      "codepoint": 61787,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/download-from-internet-interface-symbol.svg"
+    },
+    "drop-shape": {
+      "codepoint": 61788,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/drop-shape.svg"
+    },
+    "dropbox-logo": {
+      "codepoint": 61789,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/dropbox-logo.svg"
+    },
+    "edit-interface-symbol-of-square-paper-with-a-pencil": {
+      "codepoint": 61790,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/edit-interface-symbol-of-square-paper-with-a-pencil.svg"
+    },
+    "euro-currency-sign": {
+      "codepoint": 61791,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/euro-currency-sign.svg"
+    },
+    "exclamation-sign": {
+      "codepoint": 61792,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/exclamation-sign.svg"
+    },
+    "exclamation-sign-1": {
+      "codepoint": 61793,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/exclamation-sign-1.svg"
+    },
+    "exclamation-sign-in-a-rhomb": {
+      "codepoint": 61794,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/exclamation-sign-in-a-rhomb.svg"
+    },
+    "eye-opened-shape-with-signal-connection-lines": {
+      "codepoint": 61795,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/eye-opened-shape-with-signal-connection-lines.svg"
+    },
+    "facebook-letter-logo": {
+      "codepoint": 61796,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/facebook-letter-logo.svg"
+    },
+    "facebook-logo": {
+      "codepoint": 61797,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/facebook-logo.svg"
+    },
+    "fast-forward": {
+      "codepoint": 61798,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/fast-forward.svg"
+    },
+    "fast-forward-multimedia-control-arrows": {
+      "codepoint": 61799,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/fast-forward-multimedia-control-arrows.svg"
+    },
+    "female-silhouette": {
+      "codepoint": 61800,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/female-silhouette.svg"
+    },
+    "file-black-paper-sheet-interface-symbol": {
+      "codepoint": 61801,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/file-black-paper-sheet-interface-symbol.svg"
+    },
+    "file-gross-interface-symbol": {
+      "codepoint": 61802,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/file-gross-interface-symbol.svg"
+    },
+    "file-gross-outline-interface-symbol": {
+      "codepoint": 61803,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/file-gross-outline-interface-symbol.svg"
+    },
+    "file-interface-symbol": {
+      "codepoint": 61804,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/file-interface-symbol.svg"
+    },
+    "film-clapperboard": {
+      "codepoint": 61805,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/film-clapperboard.svg"
+    },
+    "film-strip-of-cinema-symbol": {
+      "codepoint": 61806,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/film-strip-of-cinema-symbol.svg"
+    },
+    "fire-extinguisher-black-tool-shape": {
+      "codepoint": 61807,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/fire-extinguisher-black-tool-shape.svg"
+    },
+    "fire-gross-flame-black-symbol": {
+      "codepoint": 61808,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/fire-gross-flame-black-symbol.svg"
+    },
+    "fire-with-logs-cross": {
+      "codepoint": 61809,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/fire-with-logs-cross.svg"
+    },
+    "first-aid-kit-box-with-cross-sign": {
+      "codepoint": 61810,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/first-aid-kit-box-with-cross-sign.svg"
+    },
+    "flag-black-tool-shape": {
+      "codepoint": 61811,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/flag-black-tool-shape.svg"
+    },
+    "flag-of-rectangle-outline-on-a-pole": {
+      "codepoint": 61812,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/flag-of-rectangle-outline-on-a-pole.svg"
+    },
+    "flask-glass-container-with-liquid-inside": {
+      "codepoint": 61813,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/flask-glass-container-with-liquid-inside.svg"
+    },
+    "flickr-logo-variant-of-two-dots-in-a-rounded-square": {
+      "codepoint": 61814,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/flickr-logo-variant-of-two-dots-in-a-rounded-square.svg"
+    },
+    "floppy-disk-interface-symbol-for-save-option-button": {
+      "codepoint": 61815,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/floppy-disk-interface-symbol-for-save-option-button.svg"
+    },
+    "flower-with-ribbon-tails": {
+      "codepoint": 61816,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/flower-with-ribbon-tails.svg"
+    },
+    "folder-black-shape": {
+      "codepoint": 61817,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/folder-black-shape.svg"
+    },
+    "folder-gross-outline-shape-interface-symbol": {
+      "codepoint": 61818,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/folder-gross-outline-shape-interface-symbol.svg"
+    },
+    "folder-gross-symbol-for-interface": {
+      "codepoint": 61819,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/folder-gross-symbol-for-interface.svg"
+    },
+    "font-interface-symbol": {
+      "codepoint": 61820,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/font-interface-symbol.svg"
+    },
+    "four-circles-black-group": {
+      "codepoint": 61821,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/four-circles-black-group.svg"
+    },
+    "four-horizontal-lines-interface-symbol": {
+      "codepoint": 61822,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/four-horizontal-lines-interface-symbol.svg"
+    },
+    "four-squares-black-shapes": {
+      "codepoint": 61823,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/four-squares-black-shapes.svg"
+    },
+    "funnel-black-shape-interface-symbol": {
+      "codepoint": 61824,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/funnel-black-shape-interface-symbol.svg"
+    },
+    "giftbox-black-variant-with-a-ribbon-on-top": {
+      "codepoint": 61825,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/giftbox-black-variant-with-a-ribbon-on-top.svg"
+    },
+    "github-logo-face": {
+      "codepoint": 61826,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/github-logo-face.svg"
+    },
+    "github-logo-silhouette-in-a-square": {
+      "codepoint": 61827,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/github-logo-silhouette-in-a-square.svg"
+    },
+    "glass-black-shape-for-wine": {
+      "codepoint": 61828,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/glass-black-shape-for-wine.svg"
+    },
+    "golf-flag-and-field": {
+      "codepoint": 61829,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/golf-flag-and-field.svg"
+    },
+    "google-plus-logo": {
+      "codepoint": 61830,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/google-plus-logo.svg"
+    },
+    "google-plus-square-logo": {
+      "codepoint": 61831,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/google-plus-square-logo.svg"
+    },
+    "group-interface-symbol": {
+      "codepoint": 61832,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/group-interface-symbol.svg"
+    },
+    "half-black-star-shape": {
+      "codepoint": 61833,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/half-black-star-shape.svg"
+    },
+    "hand-black-shape-pointing-left-with-one-finger": {
+      "codepoint": 61834,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/hand-black-shape-pointing-left-with-one-finger.svg"
+    },
+    "hand-finger-pointing-down-like-an-arrow": {
+      "codepoint": 61835,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/hand-finger-pointing-down-like-an-arrow.svg"
+    },
+    "hand-finger-pointing-to-right-direction-like-an-arrow": {
+      "codepoint": 61836,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/hand-finger-pointing-to-right-direction-like-an-arrow.svg"
+    },
+    "hard-disc": {
+      "codepoint": 61837,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/hard-disc.svg"
+    },
+    "heart-black-shape": {
+      "codepoint": 61838,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/heart-black-shape.svg"
+    },
+    "heart-in-a-circle": {
+      "codepoint": 61839,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/heart-in-a-circle.svg"
+    },
+    "heart-outline-shape": {
+      "codepoint": 61840,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/heart-outline-shape.svg"
+    },
+    "hide-interface-symbol": {
+      "codepoint": 61841,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/hide-interface-symbol.svg"
+    },
+    "home-black-shape": {
+      "codepoint": 61842,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/home-black-shape.svg"
+    },
+    "hotel-building": {
+      "codepoint": 61843,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/hotel-building.svg"
+    },
+    "hotel-letter-sign": {
+      "codepoint": 61844,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/hotel-letter-sign.svg"
+    },
+    "html-3-logo": {
+      "codepoint": 61845,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/html-3-logo.svg"
+    },
+    "html-5-logotype": {
+      "codepoint": 61846,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/html-5-logotype.svg"
+    },
+    "ice-cream-cone-black-shape": {
+      "codepoint": 61847,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/ice-cream-cone-black-shape.svg"
+    },
+    "id-card-interface-rectangular-symbol": {
+      "codepoint": 61848,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/id-card-interface-rectangular-symbol.svg"
+    },
+    "image-interface-symbol-of-a-landscape": {
+      "codepoint": 61849,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/image-interface-symbol-of-a-landscape.svg"
+    },
+    "info-letter-interface-sign": {
+      "codepoint": 61850,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/info-letter-interface-sign.svg"
+    },
+    "information-sign": {
+      "codepoint": 61851,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/information-sign.svg"
+    },
+    "instagram-photo-camera-symbol": {
+      "codepoint": 61852,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/instagram-photo-camera-symbol.svg"
+    },
+    "interface-upload-up-arrow-symbol": {
+      "codepoint": 61853,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/interface-upload-up-arrow-symbol.svg"
+    },
+    "italic-text-option-interface-symbol": {
+      "codepoint": 61854,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/italic-text-option-interface-symbol.svg"
+    },
+    "jar-black-shape": {
+      "codepoint": 61855,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/jar-black-shape.svg"
+    },
+    "key-shape": {
+      "codepoint": 61856,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/key-shape.svg"
+    },
+    "label-black-shape": {
+      "codepoint": 61857,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/label-black-shape.svg"
+    },
+    "laptop-with-empty-screen": {
+      "codepoint": 61858,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/laptop-with-empty-screen.svg"
+    },
+    "leaf-shape": {
+      "codepoint": 61859,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/leaf-shape.svg"
+    },
+    "leaves-on-a-branch-silhouette": {
+      "codepoint": 61860,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/leaves-on-a-branch-silhouette.svg"
+    },
+    "left-and-right-small-triangular-arrows-couple": {
+      "codepoint": 61861,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/left-and-right-small-triangular-arrows-couple.svg"
+    },
+    "left-arrow": {
+      "codepoint": 61862,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/left-arrow.svg"
+    },
+    "left-arrow-1": {
+      "codepoint": 61863,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/left-arrow-1.svg"
+    },
+    "left-arrow-2": {
+      "codepoint": 61864,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/left-arrow-2.svg"
+    },
+    "left-arrow-angle": {
+      "codepoint": 61865,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/left-arrow-angle.svg"
+    },
+    "left-arrow-angle-variant": {
+      "codepoint": 61866,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/left-arrow-angle-variant.svg"
+    },
+    "left-arrow-black-triangular-shape": {
+      "codepoint": 61867,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/left-arrow-black-triangular-shape.svg"
+    },
+    "left-arrow-in-a-circle": {
+      "codepoint": 61868,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/left-arrow-in-a-circle.svg"
+    },
+    "left-arrow-in-a-circle-1": {
+      "codepoint": 61869,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/left-arrow-in-a-circle-1.svg"
+    },
+    "left-arrow-in-rounded-shape": {
+      "codepoint": 61870,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/left-arrow-in-rounded-shape.svg"
+    },
+    "left-arrow-square": {
+      "codepoint": 61871,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/left-arrow-square.svg"
+    },
+    "left-arrow-variant": {
+      "codepoint": 61872,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/left-arrow-variant.svg"
+    },
+    "left-quotes-sign": {
+      "codepoint": 61873,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/left-quotes-sign.svg"
+    },
+    "left-text-alignment-interface-option": {
+      "codepoint": 61874,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/left-text-alignment-interface-option.svg"
+    },
+    "legal-hammer": {
+      "codepoint": 61875,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/legal-hammer.svg"
+    },
+    "lemon-shape": {
+      "codepoint": 61876,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/lemon-shape.svg"
+    },
+    "less-zoom-sign": {
+      "codepoint": 61877,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/less-zoom-sign.svg"
+    },
+    "letter-a-sign-in-a-circle": {
+      "codepoint": 61878,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/letter-a-sign-in-a-circle.svg"
+    },
+    "letter-b-symbol": {
+      "codepoint": 61879,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/letter-b-symbol.svg"
+    },
+    "level-down-arrow": {
+      "codepoint": 61880,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/level-down-arrow.svg"
+    },
+    "lightbulb-gross-outline": {
+      "codepoint": 61881,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/lightbulb-gross-outline.svg"
+    },
+    "lightning-bolt-black-shape": {
+      "codepoint": 61882,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/lightning-bolt-black-shape.svg"
+    },
+    "like-symbol-for-interface-of-black-hand-shape-with-thumb-up": {
+      "codepoint": 61883,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/like-symbol-for-interface-of-black-hand-shape-with-thumb-up.svg"
+    },
+    "link-interface-symbol": {
+      "codepoint": 61884,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/link-interface-symbol.svg"
+    },
+    "linked-in-logo-of-two-letters": {
+      "codepoint": 61885,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/linked-in-logo-of-two-letters.svg"
+    },
+    "linkedin-square-logo": {
+      "codepoint": 61886,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/linkedin-square-logo.svg"
+    },
+    "linux-penguin": {
+      "codepoint": 61887,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/linux-penguin.svg"
+    },
+    "list": {
+      "codepoint": 61888,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/list.svg"
+    },
+    "list-1": {
+      "codepoint": 61889,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/list-1.svg"
+    },
+    "list-interface-symbol": {
+      "codepoint": 61890,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/list-interface-symbol.svg"
+    },
+    "locked-padlock-security-interface-symbol": {
+      "codepoint": 61891,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/locked-padlock-security-interface-symbol.svg"
+    },
+    "logo-of-striped-rounded-square-speech-bubble-shape": {
+      "codepoint": 61892,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/logo-of-striped-rounded-square-speech-bubble-shape.svg"
+    },
+    "magic-wand": {
+      "codepoint": 61893,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/magic-wand.svg"
+    },
+    "magnet": {
+      "codepoint": 61894,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/magnet.svg"
+    },
+    "man-standing-black-silhouette": {
+      "codepoint": 61895,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/man-standing-black-silhouette.svg"
+    },
+    "marker-outline": {
+      "codepoint": 61896,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/marker-outline.svg"
+    },
+    "maxcdn-letter-logo": {
+      "codepoint": 61897,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/maxcdn-letter-logo.svg"
+    },
+    "md": {
+      "codepoint": 61898,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/md.svg"
+    },
+    "medical-tool-to-listen-heart-beats": {
+      "codepoint": 61899,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/medical-tool-to-listen-heart-beats.svg"
+    },
+    "megaphone-silhouette": {
+      "codepoint": 61900,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/megaphone-silhouette.svg"
+    },
+    "menu-interface-symbol-of-four-horizontal-lines-with-dots": {
+      "codepoint": 61901,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/menu-interface-symbol-of-four-horizontal-lines-with-dots.svg"
+    },
+    "menu-interface-symbol-of-three-horizontal-straight-lines": {
+      "codepoint": 61902,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/menu-interface-symbol-of-three-horizontal-straight-lines.svg"
+    },
+    "message-black-speech-bubble-of-rectangular-shape": {
+      "codepoint": 61903,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/message-black-speech-bubble-of-rectangular-shape.svg"
+    },
+    "microphone-voice-interface-symbol": {
+      "codepoint": 61904,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/microphone-voice-interface-symbol.svg"
+    },
+    "microphone-with-slash-interface-symbol-for-mute-audio": {
+      "codepoint": 61905,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/microphone-with-slash-interface-symbol-for-mute-audio.svg"
+    },
+    "minus-sign": {
+      "codepoint": 61906,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/minus-sign.svg"
+    },
+    "minus-sign-in-a-square": {
+      "codepoint": 61907,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/minus-sign-in-a-square.svg"
+    },
+    "minus-sign-in-a-square-1": {
+      "codepoint": 61908,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/minus-sign-in-a-square-1.svg"
+    },
+    "minus-straight-horizontal-line-sign": {
+      "codepoint": 61909,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/minus-straight-horizontal-line-sign.svg"
+    },
+    "monitor": {
+      "codepoint": 61910,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/monitor.svg"
+    },
+    "moon-shape": {
+      "codepoint": 61911,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/moon-shape.svg"
+    },
+    "music-disc": {
+      "codepoint": 61912,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/music-disc.svg"
+    },
+    "music-discs": {
+      "codepoint": 61913,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/music-discs.svg"
+    },
+    "musical-disc": {
+      "codepoint": 61914,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/musical-disc.svg"
+    },
+    "musical-note-black-shape": {
+      "codepoint": 61915,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/musical-note-black-shape.svg"
+    },
+    "network-or-hierarchy-graphic": {
+      "codepoint": 61916,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/network-or-hierarchy-graphic.svg"
+    },
+    "new-email-black-back-envelope-symbol-of-interface": {
+      "codepoint": 61917,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/new-email-black-back-envelope-symbol-of-interface.svg"
+    },
+    "numbered-list": {
+      "codepoint": 61918,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/numbered-list.svg"
+    },
+    "opposite-arrows-couple": {
+      "codepoint": 61919,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/opposite-arrows-couple.svg"
+    },
+    "order-interface-symbol-with-down-arrow": {
+      "codepoint": 61920,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/order-interface-symbol-with-down-arrow.svg"
+    },
+    "orientation-winds-star-pointing-cardinal-points": {
+      "codepoint": 61921,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/orientation-winds-star-pointing-cardinal-points.svg"
+    },
+    "overflowing-stacked-papers-tray": {
+      "codepoint": 61922,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/overflowing-stacked-papers-tray.svg"
+    },
+    "padlock-locked-black-shape": {
+      "codepoint": 61923,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/padlock-locked-black-shape.svg"
+    },
+    "paperclip-spiral": {
+      "codepoint": 61924,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/paperclip-spiral.svg"
+    },
+    "pause": {
+      "codepoint": 61925,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/pause.svg"
+    },
+    "paw-black-shape": {
+      "codepoint": 61926,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/paw-black-shape.svg"
+    },
+    "pencil-black-tool-interface-symbol": {
+      "codepoint": 61927,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/pencil-black-tool-interface-symbol.svg"
+    },
+    "pencil-in-a-square-interface-symbol-of-gross-outline": {
+      "codepoint": 61928,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/pencil-in-a-square-interface-symbol-of-gross-outline.svg"
+    },
+    "phone-keys-black-nine-squares": {
+      "codepoint": 61929,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/phone-keys-black-nine-squares.svg"
+    },
+    "phone-shape": {
+      "codepoint": 61930,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/phone-shape.svg"
+    },
+    "photo-camera-interface-symbol": {
+      "codepoint": 61931,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/photo-camera-interface-symbol.svg"
+    },
+    "photo-camera-interface-symbol-1": {
+      "codepoint": 61932,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/photo-camera-interface-symbol-1.svg"
+    },
+    "photo-camera-of-square-shape": {
+      "codepoint": 61933,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/photo-camera-of-square-shape.svg"
+    },
+    "pin-black-tool-shape": {
+      "codepoint": 61934,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/pin-black-tool-shape.svg"
+    },
+    "pinterest-circular-logo-symbol": {
+      "codepoint": 61935,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/pinterest-circular-logo-symbol.svg"
+    },
+    "pinterest-letter-logo-in-a-square": {
+      "codepoint": 61936,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/pinterest-letter-logo-in-a-square.svg"
+    },
+    "placeholder": {
+      "codepoint": 61937,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/placeholder.svg"
+    },
+    "placeholder-interface-symbol-for-maps": {
+      "codepoint": 61938,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/placeholder-interface-symbol-for-maps.svg"
+    },
+    "placeholders": {
+      "codepoint": 61939,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/placeholders.svg"
+    },
+    "play-square-button": {
+      "codepoint": 61940,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/play-square-button.svg"
+    },
+    "play-triangular-button-symbol-in-a-circle": {
+      "codepoint": 61941,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/play-triangular-button-symbol-in-a-circle.svg"
+    },
+    "player-play-button-of-circular-shape": {
+      "codepoint": 61942,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/player-play-button-of-circular-shape.svg"
+    },
+    "player-play-button-symbol": {
+      "codepoint": 61943,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/player-play-button-symbol.svg"
+    },
+    "plus-sign": {
+      "codepoint": 61944,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/plus-sign.svg"
+    },
+    "plus-sign-1": {
+      "codepoint": 61945,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/plus-sign-1.svg"
+    },
+    "plus-sign-in-a-square": {
+      "codepoint": 61946,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/plus-sign-in-a-square.svg"
+    },
+    "plus-sign-in-a-square-symbol-of-gross-line": {
+      "codepoint": 61947,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/plus-sign-in-a-square-symbol-of-gross-line.svg"
+    },
+    "plus-zoom-interface-symbol": {
+      "codepoint": 61948,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/plus-zoom-interface-symbol.svg"
+    },
+    "power-symbol": {
+      "codepoint": 61949,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/power-symbol.svg"
+    },
+    "presentation-screen-tool-outline-symbol": {
+      "codepoint": 61950,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/presentation-screen-tool-outline-symbol.svg"
+    },
+    "print-interface-symbol": {
+      "codepoint": 61951,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/print-interface-symbol.svg"
+    },
+    "prohibition-symbol-of-a-circle-with-a-slash": {
+      "codepoint": 61952,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/prohibition-symbol-of-a-circle-with-a-slash.svg"
+    },
+    "puzzle-piece-black-shape-of-border": {
+      "codepoint": 61953,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/puzzle-piece-black-shape-of-border.svg"
+    },
+    "qr-code-variant": {
+      "codepoint": 61954,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/qr-code-variant.svg"
+    },
+    "question-mark-in-circular-shape": {
+      "codepoint": 61955,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/question-mark-in-circular-shape.svg"
+    },
+    "question-sign": {
+      "codepoint": 61956,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/question-sign.svg"
+    },
+    "rails": {
+      "codepoint": 61957,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/rails.svg"
+    },
+    "rectangles-symbol": {
+      "codepoint": 61958,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/rectangles-symbol.svg"
+    },
+    "rectangular-speech-bubble-of-chat": {
+      "codepoint": 61959,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/rectangular-speech-bubble-of-chat.svg"
+    },
+    "recycle-bin": {
+      "codepoint": 61960,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/recycle-bin.svg"
+    },
+    "renren-china-social-network-logo": {
+      "codepoint": 61961,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/renren-china-social-network-logo.svg"
+    },
+    "restaurant-interface-symbol-of-fork-and-knife-couple": {
+      "codepoint": 61962,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/restaurant-interface-symbol-of-fork-and-knife-couple.svg"
+    },
+    "rewind-button": {
+      "codepoint": 61963,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/rewind-button.svg"
+    },
+    "right-arrow-angle": {
+      "codepoint": 61964,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/right-arrow-angle.svg"
+    },
+    "right-arrow-angle-and-horizontal-down-line-code-signs": {
+      "codepoint": 61965,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/right-arrow-angle-and-horizontal-down-line-code-signs.svg"
+    },
+    "right-arrow-angle-inside-a-square": {
+      "codepoint": 61966,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/right-arrow-angle-inside-a-square.svg"
+    },
+    "right-arrow-angle-of-two-shapes": {
+      "codepoint": 61967,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/right-arrow-angle-of-two-shapes.svg"
+    },
+    "right-arrow-black-shape": {
+      "codepoint": 61968,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/right-arrow-black-shape.svg"
+    },
+    "right-arrow-black-triangle": {
+      "codepoint": 61969,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/right-arrow-black-triangle.svg"
+    },
+    "right-arrow-black-triangle-1": {
+      "codepoint": 61970,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/right-arrow-black-triangle-1.svg"
+    },
+    "right-arrow-direction": {
+      "codepoint": 61971,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/right-arrow-direction.svg"
+    },
+    "right-arrow-for-forward-button-gross-symbol": {
+      "codepoint": 61972,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/right-arrow-for-forward-button-gross-symbol.svg"
+    },
+    "right-arrow-in-a-circle": {
+      "codepoint": 61973,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/right-arrow-in-a-circle.svg"
+    },
+    "right-arrow-in-a-circle-1": {
+      "codepoint": 61974,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/right-arrow-in-a-circle-1.svg"
+    },
+    "right-arrow-symbol": {
+      "codepoint": 61975,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/right-arrow-symbol.svg"
+    },
+    "right-external-arrow-of-a-square": {
+      "codepoint": 61976,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/right-external-arrow-of-a-square.svg"
+    },
+    "right-long-black-arrow": {
+      "codepoint": 61977,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/right-long-black-arrow.svg"
+    },
+    "right-quotes-symbol": {
+      "codepoint": 61978,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/right-quotes-symbol.svg"
+    },
+    "rounded-square-corners-outline": {
+      "codepoint": 61979,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/rounded-square-corners-outline.svg"
+    },
+    "rss-feed-suscription-button-symbol-for-interface": {
+      "codepoint": 61980,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/rss-feed-suscription-button-symbol-for-interface.svg"
+    },
+    "rss-feeds-symbol-in-a-rounded-square": {
+      "codepoint": 61981,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/rss-feeds-symbol-in-a-rounded-square.svg"
+    },
+    "ruble-currency-sign": {
+      "codepoint": 61982,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/ruble-currency-sign.svg"
+    },
+    "sad-emoticon-face": {
+      "codepoint": 61983,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/sad-emoticon-face.svg"
+    },
+    "serious-emoticon-face": {
+      "codepoint": 61984,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/serious-emoticon-face.svg"
+    },
+    "shield-shape-outline": {
+      "codepoint": 61985,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/shield-shape-outline.svg"
+    },
+    "shopping-cart-black-silhouette-rounded-variant": {
+      "codepoint": 61986,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/shopping-cart-black-silhouette-rounded-variant.svg"
+    },
+    "sign": {
+      "codepoint": 61987,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/sign.svg"
+    },
+    "sign-of-lines": {
+      "codepoint": 61988,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/sign-of-lines.svg"
+    },
+    "skype-logo": {
+      "codepoint": 61989,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/skype-logo.svg"
+    },
+    "small-truck-black-side-view-silhouette": {
+      "codepoint": 61990,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/small-truck-black-side-view-silhouette.svg"
+    },
+    "smiling-face": {
+      "codepoint": 61991,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/smiling-face.svg"
+    },
+    "sort-by-reverse-alphabet-order-interface-symbol": {
+      "codepoint": 61992,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/sort-by-reverse-alphabet-order-interface-symbol.svg"
+    },
+    "sort-descending-interface-down-arrow-symbol-with-horizontal-text-lines": {
+      "codepoint": 61993,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/sort-descending-interface-down-arrow-symbol-with-horizontal-text-lines.svg"
+    },
+    "sort-interface-symbol-of-down-arrow-with-numbers": {
+      "codepoint": 61994,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/sort-interface-symbol-of-down-arrow-with-numbers.svg"
+    },
+    "sort-numerically-down-interface-symbol": {
+      "codepoint": 61995,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/sort-numerically-down-interface-symbol.svg"
+    },
+    "space-ship": {
+      "codepoint": 61996,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/space-ship.svg"
+    },
+    "speaker": {
+      "codepoint": 61997,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/speaker.svg"
+    },
+    "speaker-black-tool-shape-interface-symbol": {
+      "codepoint": 61998,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/speaker-black-tool-shape-interface-symbol.svg"
+    },
+    "speaker-interface-audio-symbol": {
+      "codepoint": 61999,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/speaker-interface-audio-symbol.svg"
+    },
+    "speech-bubble-couple-of-black-rectangular-shapes": {
+      "codepoint": 62000,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/speech-bubble-couple-of-black-rectangular-shapes.svg"
+    },
+    "speech-bubbles-interface-chat-symbol": {
+      "codepoint": 62001,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/speech-bubbles-interface-chat-symbol.svg"
+    },
+    "speedometer": {
+      "codepoint": 62002,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/speedometer.svg"
+    },
+    "square-outline": {
+      "codepoint": 62003,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/square-outline.svg"
+    },
+    "square-outline-shape": {
+      "codepoint": 62004,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/square-outline-shape.svg"
+    },
+    "square-outline-with-up-arrow": {
+      "codepoint": 62005,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/square-outline-with-up-arrow.svg"
+    },
+    "square-with-two-rectangles-inside": {
+      "codepoint": 62006,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/square-with-two-rectangles-inside.svg"
+    },
+    "star-black-shape-favourite-interface-symbol": {
+      "codepoint": 62007,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/star-black-shape-favourite-interface-symbol.svg"
+    },
+    "star-gross-outline": {
+      "codepoint": 62008,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/star-gross-outline.svg"
+    },
+    "star-on-vip-card": {
+      "codepoint": 62009,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/star-on-vip-card.svg"
+    },
+    "star-shape-symbol-with-half-black-and-half-white": {
+      "codepoint": 62010,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/star-shape-symbol-with-half-black-and-half-white.svg"
+    },
+    "status-interface-symbol": {
+      "codepoint": 62011,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/status-interface-symbol.svg"
+    },
+    "strikethrough-text-option-interface-symbol": {
+      "codepoint": 62012,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/strikethrough-text-option-interface-symbol.svg"
+    },
+    "strikethrough-text-option-interface-symbol-1": {
+      "codepoint": 62013,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/strikethrough-text-option-interface-symbol-1.svg"
+    },
+    "subscript-interface-option-symbol": {
+      "codepoint": 62014,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/subscript-interface-option-symbol.svg"
+    },
+    "suitcase-black-shape": {
+      "codepoint": 62015,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/suitcase-black-shape.svg"
+    },
+    "suitcase-black-shape-1": {
+      "codepoint": 62016,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/suitcase-black-shape-1.svg"
+    },
+    "sun-black-shape": {
+      "codepoint": 62017,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/sun-black-shape.svg"
+    },
+    "superscript-symbol": {
+      "codepoint": 62018,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/superscript-symbol.svg"
+    },
+    "table-tennis-racquet-or-rattle-musical-instrument-black-silhouette-shape": {
+      "codepoint": 62019,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/table-tennis-racquet-or-rattle-musical-instrument-black-silhouette-shape.svg"
+    },
+    "tablet-tool-variant": {
+      "codepoint": 62020,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/tablet-tool-variant.svg"
+    },
+    "tag-black-tool-shape": {
+      "codepoint": 62021,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/tag-black-tool-shape.svg"
+    },
+    "target-concentric-circles-symbol": {
+      "codepoint": 62022,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/target-concentric-circles-symbol.svg"
+    },
+    "targeting": {
+      "codepoint": 62023,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/targeting.svg"
+    },
+    "text-alignment-to-right": {
+      "codepoint": 62024,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/text-alignment-to-right.svg"
+    },
+    "text-height-format-interface-option-symbol": {
+      "codepoint": 62025,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/text-height-format-interface-option-symbol.svg"
+    },
+    "text-option-interface-symbol": {
+      "codepoint": 62026,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/text-option-interface-symbol.svg"
+    },
+    "text-option-interface-symbol-1": {
+      "codepoint": 62027,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/text-option-interface-symbol-1.svg"
+    },
+    "text-side-option-interface-symbol": {
+      "codepoint": 62028,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/text-side-option-interface-symbol.svg"
+    },
+    "three-aligned-squares-in-vertical-line-interface-button": {
+      "codepoint": 62029,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/three-aligned-squares-in-vertical-line-interface-button.svg"
+    },
+    "three-black-squares": {
+      "codepoint": 62030,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/three-black-squares.svg"
+    },
+    "three-gears-interface-symbol-for-settings": {
+      "codepoint": 62031,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/three-gears-interface-symbol-for-settings.svg"
+    },
+    "three-rectangles-symbol": {
+      "codepoint": 62032,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/three-rectangles-symbol.svg"
+    },
+    "three-squares-line": {
+      "codepoint": 62033,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/three-squares-line.svg"
+    },
+    "thumb-down-symbol": {
+      "codepoint": 62034,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/thumb-down-symbol.svg"
+    },
+    "thumb-up-gross-line-symbol": {
+      "codepoint": 62035,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/thumb-up-gross-line-symbol.svg"
+    },
+    "train-travelling-on-railroad": {
+      "codepoint": 62036,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/train-travelling-on-railroad.svg"
+    },
+    "tray-interface-symbol": {
+      "codepoint": 62037,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/tray-interface-symbol.svg"
+    },
+    "triangular-black-arrow-pointing-down": {
+      "codepoint": 62038,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/triangular-black-arrow-pointing-down.svg"
+    },
+    "triangular-up-arrow": {
+      "codepoint": 62039,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/triangular-up-arrow.svg"
+    },
+    "trophy-black-side-view-silhouette": {
+      "codepoint": 62040,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/trophy-black-side-view-silhouette.svg"
+    },
+    "tumblr-letter-logo": {
+      "codepoint": 62041,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/tumblr-letter-logo.svg"
+    },
+    "twitter-bird-logo-shape-in-a-square": {
+      "codepoint": 62042,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/twitter-bird-logo-shape-in-a-square.svg"
+    },
+    "twitter-black-shape": {
+      "codepoint": 62043,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/twitter-black-shape.svg"
+    },
+    "twitter-letter-logo-symbol-in-a-square": {
+      "codepoint": 62044,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/twitter-letter-logo-symbol-in-a-square.svg"
+    },
+    "two-arrows": {
+      "codepoint": 62045,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/two-arrows.svg"
+    },
+    "two-arrows-in-angle-pointing-down": {
+      "codepoint": 62046,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/two-arrows-in-angle-pointing-down.svg"
+    },
+    "two-black-paper-sheets-symbol": {
+      "codepoint": 62047,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/two-black-paper-sheets-symbol.svg"
+    },
+    "two-columns-layout": {
+      "codepoint": 62048,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/two-columns-layout.svg"
+    },
+    "two-opposite-arrows": {
+      "codepoint": 62049,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/two-opposite-arrows.svg"
+    },
+    "two-straight-arrows": {
+      "codepoint": 62050,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/two-straight-arrows.svg"
+    },
+    "umbrella-black-shape": {
+      "codepoint": 62051,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/umbrella-black-shape.svg"
+    },
+    "underline-text-option-interface-symbol": {
+      "codepoint": 62052,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/underline-text-option-interface-symbol.svg"
+    },
+    "unlocked-padlock": {
+      "codepoint": 62053,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/unlocked-padlock.svg"
+    },
+    "unlocked-padlock-symbol": {
+      "codepoint": 62054,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/unlocked-padlock-symbol.svg"
+    },
+    "up-and-down-arrows": {
+      "codepoint": 62055,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/up-and-down-arrows.svg"
+    },
+    "up-and-down-small-triangular-arrows": {
+      "codepoint": 62056,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/up-and-down-small-triangular-arrows.svg"
+    },
+    "up-arrow": {
+      "codepoint": 62057,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/up-arrow.svg"
+    },
+    "up-arrow-angle": {
+      "codepoint": 62058,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/up-arrow-angle.svg"
+    },
+    "up-arrow-angle-1": {
+      "codepoint": 62059,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/up-arrow-angle-1.svg"
+    },
+    "up-arrow-in-a-circle": {
+      "codepoint": 62060,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/up-arrow-in-a-circle.svg"
+    },
+    "up-arrow-in-a-circle-1": {
+      "codepoint": 62061,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/up-arrow-in-a-circle-1.svg"
+    },
+    "up-arrow-in-circular-shape": {
+      "codepoint": 62062,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/up-arrow-in-circular-shape.svg"
+    },
+    "up-arrow-inside-a-gross-circle": {
+      "codepoint": 62063,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/up-arrow-inside-a-gross-circle.svg"
+    },
+    "up-arrow-triangle": {
+      "codepoint": 62064,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/up-arrow-triangle.svg"
+    },
+    "up-arrow-triangle-in-a-square-gross-outline": {
+      "codepoint": 62065,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/up-arrow-triangle-in-a-square-gross-outline.svg"
+    },
+    "up-arrows-angles-couple": {
+      "codepoint": 62066,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/up-arrows-angles-couple.svg"
+    },
+    "up-level-arrow": {
+      "codepoint": 62067,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/up-level-arrow.svg"
+    },
+    "up-long-arrow": {
+      "codepoint": 62068,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/up-long-arrow.svg"
+    },
+    "up-triangular-arrow": {
+      "codepoint": 62069,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/up-triangular-arrow.svg"
+    },
+    "upload-to-the-cloud-interface-symbol": {
+      "codepoint": 62070,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/upload-to-the-cloud-interface-symbol.svg"
+    },
+    "upper-right-arrow-black-symbol": {
+      "codepoint": 62071,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/upper-right-arrow-black-symbol.svg"
+    },
+    "user-black-shape": {
+      "codepoint": 62072,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/user-black-shape.svg"
+    },
+    "user-image-on-phone-screen-in-horizontal-position": {
+      "codepoint": 62073,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/user-image-on-phone-screen-in-horizontal-position.svg"
+    },
+    "verification-sign-in-a-circle": {
+      "codepoint": 62074,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/verification-sign-in-a-circle.svg"
+    },
+    "verification-symbol": {
+      "codepoint": 62075,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/verification-symbol.svg"
+    },
+    "verification-symbol-in-a-square-box": {
+      "codepoint": 62076,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/verification-symbol-in-a-square-box.svg"
+    },
+    "verify": {
+      "codepoint": 62077,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/verify.svg"
+    },
+    "video-camera": {
+      "codepoint": 62078,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/video-camera.svg"
+    },
+    "view-eye-interface-symbol": {
+      "codepoint": 62079,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/view-eye-interface-symbol.svg"
+    },
+    "vimeo-letter-logo-in-a-square": {
+      "codepoint": 62080,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/vimeo-letter-logo-in-a-square.svg"
+    },
+    "vk-logo-of-social-network": {
+      "codepoint": 62081,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/vk-logo-of-social-network.svg"
+    },
+    "war-airplane-bottom-view-black-shape": {
+      "codepoint": 62082,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/war-airplane-bottom-view-black-shape.svg"
+    },
+    "wedding-rings-couple": {
+      "codepoint": 62083,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/wedding-rings-couple.svg"
+    },
+    "weekly-calendar-variant": {
+      "codepoint": 62084,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/weekly-calendar-variant.svg"
+    },
+    "wheel-shape-variant": {
+      "codepoint": 62085,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/wheel-shape-variant.svg"
+    },
+    "windows-logo": {
+      "codepoint": 62086,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/windows-logo.svg"
+    },
+    "wireless-keyboard": {
+      "codepoint": 62087,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/wireless-keyboard.svg"
+    },
+    "wireless-signal-interface-status-symbol-of-bars-group": {
+      "codepoint": 62088,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/wireless-signal-interface-status-symbol-of-bars-group.svg"
+    },
+    "world-ball": {
+      "codepoint": 62089,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/world-ball.svg"
+    },
+    "wrench-black-silhouette-of-tool": {
+      "codepoint": 62090,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/wrench-black-silhouette-of-tool.svg"
+    },
+    "xing-logo": {
+      "codepoint": 62091,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/xing-logo.svg"
+    },
+    "xing-logo-1": {
+      "codepoint": 62092,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/xing-logo-1.svg"
+    },
+    "yen-symbol": {
+      "codepoint": 62093,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/yen-symbol.svg"
+    },
+    "youtube-logo": {
+      "codepoint": 62094,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/youtube-logo.svg"
+    },
+    "youtube-rounded-square-logo": {
+      "codepoint": 62095,
+      "source": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg/youtube-rounded-square-logo.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": false,
+    "css_selector": ".flaticon-{{glyph}}",
+    "debug": false,
+    "font_ascent": 448,
+    "font_descent": 64,
+    "font_design_size": 16,
+    "font_em": 512,
+    "font_name": "Flaticon",
+    "force": true,
+    "input": {
+      "templates": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg",
+      "vectors": "/var/www/static/flaticon/zip_packs/111005-coolicons/svg"
+    },
+    "no_hash": true,
+    "output": {
+      "css": "/var/www/static/flaticon/zip_packs/111005-coolicons/font",
+      "fonts": "/var/www/static/flaticon/zip_packs/111005-coolicons/font",
+      "preview": "/var/www/static/flaticon/zip_packs/111005-coolicons/font"
+    },
+    "preprocessor_path": null,
+    "quiet": true,
+    "templates": [
+      "../../../../../sites/flaticon/libraries/webfont/templates/flaticon.html",
+      "../../../../../sites/flaticon/libraries/webfont/templates/_flaticon.scss",
+      "../../../../../sites/flaticon/libraries/webfont/templates/flaticon.css"
+    ]
+  },
+  "templates": [
+    "/var/www/static/flaticon/zip_packs/111005-coolicons/font/flaticon.html",
+    "/var/www/static/flaticon/zip_packs/111005-coolicons/font/_flaticon.scss",
+    "/var/www/static/flaticon/zip_packs/111005-coolicons/font/flaticon.css"
+  ]
+}
