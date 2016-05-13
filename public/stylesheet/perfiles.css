@@ -273,7 +273,7 @@ progress[value] {
   height: 20px;
 
   /* For IE10 */
-  color: blue;
+  color: #f06292;
 }
 
 progress[value]::-webkit-progress-bar {
@@ -290,7 +290,7 @@ progress[value]::-webkit-progress-value {
     -webkit-linear-gradient(top, 
                            rgba(255, 255, 255, .25), 
                            rgba(0, 0, 0, .25)),
-    -webkit-linear-gradient(left, #09c, #f44);
+    -webkit-linear-gradient(left, #f06292, #ec407a);
   border-radius: 2px; 
   background-size: 35px 20px, 100% 100%, 100% 100%;  
 }
@@ -311,8 +311,8 @@ progress[value]::-moz-progress-bar {
     ),
     -moz-linear-gradient(
       left, 
-      #09c, 
-      #f44
+      #f06292, 
+      #ec407a
     );
   border-radius: 2px; 
   background-size: 35px 20px, 100% 100%, 100% 100%; 
@@ -329,7 +329,7 @@ progress[value]::-moz-progress-bar {
 }
   
 .progress-bar > span {
-  background-color: blue;
+  background-color: #f06292;
   border-radius: 2px;
   display: block;
   text-indent: -9999px;
