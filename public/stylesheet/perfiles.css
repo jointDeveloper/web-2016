@@ -258,3 +258,15 @@ button:hover {
   -webkit-transform: translateY(-25%);
   transform: translateY(-25%);
 }
+
+/*Iconos*/
+
+.facebook {
+  background-image: url(../../public/images/icons/template/facebook.png);
+  background-position:top left;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  width:150px;
+  height:150px;
+  display:block;
+}
