@@ -185,6 +185,7 @@ ul.topnav ul.right {
     /*background-color: blue;*/
     height: 40%;
     border: 1px solid black;
+		overflow: scroll;
   }
 
 		/*-------------Galería---------------*/
