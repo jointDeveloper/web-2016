@@ -2,6 +2,10 @@
 
   var i = 0;
 
+  function setImage(current,next){//imagen ppal y lista de imagenes disponibles
+    current.src = next.src;//actualiza la nueva imagen
+  }
+
   function NextImg(img,lis){//imagen ppal y lista de imagenes disponibles
     i += 1;
     if(i == lis.length){
@@ -33,5 +37,14 @@
   prev.addEventListener("click",function(){
     PrevImg(imgppal,lis);
   });
+
+  /*for(var i = 0; i < lis.length; i++){
+    var img = lis[i].getElementsByTagName("img")[0];
+    img.addEventListener("mouseover",function(){
+      //setImage(imgppal,img);
+      console.log("hola");
+    });
+  }*/
+
 
 }())
