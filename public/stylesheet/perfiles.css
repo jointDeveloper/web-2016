@@ -3,10 +3,19 @@ html, body {
   width: 100%;
   margin: 0;
   padding: 0;
-  font-size: 17px;
+  font-size: 1.063em;
   background-color: #fff;
   font-family: 'Lato', sans-serif;
 }
+
+/*Fonts*/
+
+@font-face {
+  font-family: Cinzel;
+  src: url(../../public/fonts/Cinzel/Cinzel-Regular.ttf);
+}
+
+/*Grid*/
 
 [class*="col-"] {
   float: left;
@@ -27,7 +36,10 @@ html, body {
 
 .first-row {margin-top: 50px;}
 
+/*Content*/
+
 .content {
+  position: relative;
   content: "";
   clear: both;
   display: block;
@@ -35,7 +47,7 @@ html, body {
   margin: 10px auto;
   padding: 10px;
   width: 90%;
-	height: 95%;
+	min-height: 95% !important;
   padding-top: 5%;
 
 }
@@ -43,7 +55,7 @@ html, body {
   max-width: 100%;
   margin: 10px auto;
   background-color:  #fff;
-  height: 100%;
+  height: 100% !important;
 }
 .center {
   text-align: center;
@@ -53,11 +65,14 @@ html, body {
 }
 
 .footer {
-	height: 30%;
+  position: relative;
+	height: 50%;
   background-color: #333;
   padding: 10px;
   color: white;
 }
+
+/*Navigation*/
 
 #logo-nav, #logo-nav-responsive {
   font-family: 'Linden Hill', serif;
@@ -110,12 +125,6 @@ ul.topnav li a.active {
 ul.topnav ul.right {
   float: right;
   list-style-type: none;
-}
-
-
-@font-face {
-  font-family: Cinzel;
-  src: url(../../public/fonts/Cinzel/Cinzel-Regular.ttf);
 }
 
 .style-title {
@@ -172,13 +181,10 @@ text-align : justify;
   position: relative;
 }
 
-
 .button:hover {
   background-color: #f06292;
   color: white;
-
 }
-
 
 textarea {
   width: 100%;
@@ -240,12 +246,21 @@ button:hover {
 }
 
 #contacto {
-	height: 70%;
+  position: relative;
+  content: "";
+  clear: both;
+  display: block;
+  background-color: white;
+  margin: 10px auto;
+  padding: 10px;
+  width: 90%;
+	height: 65% !important;
+  padding-top: 5%;
 }
 
 .vertical-center-title {
   position: relative;
-  top: 40%;
+  padding-top: 40%;
   -ms-transform: translateY(-40%);
   -webkit-transform: translateY(-40%);
   transform: translateY(-40%);
@@ -253,23 +268,25 @@ button:hover {
 
 .vertical-center {
   position: relative;
-  top: 25%;
+  padding-top: 10%;
   -ms-transform: translateY(-25%);
   -webkit-transform: translateY(-25%);
   transform: translateY(-25%);
 }
+
+/*Progress bar*/
 
 progress[value] {
   /* Reset the default appearance */
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  
+
   /* Get rid of default border in Firefox. */
   border: none;
-  
+
   /* Dimensions */
-  width: 250px;
+  width: 90%;
   height: 20px;
 
   /* For IE10 */
@@ -278,71 +295,49 @@ progress[value] {
 
 progress[value]::-webkit-progress-bar {
   background-color: #eee;
-  border-radius: 2px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  border-radius: 0px;
 }
 
 progress[value]::-webkit-progress-value {
   background-image:
-    -webkit-linear-gradient(-45deg, 
-                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
+    -webkit-linear-gradient(-45deg,
+                           transparent 33%, rgba(0, 0, 0, .1) 33%,
                            rgba(0,0, 0, .1) 66%, transparent 66%),
-    -webkit-linear-gradient(top, 
-                           rgba(255, 255, 255, .25), 
+    -webkit-linear-gradient(top,
+                           rgba(255, 255, 255, .25),
                            rgba(0, 0, 0, .25)),
     -webkit-linear-gradient(left, #f06292, #ec407a);
-  border-radius: 2px; 
-  background-size: 35px 20px, 100% 100%, 100% 100%;  
+  border-radius: 0px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
 }
 
-progress[value]::-moz-progress-bar { 
+progress[value]::-moz-progress-bar {
   background-image:
     -moz-linear-gradient(
-      135deg, 
-      transparent 33%, 
-      rgba(0, 0, 0, 0.1) 33%, 
-      rgba(0, 0, 0, 0.1) 66%, 
-      transparent 66% 
+      135deg,
+      transparent 33%,
+      rgba(0, 0, 0, 0.1) 33%,
+      rgba(0, 0, 0, 0.1) 66%,
+      transparent 66%
     ),
     -moz-linear-gradient(
-      top, 
-      rgba(255, 255, 255, 0.25), 
+      top,
+      rgba(255, 255, 255, 0.25),
       rgba(0, 0, 0, 0.25)
     ),
     -moz-linear-gradient(
-      left, 
-      #f06292, 
+      left,
+      #f06292,
       #ec407a
     );
-  border-radius: 2px; 
-  background-size: 35px 20px, 100% 100%, 100% 100%; 
-}
-
-.progress-bar {
-  background-color: whiteSmoke;
-  border-radius: 2px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25) inset;
-  width: 250px;
-  height: 20px;  
-  position: relative;
-  display: block;
-}
-  
-.progress-bar > span {
-  background-color: #f06292;
-  border-radius: 2px;
-  display: block;
-  text-indent: -9999px;
+  border-radius: 0px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
 }
 
 /*Iconos*/
 
-.facebook {
-  background-image: url(../../public/images/icons/template/facebook.png);
-  background-position:top left;
-  background-repeat:no-repeat;
-  background-attachment:fixed;
-  width:150px;
-  height:150px;
-  display:block;
+.icon {
+  width: 4%;
+  height: 4%;
+  padding: 5px;
 }
