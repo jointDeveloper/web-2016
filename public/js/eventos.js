@@ -4,7 +4,7 @@
 
   function NextImg(img,lis){//imagen ppal y lista de imagenes disponibles
     i += 1;
-    if(i == 4){
+    if(i == lis.length){
       i = 0;
     }
     var nextImg = lis[i].getElementsByTagName("img")[0];
@@ -14,7 +14,7 @@
   function PrevImg(img,lis){
     i -= 1;
     if(i == -1){
-      i = 3;//hasta el tamaño de la lista de imagenes
+      i = lis.length;//hasta el tamaño de la lista de imagenes
     }
     var prevImg = lis[i].getElementsByTagName("img")[0];
     img.src = prevImg.src;//actualiza la nueva imagen
