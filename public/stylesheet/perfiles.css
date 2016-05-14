@@ -336,8 +336,14 @@ progress[value]::-moz-progress-bar {
 
 /*Iconos*/
 
-.icon {
+.icon-title {
   width: 4%;
   height: 4%;
+  padding: 5px;
+}
+
+.icon-footer {
+  width: 10%;
+  height: 10%;
   padding: 5px;
 }
