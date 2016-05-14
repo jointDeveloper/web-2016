@@ -3,21 +3,25 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Eventos</title>
+	<link href="../public/stylesheet/perfiles.css" rel="stylesheet">
 	<link href="../public/stylesheet/eventos.css" rel="stylesheet">
 </head>
 <body>
-	<!-- NAVBAR -->
-	<div class="subMenu" >
-		 	<div class="inner">
-				<a href="#" class="subNavBtn Logo">Logo</a>
-		 		<a href="#" class="subNavBtn">Home</a>
-		 		<a href="#" class="subNavBtn">Quienes somos</a>
-				<a href="#" class="subNavBtn">Perfiles</a>
-				<a href="#" class="subNavBtn">Eventos</a> <!-- Estamos parados acá-->
-				<a href="#" class="subNavBtn">Comunidad</a>
-				<a href="#" class="subNavBtn">Apoyanos</a>
-			</div>
-	</div>
+
+	<!--NAV-BAR-->
+	<nav class="container_nav">
+		<label for="show-menu" class="show-menu"><a id="logo-nav-responsive">jointDeveloper</a></label>
+		<ul class="topnav border" id="menu">
+			<li><img src="../public/images/robot.png" / style="padding-top: 2px"></li>
+			<li><a id="logo-nav" href="../index.html" style="padding-right: 2px">jointDeveloper</a></li>
+			<li><a href="../index.html"><span>Home</span></a></li>
+			<li><a href="about.html"><span>Quienes somos</span></a></li>
+			<li><a href="perfiles.html"><span>Perfiles</span></a></li>
+			<li><a href="eventos.html"><span>Eventos</span></a></li>
+			<li><a href="comunidad.html"><span>Comunidad</span></a></li>
+			<li><a href="apoyanos.html"><span>Apoyanos</span></a></li>
+		</ul>
+	</nav>
 
 	<div class="container">
 
@@ -47,9 +51,9 @@
 
 			 <div class="panelup"> <!--En este panel se muestran las imagenes en el slide-->
 				 <div class="imagen">
-					 <a href=""> < </a>
-					 <a href=""><img src="../public/images/CodeParty2015Pereira/01.jpg"/></a>
-					 <a href=""> > </a>
+					 <a href="#"> < </a>
+					 <a href="#"><img src="../public/images/CodeParty2015Pereira/01.jpg"/></a>
+					 <a href="#"> > </a>
 				</div>
 			 </div>
 
@@ -79,5 +83,6 @@
 	  </em>
   </footer>
 
+<script src="../public/js/eventos.js"></script>
 </body>
 </html>
