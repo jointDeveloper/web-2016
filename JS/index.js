@@ -1,28 +1,28 @@
 (function(){
 
   function Perfiles(){
-      window.location="views/perfiles.html";
+      window.location="HTML/perfiles.html";
   }
   function Comunidad(){
-      window.location="views/comunidad.html";
+      window.location="HTML/comunidad.html";
   }
   function About(){
-      window.location="views/about.html";
+      window.location="HTML/about.html";
   }
   function Eventos(){
-      window.location="views/eventos.html";
+      window.location="HTML/eventos.html";
   }
   function Portafolio(){
-      window.location="views/portafolio.html";
+      window.location="HTML/portafolio.html";
   }
   function Contacto(){
-      window.location="views/contacto.html";
+      window.location="HTML/contacto.html";
   }
   function Apoyanos(){
-      window.location="views/apoyanos.html";
+      window.location="HTML/apoyanos.html";
   }
   function Blog(){
-      window.location="views/blog.html";
+      window.location="HTML/blog.html";
   }
 
   var perfiles = document.getElementsByClassName('Perfiles'),
