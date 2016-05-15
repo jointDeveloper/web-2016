@@ -12,7 +12,11 @@ html, body {
 
 @font-face {
   font-family: Cinzel;
-  src: url(../../public/fonts/Cinzel/Cinzel-Regular.ttf);
+  src: url(../../FONTS/Cinzel/Cinzel-Regular.ttf);
+}
+
+.letra {
+  font-family: 'Linden Hill', serif;
 }
 
 /*Grid*/

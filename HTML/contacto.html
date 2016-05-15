@@ -1,31 +1,83 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Contacto</title>
-	<link href="../public/stylesheet/contacto.css" rel="stylesheet">
-	<link href="../public/stylesheet/index.css" rel="stylesheet">
-</head>
-<body>
-	<header>
-	</header>
-	<main>
-		<div class="row">
-			<div class="col-6">
-				<input type="text" placeholder="Nombre" name="name" value="" style="width: 95%">
-				<input type="text" placeholder="Correo" name="name" value="" style="width: 95%">
-			</div>
-			<div class="col-6">
-				<input type="text" placeholder="Comentario" name="name" value="" style="width: 95%">
-			</div>
-			<div class="row">
-				<input type="button" name="name" value="Enviar">
-			</div>
-		</div>
+  <head>
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
+    <link href="../CSS/perfiles.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Linden+Hill:400italic' rel='stylesheet' type='text/css'>
+    <title>Perfiles - jointDeveloper</title>
+  </head>
+  <body>
 
-	</main>
-	<footer>
-	</footer>
+    <div class="container center">
+      <nav class="container_nav">
+        <label for="show-menu" class="show-menu"><a id="logo-nav-responsive">jointDeveloper</a></label>
+        <ul class="topnav border" id="menu">
+          <li><img src="../IMG/robot.png" / style="padding-top: 2px"></li>
+          <li><a id="logo-nav" href="../index.html" style="padding-right: 2px">jointDeveloper</a></li>
+          <li><a href="#inicio" id="nav-inicio" class="group active"><span>Inicio</span></a></li>
+          <li><a href="#info" id="nav-info" class="group"><span>Info</span></a></li>
+          <li><a href="#habilidades" id="nav-habilidades" class="group"><span>Habilidades</span></a></li>
+          <li><a href="#educacion" id="nav-educacion" class="group"><span>Educación</span></a></li>
+          <li><a href="#cursos" id="nav-cursos" class="group"><span>Cursos</span></a></li>
+          <li><a href="#proyectosport" id="nav-proyectosport" class="group"><span>Proyectos - Portafolio</span></a></li>
+          <li><a href="#pasatiempos" id="nav-pasatiempos" class="group"><span>Pasatiempos</span></a></li>
+          <li><a href="#articulos" id="nav-articulos" class="group"><span>Articulos</span></a></li>
+          <li><a href="#contacto" id="nav-contacto" class="group"><span>Contacto</span></a></li>
+        </ul>
+      </nav>
+      <div class="content style-title" id="inicio">
+				<div class="vertical-center">
+					<h1>CONTACTO</h1>
+				</div>
+      </div>
+      <div  id="contacto">
+        <h2 class=left>Contacto</h2>
+        <div class=" left vertical-center">
+					<div class="row">
+						<div class="col-6">
+							<input type="text" placeholder="Nombre" >
+						</div>
+						<div class="col-6">
+							<input type="text" placeholder="Correo" ><br><br>
+						</div>
+					</div>
+					<div class="row">
+						<textarea cols="20" rows="10" class="text-description" placeholder="Mensaje"></textarea><br>
+					</div>
+					<div class="center">
+            <button type="submit">Enviar</button>
+          </div>
+        </div>
+      </div>
+			<div class="footer">
+        <div class="row">
+          <div class="col-3">
+            <a href="http://sirius.utp.edu.co" target="_blank"><img src="../IMG/sirius.png" alt="Facebook-jointDeveloper" style="width: 35%"/></a>
+          </div>
+          <div class="col-6">
+            <div class="row">
+              info@jointDevelopers.co
+            </div>
+            <br />
+            <div class="row">
+              <a href="http://facebook.com" target="_blank"><img src="../IMG/icons/template/white/facebook.png" alt="Facebook-jointDeveloper" class="icon-footer" /></a>
+              <a href="http://facebook.com" target="_blank"><img src="../IMG/icons/template/white/github.png" alt="Facebook-jointDeveloper" class="icon-footer"  /></a>
+              <a href="http://facebook.com" target="_blank"><img src="../IMG/icons/template/white/instagram.png" alt="Facebook-jointDeveloper" class="icon-footer"  /></a>
+              <a href="http://facebook.com" target="_blank"><img src="../IMG/icons/template/white/twitter.png" alt="Facebook-jointDeveloper" class="icon-footer"  /></a>
+              <a href="http://facebook.com" target="_blank"><img src="../IMG/icons/template/white/google.png" alt="Facebook-jointDeveloper" class="icon-footer"  /></a>
+              <a href="http://facebook.com" target="_blank"><img src="../IMG/icons/template/white/whatsapp.png" alt="Facebook-jointDeveloper" class="icon-footer"  /></a>
+            </div>
+          </div>
+          <div class="col-3">
 
-</body>
+          </div>
+        </div>
+			</div>
+    </div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script type="text/javascript" src="../JS/getPath.js">
+		</script>
+  </body>
 </html>
