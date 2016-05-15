@@ -12,7 +12,27 @@ html, body {
 
 @font-face {
   font-family: Cinzel;
-  src: url(../../public/fonts/Cinzel/Cinzel-Regular.ttf);
+  src: url(../../FONTS/Cinzel/Cinzel-Regular.ttf);
+}
+
+.letra {
+  font-family: 'Linden Hill', serif;
+}
+
+.intro-contacto {
+  background-image: url(../IMG/contacto-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  content: "";
+  clear: both;
+  display: block;
+  background-color: white;
+  margin: auto;
+  width: 100%;
+	min-height: 95% !important;
+  padding-top: 5%;
+
 }
 
 /*Grid*/
@@ -129,6 +149,17 @@ ul.topnav ul.right {
 
 .style-title {
   font-family: 'Linden Hill', serif;
+	text-align: center;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.style-title-white {
+  font-family: 'Linden Hill', serif;
+  color: #fff;
 	text-align: center;
   position: relative;
   top: 50%;
