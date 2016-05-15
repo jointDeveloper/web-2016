@@ -12,7 +12,7 @@
 * Maria Paz Muñoz
 * Maria Victoria Gasca
 * Yensy Gómez Villegas `yensy@sirius.utp.edu.co`
-* ....
+* Sebastian Duque Restrepo `sebas.duque@utp.edu.co`
 * ....
 
 ### Proyectos
