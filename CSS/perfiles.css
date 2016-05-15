@@ -35,8 +35,6 @@ html, body {
 .col-12 {width: 100%;}
 
 .first-row {margin-top: 50px;}
-.row {margin-left:auto;margin-right:auto;margin-bottom:20px}
-.row .col{float:left;box-sizing:border-box;padding:0 0.75rem}
 
 /*Content*/
 
@@ -270,7 +268,7 @@ button:hover {
 
 .vertical-center {
   position: relative;
-  padding-top: 20%;
+  padding-top: 10%;
   -ms-transform: translateY(-25%);
   -webkit-transform: translateY(-25%);
   transform: translateY(-25%);
