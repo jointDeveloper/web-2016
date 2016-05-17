@@ -6,7 +6,7 @@
 * Angie Melissa Delgado León
 * Carolina Gómez Trejos  `carolina9511@gmail.com`
 * Carolina Jimenez Gómez `krito_j_g@utp.edu.co`
-* Catalina Castro
+* Catalina Castro `catalina.cst@hotmail.es`
 * Giseth Grimaldo
 * Juli (Naranjita - Completar Nombre :D)
 * Maria Paz Muñoz
@@ -18,15 +18,3 @@
 ### Proyectos
 * Creación del portafolio de cada las integrantes de JointDeveloper.
 * Creación página Micro-red Eléctrica.
-
-
-
-
-
-
-
-
-
-
-
-
