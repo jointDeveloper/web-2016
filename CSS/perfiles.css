@@ -39,7 +39,7 @@ html, body {
   background-color: white;
   margin: auto;
   width: 100%;
-	height: 95% !important;
+  height: 95% !important;
   padding-top: 5%;
 
 }
@@ -55,7 +55,7 @@ html, body {
   background-color: white;
   margin: auto;
   width: 100%;
-	height: 95% !important;
+  height: 95% !important;
   padding-top: 5%;
 
 }
@@ -92,7 +92,7 @@ html, body {
   margin: 10px auto;
   padding: 10px;
   width: 90%;
-	min-height: 95% !imprtant;
+  min-height: 95% !important;
   padding-top: 5%;
 
 }
@@ -114,7 +114,7 @@ html, body {
 
 .footer {
   position: relative;
-	height: 50%;
+  height: 50%;
   background-color: #333;
   padding: 10px;
   color: white;
@@ -131,7 +131,7 @@ html, body {
 }
 
 ul.topnav {
-	width: 100%;
+  width: 100%;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -165,10 +165,10 @@ ul.topnav li a:hover:not(.active) {
 }
 
 ul.topnav li a.active {
-	color: #f06292;
+  color: #f06292;
   background-color: #444;
-	font-weight: bold;
-	border-bottom: 2px solid #f06292;
+  font-weight: bold;
+  border-bottom: 2px solid #f06292;
 }
 
 ul.topnav ul.right {
@@ -178,7 +178,7 @@ ul.topnav ul.right {
 
 .style-title {
   font-family: 'Linden Hill', serif;
-	text-align: center;
+  text-align: center;
   position: relative;
   top: 50%;
   -ms-transform: translateY(-50%);
@@ -189,7 +189,7 @@ ul.topnav ul.right {
 .style-title-white {
   font-family: 'Linden Hill', serif;
   color: #fff;
-	text-align: center;
+  text-align: center;
   position: relative;
   top: 50%;
   -ms-transform: translateY(-50%);
@@ -214,7 +214,7 @@ img {
 }
 
 .justifyText{
-text-align : justify;
+  text-align : justify;
 }
 
 .cursiva {
@@ -320,7 +320,7 @@ button:hover {
   margin: 10px auto;
   padding: 10px;
   width: 90%;
-	height: 65% !important;
+  height: 65% !important;
   padding-top: 5%;
 }
 
