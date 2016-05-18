@@ -24,6 +24,10 @@ html, body {
   text-shadow: 2px 2px #444;
 }
 
+.slogan {
+  -webkit-margin-after: 0;
+}
+
 .intro-contacto {
   background-image: url(../IMG/contacto-background.jpg);
   background-repeat: no-repeat;
