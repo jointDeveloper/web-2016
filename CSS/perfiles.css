@@ -19,6 +19,11 @@ html, body {
   font-family: 'Linden Hill', serif;
 }
 
+.intro {
+  font-size: 6em;
+  text-shadow: 2px 2px #444;
+}
+
 .intro-contacto {
   background-image: url(../IMG/contacto-background.jpg);
   background-repeat: no-repeat;
@@ -30,7 +35,23 @@ html, body {
   background-color: white;
   margin: auto;
   width: 100%;
-	min-height: 95% !important;
+	height: 95% !important;
+  padding-top: 5%;
+
+}
+
+.intro-working {
+  background-image: url(../IMG/working.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  content: "";
+  clear: both;
+  display: block;
+  background-color: white;
+  margin: auto;
+  width: 100%;
+	height: 95% !important;
   padding-top: 5%;
 
 }
@@ -169,14 +190,18 @@ ul.topnav ul.right {
 }
 
 img {
-    max-width:70%;
-
+    max-width:100%;
 }
 .circular {
-    border-radius: 50%;
-    border:3px solid #f06292;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
+  max-width: 70%;
+  border-radius: 50%;
+  border:3px solid #f06292;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.robo-nav {
+  padding: 2px 8px 0px;
 }
 
 .justifyText{
