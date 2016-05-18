@@ -8,25 +8,23 @@ html, body {
   color: white;
   font-weight: bolder;
   text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 30px;
+  font-family: 'Linden Hill', serif;
+  font-size: 2em;
 	font-style: italic;
 }
 
+.letra {
+  font-family: 'Lato', sans-serif;
+}
+
 .middle {
-    /*display: table-cell;
-    vertical-align: middle;
-    display: table;
-    margin: auto;*/
   display: inline-block;
   position: relative;
   margin: auto auto;
 }
 
 .up{/*resaltar*/
-  border: 5px solid #ccc;
   float: left;
-  margin: 15px;
   -webkit-transition: margin 0.5s ease-out;
   -moz-transition: margin 0.5s ease-out;
   -ms-transition: margin 0.5s ease-out;
@@ -34,7 +32,7 @@ html, body {
 }
 
 .container {
-	background-color: #fff456;
+	background-color: #444;
 	width: 100%;
 	height: 70%;
 	margin: auto;
@@ -50,6 +48,7 @@ html, body {
 
 .header {
 	background-color: white;
+  font-size: 0.5em;
 	width: 100%;
 	height: 10%;
 	margin: auto;
@@ -63,6 +62,7 @@ html, body {
 	width: 100%;
 	height: 50%;
 	float: left;
+  text-shadow: 2px 2px #444;
 }
 
 .About:hover{
@@ -77,6 +77,7 @@ html, body {
 	width: 100%;
 	height: 50%;
 	float: left;
+  text-shadow: 2px 2px #444;
 }
 
 .Comunidad:hover{
@@ -86,11 +87,15 @@ html, body {
 
 /*---------------PERFILES----------------*/
 .Perfiles{
-	background-color: lime;
 	width: 100%;
 	height: 50%;
 	float: left;
-  /*transition: 0.3s;*/
+  background-image: url("../IMG/carogt.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 2px 2px #444;
 }
 
 .Perfiles:hover{
@@ -105,6 +110,7 @@ html, body {
 	width: 100%;
 	height: 30%;
 	float: left;
+  text-shadow: 2px 2px #444;
 }
 
 .Blog:hover{
@@ -118,16 +124,16 @@ html, body {
 	width: 100%;
 	height: 25%;
 	float: left;
-  background-image: url("../images/Eventos/eventos.jpg");
+  background-image: url("../IMG/Eventos/eventos.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  text-shadow: 2px 2px #444;
 }
 
 .Eventos:hover{
   opacity: 0.7;
-  border: solid 2px white;
   cursor: pointer;
 }
 
@@ -138,6 +144,12 @@ html, body {
 	width: 100%;
 	height: 35%;
 	float: left;
+  background-image: url("../IMG/contacto-background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 2px 2px #444;
 }
 
 .Contacto:hover{
@@ -152,6 +164,7 @@ html, body {
 	width: 100%;
 	height: 25%;
 	float: left;
+  text-shadow: 2px 2px #444;
 }
 
 .Portafolio:hover{
@@ -166,6 +179,7 @@ html, body {
 	width: 100%;
 	height: 35%;
 	float: left;
+  text-shadow: 2px 2px #444;
 }
 
 .Apoyanos:hover{
