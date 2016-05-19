@@ -31,7 +31,7 @@ html, body {
 .intro-contacto {
   background-image: url(../IMG/contacto-background.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
   position: relative;
   content: "";
   clear: both;
@@ -47,7 +47,7 @@ html, body {
 .intro-working {
   background-image: url(../IMG/working.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
   position: relative;
   content: "";
   clear: both;
