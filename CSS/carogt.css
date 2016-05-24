@@ -121,7 +121,8 @@ progress[value]::-moz-progress-bar {
 }
 
 .div-border {
-     width: 30%;
-     height: 300px;
-     border: 3px solid #555;
+  margin: 10px;
+  height: 300px;
+  border: 2px solid #555;
+  border-radius: 20px;
 }
