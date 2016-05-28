@@ -1,0 +1,54 @@
+{
+  "perfiles": [
+    {
+      "name": "Vanessa Velásquez Gómez",
+      "img": "/IMG/Emma_Yo.jpg",
+      "page": "profiles/vanessa.html"
+    },
+    {
+      "name": "Yensy Helena Gómez Villegas",
+      "img": "/IMG/yenGomez.jpg",
+      "page": "profiles/yhgv.html"
+    },
+    {
+      "name": "Carolina Jiménez Gómez",
+      "img": "/IMG/cjg.jpg",
+      "page": "profiles/cjg.html"
+    },
+    {
+      "name": "Giseth Johana Grimaldo B.",
+      "img": "/IMG/fotoGiseth.JPG",
+      "page": "profiles/gisethInfo.html"
+    },
+    {
+      "name": "Carolina Gómez Trejos",
+      "img": "/IMG/carogt.jpg",
+      "page": "profiles/carogt.html"
+    },
+    {
+      "name": "Naranjita Golden",
+      "img": "/IMG/naranjita.jpg",
+      "img": "profiles/naranjita.html"
+    },
+    {
+      "name": "Tatiana Amariles",
+      "img": "/IMG/tatiana.jpg",
+      "img": "profiles/tatianaAmariles.html"
+    },
+    {
+      "name": "Alejandro Rendon",
+      "img": "/IMG/arendon.jpg",
+      "page": "//github.com/aerendon"
+    },
+    {
+      "name": "Sebastian Duque",
+      "img": "/IMG/robot_negro.png",
+      "page": "//github.com/sebas095"
+    },
+    {
+      "name": "Leiver Campeón",
+      "img": "/IMG/sirius.png",
+      "page": "//github.com/leiverandres"
+    }
+  ]
+}
