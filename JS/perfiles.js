@@ -10,7 +10,7 @@ $(function () {
                     </img>
                     <div class="mascara">
                       <h2>${perfil.name}</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada.</p>
+                      <p>${perfil.description}</p>
                       <a href="${perfil.page}" class="link">Leer mas</a>
                     </div>
                   </div>`

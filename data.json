@@ -3,52 +3,62 @@
     {
       "name": "Vanessa Velásquez Gómez",
       "img": "/IMG/Emma_Yo.jpg",
-      "page": "profiles/vanessa.html"
+      "page": "profiles/vanessa.html",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Yensy Helena Gómez Villegas",
       "img": "/IMG/yenGomez.jpg",
-      "page": "profiles/yhgv.html"
+      "page": "profiles/yhgv.html",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Carolina Jiménez Gómez",
       "img": "/IMG/cjg.jpg",
-      "page": "profiles/cjg.html"
+      "page": "profiles/cjg.html",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Giseth Johana Grimaldo B.",
       "img": "/IMG/fotoGiseth.JPG",
-      "page": "profiles/gisethInfo.html"
+      "page": "profiles/gisethInfo.html",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Carolina Gómez Trejos",
       "img": "/IMG/carogt.jpg",
-      "page": "profiles/carogt.html"
+      "page": "profiles/carogt.html",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Naranjita Golden",
       "img": "/IMG/naranjita.jpg",
-      "page": "profiles/naranjita.html"
+      "page": "profiles/naranjita.html",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Tatiana Amariles",
       "img": "/IMG/tatiana.jpg",
-      "page": "profiles/tatianaAmariles.html"
+      "page": "profiles/tatianaAmariles.html",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Alejandro Rendon",
       "img": "/IMG/arendon.jpg",
-      "page": "//github.com/aerendon"
+      "page": "//github.com/aerendon",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Sebastian Duque",
       "img": "/IMG/robot_negro.png",
-      "page": "//github.com/sebas095"
+      "page": "//github.com/sebas095",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Leiver Campeón",
       "img": "/IMG/github.png",
-      "page": "//github.com/leiverandres"
+      "page": "//github.com/leiverandres",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     }
   ]
 }
