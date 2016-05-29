@@ -1,14 +1,33 @@
 $(function () {
   $.getJSON("/data.json", function (data) {
-    var items = []
-    data.perfiles.forEach(function (perfil) {
-      console.log(perfil.name);
-      items.push("<a href="+ perfil.page + "><img class=\"profileItem\" src=" + perfil.img + "></img></a>");
+    var items = [];
+    data.perfiles.forEach(function (perfil, index) {
+      items.push(`<div class="container-img description">
+                    <img class="profileItem"
+                       id="${perfil.name}"
+                       src=${perfil.img}
+                       onClick=(redirect("${perfil.page}"))>
+                    </img>
+                    <div class="mascara">
+                      <h2>${perfil.name}</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada.</p>
+                      <a href="${perfil.page}" class="link">Leer mas</a>
+                    </div>
+                  </div>`
+                );
+
+      if ((index + 1) % 3 == 0) {
+        items[index] += '<br>';
+      }
     });
 
-    $( "<div/>", {
+    $("<div/>", {
       "class": "profileList",
-      html: items.join( "" )
-    }).appendTo( "nav.container" );
+      html: items.join("")
+    }).appendTo("nav");
   });
 });
+
+function redirect(url) {
+  window.location = url;
+}

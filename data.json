@@ -28,12 +28,12 @@
     {
       "name": "Naranjita Golden",
       "img": "/IMG/naranjita.jpg",
-      "img": "profiles/naranjita.html"
+      "page": "profiles/naranjita.html"
     },
     {
       "name": "Tatiana Amariles",
       "img": "/IMG/tatiana.jpg",
-      "img": "profiles/tatianaAmariles.html"
+      "page": "profiles/tatianaAmariles.html"
     },
     {
       "name": "Alejandro Rendon",
@@ -47,7 +47,7 @@
     },
     {
       "name": "Leiver Campeón",
-      "img": "/IMG/sirius.png",
+      "img": "/IMG/github.png",
       "page": "//github.com/leiverandres"
     }
   ]

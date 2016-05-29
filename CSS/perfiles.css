@@ -413,3 +413,121 @@ progress[value]::-moz-progress-bar {
   height: 10%;
   padding: 5px;
 }
+
+.profileItem {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+/* Efectos Perfiles */
+
+.container-img {
+    width: 400px;
+    height: 400px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    background: #fff;
+}
+
+.container-img .mascara {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0
+}
+
+.container-img img {
+  display: block;
+  position: relative;
+}
+
+.container-img h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.9);
+  margin: 20px 0 0 0
+}
+
+.container-img p {
+  font-size: 12px;
+  position: relative;
+  color: #fff;
+  padding: 10px 20px 10px;
+  text-align: center
+}
+
+.container-img a.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  background: #222;
+  color: #fff;
+  text-transform: uppercase;
+  box-shadow: 0 0 1px #000
+}
+
+.container-img a.link:hover {
+  box-shadow: 0 0 5px #000
+}
+
+.description img {
+  transform: scaleY(1);
+  transition: all 0.7s ease-in-out;
+}
+
+.description .mascara {
+  background-color: rgba(119, 80, 21, 0.9);
+  transition: all 0.5s linear;
+  opacity: 0;
+}
+
+.description h2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  background: transparent;
+  margin: 20px 40px 0px 40px;
+  transform: scale(0);
+  color: #FFF;
+  transition: all 0.5s linear;
+  opacity: 0;
+}
+
+.description p {
+  color: #FFF;
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.5s linear;
+}
+
+.description a.link {
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.5s linear;
+  background-color: rgba(119, 80, 21, 0.9);
+}
+
+.description:hover img {
+  transform: scale(0);
+  opacity: 0;
+}
+
+.description:hover .mascara {
+  border-radius: 30%;
+  opacity: 1;
+}
+
+.description:hover h2,
+.description:hover p,
+.description:hover a.link {
+  transform: scale(1);
+  opacity: 1;
+}
