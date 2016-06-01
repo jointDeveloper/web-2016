@@ -413,3 +413,20 @@ progress[value]::-moz-progress-bar {
   height: 10%;
   padding: 5px;
 }
+
+/* Medias */
+
+@media (min-width: 1024px) and (max-width: 1205px) {
+  ul.topnav li a {
+    padding: 16px 8px;
+    font-size: 15px;
+  }
+}
+
+/*
+mobile-portrait: min:320px - max:479px;
+mobile-landscape: min:480px - max:599px;
+small-tablet-portrait: min:600px - max:799px;
+small-tablet-landscape: min:800px - max:767px;
+tablet-portrait: min:768px - max:1023px;
+tablet-landscape: min:1024px; */
