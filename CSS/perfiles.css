@@ -425,7 +425,6 @@ progress[value]::-moz-progress-bar {
 
 @media (max-width: 1023px) {
   .topnav {
-    z-index: auto;
     width: 80%;
     height: 100%;
     margin: 0;
