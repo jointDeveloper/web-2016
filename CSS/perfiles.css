@@ -423,6 +423,29 @@ progress[value]::-moz-progress-bar {
   }
 }
 
+@media (max-width: 1023px) {
+  .topnav {
+    z-index: auto;
+    width: 80%;
+    height: 100%;
+    margin: 0;
+  }
+
+  ul.topnav li {
+    display: block;
+    float: none;
+  }
+
+  ul.topnav li a {
+    text-align: left;
+  }
+
+  .robo-nav {
+    float: left;
+  }
+
+}
+
 /*
 mobile-portrait: min:320px - max:479px;
 mobile-landscape: min:480px - max:599px;
