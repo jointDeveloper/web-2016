@@ -8,7 +8,7 @@ $(function() {
     data.perfiles.forEach(function(perfil) {
       perfiles.push({
         "img": perfil.img,
-        "page": 'HTML/' + perfil.page,
+        "page": perfil.page,
         "name": perfil.name
       });
     });
