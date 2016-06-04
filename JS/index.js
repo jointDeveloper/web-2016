@@ -7,9 +7,9 @@ $(function() {
   $.getJSON("/data.json", function (data) {
     data.perfiles.forEach(function(perfil) {
       perfiles.push({
-        img: perfil.img,
-        page: 'HTML/' + perfil.page,
-        name: perfil.name
+        "img": perfil.img,
+        "page": 'HTML/' + perfil.page,
+        "name": perfil.name
       });
     });
     size = perfiles.length;
