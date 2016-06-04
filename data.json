@@ -1,6 +1,12 @@
 {
   "perfiles": [
     {
+      "name": "Plantilla",
+      "img": "/Aprendizaje-Web/IMG/plantilla.jpg",
+      "page": "/Aprendizaje-Web/HTML/profiles/plantilla.html",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
+    },
+    {
       "name": "Carolina Gómez Trejos",
       "img": "/Aprendizaje-Web/IMG/carogt.jpg",
       "page": "/Aprendizaje-Web/HTML/profiles/carogt.html",
