@@ -222,3 +222,20 @@ footer em{
   padding-top: 10px;
   font-size: 10px;
 }
+
+#left {
+  float: left;
+}
+
+#right {
+  float: right;
+}
+
+#left:hover, #right:hover, #allProfiles:hover {
+  color: #C1BCBC;
+}
+
+#allProfiles {
+  color: #FFF;
+  text-decoration: none;
+}

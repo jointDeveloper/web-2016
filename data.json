@@ -1,9 +1,9 @@
 {
   "perfiles": [
     {
-      "name": "Vanessa Velásquez Gómez",
-      "img": "/IMG/Emma_Yo.jpg",
-      "page": "profiles/vanessa.html",
+      "name": "Carolina Gómez Trejos",
+      "img": "/IMG/carogt.jpg",
+      "page": "profiles/carogt.html",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
@@ -25,9 +25,9 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
-      "name": "Carolina Gómez Trejos",
-      "img": "/IMG/carogt.jpg",
-      "page": "profiles/carogt.html",
+      "name": "Vanessa Velásquez Gómez",
+      "img": "/IMG/Emma_Yo.jpg",
+      "page": "profiles/vanessa.html",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
