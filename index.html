@@ -6,6 +6,7 @@
     <link href="CSS/fonts.css" rel="stylesheet">
 		<link href="CSS/index.css" rel="stylesheet">
 		<link rel="icon" type="image/png" href="IMG/favicon.ico" />
+		<link rel="stylesheet" href="CSS/font-awesome.min.css">
 	</head>
 	<body>
 		<div class="header">{ jointDeveloper }</div>
@@ -22,8 +23,16 @@
 				<div class="Portafolio link" id="portafolio">
 					Portafolio
 				</div>
-				<div class="Perfiles link" id="perfiles">
-					Perfiles
+				<div class="row link Perfiles" id="perfiles">
+					<div class="col-8">
+						<a href="HTML/perfiles.html" id="allProfiles">Perfiles</a>
+					</div>
+					<div class="col-2">
+						<i class="fa fa-chevron-left" id="left" aria-hidden="true"></i>
+					</div>
+					<div class="col-2">
+						<i class="fa fa-chevron-right" id="right" aria-hidden="true"></i>
+					</div>
 				</div>
 				<div class="Eventos link" id="eventos">
 					Eventos
@@ -47,7 +56,10 @@
 		    <p> &copy; Todos los derechos reservados. </p>
 		  </em>
 	  </footer>
-	<script src="./JS/jquery.min.js"></script>
-	<script src="JS/index.js"></script>
+  	<script src="./JS/jquery.min.js"></script>
+  	<script src="JS/index.js"></script>
+    <script src="JS/perfiles.js"></script>
+
+    </script>
 	</body>
 </html>
