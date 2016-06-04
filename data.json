@@ -2,61 +2,61 @@
   "perfiles": [
     {
       "name": "Carolina Gómez Trejos",
-      "img": "IMG/carogt.jpg",
-      "page": "profiles/carogt.html",
+      "img": "/Aprendizaje-Web/IMG/carogt.jpg",
+      "page": "/Aprendizaje-Web/profiles/carogt.html",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Yensy Helena Gómez Villegas",
-      "img": "IMG/yenGomez.jpg",
-      "page": "profiles/yhgv.html",
+      "img": "/Aprendizaje-Web/IMG/yenGomez.jpg",
+      "page": "/Aprendizaje-Web/profiles/yhgv.html",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Carolina Jiménez Gómez",
-      "img": "IMG/cjg.jpg",
-      "page": "profiles/cjg.html",
+      "img": "/Aprendizaje-Web/IMG/cjg.jpg",
+      "page": "/Aprendizaje-Web/profiles/cjg.html",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Giseth Johana Grimaldo B.",
-      "img": "IMG/fotoGiseth.JPG",
-      "page": "profiles/gisethInfo.html",
+      "img": "/Aprendizaje-Web/IMG/fotoGiseth.JPG",
+      "page": "/Aprendizaje-Web/profiles/gisethInfo.html",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Vanessa Velásquez Gómez",
-      "img": "IMG/Emma_Yo.jpg",
-      "page": "profiles/vanessa.html",
+      "img": "/Aprendizaje-Web/IMG/Emma_Yo.jpg",
+      "page": "/Aprendizaje-Web/profiles/vanessa.html",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Naranjita Golden",
-      "img": "IMG/naranjita.jpg",
-      "page": "profiles/naranjita.html",
+      "img": "/Aprendizaje-Web/IMG/naranjita.jpg",
+      "page": "/Aprendizaje-Web/profiles/naranjita.html",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Tatiana Amariles",
-      "img": "IMG/tatiana.jpg",
-      "page": "profiles/tatianaAmariles.html",
+      "img": "/Aprendizaje-Web/IMG/tatiana.jpg",
+      "page": "/Aprendizaje-Web/profiles/tatianaAmariles.html",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Alejandro Rendon",
-      "img": "IMG/arendon.jpg",
+      "img": "/Aprendizaje-Web/IMG/arendon.jpg",
       "page": "//github.com/aerendon",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Sebastian Duque",
-      "img": "IMG/robot_negro.png",
+      "img": "/Aprendizaje-Web/IMG/robot_negro.png",
       "page": "//github.com/sebas095",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Leiver Campeón",
-      "img": "IMG/github.png",
+      "img": "/Aprendizaje-Web/IMG/github.png",
       "page": "//github.com/leiverandres",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     }
