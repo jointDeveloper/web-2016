@@ -8,7 +8,7 @@ $(function() {
   $.getJSON(path + "data.json", function (data) {
     data.perfiles.forEach(function(perfil) {
       perfiles.push({
-        "img": perfil.img,
+        "img": path + perfil.img,
         "page": path + 'HTML/' + perfil.page,
         "name": perfil.name
       });
