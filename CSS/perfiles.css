@@ -531,3 +531,42 @@ progress[value]::-moz-progress-bar {
   transform: scale(1);
   opacity: 1;
 }
+
+/* Medias */
+
+@media (min-width: 1024px) and (max-width: 1205px) {
+  ul.topnav li a {
+    padding: 16px 8px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .topnav {
+    width: 80%;
+    height: 100%;
+    margin: 0;
+  }
+
+  ul.topnav li {
+    display: block;
+    float: none;
+  }
+
+  ul.topnav li a {
+    text-align: left;
+  }
+
+  .robo-nav {
+    float: left;
+  }
+
+}
+
+/*
+mobile-portrait: min:320px - max:479px;
+mobile-landscape: min:480px - max:599px;
+small-tablet-portrait: min:600px - max:799px;
+small-tablet-landscape: min:800px - max:767px;
+tablet-portrait: min:768px - max:1023px;
+tablet-landscape: min:1024px; */
