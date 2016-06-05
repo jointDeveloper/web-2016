@@ -4,6 +4,7 @@
 
 ## Integrantes:
 
+* Alejandro E. Rendon `alejorendon@utp.edu.co`
 * Angélica Aguirre `anaguirre@utp.edu.co`
 * Angie Melissa Delgado León
 * Carolina Gómez Trejos  `carolina9511@gmail.com`
