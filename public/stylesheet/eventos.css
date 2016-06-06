@@ -60,6 +60,22 @@ html,body {
 	min-width: 140px;
 }
 
+.panelleft ul li > a{
+	text-decoration: none;
+}
+
+.panelleft ul li ul li{
+	list-style-type: none;
+	padding: 5px 0px;
+	font-size: 15px;
+}
+
+.panelleft ul li ul li > a:hover{
+	text-decoration: underline;
+	font-size: 17px;
+	color: #626262;
+}
+
 .panelleft li:hover > ul{
 	display: inline-block;
 	position: relative;
@@ -116,13 +132,14 @@ html,body {
 			box-sizing: border-box;
 		}
 
-		.panelup .imagen a:nth-child(2){
+		.panelup .imagen .wrapped{/*img ppal*/
 			margin: 0;
 			/*height: 100%;*/
 			border: 1px solid #fafafa;
 			flex-shrink: 2;
 			height: auto;
 			width: 100%;
+			box-shadow: 0px 0px 5px #899A95;
 		}
 
 		.panelup .imagen a:nth-child(1),.panelup .imagen a:nth-child(3) {
@@ -160,6 +177,9 @@ html,body {
 			width: 150px;
 			height: 100px;
 			max-width: 100%;
+			border: 1px solid gray;
+			border-radius: 2.5%;
+			box-shadow: 10px 10px 5px #899A95;
 		}
 
 		.galeria li{
