@@ -139,6 +139,9 @@ html,body {
 			flex-shrink: 2;
 			height: auto;
 			width: 100%;
+			max-width: 100%;
+			max-height: 400px;
+			overflow: hidden;
 			box-shadow: 0px 0px 5px #899A95;
 		}
 

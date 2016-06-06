@@ -2,8 +2,17 @@
 
   var i = 0;
 
-  function setImage(current,next){//imagen ppal y lista de imagenes disponibles
+  function setImage(current,next){//imagen ppal y la imagen i de la lista
     current.src = next.src;//actualiza la nueva imagen
+  }
+
+  function advanceImage(current,next,j){//imagen ppal y la imagen i de la lista
+    current.src = next.src;//actualiza la nueva imagen
+    i = j;
+  }
+
+  function restoreImage(current,lis){//imagen ppal y lista de imagenes(para poner en la que ibamos)
+    current.src = lis[i].getElementsByTagName("img")[0].src;//actualiza la nueva imagen
   }
 
   function NextImg(img,lis){//imagen ppal y lista de imagenes disponibles
@@ -24,6 +33,8 @@
     img.src = prevImg.src;//actualiza la nueva imagen
   }
 
+  /*-----------main-----------*/
+
   var lis = document.getElementsByClassName("galeria")[0].getElementsByTagName("li");
   var arrows = document.getElementsByClassName("imagen")[0].getElementsByTagName("a");
 
@@ -38,13 +49,28 @@
     PrevImg(imgppal,lis);
   });
 
-  /*for(var i = 0; i < lis.length; i++){
-    var img = lis[i].getElementsByTagName("img")[0];
+  /*for(var j = 0; j < lis.length; j++){
+    var img = lis[j].getElementsByTagName("img")[0];
     img.addEventListener("mouseover",function(){
-      //setImage(imgppal,img);
+      setImage(imgppal,img);
       console.log("hola");
+    });
+  }
+
+  for(var j = 0; j < lis.length; j++){
+    var img = lis[j].getElementsByTagName("img")[0];
+    img.addEventListener("mouseover",function(){
+      restoreImage(img,lis);
+      console.log("adios");
     });
   }*/
 
+  for(var j = 0; j < lis.length; j++){
+    var img = lis[j].getElementsByTagName("img")[0];
+    img.addEventListener("onclick",function(){
+      advanceImage(img,lis,j);
+      console.log("click");
+    });
+  }
 
 }())
