@@ -180,6 +180,14 @@ ul.topnav ul.right {
 			width: 100%;
 		}
 
+		.panelup .imagen a:nth-child(1),.panelup .imagen a:nth-child(3) {
+			margin: 0;
+			/*height: 100%;*/
+			flex-shrink: 2;
+			height: auto;
+			width: 15%;
+		}
+
 	/*-------------PanelBottom---------------*/
   .panelbottom{
     display: block;
