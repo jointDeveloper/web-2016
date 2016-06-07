@@ -2,22 +2,27 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Eventos</title>
+	<title>Eventos - JointDeveloper</title>
+	<link href="../../CSS/fonts.css" rel="stylesheet">
+	<link rel="icon" type="image/png" href="../../IMG/favicon.ico" />
 	<link href="../CSS/eventos.css" rel="stylesheet">
 </head>
 <body>
-	<!-- NAVBAR -->
-	<div class="subMenu" >
-		 	<div class="inner">
-				<a href="#" class="subNavBtn Logo">Logo</a>
-		 		<a href="#" class="subNavBtn">Home</a>
-		 		<a href="#" class="subNavBtn">Quienes somos</a>
-				<a href="#" class="subNavBtn">Perfiles</a>
-				<a href="#" class="subNavBtn">Eventos</a> <!-- Estamos parados acá-->
-				<a href="#" class="subNavBtn">Comunidad</a>
-				<a href="#" class="subNavBtn">Apoyanos</a>
-			</div>
-	</div>
+
+	<!--NAV-BAR-->
+	<nav class="container_nav">
+		<label for="show-menu" class="show-menu"><a id="logo-nav-responsive">jointDeveloper</a></label>
+		<ul class="topnav border" id="menu">
+			<li><img src="../IMG/robot.png" / style="padding-top: 2px"></li>
+			<li><a id="logo-nav" href="../index.html" style="padding-right: 2px">jointDeveloper</a></li>
+			<li><a href="../index.html"><span>Home</span></a></li>
+			<li><a href="about.html"><span>Quienes somos</span></a></li>
+			<li><a href="perfiles.html"><span>Perfiles</span></a></li>
+			<li><a href="eventos.html"><span>Eventos</span></a></li>
+			<li><a href="comunidad.html"><span>Comunidad</span></a></li>
+			<li><a href="apoyanos.html"><span>Apoyanos</span></a></li>
+		</ul>
+	</nav>
 
 	<div class="container">
 
@@ -27,13 +32,14 @@
 			 <ul>
 			   <li><a href="#" class="event">2015</a>
 					<ul>
-						<li><a href="#" class="event">CodeParty Pereira</a></li>
+						<li><a href="#" class="eventChild">CodeParty Pereira</a></li>
 					</ul>
 				 </li>
 
 				 <li><a href="#" class="event">2016</a>
 					 <ul>
- 						<li><a href="#" class="event">JointDevelopers KIDS</a></li>
+ 						<li><a href="#" class="eventChild">JointDevelopers KIDS</a></li>
+						<li><a href="#" class="eventChild">Otro</a></li>
  					 </ul>
 				 </li>
 		 	 </ul>
@@ -47,9 +53,11 @@
 
 			 <div class="panelup"> <!--En este panel se muestran las imagenes en el slide-->
 				 <div class="imagen">
-					 <a href=""> < </a>
-					 <a href=""><img src="../IMG/CodeParty2015Pereira/01.jpg"/></a>
-					 <a href=""> > </a>
+					 <a href="#"><img src="../IMG/prev.png" /></a>
+					 <div class="wrapped">
+					 		<a href="#"><img class="current" src="../IMG/CodeParty2015Pereira/01.jpg"/></a>
+					 </div>
+					 <a href="#"><img src="../IMG/next.png" /></a>
 				</div>
 			 </div>
 
@@ -57,11 +65,23 @@
 				 														que se van a mostrar en panelup
 																	-->
 
-			    <ul class="galeria"> <!-- ¿hay que ponerlas todas?-->
+			    <ul class="galeria">
 						<li><a href=""><img src="../IMG/CodeParty2015Pereira/01.jpg"/></a></li>
 						<li><a href=""><img src="../IMG/CodeParty2015Pereira/02.jpg"/></a></li>
 						<li><a href=""><img src="../IMG/CodeParty2015Pereira/03.jpg"/></a></li>
 						<li><a href=""><img src="../IMG/CodeParty2015Pereira/04.jpg"/></a></li>
+
+						<li><a href=""><img src="../IMG/CodeParty2015Pereira/05.jpg"/></a></li>
+						<li><a href=""><img src="../IMG/CodeParty2015Pereira/06.jpg"/></a></li>
+						<li><a href=""><img src="../IMG/CodeParty2015Pereira/07.jpg"/></a></li>
+						<li><a href=""><img src="../IMG/CodeParty2015Pereira/08.jpg"/></a></li>
+						<li><a href=""><img src="../IMG/CodeParty2015Pereira/09.jpg"/></a></li>
+						<li><a href=""><img src="../IMG/CodeParty2015Pereira/10.jpg"/></a></li>
+						<li><a href=""><img src="../IMG/CodeParty2015Pereira/11.jpg"/></a></li>
+						<li><a href=""><img src="../IMG/CodeParty2015Pereira/12.jpg"/></a></li>
+						<li><a href=""><img src="../IMG/CodeParty2015Pereira/13.jpg"/></a></li>
+						<li><a href=""><img src="../IMG/CodeParty2015Pereira/14.jpg"/></a></li>
+						<li><a href=""><img src="../IMG/CodeParty2015Pereira/15.jpg"/></a></li>
 					</ul>
 
 
@@ -79,5 +99,6 @@
 	  </em>
   </footer>
 
+<script src="../JS/eventos.js"></script>
 </body>
 </html>
