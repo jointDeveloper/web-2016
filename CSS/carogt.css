@@ -114,7 +114,7 @@ progress[value]::-moz-progress-bar {
     -moz-linear-gradient(
       left,
       #C06FFF,
-      #8217CC;
+      #8217CC
     );
   border-radius: 0px;
   background-size: 35px 20px, 100% 100%, 100% 100%;
