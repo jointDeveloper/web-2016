@@ -59,6 +59,12 @@ html, body {
 
 .About{
 	background-color: pink;
+  background-image: url("../IMG/acercade.jpg");
+  float: left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	width: 100%;
 	height: 50%;
 	float: left;
@@ -191,6 +197,12 @@ html, body {
 
 .Apoyanos{
 	background-color: green;
+  background-image: url("../IMG/apoyanos.jpg");
+  float: left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	width: 100%;
 	height: 35%;
 	float: left;

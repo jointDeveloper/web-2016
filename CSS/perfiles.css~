@@ -16,7 +16,7 @@ html, body {
 }
 
 .letra {
-  font-family: 'Lato', sans-serif
+  font-family: 'Linden Hill', serif;
 }
 
 .intro {
@@ -561,22 +561,6 @@ progress[value]::-moz-progress-bar {
     float: left;
   }
 
-}
-
-.h1Title{
-  font-family: 'Pacifico', cursive;
-  color: #f06292;
-  font-size: 159px
-}
-.fondo{
-  background-image: url(../IMG/bannerAcercade.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-}
-.posicionH2{
-  padding: 0px 4px 39px 637px;
 }
 
 /*
