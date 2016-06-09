@@ -1,243 +1,135 @@
-/* Azul verdoso: #78DEBC */
-body{
-  width: 100%;
-  max-width: 1024px;
-  margin: auto;
-  padding: 0px;
-  background-color: #F5F5F5;
-  font-size: 14px;
-  border: solid 2px black;
-  background-image: url("../images/nubes.png");
-  background-attachment: fixed;
-}
-
-.icon{
-  width: 20px;
-  height: 20px;
-  margin: 0px 5px;
-}
-
-
-/*---------NAV-BAR---------------*/
-#nav-bar{
-  width: 100%;
-  height: 7%;
-  margin-left: 0px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 10px 0px;
-  /*position: fixed;*/
-  display: block;
-  border: solid 2px black;
-  background-color: rgba(70,74,73,1);
-  border-radius: 5px;
-}
-
-#nav-bar li a{
-  width: 33.3%;
-  padding: 10px;
-  color: white;
-  font-weight: bolder;
-  text-decoration: none;
-  display: block;
-  border-radius: 3px;
-}
-
-#nav-bar ul{
-  list-style: none;
-}
-
-#nav-bar ul li{
-  display: inline;
-  font-size: 20px;
-  margin: auto;
-  padding: auto;
-  text-align: center;
-}
-
-#nav-bar li a:hover {
-  background-color: #8A9290;
-}
-
-/*---------CONTAINER OF PPAL AND SECUNDARY-----------*/
-.container{
-  width: 100%;
-  height: 100%;
-}
-
-/*---------SECUNDARY---------------*/
-.secundary_container{
-  display: block;
-  float: left;
-  width: 28.5%;
-  margin: 0px 1.5%;
-  font-weight: bolder;
-}
-
-#Album{
-  height: 45%;
-  /*background-color: rgba(120,222,188,.3);*/
-  background-color: rgba(44,143,119,.5);
-  margin-bottom: 5%;
-  box-shadow: 10px 10px 5px #899A95;
-  border: solid 2px #464A49;
-  border-radius: 5px;
-}
-
-#Album img{
-  display: block;
-  width: 150px;
-  height: 150px;
-  margin: 10px auto;
-  border-radius: 5px;
-  transition: 0.3s;
-}
-
-#Album img:hover{
-  opacity: 0.7;
-  border: solid 2px white;
-}
-
-#Links{
-  height: 45%;
-  background-color: rgba(203,133,206,.3);
-  color: white;
-  margin-top: 5%;
-  box-shadow: 10px 10px 5px #899A95;
-  border: solid 2px black;
-  border-radius: 5px;
-}
-
-#Links div{
-  display: block;
-}
-
-#Links .row{
-  padding: 5px;
-}
-
-/*---------PPAL---------------*/
-
-.ppal_container{
-  display: block;
-  border: solid 2px black;
-  background-color: rgba(119,50,124,.8);
-  float: left;
-  width: 66.5%;
-  /*margin-left: 1.5%;*/
-  margin: auto;
-  box-shadow: 10px 10px 5px #899A95;
-  border-radius: 5px;
-}
-
-
-.ppal_container .info{
-  width: 60%;
-  float: right;
-  margin: 0px;
-  font-family: "Palatino", Garamond, 'Comic Sans';
-  font-size: 20px;
-}
-
-.ppal_container #img_profile{
-  width: 30%;
-  padding: 2.5%;
-  float: left;
-}
-
-.circular{
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
-  border: solid 2px black;
-}
-
-.ppal_container #title{
-  font-size: 20px;
-  font-weight: bolder;
-  background-image: url("../images/nubes.png");
-  background-attachment: fixed;
-  margin: 5px;
-  text-align: center;
-}
-
-.ppal_container #info{
+ul.topnav li a:hover:not(.active) {
+  color: #6BFF49;
   font-weight: bold;
-}
-/*----------EMAIL-ME-----------*/
-#email-me{
-  clear: both;
-  border: solid 2px black;
-  width: 100%;
-  height: 30%;
-  color: white;
-  background-color: rgba(70,74,73,.8);
-  border: solid 2px black;
-  border-radius: 5px;
-  margin: 10px auto;
-  font-weight: bolder;
+  border-bottom: 2px solid #6bff49;
 }
 
-#email-me form .row input{
-  display: table-cell;
-  padding: 2px;
+ul.topnav li a.active {
+  color: #6BFF49;
+  background-color: #444;
+  font-weight: bold;
+  border-bottom: 2px solid #6bff49;
 }
 
-#email-me form .row label{
-  display: table-cell;
-  padding: 2px;
-  text-align: right;
+.circular {
+  max-width: 70%;
+  border-radius: 50%;
+  border:3px solid #6bff49;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
 }
 
-#email-me form .row{
-  display: table-row;
-}
-
-#email-me .container1{
-  display: table;
-  margin: auto;
-}
-
-#email-me .element1{
-  float: left;
-  width: 50%;
-}
-
-#email-me .container1 #message{
-  float: left;
-  width: 50%;
-}
-
-#email-me .button{
-  clear: left;
-  margin: 10px 45%;
+.button {
+  background-color: white;
+  border: 2px solid #6BFF49;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
   position: relative;
 }
 
-#email-me .button input{
-  /*http://www.bestcssbuttongenerator.com/#/17*/
-  border-radius: 15px;
-  border: 1px solid #D6BCD6;
-  display: inline-block;
-  cursor: pointer;
-  color: black;
-  padding: 3px 7px;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #E1E2ED;
-  background: #EDEDED linear-gradient(to bottom, #EDEDED 5%, #BAB1BA 100%) repeat scroll 0% 0%;
+.button:hover {
+  background-color: #6bff49;
+  color: white;
 }
 
-#email-me .button input:hover{
-  background: white;
+input:focus, textarea:focus {
+  color: #2E3133;
+  border: 2px solid #6bff49;
+  outline:0px;
 }
 
-/*----------FOOTER-----------*/
-footer{
-  border: solid 2px black;
-  height: 7%;
-  width: 100%;
+button {
+  background-color: white;
+  border: 2px solid #6bff49;
+  border-radius: 8px;
+  padding: 10px 20px;
   text-align: center;
-  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+}
+
+button:hover {
+  background-color: #6bff49;
+  color: white;
+}
+
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+
+  /* Get rid of default border in Firefox. */
+  border: none;
+
+  /* Dimensions */
+  width: 90%;
+  height: 20px;
+
+  /* For IE10 */
+  color: #6bff49;
+}
+
+progress[value]::-webkit-progress-value {
+  background-image:
+    -webkit-linear-gradient(-45deg,
+                           transparent 33%, rgba(0, 0, 0, .1) 33%,
+                           rgba(0,0, 0, .1) 66%, transparent 66%),
+    -webkit-linear-gradient(top,
+                           rgba(255, 255, 255, .25),
+                           rgba(0, 0, 0, .25)),
+    -webkit-linear-gradient(left, #6bff49, #6bff49);
+  border-radius: 0px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+progress[value]::-moz-progress-bar {
+  background-image:
+    -moz-linear-gradient(
+      135deg,
+      transparent 33%,
+      rgba(0, 0, 0, 0.1) 33%,
+      rgba(0, 0, 0, 0.1) 66%,
+      transparent 66%
+    ),
+    -moz-linear-gradient(
+      top,
+      rgba(255, 255, 255, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),
+    -moz-linear-gradient(
+      left,
+      #6bff49,
+      #6bff49
+    );
+  border-radius: 0px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+.div-border {
+  margin: 10px;
+  /*height: 220px;*/
+  height: auto; 
+  border: 2px solid #555;
+  border-radius: 20px;
+}
+
+.ul-icon{
+    list-style-image:url(../IMG/little_robotCJG.png);
+    font-size: 20px;
+    font-weight: bold;
 }
