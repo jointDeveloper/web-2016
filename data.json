@@ -65,6 +65,13 @@
       "img": "/Aprendizaje-Web/IMG/github.png",
       "page": "//github.com/leiverandres",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
+    },
+    {
+      "name": "John H. Osorio Ríos",
+      "img": "/Aprendizaje-Web/IMG/josorio.jpg",
+      "page": "/Aprendizaje-Web/HTML/profiles/josorio.html",
+      "description": "Ingeniero de Sistemas y Computación"
     }
+
   ]
 }
