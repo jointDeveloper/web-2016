@@ -4,7 +4,7 @@ $(function() {
   var index = 0;
   var size = 0;
 
-  $.getJSON("/Aprendizaje-Web/data.json", function (data) {
+  $.getJSON("./data.json", function (data) {
     data.perfiles.forEach(function(perfil) {
       perfiles.push({
         "img": perfil.img,

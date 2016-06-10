@@ -2,7 +2,7 @@
 
 # Comunidad jointDeveloper
 
-## Repositorio de Desarrollo y Pruebas 
+## Repositorio de Desarrollo y Pruebas
 
 ### Pruebas Locales:
 Para realizar pruebas locales se deberan hacer los siguientes cambios:
@@ -36,7 +36,7 @@ Por:
 * Cambiar index.html en la linea 28:
 
 ```html
-<a href="/Aprendizaje-Web/HTML/perfiles" id="allProfiles">Perfiles</a>
+<a href="/Aprendizaje-Web/HTML/perfiles.html" id="allProfiles">Perfiles</a>
 ```
 
 Por:

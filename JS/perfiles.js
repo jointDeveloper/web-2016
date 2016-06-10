@@ -1,6 +1,6 @@
 $(function () {
   var path = window.location.pathname;
-  $.getJSON("/Aprendizaje-Web/data.json", function (data) {
+  $.getJSON("../data.json", function (data) {
     var items = [];
     data.perfiles.forEach(function (perfil, index) {
       items.push(`<div class="container-img description">
