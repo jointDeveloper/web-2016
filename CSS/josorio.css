@@ -128,7 +128,7 @@ progress[value]::-moz-progress-bar {
 }
 
 .ul-icon{
-    list-style-image:url(../IMG/robot_negro_little.png);
+    list-style-image:url(../IMG/item.png);
     font-size: 20px;
     font-weight: bold;
 }
