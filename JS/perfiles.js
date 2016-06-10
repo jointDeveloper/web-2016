@@ -6,13 +6,13 @@ $(function () {
       items.push(`<div class="container-img description">
                     <img class="profileItem"
                        id="${perfil.name}"
-                       src=${perfil.img}
-                       onClick=(redirect("${perfil.page}"))>
+                       src=.${perfil.img}
+                       onClick=(redirect(".${perfil.page}"))>
                     </img>
                     <div class="mascara">
                       <h2>${perfil.name}</h2>
                       <p>${perfil.description}</p>
-                      <a href="${perfil.page}" class="link">Leer mas</a>
+                      <a href=".${perfil.page}" class="link">Leer mas</a>
                     </div>
                   </div>`
                 );

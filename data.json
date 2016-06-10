@@ -2,78 +2,75 @@
   "perfiles": [
     {
       "name": "Plantilla",
-      "img": "../IMG/plantilla.jpg",
-      "page": "../HTML/profiles/plantilla.html",
+      "img": "./IMG/plantilla.jpg",
+      "page": "./HTML/profiles/plantilla.html",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Carolina Gómez Trejos",
-      "img": "../IMG/carogt.jpg",
-      "page": "../HTML/profiles/carogt.html",
+      "img": "./IMG/carogt.jpg",
+      "page": "./HTML/profiles/carogt.html",
       "description": "Estudiante Ingenieria de Sistemas y Computación"
     },
     {
       "name": "Yensy Helena Gómez Villegas",
-      "img": "../IMG/yenGomez.jpg",
-      "page": "../HTML/profiles/yhgv.html",
+      "img": "./IMG/yenGomez.jpg",
+      "page": "./HTML/profiles/yhgv.html",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Carolina Jiménez Gómez",
-      "img": "../IMG/cjg.jpg",
-      "page": "../HTML/profiles/cjg.html",
+      "img": "./IMG/cjg.jpg",
+      "page": "./HTML/profiles/cjg.html",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Giseth Johana Grimaldo B.",
-      "img": "../IMG/fotoGiseth.JPG",
-      "page": "../HTML/profiles/gisethInfo.html",
+      "img": "./IMG/fotoGiseth.JPG",
+      "page": "./HTML/profiles/gisethInfo.html",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Vanessa Velásquez Gómez",
-      "img": "../IMG/Emma_Yo.jpg",
-      "page": "../HTML/profiles/vanessa.html",
+      "img": "./IMG/Emma_Yo.jpg",
+      "page": "./HTML/profiles/vanessa.html",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Naranjita Golden",
-      "img": "../IMG/naranjita.jpg",
-      "page": "../HTML/profiles/naranjita.html",
+      "img": "./IMG/naranjita.jpg",
+      "page": "./HTML/profiles/naranjita.html",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Tatiana Amariles",
-      "img": "../IMG/tatiana.jpg",
-      "page": "../HTML/profiles/tatianaAmariles.html",
+      "img": "./IMG/tatiana.jpg",
+      "page": "./HTML/profiles/tatianaAmariles.html",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Alejandro Rendon",
-      "img": "../IMG/arendon.jpg",
-      "page": "../HTML/profiles/arendon.html",
+      "img": "./IMG/arendon.jpg",
+      "page": "./HTML/profiles/arendon.html",
       "description": "Estudiante de Ingeniería de Sistemas y Computación. Grupo de Investigación Sirius. Loco."
     },
     {
       "name": "Sebastian Duque",
-      "img": "../IMG/robot_negro.png",
+      "img": "./IMG/robot_negro.png",
       "page": "//github.com/sebas095",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Leiver Campeón",
-      "img": "../IMG/github.png",
+      "img": "./IMG/github.png",
       "page": "//github.com/leiverandres",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
-<<<<<<< HEAD
-=======
     },
     {
       "name": "John H. Osorio Ríos",
-      "img": "../IMG/josorio.jpg",
-      "page": "../HTML/profiles/josorio.html",
+      "img": "./IMG/josorio.jpg",
+      "page": "./HTML/profiles/josorio.html",
       "description": "Ingeniero de Sistemas y Computación"
->>>>>>> gh-pages
     }
   ]
 }
