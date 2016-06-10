@@ -18,7 +18,13 @@ html, body {
 .letra {
   font-family: 'Lato', sans-serif
 }
-
+.titulo {
+  font-family: 'Linden Hill', serif;
+  font-size: 90.3333px;
+  color: #fff;
+  font-size: 5em;
+  text-shadow: 2px 2px #444;
+}
 .intro {
   font-size: 5em;
   text-shadow: 2px 2px #444;
@@ -94,7 +100,6 @@ html, body {
   width: 90%;
   min-height: 95% !important;
   padding-top: 5%;
-
 }
 
 .container{
@@ -415,16 +420,43 @@ progress[value]::-moz-progress-bar {
 }
 
 .profileItem {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
 }
 
 /* Efectos Perfiles */
 
+.contentPerfiles {
+  position: relative;
+  content: "";
+  clear: both;
+  display: block;
+  background-color: white;
+  margin: 3% auto;
+  padding: 3%;
+  padding-top: 5%;
+}
+
+.intro-Perfiles {
+  background-image: url(../IMG/perfiles1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  content: "";
+  clear: both;
+  display: block;
+  background-color: white;
+  margin: auto;
+  width: 100%;
+  height: 95% !important;
+  padding-top: 5%;
+
+}
+
 .container-img {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     float: left;
     overflow: hidden;
     position: relative;
@@ -434,8 +466,8 @@ progress[value]::-moz-progress-bar {
 }
 
 .container-img .mascara {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   position: absolute;
   overflow: hidden;
   top: 0;
@@ -486,7 +518,7 @@ progress[value]::-moz-progress-bar {
 }
 
 .description .mascara {
-  background-color: rgba(119, 80, 21, 0.9);
+  background-color: #444;
   transition: all 0.5s linear;
   opacity: 0;
 }
@@ -512,7 +544,7 @@ progress[value]::-moz-progress-bar {
   opacity: 0;
   transform: scale(0);
   transition: all 0.5s linear;
-  background-color: rgba(119, 80, 21, 0.9);
+  background-color: #444;
 }
 
 .description:hover img {

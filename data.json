@@ -65,13 +65,15 @@
       "img": "../IMG/github.png",
       "page": "//github.com/leiverandres",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
+<<<<<<< HEAD
+=======
     },
     {
       "name": "John H. Osorio Ríos",
       "img": "../IMG/josorio.jpg",
       "page": "../HTML/profiles/josorio.html",
       "description": "Ingeniero de Sistemas y Computación"
+>>>>>>> gh-pages
     }
-
   ]
 }

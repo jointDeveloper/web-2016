@@ -17,7 +17,7 @@ $(function () {
                   </div>`
                 );
 
-      if ((index + 1) % 3 == 0) {
+      if ((index + 1) % 4 == 0) {
         items[index] += '<br>';
       }
     });
@@ -25,7 +25,7 @@ $(function () {
     $("<div/>", {
       "class": "profileList",
       html: items.join("")
-    }).appendTo("nav");
+    }).appendTo("#integrantes");
   });
 });
 
