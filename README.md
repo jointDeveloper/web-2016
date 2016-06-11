@@ -6,12 +6,11 @@
 
 1. Crear un branch(rama) diferente a la principal(_gh-pages_ en nuestro caso)
 `git checkout -b NombreBranch`
-
 2. Realizar los cambios sobre el repositorio
 3. Agregar los cambios, por ejemplo `git add .` ó `git add -A`
 4. Realizar el commit coherente con los cambios `git commit -m "Descripción del cambio"`
 5. ```git push origin NombreBranch```
-6. Por último entrar en la interfaz de github `https://github.com/jointDeveloper/Aprendizaje-Web` y realizar un <a href="https://help.github.com/articles/using-pull-requests/">pull request(PR)</a> y esperar a que otro miembro lo apruebe. Es de vital importancia dentro del proceso esta practica, ya que se asegura el no alterar el trabajo de los demás. 
+6. Por último entrar en la interfaz de github `https://github.com/jointDeveloper/Aprendizaje-Web` y realizar un <a href="https://help.github.com/articles/using-pull-requests/">pull request(PR)</a> y esperar a que otro miembro lo apruebe. Es de vital importancia dentro del proceso esta practica, ya que se asegura el no alterar el trabajo de los demás.
 
 _NOTA:_ Realizar actualizaciones sobre la rama `gh-pages` sólo si se está completamente seguro de que los cambios están correctos
 ___
