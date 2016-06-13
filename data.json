@@ -56,9 +56,9 @@
     },
     {
       "name": "Sebastian Duque",
-      "img": "./IMG/robot_negro.png",
-      "page": "//github.com/sebas095",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
+      "img": "./IMG/sduque.jpg",
+      "page": "./HTML/profiles/sduque.html",
+      "description": "Estudiante Ingenieria de Sistemas y Computación"
     },
     {
       "name": "Leiver Campeón",
