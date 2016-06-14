@@ -1,4 +1,4 @@
-{
+  {
   "perfiles": [
     {
       "name": "Plantilla",
@@ -15,7 +15,7 @@
     {
       "name": "Yensy Helena Gómez Villegas",
       "img": "./IMG/yenGomez.jpg",
-      "page": "./HTML/profiles/yhgv.html",
+      "page": "./HTML/profiles/yenGomez.html",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
@@ -52,7 +52,7 @@
       "name": "Alejandro Rendon",
       "img": "./IMG/arendon.jpg",
       "page": "./HTML/profiles/arendon.html",
-      "description": "Estudiante de Ingeniería de Sistemas y Computación. Grupo de Investigación Sirius."
+      "description": "Estudiante de Ingeniería de Sistemas y Computación. Grupo de Investigación Sirius. Loco."
     },
     {
       "name": "Sebastian Duque",
