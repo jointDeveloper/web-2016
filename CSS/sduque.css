@@ -126,3 +126,7 @@ progress[value]::-moz-progress-bar {
   border: 2px solid #555;
   border-radius: 20px;
 }
+
+.info-style {
+  font-size: 20px;
+}
