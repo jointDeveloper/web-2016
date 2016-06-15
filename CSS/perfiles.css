@@ -610,6 +610,18 @@ progress[value]::-moz-progress-bar {
 .posicionH2{
   padding: 0px 4px 39px 637px;
 }
+.div-border {
+  margin: 10px;
+  height: 220px;
+  border: 2px solid #555;
+  border-radius: 20px;
+}
+
+.ul-icon{
+    list-style-image:url(../IMG/item-john.png);
+    font-size: 20px;
+    font-weight: bold;
+}
 
 /*
 mobile-portrait: min:320px - max:479px;
