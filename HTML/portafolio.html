@@ -10,7 +10,34 @@
 	  <link href="../CSS/portafolio.css" rel="stylesheet">
 	<title>Portafolio de Servicios - jointDeveloper</title>
 
+	<script type="text/javascript">
+	
+		function mostrarItemHc(panel){
+		var itemHoraCodigo = document.getElementById("opcionItemHorasDeCodigo");
+		var itemEntrenamiento = document.getElementById("opcionItemEntrenamiento");
+		var itemDesarrollo = document.getElementById("opcionItemDesarrolloDeProyectos");
+			
+		if (panel==1){ 
+			
+			itemHoraCodigo.style.display='block';
+			itemEntrenamiento.style.display='none';
+			itemDesarrollo.style.display='none';
+		}
+		if (panel==2){ 
+			itemHoraCodigo.style.display='none';
+			itemEntrenamiento.style.display='block';
+			itemDesarrollo.style.display='none';			
+		}
+	if (panel==3){ 
+			itemHoraCodigo.style.display='none';
+			itemEntrenamiento.style.display='none';
+			itemDesarrollo.style.display='block';
+	}
+	}
+	
+	</script>
 </head>
+
 <body>
 	<div class="header">Portafolio</div>
 	<div class="container">
@@ -27,7 +54,7 @@
 		<div id="horizontal">
 			<ul>
 				<li>
-					<div class="contenidoItem">
+					<div class="contenidoItemHorasCodigo" onclick="mostrarItemHc(1)">
 						<a>
 							<div>
 								<h2>
@@ -43,7 +70,7 @@
 
 				</li>
 				<li>
-					<div class="contenidoItem">
+					<div class="contenidoItemEntrenamiento" onclick="mostrarItemHc(2)">
 						<a>
 							<div>
 								<h2>
@@ -55,10 +82,11 @@
 						<figure>
 							<img src="../IMG/zombiecode.jpg" style="height:120px;width:120px;" />
 						</figure>
+						
 						</div>
 				</li>
 				<li>
-					<div class="contenidoItem">
+					<div class="contenidoItemDesarrolloProyectos" onclick="mostrarItemHc(3)">
 						<a>
 							<div>
 								<h2>
@@ -74,7 +102,7 @@
 				</li>
 			</ul>
 		</div>
-		<div class="opcionItemHorasDeCodigo">
+		<div class="opcionItemHorasDeCodigo" id="opcionItemHorasDeCodigo">
 			<div class="">
 				<ul>
 					<li>
@@ -104,7 +132,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="opcionItemEntrenamiento">
+		<div class="opcionItemEntrenamiento" id="opcionItemEntrenamiento">
 			<div class="">
 				<ul>
 					<li>
@@ -140,7 +168,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="opcionItemDesarrolloDeProyectos">
+		<div class="opcionItemDesarrolloDeProyectos" id="opcionItemDesarrolloDeProyectos">
 			<div class="">
 				<span>Nuestro equipo está capacitado para desarrollar aplicaciones con lenguajes de programación como HTML, CSS, JS, NODE y Arduino</span>
 			</div>
