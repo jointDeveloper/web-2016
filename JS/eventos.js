@@ -35,6 +35,7 @@
 
   /*-----------main-----------*/
 
+  var galeria = document.querySelector(".galeria")
   var lis = document.getElementsByClassName("galeria")[0].getElementsByTagName("li");
   var arrows = document.getElementsByClassName("imagen")[0].getElementsByTagName("a");
 
@@ -49,28 +50,27 @@
     PrevImg(imgppal,lis);
   });
 
-  /*for(var j = 0; j < lis.length; j++){
-    var img = lis[j].getElementsByTagName("img")[0];
-    img.addEventListener("mouseover",function(){
-      setImage(imgppal,img);
-      console.log("hola");
-    });
+
+  // Closure
+  function listenImg (img, j) {
+    return function () {
+      // advanceImage(img, lis, j);
+      console.log("click : ", j);
+    }
   }
 
   for(var j = 0; j < lis.length; j++){
     var img = lis[j].getElementsByTagName("img")[0];
-    img.addEventListener("mouseover",function(){
-      restoreImage(img,lis);
-      console.log("adios");
-    });
-  }*/
-
-  for(var j = 0; j < lis.length; j++){
-    var img = lis[j].getElementsByTagName("img")[0];
-    img.addEventListener("onclick",function(){
-      advanceImage(img,lis,j);
-      console.log("click");
-    });
+    //img.addEventListener("click", listenImg(img, j));
   }
+
+  // 2 metodo - Event Delegation
+  galeria.addEventListener('click', function (ev) {
+    if (ev.target.nodeName === 'IMG') {
+      console.log(ev.target.src)
+    }
+  })
+
+
 
 }())
