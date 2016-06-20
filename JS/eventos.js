@@ -7,7 +7,7 @@
   }
 
   function advanceImage(current,next,j){//imagen ppal y la imagen i de la lista
-    current.src = next.src;//actualiza la nueva imagen
+    setImage(current,next);
     i = j;
   }
 
@@ -50,27 +50,17 @@
     PrevImg(imgppal,lis);
   });
 
-
-  // Closure
-  function listenImg (img, j) {
-    return function () {
-      // advanceImage(img, lis, j);
-      console.log("click : ", j);
-    }
-  }
-
-  for(var j = 0; j < lis.length; j++){
-    var img = lis[j].getElementsByTagName("img")[0];
-    //img.addEventListener("click", listenImg(img, j));
-  }
-
-  // 2 metodo - Event Delegation
+  // Event Delegation
   galeria.addEventListener('click', function (ev) {
     if (ev.target.nodeName === 'IMG') {
-      console.log(ev.target.src)
+      for(var j = 0; j < lis.length; j++){
+        var img = lis[j].getElementsByTagName("img")[0];
+        if(img === ev.target){
+          advanceImage(imgppal,ev.target,j);
+        }
+      }
     }
-  })
-
+  });
 
 
 }())
