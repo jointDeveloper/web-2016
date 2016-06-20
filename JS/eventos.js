@@ -2,8 +2,8 @@
 
   var i = 0;
 
-  function setImage(current,next){//imagen ppal y la imagen i de la lista
-    current.src = next.src;//actualiza la nueva imagen
+  function setImage(current,next){
+    current.src = next.src.replace("_small","");//actualiza la nueva imagen
   }
 
   function advanceImage(current,next,j){//imagen ppal y la imagen i de la lista
@@ -21,7 +21,7 @@
       i = 0;
     }
     var nextImg = lis[i].getElementsByTagName("img")[0];
-    img.src = nextImg.src;//actualiza la nueva imagen
+    setImage(img,nextImg);
   }
 
   function PrevImg(img,lis){
@@ -30,7 +30,7 @@
       i = lis.length;//hasta el tamaño de la lista de imagenes
     }
     var prevImg = lis[i].getElementsByTagName("img")[0];
-    img.src = prevImg.src;//actualiza la nueva imagen
+    setImage(img,prevImg);
   }
 
   /*-----------main-----------*/
