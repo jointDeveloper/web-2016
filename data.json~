@@ -27,7 +27,7 @@
     {
       "name": "Giseth Johana Grimaldo B.",
       "img": "./IMG/fotoGiseth.JPG",
-      "page": "./HTML/perfiles/giseth.html",
+      "page": "./HTML/perfiles/gisethInfo.html",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
@@ -40,6 +40,12 @@
       "name": "Naranjita Golden",
       "img": "./IMG/naranjita.jpg",
       "page": "./HTML/perfiles/naranjita.html",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
+    },
+    {
+      "name": "Tatiana Amariles",
+      "img": "./IMG/tatiana.jpg",
+      "page": "./HTML/perfiles/tatianaAmariles.html",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
