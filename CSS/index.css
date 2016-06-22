@@ -57,7 +57,7 @@ html, body {
 
 /*---------------ABOUT----------------*/
 
-.About{
+.Acercade{
 	background-color: pink;
   background-image: url("../IMG/acercade.jpg");
   float: left;
@@ -71,7 +71,7 @@ html, body {
   text-shadow: 2px 2px #444;
 }
 
-.About:hover{
+.Acercade:hover{
   opacity: 0.7;
   cursor: pointer;
 }
