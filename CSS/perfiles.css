@@ -125,6 +125,10 @@ html, body {
   color: white;
 }
 
+.down {
+  position: absolute;
+}
+
 /*Navigation*/
 
 #logo-nav, #logo-nav-responsive {
