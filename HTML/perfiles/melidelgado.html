@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
+    <link href="../../CSS/perfiles.css" rel="stylesheet">
+    <link href="../../CSS/fonts.css" rel="stylesheet">
+    <link href="../../CSS/font-awesome.min.css" rel="stylesheet">
+    <link href="../../CSS/meli.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../../IMG/favicon.ico" />
+    <script type="text/javascript" src="../../JS/Chart.min.js"></script>
+    <!--<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Linden+Hill:400italic' rel='stylesheet' type='text/css'>-->
+    <title>Angie M. Delgado - jointDeveloper</title>
+  </head>
+  <body>
+    <div class="container center">
+      <header>
+        <div class="menu_nav">
+          <a href="#" class="bt-menu"><span class="icon-list2"></span></a>
+        </div>
+        <nav class="container_nav">
+          <ul class="topnav border" id="menu">
+            <li><img src="../../IMG/robot.png" class="robo-nav" /></li>
+            <li><a id="logo-nav" href="../../index.html" style="padding-right: 2px">jointDeveloper</a></li>
+            <li><a href="#inicio" id="nav-inicio" class="group active"><span>Inicio</span></a></li>
+            <li><a href="#info" id="nav-info" class="group"><span>Info</span></a></li>
+            <li><a href="#aptitudes" id="nav-aptitudes" class="group"><span>Aptitudes</span></a></li>
+            <li><a href="#educacion" id="nav-educacion" class="group"><span>Educación</span></a></li>
+            <li><a href="#cursos" id="nav-cursos" class="group"><span>Cursos</span></a></li>
+            <li><a href="#proyectosport" id="nav-proyectosport" class="group"><span>Proyectos - Portafolio</span></a></li>
+            <li><a href="#pasatiempos" id="nav-pasatiempos" class="group"><span>Pasatiempos</span></a></li>
+            <li><a href="#articulos" id="nav-articulos" class="group"><span>Articulos</span></a></li>
+            <li><a href="#contacto" id="nav-contacto" class="group"><span>Contacto</span></a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="content content-header centered" id="inicio">
+        <div class="col-4">
+          <img class="circular img-small" src="../../IMG/meli.jpg"/>
+        </div>
+        <div class="col-8 about-me">
+          <div class="titulo bio-title">
+            <h3 class="titulo">Angie Melissa Delgado León</h3>
+          </div>
+          <p>Soy estudiante de Ingeniería de Sistemas de la Universidad Francisco de Paula Santander. Apasionada por la Programación Competitiva, me gusta enseñar, compartir conocimiento y aprender cosas nuevas.</p>
+          <br>
+          <div class="row">
+            <a href="https://github.com/Meyito" target="_blank"><img src="../../IMG/icons/template/white/github.png" alt="Github-jointDeveloper" class="icon-title" /></a>
+            <a href="https://www.facebook.com/amelisdl" target="_blank"><img src="../../IMG/icons/template/white/facebook.png" alt="Facebook-jointDeveloper" class="icon-title" /></a>
+            <a href="https://twitter.com/Meyito_" target="_blank"><img src="../../IMG/icons/template/white/twitter.png" alt="Twitter-jointDeveloper" class="icon-title" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content content-header" id="aptitudes">
+        <div class="col-12">
+          <div class="titulo section-title">
+            <h3 class="titulo title-section">Aptitudes</h3>
+          </div>
+        </div>
+        <div>
+        </div>
+        <canvas id="myChart" class="chart-aptitudes center"></canvas>
+        <script>
+        var ctx = document.getElementById("myChart").getContext("2d");
+        var data = {
+            labels: ["Java", "C++", "PHP", "AngularJS", "JavaScript", "NodeJS", "Git", "HTML", "CSS"],
+            datasets: [
+                {
+                    label: "",
+                    backgroundColor: "rgba(255,99,132,0.2)",
+                    borderColor: "rgba(255,99,132,1)",
+                    pointBackgroundColor: "rgba(255,99,132,1)",
+                    pointBorderColor: "#fff",
+                    pointHoverBackgroundColor: "#fff",
+                    pointHoverBorderColor: "rgba(255,99,132,1)",
+                    data: [70, 30, 60, 40, 50, 20, 30, 50, 50]
+                }
+            ]
+        };
+
+        var myRadarChart = new Chart(ctx, {
+            type: 'radar',
+            data: data,
+            options: {
+               scale: {
+                  ticks: {
+                    beginAtZero: true,
+                    max: 100
+                }
+              }
+            }
+        });
+        
+        </script>
+      </div>
+
+      <div class="content content-header" id="info">
+        <div class="col-12 adjust">
+          <div class="titulo section-title">
+            <h3 class="titulo title-section"> Acerca de Mi</h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6" >
+            <div class="col-12">
+            </div>
+            <div class="col-6">
+              <div class="field">
+                Cosas que no me gustan
+              </div>
+              <div class="field">
+                <i class="fa "></i> Injusticias
+              </div>
+              <div class="field">
+                 Arrogancia
+              </div>
+              <div class="field">
+                Peliculas de miedo
+              </div>
+              <div class="field">
+                Spoilers
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="field">
+                <div class="progress-bar blue">
+                  <span class="reverse" style="width: 100%"></span>
+                </div>
+              </div>
+              <div class="field">
+                <div class="progress-bar blue">
+                  <span class="reverse" style="width: 90%"></span>
+                </div>
+              </div>
+              <div class="field">
+                <div class="progress-bar blue">
+                  <span class="reverse" style="width: 80%"></span>
+                </div>
+              </div>
+              <div class="field">
+                <div class="progress-bar blue">
+                  <span class="reverse" style="width: 70%"></span>
+                </div>
+              </div>
+              <div class="field">
+                <div class="progress-bar blue">
+                  <span class="reverse" style="width: 60%"></span>
+                </div>
+              </div>
+              <div class="field">
+                <div class="progress-bar blue">
+                  <span class="reverse" style="width: 50%"></span>
+                </div>
+              </div>
+              <div class="field">
+                <div class="progress-bar blue">
+                  <span class="reverse" style="width: 40%"></span>
+                </div>
+              </div>
+              <div class="field">
+                <div class="progress-bar blue">
+                  <span class="reverse" style="width: 30%"></span>
+                </div>
+              </div>
+              <div class="field">
+                <div class="progress-bar blue">
+                  <span class="reverse" style="width: 20%"></span>
+                </div>
+              </div>
+              <div class="field">
+                <div class="progress-bar blue">
+                  <span class="reverse" style="width: 10%"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6" >
+            <div class="col-6">
+              <div class="field">
+                <div class="progress-bar pink">
+                  <span style="width: 100%"></span>
+                </div>  
+              </div>
+              <div class="field">
+                <div class="progress-bar pink">
+                  <span style="width: 90%"></span>
+                </div>  
+              </div>
+              <div class="field">
+                <div class="progress-bar pink">
+                  <span style="width: 80%"></span>
+                </div>  
+              </div>
+              <div class="field">
+                <div class="progress-bar pink">
+                  <span style="width: 70%"></span>
+                </div>  
+              </div>
+              <div class="field">
+                <div class="progress-bar pink">
+                  <span style="width: 60%"></span>
+                </div>  
+              </div>
+              <div class="field">
+                <div class="progress-bar pink">
+                  <span style="width: 50%"></span>
+                </div>  
+              </div>
+              <div class="field">
+                <div class="progress-bar pink">
+                  <span style="width: 40%"></span>
+                </div>  
+              </div>
+              <div class="field">
+                <div class="progress-bar pink">
+                  <span style="width: 30%"></span>
+                </div>  
+              </div>
+              <div class="field">
+                <div class="progress-bar pink">
+                  <span style="width: 20%"></span>
+                </div>  
+              </div>
+              <div class="field">
+                <div class="progress-bar pink">
+                  <span style="width: 10%"></span>
+                </div>  
+              </div>
+              
+            </div>
+            <div class="col-6">
+              <div class="field">
+                Cosas que Amo <i class="fa fa-heart"></i>
+              </div>
+              <div class="field">
+                <i class="fa fa-users"></i> Mi Familia y mis amigos
+              </div>
+              <div class="field">
+                <i class="fa fa-code"></i> La programación competitiva
+              </div>
+              <div class="field">
+                Aprender 
+              </div>
+              <div class="field">
+                Las sonrisas
+              </div>
+              <div class="field">
+                Perros y Gatos, ¿Quién no los ama?
+              </div>
+              <div class="field">
+                Una buena película, una buena canción y un buen libro 
+              </div>
+              <div class="field">
+                Viajar
+              </div>
+              <div class="field">
+                Voleyball
+              </div>
+              <div class="field">
+                Dibujar
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content content-header" id="educacion">
+        <div class="col-12">
+          <div class="titulo section-title">
+            <h3 class="titulo title-section">Educación</h3>
+          </div>
+        </div>
+
+        <div class="section-body">
+          <div class="col-4">
+            <div class="div-border education-tiles">
+              <h3>Ingeniería de Sistemas</h3>
+              <h4>Duración: 10 Semestres</h4>
+              <h4>Universidad Francisco de Paula Santander</h4>
+              <h4>Semestre: 9</h4>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="div-border education-tiles">
+              <h3>Server-side Development with NodeJS</h3>
+              <h4>The Hong Kong University of Science and Technology</h4>
+              <h4>Coursera</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content content-header" id="proyectos">
+        <div class="col-12">
+          <div class="titulo section-title">
+            <h3 class="titulo title-section">Proyectos</h3>
+          </div>
+        </div>
+
+        <div class="section-body">
+        </div>
+      </div>
+
+      <div class="content content-header" id="pasatiempos">
+        <div class="col-12">
+          <div class="titulo section-title">
+            <h3 class="titulo title-section">Pasatiempos</h3>
+          </div>
+        </div>
+
+        <div class="section-body">
+        </div>
+      </div>
+
+      <div class="content content-header" id="contact">
+        <div class="col-12">
+          <div class="titulo section-title">
+            <h3 class="titulo title-section">Contacto</h3>
+          </div>
+        </div>
+
+        <div class="section-body">
+        </div>
+      </div>
+
+			<div class="footer">
+        <div class="row">
+          <div class="col-3">
+            <a href="http://sirius.utp.edu.co" target="_blank"><img src="../../IMG/sirius.png" alt="Facebook-jointDeveloper" style="width: 35%"/></a>
+          </div>
+          <div class="col-6">
+            <div class="row">
+              info@jointDevelopers.co
+            </div>
+            <br />
+            <div class="row">
+              <a href="http://facebook.com/jointDeveloper" target="_blank"><img src="../../IMG/icons/template/white/facebook.png" alt="Facebook-jointDeveloper" class="icon-footer" /></a>
+              <a href="http://facebook.com" target="_blank"><img src="../../IMG/icons/template/white/github.png" alt="Facebook-jointDeveloper" class="icon-footer"  /></a>
+              <a href="http://facebook.com" target="_blank"><img src="../../IMG/icons/template/white/instagram.png" alt="Facebook-jointDeveloper" class="icon-footer"  /></a>
+              <a href="https://twitter.com/jointdev" target="_blank"><img src="../../IMG/icons/template/white/twitter.png" alt="Facebook-jointDeveloper" class="icon-footer"  /></a>
+              <a href="http://facebook.com" target="_blank"><img src="../../IMG/icons/template/white/google.png" alt="Facebook-jointDeveloper" class="icon-footer"  /></a>
+              <a href="http://facebook.com" target="_blank"><img src="../../IMG/icons/template/white/whatsapp.png" alt="Facebook-jointDeveloper" class="icon-footer"  /></a>
+            </div>
+          </div>
+          <div class="col-3">
+
+          </div>
+        </div>
+
+			</div>
+    </div>
+		<script src="../../JS/jquery.min.js"></script>
+		<script type="text/javascript" src="../../JS/hoover.js"></script>
+    <script type="text/javascript" src="../../JS/scroll.js"></script>
+    
+  </body>
+</html>
