@@ -1,3 +1,12 @@
+/*------------General-----------*/
+.centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*transform: translate(-525px, -150px);*/
+}
+/*---------Imagen ppal eventos--------*/
 .intro-eventos {
   background-image: url(../IMG/Eventos/eventosppal2.jpg);
   background-repeat: no-repeat;
@@ -12,6 +21,12 @@
   height: 100% !important;
   padding-top: 5%;
 }
+/*-----------Eventos----------*/
+.info {
+  font-weight: bold;
+  text-align: center;
+  color: #484848;
+}
 
 .event {
 	display: table-row;
@@ -22,29 +37,25 @@
   width: 300px;
   height: 300px;
   margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.event:nth-child(4) img {
+  width: 500px;
+  height: 500px;
+  margin-right: 50px;
+  margin-bottom: 50px;
 }
 
 .event-container {
-  padding-bottom:200px;
-  display: table;
-  display: inline-block;
+  display: table;/*para que su contenido se ajuste a sus hijos*/
   border: 1px solid black;
+  width: 75%;
 }
 
-#eventos {
-	height: 100%;
-}
-
-.centered {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  /*transform: translate(-50%, -50%);*/
-  transform: translate(-525px, -150px);
-}
-
+/*-----------Footer-----------*/
 .footer {
   position: relative;
   bottom: 0;
-  height: 20%;
+  /*height: 20%;*/
 }
