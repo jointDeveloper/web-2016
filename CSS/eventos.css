@@ -31,6 +31,7 @@
 .event {
 	display: table-row;
 	float: left;
+  position: relative;
 }
 
 .event img {
@@ -40,9 +41,9 @@
   margin-bottom: 50px;
 }
 
-.event:nth-child(4) img {
-  width: 500px;
-  height: 500px;
+.event:nth-child(4) img, .event:nth-child(1) img {
+  width: 650px;
+  height: 300px;
   margin-right: 50px;
   margin-bottom: 50px;
 }
@@ -51,6 +52,19 @@
   display: table;/*para que su contenido se ajuste a sus hijos*/
   border: 1px solid black;
   width: 75%;
+}
+
+.text {
+    z-index:100;
+    position:absolute;
+    text-align: center;
+    color:white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size:25px;
+    font-weight:bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-63%, -50%);
 }
 
 /*-----------Footer-----------*/
