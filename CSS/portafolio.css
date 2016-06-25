@@ -133,7 +133,10 @@ header h1{
 	padding-left: 15%;
 }
 
-
+.fondoitem{
+	background-color: #F8BBD0;
+	width: 87%;
+}
 
 footer{
 	background-color: #333; 
