@@ -14,7 +14,7 @@
 }
 
 .event {
-	display: inline-block;
+	display: table-row;
 	float: left;
 }
 
@@ -25,7 +25,10 @@
 }
 
 .event-container {
-  margin: auto;
+  padding-bottom:200px;
+  display: table;
+  display: inline-block;
+  border: 1px solid black;
 }
 
 #eventos {
@@ -38,4 +41,10 @@
   left: 50%;
   /*transform: translate(-50%, -50%);*/
   transform: translate(-525px, -150px);
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  height: 20%;
 }
