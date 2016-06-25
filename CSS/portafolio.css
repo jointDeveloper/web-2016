@@ -7,3 +7,12 @@
    text-align: center;
    margin: 0 10px 0 0;
 }
+.opcionItemHorasDeCodigo{
+	display: none;
+}
+.opcionItemEntrenamiento{
+	display: none;
+}
+.opcionItemDesarrolloDeProyectos{
+	display: none;
+}
