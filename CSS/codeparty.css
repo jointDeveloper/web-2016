@@ -58,12 +58,22 @@ html,body {
 
 .panelup a:nth-child(1) {
 	left: 0;
-	bottom: 50%;
+	bottom: 0;
+	background-color: #222121;
+	padding-top: 350px;
+	padding-bottom: 350px;
+}
+
+.panelup a:nth-child(1):hover, .panelup a:nth-child(3):hover {
+	background-color: black;
 }
 
 .panelup a:nth-child(3) {
 	right: 0;
-	bottom: 50%;
+	bottom: 0;
+	background-color: #222121;
+	padding-top: 350px;
+	padding-bottom: 350px;
 }
 
 /*-------------PanelBottom---------------*/
