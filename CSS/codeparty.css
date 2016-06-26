@@ -38,6 +38,7 @@ html,body {
 	margin: auto;
 	background-color: black;
 	position: relative;
+	border: 1px solid white;
 }
 
 .panelup a:nth-child(2) { /*The ppal image*/
@@ -51,6 +52,18 @@ html,body {
 .panelup a:nth-child(1),.panelup a:nth-child(3) {/*the arrows*/
 	color: white;
 	font-size: 100px;
+	text-decoration: none !important;
+	position: absolute;
+}
+
+.panelup a:nth-child(1) {
+	left: 0;
+	bottom: 50%;
+}
+
+.panelup a:nth-child(3) {
+	right: 0;
+	bottom: 50%;
 }
 
 /*-------------PanelBottom---------------*/
@@ -58,10 +71,10 @@ html,body {
 	display: block;
 	width: 100%;
 	margin: auto;
-	background-color: white;
+	background-color: #222121;
 	height: 20%;
 	/*border: 1px solid black;*/
-	direction:ltr;/*direccion del scroll (left to right)*/
+	direction:ltr;/*direccion del scroll (left to right) DOESN'T WORK*/
 	overflow: scroll;
 }
 
@@ -81,9 +94,8 @@ html,body {
 		width: 150px;
 		height: 100px;
 		max-width: 100%;
-		border: 1px solid gray;
+		border: 1px solid black;
 		border-radius: 2.5%;
-		box-shadow: 10px 10px 5px #899a95;
 	}
 
 	.galeria li{
