@@ -35,9 +35,9 @@
 
   /*-----------main-----------*/
 
-  var galeria = document.querySelector(".galeria")
+  var galeria = document.querySelector(".galeria");
   var lis = document.getElementsByClassName("galeria")[0].getElementsByTagName("li");
-  var arrows = document.getElementsByClassName("imagen")[0].getElementsByTagName("a");
+  var arrows = document.getElementsByClassName("panelup")[0].getElementsByTagName("a");
 
   var next = arrows[2];
   var prev = arrows[0];

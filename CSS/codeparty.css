@@ -40,8 +40,17 @@ html,body {
 	position: relative;
 }
 
-.panelup a:nth-child(2) {
+.panelup a:nth-child(2) { /*The ppal image*/
 	position: absolute;
+}
+
+.current {
+	max-height: 600px;
+}
+
+.panelup a:nth-child(1),.panelup a:nth-child(3) {/*the arrows*/
+	color: white;
+	font-size: 100px;
 }
 
 /*-------------PanelBottom---------------*/
@@ -52,6 +61,7 @@ html,body {
 	background-color: white;
 	height: 20%;
 	/*border: 1px solid black;*/
+	direction:ltr;/*direccion del scroll (left to right)*/
 	overflow: scroll;
 }
 
