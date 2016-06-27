@@ -43,10 +43,12 @@
   var prev = arrows[0];
   var imgppal = arrows[1].getElementsByTagName("img")[0];
 
-  next.addEventListener("click",function(){
+  next.addEventListener("click",function(ev){
+    ev.preventDefault();
     NextImg(imgppal,lis);
   });
-  prev.addEventListener("click",function(){
+  prev.addEventListener("click",function(ev){
+    ev.preventDefault();
     PrevImg(imgppal,lis);
   });
 
