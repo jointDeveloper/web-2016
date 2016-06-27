@@ -41,6 +41,11 @@
   margin-bottom: 50px;
 }
 
+.event img:hover {
+  -webkit-filter: contrast(70%); /* Chrome, Safari, Opera */
+  filter: contrast(70%);
+}
+
 .event:nth-child(4) img, .event:nth-child(1) img {
   width: 650px;
   height: 300px;
@@ -65,6 +70,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-63%, -50%);
+    cursor: pointer;
 }
 
 /*-----------Footer-----------*/

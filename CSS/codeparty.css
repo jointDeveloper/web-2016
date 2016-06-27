@@ -104,6 +104,8 @@ html,body {
 		max-width: 100%;
 		border: 1px solid black;
 		border-radius: 2.5%;
+    box-sizing: border-box;/*los bordes toman espacio hacia adentro*/
+    transition: all .2s;
 	}
 
 	.galeria li{
@@ -112,4 +114,5 @@ html,body {
 
 	.panelbottom .galeria img:hover{
 		cursor: pointer;
+    transform: scale(1.2);/*hace la imágen más grande*/
 	}
