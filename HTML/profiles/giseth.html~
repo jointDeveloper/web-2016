@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" href="../../IMG/favicon.ico" />
     <!--<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Linden+Hill:400italic' rel='stylesheet' type='text/css'>-->
-    <title>Perfiles - jointDeveloper</title>
+    <title>Giseth Johana Grimaldo Botero - jointDeveloper</title>
   </head>
   <body>
     <div class="container center">
@@ -50,7 +50,7 @@
       <div class="content scroll" id="info">
 				<div class="row vertical-center">
 					<div class="center col-4">
-            <img class="circular" src="../../IMG/plantilla.jpg"/>
+            <img class="circular" src="../../IMG/imagenPerfilGjg.jpg"/>
             <h2 class="letra">GISETH JOHANA GRIMALDO BOTERO</h2>
           </div>
 		      <div class="justifyText col-8  vertical-center">
@@ -146,80 +146,120 @@
       </div>
       <div class="content scroll" id="educacion">
         <h2 class=left>Educación</h2>
-				<div class="row vertical-center">
-					<p>Ingeniería en Sistemas y Computación</p>
-					<p>Universidad Tecnológica de Pereira</p>
-					<p>2013</p>
-				</div>
-        <div class="row vertical-center">
-					<p>Especialización en computación móvil en la nube con Android, una especialización de 6 cursos</p>
-					<p>Universidad de Vanderbilt y Universidad de MaryLand en Coursera</p>
-					<p>2015</p>
-					</div>
+	<div class="col-6">
+		<div class="div-border">
+			<p>Ingeniería en Sistemas y Computación</p>
+			<p>Universidad Tecnológica de Pereira</p>
+			<p>2013</p>
+		</div>
+	</div>
+	<div class="col-6">
+	        <div class="div-border">
+			<p>Especialización en computación móvil en la nube con Android, una especialización de 6 cursos</p>
+			<p>Universidad de Vanderbilt y Universidad de MaryLand en Coursera</p>
+			<p>2015</p>
+		</div>
+	</div>
 
         
       </div>
       <div class="content scroll" id="cursos">
         <h2 class=left>Cursos</h2>
-				 <div class="row vertical-center">
+		<div class="col-6">v
+				 <div class="div-border">
 					<p>Programming Mobile Services for Android Handheld Systems: Concurrency</p>
 					<p>Universidad de Vanderbilt en Coursera</p>
 					<p>2015</p>
 				</div>
-				<div class="row vertical-center">
+	</div>
+	<div class="col-6">
+				<div class="div-border">
 					<p>Programming Mobile Services for Android Handheld Systems: Security</p>
 					<p>Universidad de Vanderbilt en Coursera</p>
 					<p>2015</p>
-				</div>	
-				<div class="row vertical-center">
+				</div>	</div>
+	<div class="col-6">
+					
+				<div class="div-border">
 					<p>Programming Mobile Services for Android Handheld Systems: Comunication</p>
 					<p>Universidad de Vanderbilt en Coursera</p>
 					<p>2015</p>
-				</div>	
-				<div class="row vertical-center">
+				</div>
+	</div>
+	<div class="col-6">
+					
+				<div class="div-border">
 					<p>Programming Mobile Services for Android Handheld Systems: Spring</p>
 					<p>Universidad de Vanderbilt en Coursera</p>
 					<p>2015</p>
 				</div>	
-				<div class="row vertical-center">
+
+	</div>
+	<div class="col-6">
+				
+				<div class="div-border">
 					<p>Programming Mobile Applications for Android Handheld Systems: Part 1</p>
 					<p>Universidad de Maryland en Coursera</p>
 					<p>2014</p>
 				</div>	
-				<div class="row vertical-center">
+	</div>
+	<div class="col-6">
+				
+				<div class="div-border">
 					<p>Programming Mobile Applications for Android Handheld Systems: Part 2</p>
 					<p>Universidad de Maryland en Coursera</p>
 					<p>2014</p>
 				</div>	
-				<div class="row vertical-center">
+	</div>
+	<div class="col-6">
+				
+				<div class="div-border">
 					<p>Ingles Nivel B2</p>
 					<p>English World wide-Pereira</p>
 					<p>2013</p>
+
 				</div>	
-				<div class="row vertical-center">
+	</div>
+	<div class="col-6">
+				
+				<div class="div-border">
 					<p>Curso de capacitación en desarrollo móvil para Android usando Java</p>
 					<p>MINTIC</p>
 					<p>2013</p>
 				</div>	
-				<div class="row vertical-center">
+	</div>
+	<div class="col-6">
+				
+				<div class="div-border">
 					<p>Curso de capacitación desarrollo web y móvil con HTML5,CSS3 y JQUERY</p>
 					<p>MINTIC</p>
 					<p>2013</p>
 				</div>	
-				<div class="row vertical-center">
+	</div>
+	<div class="col-6">
+				
+				<div class="div-border">
 					<p>Diseño de base de datos en SQL</p>
 					<p>SENA-40 horas</p>
 					<p>2010</p>
+
 				</div>
-				<div class="row vertical-center">
+	</div>
+	<div class="col-6">
+				
+				<div class="div-border">
 					<p>Controles y seguridad informática</p>
 					<p>SENA-40 horas</p>
 					<p>2010</p>
 				</div>
-				<div class="row vertical-center">
+	</div>
+	<div class="col-6">
+				
+				<div class="div-border">
 					<p>Ingles nivel B1</p>
 					<p>New York English Institute</p>
 					<p>2007</p>
+	</div>
 				</div>				
       </div>
       <div class="content scroll" id="proyectosport">
