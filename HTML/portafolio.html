@@ -4,98 +4,108 @@
 	<meta charset="utf-8">
   <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
 	<link href="../CSS/perfiles.css" rel="stylesheet">
-  <link href="../CSS/fonts.css" rel="stylesheet">
+  	<link href="../CSS/fonts.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Linden+Hill:400italic' rel='stylesheet' type='text/css'>
+	<link href="../CSS/portafolio.css" rel="stylesheet">
+	<link rel="shortcut icon" href="../IMG/favicon.ico" />
 	<title>Portafolio de Servicios - jointDeveloper</title>
 
+	<script type="text/javascript">
+	
+		function mostrarItemHc(panel){
+		var itemHoraCodigo = document.getElementById("opcionItemHorasDeCodigo");
+		var itemEntrenamiento = document.getElementById("opcionItemEntrenamiento");
+		var itemDesarrollo = document.getElementById("opcionItemDesarrolloDeProyectos");
+			
+		if (panel==1){ 
+			
+			itemHoraCodigo.style.display='block';
+			itemEntrenamiento.style.display='none';
+			itemDesarrollo.style.display='none';
+		}
+		if (panel==2){ 
+			itemHoraCodigo.style.display='none';
+			itemEntrenamiento.style.display='block';
+			itemDesarrollo.style.display='none';			
+		}
+	if (panel==3){ 
+			itemHoraCodigo.style.display='none';
+			itemEntrenamiento.style.display='none';
+			itemDesarrollo.style.display='block';
+	}
+	}
+	
+	</script>
 </head>
 <body>
-	<div class="header">Portafolio</div>
-	<div class="container">
-		<nav class="container_nav">
-			<ul class="topnav border" id="menu">
-				<li><img src="../IMG/robot.png" /></li>
-				<li><a id="logo-nav" href="../index.html">jointDeveloper</a></li>
-			</ul>
-		</nav>
-		<div class="Nombre">
-			<br><br><br><br>
-			<h1>Portafolio</h1>
-		</div>
-		<div id="horizontal">
-			<ul>
-				<li>
-					<div class="contenidoItem">
-						<a>
-							<div>
-								<h2>
-									<span>Horas de código</span>
-								</h2>
-							</div>
+	<nav class="container_nav">
+		<ul class="topnav border" id="menu">
+			<li><img src="../IMG/robot.png"></li>
+			<li><a id="logo-nav" href="../index.html">jointDeveloper</a></li>
+		</ul>
+	</nav>
+	<header>
+		<h1 class="intro slogan h1Title">Portafolio </h1>
+	</header>
+	<div id="horizontal">
+		<ul>
+			<li class="horas-codigo caption">
+				<div class="contenidoItemHorasCodigo" onclick="mostrarItemHc(1)">
+					<figure>
+						<img src="../IMG/zombiecode.jpg" style="height:400px;width:274px;" >
+						<figcaption onclick="mostrarItemHc(1)">
+							<h3> Horas de Codigo </h3>
+						</figcaption>
+					</figure>
+				</div>
+			</li>
+			<li class="horas-codigo caption">
+				<div class="contenidoItemEntrenamiento" onclick="mostrarItemHc(2)">
+					<figure>
+						<img src="../IMG/zombiecode.jpg" style="height:400px;width:274px;">
+						<figcaption onclick="mostrarItemHc(2)">
+							<h3>Entrenamiento</h3>
+						</figcaption>
+					</figure>
+				</div>
+			</li>
+			<li class="horas-codigo caption">
+				<div class="contenidoItemDesarrolloProyectos" onclick="mostrarItemHc(3)">
+					<figure>
+						<img src="../IMG/desarrolloP.jpg" style="height:400px;width:274px;">
+						<figcaption onclick="mostrarItemHc(3)">
+							<h3> Desarrollo de proyectos </h3>
+						</figcaption>
+					</figure>
+				</div>
+			</li>
+		</ul>
+	</div>
 
-						</a>
-						<figure>
-							<img src="../IMG/zombiecode.jpg" style="height:120px;width:120px;" />
-						</figure>
-					</div>
-
-				</li>
-				<li>
-					<div class="contenidoItem">
-						<a>
-							<div>
-								<h2>
-									<span>Entrenamiento</span>
-								</h2>
-							</div>
-
-						</a>
-						<figure>
-							<img src="../IMG/zombiecode.jpg" style="height:120px;width:120px;" />
-						</figure>
-						</div>
-				</li>
-				<li>
-					<div class="contenidoItem">
-						<a>
-							<div>
-								<h2>
-									<span>Desarrollo de Proyectos</span>
-								</h2>
-							</div>
-
-						</a>
-						<figure>
-							<img src="../IMG/desarrolloP.jpg" style="height:120px;width:190px;" />
-						</figure>
-						</div>
-				</li>
-			</ul>
-		</div>
-		<div class="opcionItemHorasDeCodigo">
+	<div class="opcionItemHorasDeCodigo" id="opcionItemHorasDeCodigo">
 			<div class="">
-				<ul>
+				<ul class="item">
 					<li>
-						<div class="">
+						<div class="fondoitem">
 							<span>Decoración</span>
 							<img src="" />
 						</div>
 					</li>
 					<li>
-						<div class="">
+						<div class="fondoitem">
 							<span>Asesoría</span>
 							<img src="" />
 						</div>
 					</li>
 					<li>
-						<div class="">
+						<div class="fondoitem">
 							<span>Juegos</span>
 							<img src="" />
 						</div>
 					</li>
 					<li>
-						<div class="">
+						<div class="fondoitem">
 							<span>Certificado</span>
 							<img src="" />
 						</div>
@@ -103,35 +113,35 @@
 				</ul>
 			</div>
 		</div>
-		<div class="opcionItemEntrenamiento">
-			<div class="">
-				<ul>
+		<div class="opcionItemEntrenamiento" id="opcionItemEntrenamiento">
+			<div>
+				<ul class="item">
 					<li>
-						<div class="">
+						<div class="fondoitem">
 							<span>HTML</span>
-							<img src="" />
+							<img src="">
 						</div>
 					</li>
 					<li>
-						<div class="">
+						<div class="fondoitem">
 							<span>CSS</span>
 							<img src="" />
 						</div>
 					</li>
 					<li>
-						<div class="">
+						<div class="fondoitem">
 							<span>JS</span>
 							<img src="" />
 						</div>
 					</li>
 					<li>
-						<div class="">
+						<div class="fondoitem">
 							<span>NODE</span>
 							<img src="" />
 						</div>
 					</li>
 					<li>
-						<div class="">
+						<div class="fondoitem">
 							<span>ARDUINO</span>
 							<img src="" />
 						</div>
@@ -139,7 +149,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="opcionItemDesarrolloDeProyectos">
+		<div class="opcionItemDesarrolloDeProyectos" id="opcionItemDesarrolloDeProyectos">
 			<div class="">
 				<span>Nuestro equipo está capacitado para desarrollar aplicaciones con lenguajes de programación como HTML, CSS, JS, NODE y Arduino</span>
 			</div>
@@ -148,12 +158,29 @@
 	</div>
 
 	<footer>
-		<em>
-			<p>JointDeveloper. 2016</p>
-			<p> &copy; Todos los derechos reservados. </p>
-			<br><br>
-		</em>
+		<div class="info">
+        	info&copy;jointdevelopers.co<br>
+        	Pereira-Colombia
+        </div>
+		<div class="redes">
+			<h3>Siguenos en:</h3>
+			<a href="https://www.facebook.com/jointDeveloper/" target="_blank">
+				<img src="../IMG/icons/template/white/facebook.png" alt="Facebook-jointDeveloper" width="50px">
+			</a>
+	        <a href="http://jointdeveloper.github.io/Aprendizaje-Web/" target="_blank">
+	        	<img src="../IMG/icons/template/white/github.png" alt="github-jointDeveloper" width="50px">
+	        </a>
+	        <a href="#" target="_blank">
+	        	<img src="../IMG/icons/template/white/instagram.png" alt="instagram-jointDeveloper" width="50px">
+	        </a>
+	        <a href="https://twitter.com/jointdev" target="_blank">
+	        	<img src="../IMG/icons/template/white/twitter.png" alt="twitter-jointDeveloper" width="50px">
+	        </a>
+        </div>
+		<em> <center>
+			<p>JointDeveloper. 2016<br>
+			&copy; Todos los derechos reservados. </p>
+		</em></center>
 	</footer>
-
 </body>
 </html>

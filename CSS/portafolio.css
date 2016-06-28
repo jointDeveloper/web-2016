@@ -1,3 +1,4 @@
+
 #horizontal ul{
    list-style-type: none;
    text-align: center;
@@ -6,4 +7,138 @@
    display: inline-block;
    text-align: center;
    margin: 0 10px 0 0;
+   position: relative;
+}
+
+header h1{
+	text-align: center;
+	font-family: 'Pacifico',cursive;
+	color: #f06292;
+	padding-top: 10px;
+	font-size: 4em;
+}
+
+/*.opcionItemHorasDeCodigo{
+	padding-right: 5%;
+	padding-left: 30%;
+	display: inline-block;
+	text-align: center;
+}
+
+.opcionItemEntrenamiento{
+	padding-right: 5%;
+	padding-left: 20%;
+	display: inline-block;
+	text-align: center;
+}*/
+
+.opcionItemHorasDeCodigo{
+	display: none;
+}
+.opcionItemEntrenamiento{
+	display: none;
+}
+.opcionItemDesarrolloDeProyectos{
+	display: none;
+}
+.redes,.info{
+	display: inline-block;
+	padding-left: 2em;
+}
+
+.horas-codigo figcaption{
+	position: absolute;
+	background: #f06292;
+	top: 0;
+	left:0;
+	color: #FFF;
+	padding-left: 1em;
+	padding-right: 1em;
+	border-radius: 10px;
+}
+
+.horas-codigo figcaption h3 { 
+    padding-top: 8em;
+    font-family: 'Lato',cursive;
+}
+
+.horas-codigo img{
+	border-radius: 10px;
+}
+
+/*Tipos de etiquetas http://programacion.jias.es/2012/12/css3-etiquetas-propias-de-cada-navegador-webkit-moz-ms-o/ */
+.caption li {
+	-webkit-perspective: 1800px; /*Para Chrome y Safari*/
+	-moz-perspective: 1800px; /*Para Firefox*/
+	perspective: 1800px;
+	-webkit-perspective-origin: 0 50%;  /*Para Chrome y Safari*/
+	-moz-perspective-origin: 0 0%;  /*Para Firefox*/
+	perspective-origin: 0 0%; 
+}
+
+/*Decir al navegador que se trabajara en 3d*/
+.caption figure {
+	-webkit-transform-style: preserve-3d; 
+	-moz-transform-style: preserve-3d; 
+	transform-style: preserve-3d;
+}
+
+/*Tiempo en el que se da el movimiento de la imagen*/
+.caption figure img {
+	-webkit-transition: -webkit-transform 0.3s ease-out;
+	-moz-transition: -moz-transform 0.3s ease-out;
+	transition: transform 0.3s ease-out;
+}
+
+/*Mueve la imagen un 23% de su lugar original cuando se ubica el cursor sobre la misma*/
+.caption figure:hover img
+{
+	-webkit-transform: translateX(23%);
+	-moz-transform: translateX(23%);
+	-ms-transform: translateX(23%);
+	transform: translateX(23%);
+	cursor: pointer;
+}
+
+.caption figcaption {
+	height: 100%;
+	width: 50%;
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: rotateY(-90deg);
+	-moz-transform: rotateY(-90deg);
+	transform: rotateY(-90deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.caption figure:hover figcaption{
+	opacity: 1;
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+
+.item{
+	list-style-image: url('../IMG/item.png');
+	padding-left: 15%;
+}
+
+.fondoitem{
+	background-color: #F8BBD0;
+	width: 87%;
+}
+
+footer{
+	background-color: #333; 
+	color:#FFF;
 }

@@ -3,73 +3,92 @@
     {
       "name": "Plantilla",
       "img": "./IMG/plantilla.jpg",
-      "page": "./HTML/profiles/plantilla.html",
+      "page": "./HTML/perfiles/plantilla.html",
+      "email": "",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Carolina Gómez Trejos",
       "img": "./IMG/carogt.jpg",
-      "page": "./HTML/profiles/carogt.html",
+      "page": "./HTML/perfiles/carogt.html",
+      "email": "",
       "description": "Estudiante Ingenieria de Sistemas y Computación"
     },
     {
       "name": "Yensy Helena Gómez Villegas",
       "img": "./IMG/yenGomez.jpg",
-      "page": "./HTML/profiles/yhgv.html",
+      "page": "./HTML/perfiles/yhgv.html",
+      "email": "",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Carolina Jiménez Gómez",
       "img": "./IMG/cjg.jpg",
-      "page": "./HTML/profiles/cjg.html",
+      "page": "./HTML/perfiles/cjg.html",
+      "email": "",
       "description": "Estudiante Ingenieria de Sistemas y Computación."
     },
     {
       "name": "Giseth Johana Grimaldo B.",
       "img": "./IMG/fotoGiseth.JPG",
-      "page": "./HTML/profiles/gisethInfo.html",
+      "page": "./HTML/perfiles/giseth.html",
+      "email": "",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Vanessa Velásquez Gómez",
       "img": "./IMG/Emma_Yo.jpg",
-      "page": "./HTML/profiles/vanessa.html",
+      "page": "./HTML/perfiles/vanessa.html",
+      "email": "",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Naranjita Golden",
       "img": "./IMG/naranjita.jpg",
-      "page": "./HTML/profiles/naranjita.html",
+      "page": "./HTML/perfiles/naranjita.html",
+      "email": "",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Tatiana Amariles",
       "img": "./IMG/tatiana.jpg",
-      "page": "./HTML/profiles/tatianaAmariles.html",
+      "page": "./HTML/perfiles/tatianaAmariles.html",
+      "email": "",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
+    },
+    {
+      "name": "María Victoria Gasca",
+      "img": "./IMG/vicky.jpg",
+      "page": "./HTML/perfiles/Vicky.html",
+      "email": "",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "Alejandro Rendon",
       "img": "./IMG/arendon.jpg",
-      "page": "./HTML/profiles/arendon.html",
+      "page": "./HTML/perfiles/arendon.html",
+      "email": "",
       "description": "Estudiante de Ingeniería de Sistemas y Computación. Grupo de Investigación Sirius. Loco."
     },
     {
       "name": "Sebastian Duque",
       "img": "./IMG/sduque.jpg",
-      "page": "./HTML/profiles/sduque.html",
+      "page": "./HTML/perfiles/sduque.html",
+      "email": "",
       "description": "Estudiante Ingenieria de Sistemas y Computación"
     },
     {
       "name": "Leiver Campeón",
       "img": "./IMG/github.png",
       "page": "//github.com/leiverandres",
+      "email": "",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
       "name": "John H. Osorio Ríos",
       "img": "./IMG/josorio.jpg",
-      "page": "./HTML/profiles/josorio.html",
+      "page": "./HTML/perfiles/josorio.html",
+      "email": "",
       "description": "Ingeniero de Sistemas y Computación"
     }
   ]
