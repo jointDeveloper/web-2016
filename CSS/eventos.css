@@ -70,15 +70,22 @@
 .event-container {
   display: table;/*para que su contenido se ajuste a sus hijos*/
   width: 75%;
+  /*height: 100%;*/
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 .event-container ul li{
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid black;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  /*border: 1px solid black;*/
+}
+
+.event-container ul {
+  display: inline-block;/*se ajusta al alto de los hijos*/
+  margin-left: 10%;
+  /*border: 5px solid yellow;*/
 }
 
 .text {
