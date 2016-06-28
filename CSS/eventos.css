@@ -7,16 +7,19 @@
   /*transform: translate(-525px, -150px);*/
 }
 /*---------Nav bar--------------------*/
-.drop-down-container {
+.dropdown {
   position: relative;
 }
 
-.drop-down li {
+.dropdown li {
   list-style: none;
+  clear: both;
+  display: none;
   position: absolute;
+  background-color: red;/*SI SE ESTA POSICIONANDO BIEN, PERO SE ESTÁ TAPANDO*/
 }
 
-.drop-down:hover {
+.dropdown-container:hover li {
   display: block;
 }
 
