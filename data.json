@@ -1,11 +1,11 @@
   {
   "perfiles": [
     {
-      "name": "Plantilla",
-      "img": "./IMG/plantilla.jpg",
-      "page": "./HTML/perfiles/plantilla.html",
+      "name": "Angelica Aguirre Castro",
+      "img": "./IMG/angelica_aguirre.jpg",
+      "page": "./HTML/perfiles/angelicaaguirre.html",
       "email": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
+      "description": "Ingeniera de Sistemas y Computación"
     },
     {
       "name": "Carolina Gómez Trejos",
