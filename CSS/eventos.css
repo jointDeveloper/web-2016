@@ -6,6 +6,20 @@
   transform: translate(-50%, -50%);
   /*transform: translate(-525px, -150px);*/
 }
+/*---------Nav bar--------------------*/
+.drop-down-container {
+  position: relative;
+}
+
+.drop-down li {
+  list-style: none;
+  position: absolute;
+}
+
+.drop-down:hover {
+  display: block;
+}
+
 /*---------Imagen ppal eventos--------*/
 .intro-eventos {
   background-image: url(../IMG/Eventos/eventosppal2.jpg);
@@ -55,8 +69,16 @@
 
 .event-container {
   display: table;/*para que su contenido se ajuste a sus hijos*/
-  border: 1px solid black;
   width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
+
+.event-container ul li{
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
 }
 
 .text {
