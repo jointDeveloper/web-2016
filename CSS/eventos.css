@@ -39,6 +39,10 @@
   padding-top: 5%;
 }
 /*-----------Eventos----------*/
+#todosLosEventos {
+  height: 100%;
+}
+
 .info {
   font-weight: bold;
   text-align: center;
@@ -103,6 +107,56 @@
     left: 50%;
     transform: translate(-63%, -50%);
     cursor: pointer;
+}
+
+/*---------Charlas--------*/
+#todasLasCharlas {
+  height: 100%;
+  width: 100%;
+  background-color: #FFB400;
+}
+
+#todasLasCharlas h2 {
+  padding-top: 40px;
+}
+
+#todasLasCharlas .info {
+  color:white;
+}
+
+.up {
+  height: 20%;
+}
+
+.scroll-container {
+  position: relative;
+  display: inline-block;
+  height: 80%;
+  width: 100%;
+  /*border: 1px solid red;*/
+}
+
+.arrow {
+  color: #484848;
+	font-size: 70px;
+	text-decoration: none !important;
+	position: absolute;
+}
+
+.arrow:nth-child(1) {
+  left: 0;
+	bottom: 50%;
+  color: #CCF5F2;
+}
+
+.arrow:nth-child(2) {
+  right: 0;
+	bottom: 50%;
+  color: #CCF5F2;
+}
+
+.arrow:hover {
+  cursor: pointer;
 }
 
 /*-----------Footer-----------*/
