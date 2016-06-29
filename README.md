@@ -22,5 +22,5 @@ ___
 <a href="https://instagram.com/jointdeveloper/"><img src="https://raw.githubusercontent.com/jointDeveloper/media/master/social-icon/instagram.png" alt="Instagram-jointDeveloper" /></a>
 <a href="mailto:developerjoint@gmail.com"><img src="https://raw.githubusercontent.com/jointDeveloper/media/master/social-icon/email.png" alt="E-mail-jointDeveloper" /></a>
 <a href="https://jointdeveloper.github.io/Aprendizaje-Web/"><img src="https://raw.githubusercontent.com/jointDeveloper/media/master/social-icon/internet.png" alt="Web-jointDeveloper" /></a>
-<a href="https://www.snapchat.com/add/jointdev"><img src="https://raw.githubusercontent.com/jointDeveloper/Aprendizaje-Web/gh-pages/IMG/icons/template/Black/snapchat.png" alt="Snapchat-jointDeveloper" /></a>
+<a href="https://www.snapchat.com/add/jointdev"><img src="https://raw.githubusercontent.com/jointDeveloper/Aprendizaje-Web/gh-pages/IMG/icons/template/Black/Snapchat.png" alt="Snapchat-jointDeveloper" /></a>
 ___
