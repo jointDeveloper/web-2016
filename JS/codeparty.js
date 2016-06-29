@@ -50,8 +50,12 @@
       prev = arrows[0],
       imgppal = arrows[1].getElementsByTagName("img")[0];
 
-
   changeInfo(imageInfo);
+
+  arrows[1].addEventListener("click",function(ev){
+    console.log("clicked!");
+    ev.preventDefault();
+  });
 
   next.addEventListener("click",function(ev){
     ev.preventDefault();

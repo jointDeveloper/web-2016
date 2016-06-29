@@ -44,15 +44,17 @@ html,body {
 	position: relative;
 	/*border: 1px solid white;*/
 }
-      /*--The ppal image--*/
+
 .panelup a:nth-child(2) {
 	position: absolute;
+  text-decoration: none !important;
+  cursor: default;
 }
 
 .current {
 	max-height: 600px;
 }
-    /*-end ppal image-*/
+
 
       /*--the arrows--*/
 .panelup a:nth-child(1),.panelup a:nth-child(3) {
@@ -89,6 +91,12 @@ html,body {
   color:white;
   font-size: 20px;
   margin-top: 20px;
+  /*border: 1px solid white;*/
+  background-color: rgba(21,20,20,.5);
+}
+
+.info > p {
+  padding: 10px;
 }
       /*--end info of the images--*/
 /*-------------PanelBottom---------------*/
