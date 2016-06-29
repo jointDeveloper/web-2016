@@ -44,7 +44,9 @@
   var gallery = document.querySelector(".galeria"),
       lis = document.getElementsByClassName("galeria")[0].getElementsByTagName("li"),
       arrows = document.getElementsByClassName("panelup")[0].getElementsByTagName("a"),
-      imageInfo = document.querySelector(".panelup .info .letra");
+      imageInfo = document.querySelector(".panelup .info .letra"),
+      displayInfo = document.querySelector(".displayInfo"),
+      closeInfo = document.querySelector(".close");
 
   var next = arrows[2],
       prev = arrows[0],
@@ -53,7 +55,6 @@
   changeInfo(imageInfo);
 
   arrows[1].addEventListener("click",function(ev){
-    console.log("clicked!");
     ev.preventDefault();
   });
 
@@ -81,5 +82,13 @@
     }
   });
 
+  displayInfo.addEventListener("click",function(ev){
+    ev.preventDefault();
+    document.querySelector("#EventInformation").className = "";
+  });
+
+  closeInfo.addEventListener("click",function(){
+    document.querySelector("#EventInformation").className = "hidden";
+  });
 
 }())

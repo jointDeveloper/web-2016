@@ -42,7 +42,6 @@ html,body {
   left: 0;
   width: 100%;
   height: 100%;
-  max-height: 700px;
   z-index: 1000;
 }
 
@@ -57,11 +56,15 @@ html,body {
   margin: auto;
   margin-top: 7%;
   padding: 20px 5px;
+  border: 3px solid white;
+  box-sizing: border-box;
+  max-height: 700px;
+  position: relative;
 }
 
 #EventInformation .robot {
   position: absolute;
-  left: 0;
+  left: -21%;
 }
 
 #EventInformation .letra {
@@ -74,6 +77,18 @@ html,body {
   top: 25%;
   left: 50%;
   transform: translate(-30%, 0%);
+}
+
+#EventInformation .close {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: -7%;
+  left: 102%;
+}
+
+#EventInformation .close:hover {
+  cursor: pointer;
 }
 
 /*-------------PanelUP---------------*/
