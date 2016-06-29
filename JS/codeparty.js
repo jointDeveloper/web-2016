@@ -33,32 +33,45 @@
     setImage(img,prevImg);
   }
 
+  function changeInfo(imageInfo){
+    var newText = document.querySelectorAll(".galeria li")[i].getElementsByTagName("P")[0].innerHTML;
+    console.log(newText);
+    imageInfo.innerHTML = newText;
+  }
+
   /*-----------main-----------*/
 
-  var galeria = document.querySelector(".galeria");
-  var lis = document.getElementsByClassName("galeria")[0].getElementsByTagName("li");
-  var arrows = document.getElementsByClassName("panelup")[0].getElementsByTagName("a");
+  var gallery = document.querySelector(".galeria"),
+      lis = document.getElementsByClassName("galeria")[0].getElementsByTagName("li"),
+      arrows = document.getElementsByClassName("panelup")[0].getElementsByTagName("a"),
+      imageInfo = document.querySelector(".panelup .info .letra");
 
-  var next = arrows[2];
-  var prev = arrows[0];
-  var imgppal = arrows[1].getElementsByTagName("img")[0];
+  var next = arrows[2],
+      prev = arrows[0],
+      imgppal = arrows[1].getElementsByTagName("img")[0];
+
+
+  changeInfo(imageInfo);
 
   next.addEventListener("click",function(ev){
     ev.preventDefault();
     NextImg(imgppal,lis);
+    changeInfo(imageInfo);
   });
   prev.addEventListener("click",function(ev){
     ev.preventDefault();
     PrevImg(imgppal,lis);
+    changeInfo(imageInfo);
   });
 
   // Event Delegation
-  galeria.addEventListener('click', function (ev) {
+  gallery.addEventListener('click', function (ev) {
     if (ev.target.nodeName === 'IMG') {
       for(var j = 0; j < lis.length; j++){
         var img = lis[j].getElementsByTagName("img")[0];
         if(img === ev.target){
           advanceImage(imgppal,ev.target,j);
+          changeInfo(imageInfo);
         }
       }
     }

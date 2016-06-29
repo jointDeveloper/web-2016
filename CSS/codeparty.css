@@ -29,6 +29,10 @@ html,body {
   /*border: 1px solid black;*/
 }
 
+.hidden {
+  display: none;
+}
+
 /*-------------PanelUP---------------*/
 .panelup {
 	display: block;
@@ -40,16 +44,18 @@ html,body {
 	position: relative;
 	/*border: 1px solid white;*/
 }
-
-.panelup a:nth-child(2) { /*The ppal image*/
+      /*--The ppal image--*/
+.panelup a:nth-child(2) {
 	position: absolute;
 }
 
 .current {
 	max-height: 600px;
 }
+    /*-end ppal image-*/
 
-.panelup a:nth-child(1),.panelup a:nth-child(3) {/*the arrows*/
+      /*--the arrows--*/
+.panelup a:nth-child(1),.panelup a:nth-child(3) {
 	color: white;
 	font-size: 100px;
 	text-decoration: none !important;
@@ -75,7 +81,16 @@ html,body {
 	padding-top: 350px;
 	padding-bottom: 350px;
 }
+      /*--end arrows--*/
 
+      /*--the info of the images--*/
+.info {
+  text-align: center;
+  color:white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+      /*--end info of the images--*/
 /*-------------PanelBottom---------------*/
 .panelbottom {
 	display: block;
