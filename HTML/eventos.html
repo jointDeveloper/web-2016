@@ -1,85 +1,139 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<title>Eventos - JointDeveloper</title>
-		<link href="../CSS/fonts.css" rel="stylesheet">
-		<link href="../CSS/eventos.css" rel="stylesheet">
-		<link rel="icon" type="image/png" href="../../IMG/favicon.ico" />
-	</head>
-	<body>
-		<!--NAV-BAR-->
-		<nav class="container_nav">
-			<label for="show-menu" class="show-menu"><a id="logo-nav-responsive">jointDeveloper</a></label>
-			<ul class="topnav border" id="menu">
-				<li><img src="../IMG/robot.png" / style="padding-top: 2px"></li>
-				<li><a id="logo-nav" href="../index.html" style="padding-right: 2px">jointDeveloper</a></li>
-				<li><a href="../index.html"><span>Home</span></a></li>
-				<li><a href="about.html"><span>Quienes somos</span></a></li>
-				<li><a href="perfiles.html"><span>Perfiles</span></a></li>
-				<li><a href="eventos.html"><span>Eventos</span></a></li>
-				<li><a href="comunidad.html"><span>Comunidad</span></a></li>
-				<li><a href="apoyanos.html"><span>Apoyanos</span></a></li>
-			</ul>
-		</nav>
-		<div class="container">
-			<!--En este panel se muestran los años en los que se hicieron los eventos para que se escoja cuál se quiere ver -->
-			<div class="panelleft">
-				 <ul>
-				   <li><a href="#" class="event">2015</a>
-						<ul>
-							<li><a href="#" class="eventChild">CodeParty Pereira</a></li>
-						</ul>
-					 </li>
-					 <li><a href="#" class="event">2016</a>
-						 <ul>
-	 						<li><a href="#" class="eventChild">JointDevelopers KIDS</a></li>
-							<li><a href="#" class="eventChild">Otro</a></li>
-	 					 </ul>
-					 </li>
-			 	 </ul>
-			</div>
-			<!--En este panel se muestra el contenido que se eligió en el panelleft. Por defecto, cuando no se haya seleccionado ninguno debe haber una página que hable en general de los eventos.-->
-			<div class="panelright">
-				<!--En este panel se muestran las imagenes en el slide-->
-				 <div class="panelup">
-					 <div class="imagen">
-						 <a href="#"><img src="../IMG/prev.png" /></a>
-						 <div class="wrapped">
-						 		<a href="#"><img class="current" src="../IMG/CodeParty2015Pereira/01.jpg"/></a>
-						 </div>
-						 <a href="#"><img src="../IMG/next.png" /></a>
-					</div>
-				 </div>
-				 <!--En este panel se muestran las imagenes en miniatura que se van a mostrar en panelup -->
-				 <div class="panelbottom">
-				    <ul class="galeria">
-							<li><img src="../IMG/CodeParty2015Pereira/01_small.jpg"/></li>
-							<li><img src="../IMG/CodeParty2015Pereira/02_small.jpg"/></li>
-							<li><img src="../IMG/CodeParty2015Pereira/03_small.jpg"/></li>
-							<li><img src="../IMG/CodeParty2015Pereira/04_small.jpg"/></li>
-							<li><img src="../IMG/CodeParty2015Pereira/05_small.jpg"/></li>
-							<li><img src="../IMG/CodeParty2015Pereira/06_small.jpg"/></li>
-							<li><img src="../IMG/CodeParty2015Pereira/07_small.jpg"/></li>
-							<li><img src="../IMG/CodeParty2015Pereira/08_small.jpg"/></li>
-							<li><img src="../IMG/CodeParty2015Pereira/09_small.jpg"/></li>
-							<li><img src="../IMG/CodeParty2015Pereira/10_small.jpg"/></li>
-							<li><img src="../IMG/CodeParty2015Pereira/11_small.jpg"/></li>
-							<li><img src="../IMG/CodeParty2015Pereira/12_small.jpg"/></li>
-							<li><img src="../IMG/CodeParty2015Pereira/13_small.jpg"/></li>
-							<li><img src="../IMG/CodeParty2015Pereira/14_small.jpg"/></li>
-							<li><img src="../IMG/CodeParty2015Pereira/15_small.jpg"/></li>
-						</ul>
-				 </div>
-			</div>
-	  </div>
-		<footer>
-		  <em>
-		    <p>JointDeveloper. 2016</p>
-		    <p> &copy; Todos los derechos reservados. </p>
-		    <br><br>
-		  </em>
-	  </footer>
-		<script src="../JS/eventos.js"></script>
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <link href="../CSS/perfiles.css" rel="stylesheet">
+    <link href="../CSS/fonts.css" rel="stylesheet">
+    <link href="../CSS/eventos.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../IMG/favicon.ico" />
+    <title>Eventos - jointDeveloper</title>
+  </head>
+  <body>
+
+    <nav class="container_nav">
+      <label for="show-menu" class="show-menu"><a id="logo-nav-responsive">jointDeveloper</a></label>
+      <ul class="topnav border" id="menu">
+        <li><img src="../IMG/robot.png" class="robo-nav" /></li>
+        <li><a id="logo-nav" href="../index.html" style="padding-right: 2px">jointDeveloper</a></li>
+        <li class="dropdown-container">
+          <a href="#todosLosEventos" class="group"><span>Eventos</span></a>
+          <ul class="dropdown">
+            <li><a href="../HTML/codeparty.html"><span>CodeParty Pereira</span></a></li>
+            <li><a href="#"><span>JointDeveloper KIDS</span></a></li>
+            <li><a href="#"><span>Otro Evento</span></a></li>
+          </ul>
+        </li>
+        <li><a href="#todasLasCharlas" class="group"><span>Charlas</span></a></li>
+      </ul>
+    </nav>
+
+    <div class="style-title-white intro-eventos">
+      <div class="vertical-center">
+        <h1 class="intro">Eventos</h1>
+      </div>
+    </div>
+
+		<div class="event-container" id="todosLosEventos">
+
+      <div>
+        <h2 class="info letra">¡Navega por nuestros eventos!</h2>
+        <p class="info letra" style="font-size:16px;">Descubre los eventos que hemos realizado, y animáte a ser parte de ellos.</p>
+      </div>
+
+      <ul>
+				<li class="event">
+          <a href="./codeparty.html"><img src="../IMG/eventos.JPG"/></a>
+          <p class="text letra">
+            CodeParty Pereira
+          </p>
+        </li>
+				<li class="event">
+          <a href="#"><img src="../IMG/Eventos/globo.jpg"/></a>
+          <p class="text letra">
+            Evento1
+          </p>
+        </li>
+				<li class="event">
+          <a href="#"><img src="../IMG/Eventos/camino.jpg"/></a>
+          <p class="text letra">
+            Evento2
+          </p>
+        </li>
+        <li class="event">
+          <a href="#"><img src="../IMG/Eventos/hombre.jpg"/></a>
+          <p class="text letra">
+            Evento3
+          </p>
+        </li>
+        <li class="event">
+          <a href="#"><img src="../IMG/Eventos/montana.jpg"/></a>
+          <p class="text letra">
+            Evento4
+          </p>
+        </li>
+        <li class="event">
+          <a href="#"><img src="../IMG/Eventos/viaje.jpg"/></a>
+          <p class="text letra">
+            Evento5
+          </p>
+        </li>
+        <li class="event">
+          <a href="#"><img src="../IMG/Eventos/ventana.jpeg"/></a>
+          <p class="text letra">
+            Evento6
+          </p>
+        </li>
+      </ul>
+
+    </div>
+
+    <div id="todasLasCharlas">
+      <div class="up">
+        <h2 class="info letra">Descubre lo que hacemos y cómo lo hacemos</h2>
+        <p class="info letra" style="font-size:16px;">
+          Realizamos charlas quincenales sobre diferentes temas para incentivar y
+          animar a más personas a que hagan parte de esta comunidad.
+        </p>
+      </div>
+
+      <div class="scroll-container">
+        <i class="arrow"> < </i>
+        <i class="arrow"> > </i>
+      </div>
+
+    </div>
+
+    <div class="footer">
+  		<div class="row">
+  			<div class="col-3">
+  				<a href="http://sirius.utp.edu.co" target="_blank"><img src="../IMG/sirius.png" alt="Facebook-jointDeveloper" style="width: 35%"/></a>
+  			</div>
+  			<div class="col-6">
+  				<div class="row">
+  					info@jointDevelopers.co
+  				</div>
+  				<br />
+  				<div class="row">
+  					<a href="https://www.facebook.com/jointDeveloper" target="_blank"><img src="../IMG/icons/template/white/facebook.png" alt="Facebook-jointDeveloper" class="icon-footer" /></a>
+  					<a href="https://github.com/jointDeveloper" target="_blank"><img src="../IMG/icons/template/white/github.png" alt="Facebook-jointDeveloper" class="icon-footer"  /></a>
+  					<a href="https://www.instagram.com/jointdeveloper/" target="_blank"><img src="../IMG/icons/template/white/instagram.png" alt="Facebook-jointDeveloper" class="icon-footer"  /></a>
+  					<a href="https://twitter.com/jointdev" target="_blank"><img src="../IMG/icons/template/white/twitter.png" alt="Facebook-jointDeveloper" class="icon-footer"  /></a>
+  					<a href="https://twitter.com/jointdev" target="_blank"><img src="../IMG/icons/template/white/google.png" alt="Facebook-jointDeveloper" class="icon-footer"  /></a>
+  					<a href="https://twitter.com/jointdev" target="_blank"><img src="../IMG/icons/template/white/whatsapp.png" alt="Facebook-jointDeveloper" class="icon-footer"  /></a>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  <!-- <script>
+    var gallery = document.querySelector(".event-container ul");
+
+    gallery.addEventListener("mouseover",function(ev){
+      if (ev.target.className === 'text') {
+        a = ev.target.previousSibling.previousSibling;
+        img = a.childNodes[0];
+        img.style.filter = "contrast(70%)";
+      }
+    });
+  </script> -->
+  </body>
 </html>
