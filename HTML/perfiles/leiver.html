@@ -60,85 +60,8 @@
         <h2 class=left>Aptitudes</h2>
 				<div class="row vertical-center">
           <div class="row">
-            <div class="col-4">
-              <div class="row">
-                <div class="col-2">
-                  <img src="../../IMG/icons/template/Black/cpp.png"  alt="" />
-                </div>
-                <div class="col-4">
-                  <h3>C++</h3>
-                </div>
-                <div class="col-6">
-                  <h4>80%</h4>
-                </div>
-              </div>
-              <progress max="100" value="80">
-                <div class="progress-bar">
-                    <span style="width: 80%;">80%</span>
-                </div>
-              </progress>
-            </div>
-            <div class="col-4">
-              <div class="row">
-                <div class="col-2">
-                  <img src="../../IMG/icons/template/Black/python.png"  alt="" />
-                </div>
-                <div class="col-4">
-                  <h3>Python</h3>
-                </div>
-                <div class="col-6">
-                  <h4>50%</h4>
-                </div>
-              </div>
-              <progress max="100" value="50">
-                <div class="progress-bar">
-                    <span style="width: 50%;">50%</span>
-                </div>
-              </progress>
-            </div>
-            <div class="col-4">
-              <div class="row">
-                <div class="col-2">
-                  <img src="../../IMG/icons/template/Black/java.png"  alt="" />
-                </div>
-                <div class="col-4">
-                  <h3>Java</h3>
-                </div>
-                <div class="col-6">
-                  <h4>20%</h4>
-                </div>
-              </div>
-              <progress max="100" value="20">
-                <div class="progress-bar">
-                    <span style="width: 20%;">20%</span>
-                </div>
-              </progress>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4">
-              <h3>C</h3><h4>20%</h4>
-              <progress max="100" value="20">
-                <div class="progress-bar">
-                    <span style="width: 20%;">20%</span>
-                </div>
-              </progress>
-            </div>
-            <div class="col-4">
-              <h3>CSS</h3><h4>70%</h4>
-              <progress max="100" value="70">
-                <div class="progress-bar">
-                    <span style="width: 70%;">70%</span>
-                </div>
-              </progress>
-            </div>
-            <div class="col-4">
-              <h3>HTML</h3><h4>70%</h4>
-              <progress max="100" value="70">
-                <div class="progress-bar">
-                    <span style="width: 70%;">70%</span>
-                </div>
-              </progress>
+            <div class="">
+              <canvas id="skills" style="width: 400px; height: 400px;" width="400" height="400"></canvas>
             </div>
           </div>
 				</div>
@@ -223,5 +146,41 @@
 		<script src="../../JS/jquery.min.js"></script>
 		<script type="text/javascript" src="../../JS/hoover.js"></script>
     <script type="text/javascript" src="../../JS/scroll.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.bundle.js"></script>
+    <script type="text/javascript">
+      const ctx = $("#skills");
+      let skillsChart = new Chart(ctx, {
+        type: 'polarArea',
+        data: {
+          labels: ["C", "C++", "JavaScript", "Python", "Java", "Matlab", "SLQ", "Node JS"],
+          datasets: [
+              {
+                  label: "My Skills",
+                  backgroundColor: [
+                    "#ffa000",
+                    "#ff6f00",
+                    "#ff6f00",
+                    "#ff6f00",
+                    "#ffc107",
+                    "#ffd54f",
+                    "#ffc107",
+                    "#ffa000"
+                  ],
+                  borderColor: "rgba(75,192,192,1)",
+                  pointBorderColor: "rgba(75,192,192,1)",
+                  pointBackgroundColor: "#fff",
+                  pointBorderWidth: 3,
+                  pointHoverRadius: 5,
+                  pointHoverBackgroundColor: "rgba(75,192,192,1)",
+                  pointHoverBorderColor: "rgba(220,220,220,1)",
+                  pointHoverBorderWidth: 2,
+                  pointRadius: 1,
+                  pointHitRadius: 10,
+                  data: [70, 85, 85, 80, 65, 55, 64, 74],
+              }
+          ]
+        }
+      });
+    </script>
   </body>
 </html>

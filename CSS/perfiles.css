@@ -627,6 +627,12 @@ progress[value]::-moz-progress-bar {
     font-weight: bold;
 }
 
+canvas.skills {
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+  vertical-align: baseline;
+}
 /*
 mobile-portrait: min:320px - max:479px;
 mobile-landscape: min:480px - max:599px;
