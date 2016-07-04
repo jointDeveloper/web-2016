@@ -31,8 +31,8 @@ $(function () {
   });
 
   $('.footer').css("bottom", `${-width * 0.8}px`);
-});
 
-function redirect(url) {
-  window.location = url;
-}
+  function redirect(url) {
+    window.location = url;
+  }
+});
