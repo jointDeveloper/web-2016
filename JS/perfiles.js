@@ -30,7 +30,7 @@ $(function () {
     }).appendTo("#integrantes");
   });
 
-  $('.footer').css("bottom", `${-width * 1.1}px`);
+  $('.footer').css("bottom", `${-width * 0.8}px`);
 
   function redirect(url) {
     window.location = url;
