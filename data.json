@@ -76,6 +76,13 @@
       "page": "./HTML/perfiles/josorio.html",
       "email": "john@sirius.utp.edu.co",
       "description": "Ingeniero de Sistemas y Computación"
+    },
+    {
+      "name": "Angie Melissa Delgado",
+      "img": "./IMG/meli.jpg",
+      "page": "./HTML/perfiles/melidelgado.html",
+      "email": "adelgadoleon@acm.org",
+      "description": "Estudiante de Ingeniería de Sistemas"
     }
   ]
 }
