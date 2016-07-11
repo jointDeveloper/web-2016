@@ -1,0 +1,132 @@
+ul.topnav li a:hover:not(.active) {
+  color: #FFFF00;
+  font-weight: bold;
+  border-bottom: 2px solid #FFFF00;
+}
+
+ul.topnav li a.active {
+  color: #FFFF00;
+  background-color: #444;
+  font-weight: bold;
+  border-bottom: 2px solid #FFFF00;
+}
+
+.circular {
+  max-width: 70%;
+  border-radius: 50%;
+  border:3px solid #FFFF00;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.button {
+  background-color: white;
+  border: 2px solid #FFFF00;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+}
+
+.button:hover {
+  background-color: #FFFF00;
+  color: white;
+}
+
+input:focus, textarea:focus {
+  color: #FFFF00;
+  border: 2px solid #FFFF00;
+  outline:0px;
+}
+
+button {
+  background-color: white;
+  border: 2px solid #FFFF00;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+}
+
+button:hover {
+  background-color: #FFFDE7;
+  color: black;
+}
+
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+
+  /* Get rid of default border in Firefox. */
+  border: none;
+
+  /* Dimensions */
+  width: 90%;
+  height: 20px;
+
+  /* For IE10 */
+  color: #FFFF00;
+}
+
+progress[value]::-webkit-progress-value {
+  background-image:
+    -webkit-linear-gradient(-45deg,
+                           transparent 33%, rgba(0, 0, 0, .1) 33%,
+                           rgba(0,0, 0, .1) 66%, transparent 66%),
+    -webkit-linear-gradient(top,
+                           rgba(255, 255, 255, .25),
+                           rgba(0, 0, 0, .25)),
+    -webkit-linear-gradient(left, #FFFF00, #FFFF00);
+  border-radius: 0px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+progress[value]::-moz-progress-bar {
+  background-image:
+    -moz-linear-gradient(
+      135deg,
+      transparent 33%,
+      rgba(0, 0, 0, 0.1) 33%,
+      rgba(0, 0, 0, 0.1) 66%,
+      transparent 66%
+    ),
+    -moz-linear-gradient(
+      top,
+      rgba(255, 255, 255, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),
+    -moz-linear-gradient(
+      left,
+      #FFFF00,
+      #FFFF00
+    );
+  border-radius: 0px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+.div-border-c {
+  margin: 10px;
+  width: 70%;
+  height: 270px;
+  border: 2px solid #FFFF00;
+}
+
+.info-style {
+  font-size: 25px;
+}
