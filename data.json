@@ -83,6 +83,13 @@
       "page": "./HTML/perfiles/melidelgado.html",
       "email": "adelgadoleon@acm.org",
       "description": "Estudiante de Ingeniería de Sistemas"
+    },
+    {
+      "name": "Daniel Fernando Largo Guerrero",
+      "img": "./IMG/daniel.jpg",
+      "page": "./HTML/perfiles/daniel.html",
+      "email": "danielfernandolargo@gmail.com",
+      "description": "Estudiante de Ingeniería de Sistemas y Computación."
     }
   ]
 }
