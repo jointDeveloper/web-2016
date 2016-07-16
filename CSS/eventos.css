@@ -39,9 +39,6 @@
   padding-top: 5%;
 }
 /*-----------Eventos----------*/
-#todosLosEventos {
-  height: 100%;
-}
 
 .info {
   font-weight: bold;
@@ -49,38 +46,48 @@
   color: #484848;
 }
 
+.event-list {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+}
+
 .event {
-	display: table-row;
 	float: left;
   position: relative;
-}
-
-.event img {
-  width: 300px;
-  height: 300px;
-  margin-right: 50px;
+  margin-right:25px;
+  margin-left:25px;
   margin-bottom: 50px;
+  background-size: cover;
+  background-position: center center;
+  width: calc(50% - 50px);
+  height: 400px;
+  opacity: 1;
+  transition: opacity 300ms ease
 }
 
-.event img:hover {
-  -webkit-filter: contrast(70%); /* Chrome, Safari, Opera */
-  filter: contrast(70%);
-}
+  .event:hover {
+    opacity: 0.8
+  }
 
-.event:nth-child(4) img, .event:nth-child(1) img {
-  width: 650px;
-  height: 300px;
-  margin-right: 50px;
-  margin-bottom: 50px;
-}
+  .event:nth-child(3n + 1) {
+    width: calc(100% - 50px)
+  }
+
+  @media (max-width: 600px) {
+    .event {
+      width: 100% !important;
+      margin-left: 0;
+      margin-right: 0;
+      height: 270px;
+    }
+  }
 
 .event-container {
-  display: table;/*para que su contenido se ajuste a sus hijos*/
-  width: 75%;
-  /*height: 100%;*/
+  width: 90%;
+  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
-  /*border: 1px solid black;*/
 }
 
 .event-container ul li{
@@ -89,23 +96,16 @@
   /*border: 1px solid black;*/
 }
 
-.event-container ul {
-  display: inline-block;/*se ajusta al alto de los hijos*/
-  margin-left: 10%;
-  /*border: 5px solid yellow;*/
-}
-
-.text {
-    z-index:100;
-    position:absolute;
-    text-align: center;
-    color:white;
+.event .text {
+    position: absolute;
+    color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-size:25px;
     font-weight:bold;
-    top: 50%;
-    left: 50%;
-    transform: translate(-63%, -50%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     cursor: pointer;
 }
 
