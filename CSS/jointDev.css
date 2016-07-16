@@ -57,6 +57,7 @@ section {
 .banner > a { width: 50%; }
 .navbar > a { width: 11%; }
 
+.banner > a:hover,
 .navbar > a:hover {
   color: #f06292;
 }
@@ -73,3 +74,7 @@ section {
 
 #jointDev { left: 0% }
 #nombre   { left: 50% }
+
+#panel-1 {
+  background-color: #f06292;
+}
