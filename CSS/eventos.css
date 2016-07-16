@@ -27,16 +27,14 @@
 .intro-eventos {
   background-image: url(../IMG/Eventos/eventosppal2.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  position: relative;
-  content: "";
-  clear: both;
-  display: block;
+  background-size: cover;
+  background-position: center bottom;
   background-color: white;
-  margin: auto;
-  width: 100%;
-  height: 100% !important;
-  padding-top: 5%;
+  height: 100vh;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*-----------Eventos----------*/
 
@@ -75,7 +73,7 @@
       width: calc(50% - 50px);
       float: left;
     }
-    
+
     .event:nth-child(3n + 1) {
       width: calc(100% - 50px)
     }
