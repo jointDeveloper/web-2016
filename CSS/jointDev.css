@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  position: absolute;
+	width: 100%;
+	height: 100%;
+  margin: 0;
+	top: 0;
+	left: 0;
+	font-family: 'Josefin Slab', 'Myriad Pro', Arial, sans-serif;
+}
+
+.container, .scroll {
+  height: 100%;
+}
+
+section {
+  min-height: 100% !important;
+}
