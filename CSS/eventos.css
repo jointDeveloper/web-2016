@@ -53,33 +53,31 @@
 }
 
 .event {
-	float: left;
+  height: 270px;
   position: relative;
-  margin-right:25px;
-  margin-left:25px;
   margin-bottom: 50px;
   background-size: cover;
   background-position: center center;
-  width: calc(50% - 50px);
-  height: 400px;
   opacity: 1;
-  transition: opacity 300ms ease
+  transition: opacity 300ms ease;
 }
 
   .event:hover {
     opacity: 0.8
   }
 
-  .event:nth-child(3n + 1) {
-    width: calc(100% - 50px)
-  }
 
-  @media (max-width: 600px) {
+  @media (min-width: 600px) {
     .event {
-      width: 100% !important;
-      margin-left: 0;
-      margin-right: 0;
-      height: 270px;
+      height: 400px;
+      margin-right:25px;
+      margin-left:25px;
+      width: calc(50% - 50px);
+      float: left;
+    }
+    
+    .event:nth-child(3n + 1) {
+      width: calc(100% - 50px)
     }
   }
 
@@ -88,12 +86,6 @@
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.event-container ul li{
-  /*margin-left: auto;
-  margin-right: auto;*/
-  /*border: 1px solid black;*/
 }
 
 .event .text {
@@ -107,6 +99,9 @@
     left: 0;
     right: 0;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*---------Charlas--------*/
