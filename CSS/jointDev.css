@@ -10,15 +10,55 @@ html, body {
 	top: 0;
 	left: 0;
 	font-family: 'Josefin Slab', 'Myriad Pro', Arial, sans-serif;
+  font-size: 18px;
 }
+
+a:link { text-decoration: none; }
+
+a:active, a:active * { outline: none !important; -moz-outline-style: none !important; }
+a:focus, a:focus * { outline: none !important; -moz-outline-style: none !important; }
 
 .container, .scroll {
   height: 100%;
 }
-header {
-  position: fixed;
-}
 
 section {
+  padding: 30px 50px;
   min-height: 100% !important;
 }
+
+.navbar:before {
+	content: '';
+	position: fixed;
+	width: 100%;
+	height: 30px;
+	background: #444;
+	bottom: 0;
+}
+
+.navbar > a {
+	position: fixed;
+	bottom: 0;
+	width: 11%;
+	cursor: pointer;
+	height: 30px;
+	line-height: 34px;
+  font-weight: 700;
+	background: #444;
+	color: #fff;
+	text-align: center;
+}
+
+.navbar > a:hover {
+  color: #f06292;
+}
+
+#control-1 { left: 0%; }
+#control-2 { left: 11%; }
+#control-3 { left: 22%; }
+#control-4 { left: 33%; }
+#control-5 { left: 44%; }
+#control-6 { left: 55%; }
+#control-7 { left: 66%; }
+#control-8 { left: 77%; }
+#control-9 { left: 88%; }
