@@ -7,19 +7,28 @@
   /*transform: translate(-525px, -150px);*/
 }
 /*---------Nav bar--------------------*/
+ul.topnav {
+  overflow: inherit;
+}
+
+ul.topnav > li {
+  position: relative;
+}
+
 .dropdown {
   position: relative;
+  display: none;
+  position: absolute;
+  padding: 0
 }
 
 .dropdown li {
   list-style: none;
-  clear: both;
-  display: none;
-  position: absolute;
+  float: none !important;
   background-color: red;/*SI SE ESTA POSICIONANDO BIEN, PERO SE ESTÁ TAPANDO*/
 }
 
-.dropdown-container:hover li {
+.dropdown-container:hover .dropdown {
   display: block;
 }
 
