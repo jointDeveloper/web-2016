@@ -11,6 +11,35 @@ html, body {
   font-size: 18px;
 }
 
+@font-face {
+  font-family: Cinzel;
+  src: url(../../FONTS/Cinzel/Cinzel-Regular.ttf);
+}
+
+/*Grid*/
+
+[class*="col-"] {
+  float: left;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.row {width: 100%;}
+
+.center { text-align: center; }
+.left { text-align: left; }
+
+
+
 a:link { text-decoration: none; }
 
 a:active, a:active * { outline: none !important; -moz-outline-style: none !important; }
@@ -21,8 +50,14 @@ a:focus, a:focus * { outline: none !important; -moz-outline-style: none !importa
 }
 
 section {
-  padding: 30px 50px;
+  padding: 50px;
   min-height: 100% !important;
+}
+
+#jointDev {
+  font-family: 'Linden Hill', serif;
+  font-size: 28px;
+  font-weight: 700;
 }
 
 .banner:before,
@@ -81,6 +116,17 @@ section {
 #jointDev { left: 0% }
 #nombre   { left: 50% }
 
+/* Contenido */
 #inicio {
   background-color: #f06292;
+}
+
+.titulo {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+.contenido {
+  padding: 0 20px;
 }
