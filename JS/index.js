@@ -1,12 +1,16 @@
-(function($) {
-  $(function() {
-    var press = false;
+(function ($) {
+  $(function () {
+    var left = document.querySelector('#left');
+    var right = document.querySelector('#right');
+    var people = document.querySelector('#perfiles');
+    var Perfiles = document.querySelector('.Perfiles');
+
     var perfiles = [];
     var index = 0;
     var size = 0;
 
     $.getJSON("./data.json", function (data) {
-      data.perfiles.forEach(function(perfil) {
+      data.perfiles.forEach(function (perfil) {
         perfiles.push({
           "img": perfil.img,
           "page": perfil.page,
@@ -17,12 +21,12 @@
       view();
       size = perfiles.length;
       setInterval(moveRight, 2500);
-      $('#left').click(moveLeft);
-      $('#right').click(moveRight);
-      $('#perfiles').click(viewProfile);
+      left.click(moveLeft);
+      right.click(moveRight);
+      people.click(viewProfile);
     });
 
-    $('.link').click(function() {
+    $('.link').click(function () {
       var id = $(this).attr('id');
       var name = "HTML/" + id + ".html";
       if (id != 'perfiles') window.location = name;
@@ -40,7 +44,7 @@
     }
 
     function view() {
-      $('.Perfiles').css('background-image', `url(${perfiles[index].img})`);
+      Perfiles.style['background-image'] = `url(${perfiles[index].img})`;
     }
 
     function viewProfile(ev) {
@@ -49,4 +53,4 @@
       }
     }
   });
-})(jQuery)
+})(jQuery);

@@ -1,4 +1,4 @@
-(function($) {
+(function ($) {
   $(function () {
     var width = window.screen.width;
     var path = window.location.pathname;
@@ -8,25 +8,24 @@
       data.perfiles.forEach(function (perfil, index) {
         items.push(`<div class="container-img description">
         <img class="profileItem"
-        id="${perfil.name}"
-        src=.${perfil.img}
-        onClick=(redirect(".${perfil.page}"))>
-        </img>
+          id="${perfil.name}"
+          src=.${perfil.img}
+          onClick=(redirect(".${perfil.page}"))>
         <div class="mascara">
-        <h2>${perfil.name}</h2>
-        <p>${perfil.description}</p>
-        <a href=".${perfil.page}" class="link">Leer mas</a>
-        </div>
+          <h2>${perfil.name}</h2>
+          <p>${perfil.description}</p>
+          <a href=".${perfil.page}" class="link">Leer mas</a>
+          </div>
         </div>`
       );
 
-        if ((index + 1) % 4 == 0) {
-          items[index] += '<br>';
-        }
+        // if ((index + 1) % 4 == 0) {
+        //   items[index] += '<br>';
+        // }
       });
 
       $("<div/>", {
-        "class": "profileList",
+        "class": "profileList row",
         html: items.join("")
       }).appendTo("#integrantes");
     });
@@ -37,4 +36,4 @@
       window.location = url;
     }
   });
-})(jQuery)
+})(jQuery);
