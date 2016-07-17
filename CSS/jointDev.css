@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 html, body {
   position: absolute;
@@ -9,7 +7,7 @@ html, body {
   margin: 0;
 	top: 0;
 	left: 0;
-	font-family: 'Josefin Slab', 'Myriad Pro', Arial, sans-serif;
+  font-family: 'Arima Madurai', cursive;
   font-size: 18px;
 }
 
@@ -42,9 +40,9 @@ section {
 	cursor: pointer;
 	height: 30px;
 	line-height: 30px;
-  font-weight: 700;
-	background: #444;
+  font-weight: 500;
 	color: #fff;
+  background: #444;
 	text-align: center;
 }
 
@@ -60,21 +58,29 @@ section {
 .banner > a:hover,
 .navbar > a:hover {
   color: #f06292;
+  font-weight: 500;
 }
 
-#control-1 { left: 0%; }
-#control-2 { left: 11%; }
-#control-3 { left: 22%; }
-#control-4 { left: 33%; }
-#control-5 { left: 44%; }
-#control-6 { left: 55%; }
-#control-7 { left: 66%; }
-#control-8 { left: 77%; }
-#control-9 { left: 88%; }
+.navbar > a.active {
+  color: #444;
+  background-color: #f06292;
+  font-weight: 500;
+}
+
+
+#nav-inicio        { left: 0%; }
+#nav-info          { left: 11%; }
+#nav-aptitudes     { left: 22%; }
+#nav-educacion     { left: 33%; }
+#nav-cursos        { left: 44%; }
+#nav-proyectosport { left: 55%; }
+#nav-pasatiempos   { left: 66%; }
+#nav-articulos     { left: 77%; }
+#nav-contacto      { left: 89%; }
 
 #jointDev { left: 0% }
 #nombre   { left: 50% }
 
-#panel-1 {
+#inicio {
   background-color: #f06292;
 }
