@@ -24,3 +24,12 @@
   src: local('Linden Hill Italic'), local('LindenHill-Italic'), url(../FONTS/OcS3bZcu8vJvIDH8Zic83geOulFbQKHxPa89BaxZzA0.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
+
+/* latin */
+@font-face {
+  font-family: 'Arima Madurai', cursive;
+  font-style: italic;
+  font-weight: 400;
+  src: local('Arima Madurai'), local('Arima-Madurai'), url(../FONTS/Arima_Madurai/ArimaMadurai-Regular.ttf) format('ttf');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}

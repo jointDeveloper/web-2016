@@ -36,15 +36,12 @@ h1,h2,h3,h4,h5,h6,p{
 	font-size: 12px;
 }
 
-.section-title{
-  font-size: 12px;
-  text-align: left;
-  padding-left: 50px;
-  padding-top: 20px;  
-}
-
 .title-section{
   color: #f06292 !important;
+	font-size: 12px;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 20px;
 }
 
 .center{
@@ -88,7 +85,7 @@ h1,h2,h3,h4,h5,h6,p{
     -moz-transition: width .4s ease-in-out;
     -ms-transition: width .4s ease-in-out;
     -o-transition: width .4s ease-in-out;
-    transition: width .4s ease-in-out;		
+    transition: width .4s ease-in-out;
 }
 
 .reverse{
@@ -132,7 +129,7 @@ h1,h2,h3,h4,h5,h6,p{
   	-moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-  	background-size: 35px 20px, 100% 100%, 100% 100%; 
+  	background-size: 35px 20px, 100% 100%, 100% 100%;
  }
 
 .field{
@@ -143,4 +140,3 @@ h1,h2,h3,h4,h5,h6,p{
 .adjust{
   margin-bottom: 25px;
 }
-
