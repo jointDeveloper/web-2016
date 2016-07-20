@@ -1,3 +1,6 @@
+body {
+  color: #263238;
+}
 ul.topnav li a:hover:not(.active) {
   color: #C06FFF;
   font-weight: bold;
@@ -11,10 +14,30 @@ ul.topnav li a.active {
   border-bottom: 2px solid #C06FFF;
 }
 
+.bio-title{
+	font-size: 12px;
+}
+
+.section-title{
+  font-size: 12px;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.title-section{
+  color: #8C51BA !important;
+}
+
+.info-title {
+  font-family: 'Linden Hill', serif;
+  font-size: 1.5em;
+}
+
 .circular {
   max-width: 70%;
   border-radius: 50%;
-  border:3px solid #C06FFF;
+  border:3px solid #8C51BA;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
 }
@@ -120,11 +143,36 @@ progress[value]::-moz-progress-bar {
   background-size: 35px 20px, 100% 100%, 100% 100%;
 }
 
+hr {
+  background-color: #4a148c;
+  height: 5px;
+  width: 60%;
+}
+
 .div-border-c {
-  margin: 10px;
+  padding: 5px;
   width: 70%;
-  height: 270px;
-  border: 2px solid #555;
+  height: 320px;
+  position:relative;
+  background-color: #DAC3EF;
+}
+
+.div-border-c:before {
+  content:'';
+  position: absolute;
+  border: 4px solid #4a148c;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  -moz-transition-duration: 0.3s;
+  -webkit-transition-duration:0.3s;
+}
+.div-border-c:hover:before {
+  top: -12px;
+  bottom: -12px;
+  left: -12px;
+  right: -12px;
 }
 
 .info-style {
