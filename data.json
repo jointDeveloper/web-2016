@@ -11,7 +11,7 @@
       "name": "Carolina Gómez Trejos",
       "img": "./IMG/carogt.jpg",
       "page": "./HTML/perfiles/carogt.html",
-      "email": "",
+      "email": "caro_gomezt@utp.edu.co",
       "description": "Estudiante Ingenieria de Sistemas y Computación"
     },
     {
@@ -83,6 +83,13 @@
       "page": "./HTML/perfiles/melidelgado.html",
       "email": "adelgadoleon@acm.org",
       "description": "Estudiante de Ingeniería de Sistemas"
+    },
+    {
+      "name": "Daniel Fernando Largo Guerrero",
+      "img": "./IMG/daniell.jpg",
+      "page": "./HTML/perfiles/daniel.html",
+      "email": "danielfernandolargo@gmail.com",
+      "description": "Estudiante de Ingeniería de Sistemas y Computación."
     }
   ]
 }

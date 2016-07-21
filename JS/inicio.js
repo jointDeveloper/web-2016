@@ -15,17 +15,5 @@ $(function() {
       $(this).css('background', '#f06292');
       $("#nombre").css('display', '');
     }
-
-    /*var r = random(0, 255, true);
-    var g = random(0, 255, true);
-    var b = random(0, 255, true);
-    var a = random(0, 1, false);
-    $(this).css('color', `rgba(${r}, ${g}, ${b}, ${a})`);*/
-
   });
-
-  function random(min, max, opt) {
-    var ans = Math.random() * (max - min);
-    return (opt)? Math.floor(ans) : ans;
-  }
 });
