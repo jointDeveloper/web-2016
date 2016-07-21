@@ -1,8 +1,8 @@
 (function ($) {
   $(function () {
-    var left = document.querySelector('#left');
-    var right = document.querySelector('#right');
-    var people = document.querySelector('#perfiles');
+    var left = document.getElementById('left');
+    var right = document.getElementById('right');
+    var people = document.getElementById('perfiles');
     var Perfiles = document.querySelector('.Perfiles');
 
     var perfiles = [];
@@ -21,9 +21,9 @@
       view();
       size = perfiles.length;
       setInterval(moveRight, 2500);
-      left.click(moveLeft);
-      right.click(moveRight);
-      people.click(viewProfile);
+      left.addEventListener('click', (moveLeft));
+      right.addEventListener('click', (moveRight));
+      people.addEventListener('click', (viewProfile));
     });
 
     $('.link').click(function () {
