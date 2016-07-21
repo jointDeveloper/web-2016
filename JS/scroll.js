@@ -1,7 +1,9 @@
 $(function() {
 	$(".panel").mouseenter(function() {
 		var id = "#nav-" + $(this).attr('id');
-		$('.active').removeClass('active');
-		$(id).addClass('active');
+		if (id != "#nav-inicio") {
+			$('.active').removeClass('active');
+			$(id).addClass('active');
+		}
 	});
 });
