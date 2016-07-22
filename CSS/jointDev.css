@@ -35,7 +35,10 @@ html, body {
 .col-11 {width: 91.66%;}
 .row {width: 100%;}
 
-.center { text-align: center; }
+.center {
+  margin: auto 0;
+  text-align: center;
+}
 .left { text-align: left; }
 
 a:link { text-decoration: none; }
@@ -43,17 +46,11 @@ a:link { text-decoration: none; }
 a:active, a:active * { outline: none !important; -moz-outline-style: none !important; }
 a:focus, a:focus * { outline: none !important; -moz-outline-style: none !important; }
 
-.container, .scroll {
-  height: 100%;
-}
+.container, .scroll { height: 100%; }
 
-section {
-  min-height: 100% !important;
-}
+section { min-height: 100% !important; }
 
-.pag {
-  padding: 50px;
-}
+.pag { padding: 50px; }
 
 #jointDev {
   font-family: 'Linden Hill', serif;
@@ -94,7 +91,6 @@ section {
   font-weight: 500;
 }
 
-
 #nav-inicio        { left: 0%; }
 #nav-info          { left: 11%; }
 #nav-aptitudes     { left: 22%; }
@@ -119,5 +115,29 @@ section {
 }
 
 .contenido {
-  padding: 0 20px;
+  padding: 20px;
+}
+
+input, textarea {
+  border: 1px solid #DBE1EB;
+  font-size: 15px;
+  font-family: 'Arima Madurai', cursive;
+
+  margin: 5px 0;
+  width: 99%;
+  transition-duration: 0.5s;
+  background: #F7F9FA;
+  color: #2E3133;
+}
+
+input:focus, textarea:focus {
+  color: #444;
+  background: rgba(240, 99, 146, 0.4);
+  border: 1px solid rgba(240, 99, 146, 0.01);
+  outline: 0px;
+}
+
+textarea {
+  width: 99.5%;
+  resize: none;
 }
