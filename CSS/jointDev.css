@@ -46,7 +46,11 @@ a:link { text-decoration: none; }
 a:active, a:active * { outline: none !important; -moz-outline-style: none !important; }
 a:focus, a:focus * { outline: none !important; -moz-outline-style: none !important; }
 
-.container, .scroll { height: 100%; }
+.container, .scroll {
+  height: 100%;
+  margin: 0 auto !important;
+  float: none !important;
+  max-width: 1024px;}
 
 section { min-height: 100% !important; }
 
@@ -141,3 +145,5 @@ textarea {
   width: 99.5%;
   resize: none;
 }
+
+.fondo-contenido { background: rgba(240, 99, 146, 0.1); }
