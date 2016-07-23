@@ -7,8 +7,9 @@ html, body {
   margin: 0;
 	top: 0;
 	left: 0;
-  font-family: 'Arima Madurai', cursive;
-  font-size: 18px;
+  /*font-family: 'Arima Madurai', cursive;*/
+  font-family: 'Josefin Slab', 'Myriad Pro', Arial, sans-serif;
+  font-size: 20px;
 }
 
 @font-face {
@@ -46,20 +47,21 @@ a:link { text-decoration: none; }
 a:active, a:active * { outline: none !important; -moz-outline-style: none !important; }
 a:focus, a:focus * { outline: none !important; -moz-outline-style: none !important; }
 
-.container, .scroll {
-  height: 100%;
-  margin: 0 auto !important;
-  float: none !important;
-  max-width: 1024px;}
+.container, .scroll { height: 100%; }
 
 section { min-height: 100% !important; }
 
-.pag { padding: 50px; }
+.pag {
+  padding: 50px;
+  margin: 0 auto !important;
+  float: none !important;
+  max-width: 1366px;
+}
 
 #jointDev {
   font-family: 'Linden Hill', serif;
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .banner > a,
@@ -68,7 +70,8 @@ section { min-height: 100% !important; }
 	cursor: pointer;
 	height: 30px;
 	line-height: 30px;
-  font-weight: 500;
+  font-weight: bold;
+  font-size: 20px;
 	color: #fff;
   background: #444;
 	text-align: center;
@@ -81,29 +84,29 @@ section { min-height: 100% !important; }
 .navbar > a { bottom: 0; }
 
 .banner > a { width: 50%; }
-.navbar > a { width: 12%; }
+.navbar > a { width: 11.11%; }
 
 .banner > a:hover,
 .navbar > a:hover {
   color: #f06292;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .navbar > a.active {
   color: #444;
   background-color: #f06292;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 #nav-inicio        { left: 0%; }
-#nav-info          { left: 11%; }
-#nav-aptitudes     { left: 22%; }
-#nav-educacion     { left: 33%; }
-#nav-cursos        { left: 44%; }
-#nav-proyectosport { left: 55%; }
-#nav-pasatiempos   { left: 66%; }
-#nav-articulos     { left: 77%; }
-#nav-contacto      { left: 88%; }
+#nav-info          { left: 11.11%; }
+#nav-aptitudes     { left: 22.22%; }
+#nav-educacion     { left: 33.33%; }
+#nav-cursos        { left: 44.44%; }
+#nav-proyectosport { left: 55.55%; }
+#nav-pasatiempos   { left: 66.66%; }
+#nav-articulos     { left: 77.77%; }
+#nav-contacto      { left: 88.89%; }
 
 #jointDev { left: 0% }
 #nombre   { left: 50% }
@@ -115,18 +118,19 @@ section { min-height: 100% !important; }
 
 .titulo {
   font-size: 40px;
-  padding: 0 20px;
+  padding: 2% 0;
 }
 
 .contenido {
-  padding: 20px;
+  padding: 5% 20px;
 }
 
 input, textarea {
   border: 1px solid #DBE1EB;
-  font-size: 15px;
-  font-family: 'Arima Madurai', cursive;
-
+  font-size: 18px;
+  /*font-family: 'Arima Madurai', cursive;*/
+  font-family: 'Josefin Slab', 'Myriad Pro', Arial, sans-serif;
+  padding: 5px;
   margin: 5px 0;
   width: 99%;
   transition-duration: 0.5s;
@@ -147,3 +151,10 @@ textarea {
 }
 
 .fondo-contenido { background: rgba(240, 99, 146, 0.1); }
+
+.tabla-contenido {
+  background: #f06292;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
