@@ -150,6 +150,20 @@ textarea {
   resize: none;
 }
 
+.btn {
+  background: rgba(240, 99, 146, 0.4);
+  width: initial;
+  font-weight: bold;
+  border: 1px solid rgba(240, 99, 146, 0.01);
+  color: #444;
+}
+
+.btn:hover {
+  background: #f06292;
+  color: #fff;
+  font-weight: bold;
+}
+
 .fondo-contenido { background: rgba(240, 99, 146, 0.1); }
 
 .tabla-contenido {
