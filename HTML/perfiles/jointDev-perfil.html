@@ -141,10 +141,28 @@
           </div>
         </section>
         <footer>
-          <h3>Esto es un footer</h3>
+          <div class="row">
+            <div class="col-2 center">
+              <img src="/IMG/icons/sirius.png" style="width: 100px" alt="" />
+            </div>
+            <div class="col-8">
+              <div class="fb-like" data-href="https://www.facebook.com/jointDeveloper/" data-width="80px" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+            </div>
+            <div class="col-2 center">
+              <img src="/IMG/icons/utp.png" style="width: 150px" alt="" />
+            </div>
+          </div>
         </footer>
       </div>
     </div>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.7";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <script src="../../JS/jquery.min.js"></script>
     <script type="text/javascript" src="../../JS/hoover.js"></script>
     <script type="text/javascript" src="../../JS/scroll.js"></script>

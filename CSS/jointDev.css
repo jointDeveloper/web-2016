@@ -158,3 +158,12 @@ textarea {
   margin: 5px;
   text-align: center;
 }
+
+/* footer */
+
+footer {
+  height: 250px;
+  background: #444;
+  color: #fff;
+  padding: 10px;
+}
