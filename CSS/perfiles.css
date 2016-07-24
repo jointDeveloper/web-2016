@@ -107,7 +107,7 @@ html, body {
 .footer {
   position: relative;
   height: 50%;
-  background-color: #333;
+  background-color: #444;
   padding: 10px;
   color: white;
 }
@@ -118,59 +118,72 @@ html, body {
 
 /*Navigation*/
 
-#logo-nav, #logo-nav-responsive {
+#jointDev {
   font-family: 'Linden Hill', serif;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: bold;
-  border-bottom: 0;
-  padding: 0px;
 }
 
-ul.topnav {
-  width: 100%;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #444;
-  position: fixed;
-  top: 0px;
+.banner > a,
+.navbar > a {
+	position: fixed;
+	cursor: pointer;
+	height: 30px;
+	line-height: 30px;
+  font-weight: bold;
+  font-size: 20px;
+	color: #fff;
+  background: #444;
+	text-align: center;
   z-index: 9999;
 }
 
-ul.topnav li {
-  float: left;
+.banner,
+.navbar {
+  position: fixed;
+  z-index: 9999;
 }
 
-ul.topnav li a {
-  display: block;
-  color: #fff;
-  text-align: center;
-  padding: 14px 15px;
-  text-decoration: none;
-}
+.banner:before,
+.banner > a { top: 0; }
 
-a {
-  color: black;
-}
+.navbar:before,
+.navbar > a { bottom: 0; }
 
-ul.topnav li a:hover:not(.active) {
+.banner > a { width: 50%; }
+.navbar > a { width: 11.11%; }
+
+.banner > a:hover,
+.navbar > a:hover {
   color: #f06292;
   font-weight: bold;
-  border-bottom: 2px solid #f06292;
+  z-index: 9999;
 }
 
-ul.topnav li a.active {
-  color: #f06292;
-  background-color: #444;
+.navbar > a.active {
+  color: #444;
+  background-color: #f06292;
   font-weight: bold;
-  border-bottom: 2px solid #f06292;
 }
+.bold { font-weight: bold; }
 
-ul.topnav ul.right {
-  float: right;
-  list-style-type: none;
-}
+a:link { text-decoration: none; }
+
+a:active, a:active * { outline: none !important; -moz-outline-style: none !important; }
+a:focus, a:focus * { outline: none !important; -moz-outline-style: none !important; }
+
+#nav-inicio        { left: 0%; }
+#nav-info          { left: 11.11%; }
+#nav-aptitudes     { left: 22.22%; }
+#nav-educacion     { left: 33.33%; }
+#nav-cursos        { left: 44.44%; }
+#nav-proyectosport { left: 55.55%; }
+#nav-pasatiempos   { left: 66.66%; }
+#nav-articulos     { left: 77.77%; }
+#nav-contacto      { left: 88.89%; }
+
+#jointDev { left: 0% }
+#nombre   { left: 50% }
 
 .style-title {
   font-family: 'Linden Hill', serif;
@@ -294,25 +307,18 @@ input:focus, textarea:focus {
   outline: 0px;
 }
 
-button {
-  background-color: white;
-  border: 2px solid #f06292;
-  border-radius: 8px;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  position: relative;
+.btn {
+  background: rgba(240, 99, 146, 0.4);
+  width: initial;
+  font-weight: bold;
+  border: 1px solid rgba(240, 99, 146, 0.01);
+  color: #444;
 }
 
-button:hover {
-  background-color: #f06292;
-  color: white;
+.btn:hover {
+  background: #f06292;
+  color: #fff;
+  font-weight: bold;
 }
 
 #contacto {
