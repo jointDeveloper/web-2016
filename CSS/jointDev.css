@@ -41,6 +41,9 @@ html, body {
   text-align: center;
 }
 .left { text-align: left; }
+.right { text-align: right; }
+
+.bold { font-weight: bold; }
 
 a:link { text-decoration: none; }
 
@@ -122,7 +125,7 @@ section { min-height: 100% !important; }
 }
 
 .contenido {
-  padding: 5% 20px;
+  padding: 2% 20px;
 }
 
 input, textarea {
@@ -166,9 +169,22 @@ textarea {
 
 .fondo-contenido { background: rgba(240, 99, 146, 0.1); }
 
+.circular {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: #f06292 solid 2px;
+}
+
+.nombre {
+  font-size: 25px;
+  font-weight: bold;
+}
+
 .tabla-contenido {
   background: #f06292;
-  padding: 5px;
+  font-size: 18px;
+  padding: 5px 5px 10px;
   margin: 5px;
   text-align: center;
 }
@@ -176,9 +192,9 @@ textarea {
 /* footer */
 
 footer {
-  height: 250px;
+  height: 150px;
   background: #444;
   color: #fff;
   padding: 10px;
-  margin-top: -250px;
+  margin-top: -150px;
 }
