@@ -1,11 +1,13 @@
+* { box-sizing: border-box; }
+
 html, body {
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
-  font-size: 1.063em;
-  background-color: #fff;
-  font-family: 'Arima-Madurai', cursive;
+  /*font-family: 'Arima-Madurai', cursive;*/
+  font-family: 'Josefin Slab', 'Myriad Pro', Arial, sans-serif;
+  font-size: 20px;
 }
 
 /*Fonts*/
@@ -15,15 +17,10 @@ html, body {
   src: url(../../FONTS/Cinzel/Cinzel-Regular.ttf);
 }
 
-.letra {
-  font-family: 'Lato', sans-serif
-}
+.letra { font-family: 'Lato', sans-serif }
 .titulo {
-  font-family: 'Linden Hill', serif;
-  font-size: 90.3333px;
-  color: #fff;
-  font-size: 5em;
-  text-shadow: 2px 2px #444;
+  font-size: 40px;
+  padding: 2% 0;
 }
 .intro {
   font-size: 5em;
@@ -63,14 +60,11 @@ html, body {
   width: 100%;
   height: 95% !important;
   padding-top: 5%;
-
 }
 
 /*Grid*/
 
-[class*="col-"] {
-  float: left;
-}
+[class*="col-"] { float: left; }
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -85,19 +79,17 @@ html, body {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-.first-row {margin-top: 50px;}
-
 /*Content*/
 
 .content {
+  background-color: transparent;
   position: relative;
   content: "";
   clear: both;
   display: block;
-  background-color: white;
   margin: 10px auto;
-  padding: 10px;
-  width: 90%;
+  padding: 50px;
+  max-width: 1366px;
   min-height: 95% !important;
   padding-top: 5%;
 }
@@ -109,13 +101,8 @@ html, body {
   height: 100% !important;
 }
 
-.center {
-  text-align: center;
-}
-
-.left {
-  text-align: left;
-}
+.center { text-align: center; }
+.left { text-align: left; }
 
 .footer {
   position: relative;
@@ -206,16 +193,38 @@ ul.topnav ul.right {
   transform: translateY(-50%);
 }
 
-img {
-    max-width:100%;
+img { max-width:100%; }
+
+.fondo-contenido { background: rgba(240, 99, 146, 0.1); }
+
+.tabla-contenido {
+  background: #f06292;
+  font-size: 18px;
+  padding: 5px 5px 10px;
+  margin: 5px;
+  text-align: center;
+  min-height: 150px;
+}
+
+.tabla-contenido-portafolio {
+  background: #f06292;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  min-height: 200px;
+}
+
+.tabla-contenido-portafolio > img {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
 }
 
 .circular {
-  max-width: 70%;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
-  border:3px solid #f06292;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
+  border: #f06292 solid 2px;
 }
 
 .robo-nav {
@@ -260,43 +269,29 @@ img {
   color: white;
 }
 
-textarea {
-  width: 100%;
-  resize: none
-}
-
-input,textarea {
-  border: 2px solid #DBE1EB;
-  font-size: 15px;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+input, textarea {
+  border: 1px solid #DBE1EB;
+  font-size: 18px;
+  /*font-family: 'Arima Madurai', cursive;*/
+  font-family: 'Josefin Slab', 'Myriad Pro', Arial, sans-serif;
   padding: 5px;
-  width: 90%;
-  border-radius: 4px;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -o-border-radius: 4px;
+  margin: 5px 0;
+  width: 99%;
   transition-duration: 0.5s;
   background: #F7F9FA;
   color: #2E3133;
 }
 
-.text-description {
-  font-size: 15px;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  padding: 10px;
-  width: 95%;
-  border-radius: 4px;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -o-border-radius: 4px;
-  background: #eff0f2;
-  color: #2E3133;
+textarea {
+  width: 99.5%;
+  resize: none;
 }
 
 input:focus, textarea:focus {
-  color: #2E3133;
-  border: 2px solid #f06292;
-  outline:0px;
+  color: #444;
+  background: rgba(240, 99, 146, 0.4);
+  border: 1px solid rgba(240, 99, 146, 0.01);
+  outline: 0px;
 }
 
 button {
@@ -331,22 +326,6 @@ button:hover {
   width: 90%;
   height: 65% !important;
   padding-top: 5%;
-}
-
-.vertical-center-title {
-  position: relative;
-  padding-top: 40%;
-  -ms-transform: translateY(-40%);
-  -webkit-transform: translateY(-40%);
-  transform: translateY(-40%);
-}
-
-.vertical-center {
-  position: relative;
-  padding-top: 10%;
-  -ms-transform: translateY(-25%);
-  -webkit-transform: translateY(-25%);
-  transform: translateY(-25%);
 }
 
 /*Progress bar*/
@@ -566,37 +545,6 @@ progress[value]::-moz-progress-bar {
 .description:hover a.link {
   transform: scale(1);
   opacity: 1;
-}
-
-/* Medias */
-
-@media (min-width: 1024px) and (max-width: 1205px) {
-  ul.topnav li a {
-    padding: 16px 8px;
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 1023px) {
-  .topnav {
-    width: 80%;
-    height: 100%;
-    margin: 0;
-  }
-
-  ul.topnav li {
-    display: block;
-    float: none;
-  }
-
-  ul.topnav li a {
-    text-align: left;
-  }
-
-  .robo-nav {
-    float: left;
-  }
-
 }
 
 .h1Title{

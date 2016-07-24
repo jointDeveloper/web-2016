@@ -49,15 +49,23 @@ a:link { text-decoration: none; }
 a:active, a:active * { outline: none !important; -moz-outline-style: none !important; }
 a:focus, a:focus * { outline: none !important; -moz-outline-style: none !important; }
 
-.container { height: 100%; }
-
-.scroll { height: 100%; }
+.container { height: 100% !important; }
 
 section {
-  min-height: 100% !important;
+	position: relative;
+	content: "";
+	clear: both;
+	display: block;
+	min-height: 95% !important;
 }
 
 .pag {
+	position: relative;
+	content: "";
+	clear: both;
+	display: block;
+	min-height: 95% !important;
+	height: 100%	;
   padding: 50px;
   margin: 0 auto !important;
   float: none !important;
@@ -203,12 +211,12 @@ textarea {
   padding: 5px;
   margin: 10px;
   text-align: center;
-  min-height: 250px;
+  min-height: 200px;
 }
 
 .tabla-contenido-portafolio > img {
   width: 100%;
-  height: 250px;
+  height: 200px;
   background-size: cover;
 }
 
