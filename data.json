@@ -66,7 +66,7 @@
     {
       "name": "Leiver Campeón",
       "img": "./IMG/leiver.jpg",
-      "page": "/perfiles/leiver.html",
+      "page": "./HTML/perfiles/leiver.html",
       "email": "",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
