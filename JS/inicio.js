@@ -1,19 +1,18 @@
 $(function() {
-  $(".navbar a").click(function() {
+  $(".group").click(function() {
     var id = $(this).attr('href');
     //alert(id);
-    if (id == "#inicio") {
-      $(".navbar a, .banner a").css('background', 'transparent');
-      $(".navbar a").css('font-weight', '700');
+
+    if (id == "#inicio" || id == "#info") {
       $("#nombre").css('display', 'none');
-      $(this).css('color', '#fff');
+      $(".banner a").css('width', '100%');
     }
     else {
-      $(".navbar a, .banner a").css('background', '#444');
-      $(".navbar a").css('font-weight', '500');
-      $(this).css('color', '#fff');
-      $(this).css('background', '#f06292');
-      $("#nombre").css('display', '');
+      $("#nombre").css('display', 'initial');
+      $(".banner a").css('width', '50%');
     }
+			if (id == "#nav-inicio") $(".navbar a, .banner a").css('background', 'rgba(0, 0, 0, 0.5)');
+    else $(".navbar a, .banner a").css('background', '#444');
+
   });
 });
