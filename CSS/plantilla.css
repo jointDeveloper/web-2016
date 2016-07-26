@@ -28,9 +28,7 @@ html, body {
   text-shadow: 2px 2px #444;
 }
 
-.slogan {
-  -webkit-margin-after: 0;
-}
+.slogan { -webkit-margin-after: 0; }
 
 .intro-contacto {
   background-image: url(../IMG/contacto-background.jpg);
@@ -104,6 +102,7 @@ html, body {
 
 .center { text-align: center; }
 .left { text-align: left; }
+.right { text-align: right; }
 
 .footer {
   position: relative;
@@ -113,9 +112,7 @@ html, body {
   color: white;
 }
 
-.down {
-  position: absolute;
-}
+.down { position: absolute; }
 
 /*Navigation*/
 
@@ -189,14 +186,14 @@ a:focus, a:focus * { outline: none !important; -moz-outline-style: none !importa
 #jointDev { left: 0% }
 #nombre   { left: 50% }
 
+.contenido { padding: 5% 0; }
+.contenido-intro { padding: 0 10%; vertical-align: middle;}
+
 .style-title {
-  font-family: 'Linden Hill', serif;
+  height: 100% !important;
   text-align: center;
   position: relative;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+  background: #f06292;
 }
 
 .style-title-white {
@@ -231,6 +228,9 @@ img { max-width:100%; }
   min-height: 200px;
 }
 
+.claro { background: rgba(240, 99, 146, 0.4); }
+.oscuro { background: rgba(240, 99, 146, 0.8); }
+
 .tabla-contenido-portafolio > img {
   width: 100%;
   height: 200px;
@@ -244,9 +244,22 @@ img { max-width:100%; }
   border: #f06292 solid 2px;
 }
 
+.circular-intro {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: #fff solid 5px;
+}
+
 .nombre {
   font-size: 25px;
   font-weight: bold;
+}
+
+.nombre-intro {
+  font-size: 60px;
+  font-weight: bold;
+  color: #fff;
 }
 
 .justifyText{
