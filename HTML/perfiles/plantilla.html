@@ -5,6 +5,7 @@
     <link href="../../CSS/plantilla.css" rel="stylesheet">
     <link href="../../CSS/fonts.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="../../IMG/favicon.ico" />
+        <script type="text/javascript" src="../../JS/Chart.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
     <title>Perfiles - jointDeveloper</title>
   </head>
@@ -74,9 +75,91 @@
         <div class="titulo center">
           Aptitudes
         </div>
-        <div class="contenido left">
-          <p>Un entusiasta de la investigación, tratando de aprender cada día más, amante de la computación de alto desempeño utilizando procesadores masivamente paralelos como las GPUs, generalmente me gusta articular el conocimiento trabajando con especialistas en áreas diferentes a las ciencias de la computación.</p>
-          <p>Mi maestría esta orientada a la simulación y visualización de un modelo eléctrico celular de aurícula humana sobre GPUs.</p>
+        <div class="contenido">
+          <div class="row">
+            <div class="col-6">
+              <h4>Derrollo Web</h4>
+              <canvas id="myChart" class="chart-aptitudes center"></canvas>
+              <script>
+              var ctx = document.getElementById("myChart").getContext("2d");
+              var data_web = {
+                labels: [
+                "HTML",
+                "CSS"
+                  ],
+                  datasets: [
+                    {
+                      data: [50, 50],
+                      backgroundColor: [
+                          "#F22613",
+                          "#4183D7"
+                      ],
+                      hoverBackgroundColor: [
+                          "#EF4836",
+                          "#446CB3"
+                      ]
+                }]
+              };
+
+              var myRadarChart = new Chart(ctx, {
+                  type: 'doughnut',
+                  data: data_web,
+                  options: {
+                     scale: {
+                        ticks: {
+                          beginAtZero: true,
+                          max: 100
+                      }
+                    }
+                  }
+              });
+              </script>
+            </div>
+            <div class="col-6">
+              <h4>Programación</h4>
+              <canvas id="myChart2" class="chart-aptitudes center"></canvas>
+              <script>
+              var ctx = document.getElementById("myChart2").getContext("2d");
+              var data_web = {
+                labels: [
+                "C++",
+                "C",
+                "Python",
+                "Java"
+                  ],
+                  datasets: [
+                    {
+                      data: [25, 40, 25, 10],
+                      backgroundColor: [
+                          "#4B77BE",
+                          "#3A539B",
+                          "#ABB7B7",
+                          "#F89406"
+                      ],
+                      hoverBackgroundColor: [
+                          "#5C97BF",
+                          "#5C97BF",
+                          "#6C7A89",
+                          "#E87E04"
+                      ]
+                }]
+              };
+
+              var myRadarChart = new Chart(ctx, {
+                  type: 'doughnut',
+                  data: data_web,
+                  options: {
+                     scale: {
+                        ticks: {
+                          beginAtZero: true,
+                          max: 100
+                      }
+                    }
+                  }
+              });
+              </script>
+            </div>
+          </div>
         </div>
       </div>
       <div class="content scroll" id="educacion">

@@ -1,7 +1,7 @@
 $(function() {
-  $(".group").click(function() {
+  $(".navbar a").click(function() {
     var id = $(this).attr('href');
-    //alert(id);
+    console.log(id);
 
     if (id == "#inicio" || id == "#info") {
       $("#nombre").css('display', 'none');
@@ -11,8 +11,7 @@ $(function() {
       $("#nombre").css('display', 'initial');
       $(".banner a").css('width', '50%');
     }
-			if (id == "#nav-inicio") $(".navbar a, .banner a").css('background', 'rgba(0, 0, 0, 0.5)');
+		if (id == "#inicio") $(".navbar a, .banner a").css('background', 'rgba(0, 0, 0, 0.5)');
     else $(".navbar a, .banner a").css('background', '#444');
-
   });
 });

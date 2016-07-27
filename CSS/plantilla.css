@@ -100,7 +100,10 @@ html, body {
   height: 100% !important;
 }
 
-.center { text-align: center; }
+.center {
+  text-align: center;
+  margin: auto;
+}
 .left { text-align: left; }
 .right { text-align: right; }
 
@@ -193,7 +196,11 @@ a:focus, a:focus * { outline: none !important; -moz-outline-style: none !importa
   height: 100% !important;
   text-align: center;
   position: relative;
-  background: #f06292;
+  /*background: #f06292;*/
+  background-image: url(../../IMG/josorio/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
 .style-title-white {
@@ -245,14 +252,21 @@ img { max-width:100%; }
 }
 
 .circular-intro {
-  width: 300px;
-  height: 300px;
+  width: 90%;
   border-radius: 50%;
   border: #fff solid 5px;
   /*box-shadow: 2px 1px 2px #444;*/
 }
 
-.fondo-intro {background: rgba(0, 0, 0, 0.1); }
+.chart-aptitudes {
+    width: 90% !important;
+    height: 90% !important;
+}
+
+.fondo-intro {
+  background: rgba(0, 0, 0, 0.1);
+  padding-top: 10%;
+}
 
 .nombre {
   font-size: 25px;
