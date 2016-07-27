@@ -352,6 +352,15 @@ input:focus, textarea:focus {
   font-weight: bold;
 }
 
+.btn-inicio {
+  width: initial;
+  font-weight: bold;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px;
+}
+
 #contacto {
   position: relative;
   content: "";
