@@ -258,6 +258,16 @@ img { max-width:100%; }
   /*box-shadow: 2px 1px 2px #444;*/
 }
 
+.circular-pasatiempo {
+  width: 90% !important;
+  height: 90% !important;
+  border-radius: 50%;
+  background-color: black;
+  padding: 10%;
+}
+
+.circular-pasatiempo > img { width: 70%; }
+
 .chart-aptitudes {
     width: 90% !important;
     height: 90% !important;
