@@ -114,7 +114,7 @@ html, body {
 
 .footer {
   position: relative;
-  height: 50%;
+  height: 150px;
   background-color: #444;
   padding: 10px;
   color: white;
@@ -243,7 +243,7 @@ img { max-width:100%; }
 .claro { background: rgba(240, 99, 146, 0.4); }
 .oscuro { background: rgba(240, 99, 146, 0.8); }
 
-.tabla-contenido-portafolio > img {
+.tabla-contenido-portafolio > .item > a > img {
   width: 100%;
   height: 200px;
   background-size: cover;
@@ -390,7 +390,7 @@ input:focus, textarea:focus {
   margin: 0 auto;
   padding: 10px;
   width: 90%;
-  height: 65% !important;
+  height: calc(100% - 150px) !important;
   padding-top: 5%;
 }
 
@@ -574,4 +574,47 @@ input:focus, textarea:focus {
 
 li {
   list-style:none;}
+}
+
+
+.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.img-list > .item {
+  display: inline-block;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+.img-list > .item:hover span.text-content { opacity: 1; }
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+span.text-content {
+  min-width: 100%;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 200px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
 }
