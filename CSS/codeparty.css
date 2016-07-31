@@ -6,7 +6,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /*transform: translate(-525px, -150px);*/
 }
 
 html,body {
@@ -63,8 +62,8 @@ html,body {
 }
 
 #EventInformation .robot {
-  position: absolute;
-  left: -21%;
+  /*position: absolute;
+  left: -21%;*/
 }
 
 #EventInformation .letra {
@@ -175,7 +174,7 @@ html,body {
 		margin: auto;
 		list-style: none;
 		padding: 20px;
-		box-sizing: border-box;
+		box-sizing: border-box; /*eliminar?*/
 		display: flex;
 	}
 
