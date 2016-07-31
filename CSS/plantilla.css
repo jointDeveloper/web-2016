@@ -202,7 +202,7 @@ a:focus, a:focus * { outline: none !important; -moz-outline-style: none !importa
   text-align: center;
   position: relative;
   /*background: #f06292;*/
-  background-image: url(../../IMG/josorio/fondo.jpg);
+  background-image: url(/../IMG/josorio/fondo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
