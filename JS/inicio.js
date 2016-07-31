@@ -1,15 +1,17 @@
 $(function() {
   $(".navbar a").click(function() {
     var id = $(this).attr('href');
-    var r = random(0, 255, true);
-    var g = random(0, 255, true);
-    var b = random(0, 255, true);
-    var a = random(0, 1, false);
-    $(id).css('background-color', `rgba(${r}, ${g}, ${b}, ${a})`);
-  });
+    console.log(id);
 
-  function random(min, max, opt) {
-    var ans = Math.random() * (max - min);
-    return (opt)? Math.floor(ans) : ans;
-  }
+    if (id == "#inicio" || id == "#info") {
+      $("#nombre").css('display', 'none');
+      $(".banner a").css('width', '100%');
+    }
+    else {
+      $("#nombre").css('display', 'initial');
+      $(".banner a").css('width', '50%');
+    }
+		if (id == "#inicio") $(".navbar a, .banner a").css('background', 'rgba(0, 0, 0, 0.5)');
+    else $(".navbar a, .banner a").css('background', '#444');
+  });
 });
