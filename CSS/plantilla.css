@@ -249,6 +249,10 @@ img { max-width:100%; }
   background-size: cover;
 }
 
+.tabla-contenido-portafolio > .item > a > img:hover {
+
+}
+
 .tabla-articulo-titulo, .tabla-articulo-descripcion  {
   padding: 10px;
   min-height: 130px;
@@ -339,7 +343,6 @@ input, textarea {
   /*font-family: 'Arima Madurai', cursive;*/
   font-family: 'Josefin Slab', 'Myriad Pro', Arial, sans-serif;
   padding: 5px;
-  margin: 5px 0;
   width: 99%;
   transition-duration: 0.5s;
   background: #F7F9FA;
@@ -396,7 +399,8 @@ input:focus, textarea:focus {
 
 /*Iconos*/
 
-.icon-title { width: 8%; }
+.icon-title, .icon-title:visited { color: #fff; }
+.icon-title:hover, .btn-inicio:hover { opacity: 0.5; }
 
 .icon-footer {
   width: 10%;
@@ -607,14 +611,15 @@ span.text-content {
   background: rgba(0,0,0,0.8);
   color: white;
   cursor: pointer;
+  padding: 5px;
   display: table;
   height: 200px;
   left: 0;
   position: absolute;
   top: 0;
   opacity: 0;
-  -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms;
+}
+
+.content > .titulo {
+
 }
