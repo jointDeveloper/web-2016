@@ -597,6 +597,7 @@ span.text-content span {
   text-align: center;
   vertical-align: middle;
   font-weight: bold;
+  min-width: 100%;
 }
 
 span.text-content {
