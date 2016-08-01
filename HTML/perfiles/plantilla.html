@@ -446,17 +446,17 @@
           Contacto
         </div>
         <div class="contenido center">
-          <form class="" action="" method="">
+          <form action="#" method="post" onsubmit="return confirm('¿Esta seguro se hacer el envio?')">
             <div class="row">
               <div class="col-6">
-                <input type="text" placeholder="Nombre" name="name" value="">
+                <input type="text" placeholder="Nombre" name="name" required>
               </div>
               <div class="col-6">
-                <input type="email" placeholder="Correo Electrónico" name="name" value="">
+                <input type="email" placeholder="Correo Electrónico" name="email" required>
               </div>
             </div>
             <div class="row">
-              <textarea name="name" placeholder="Mensaje" rows="3" ></textarea>
+              <textarea name="name" placeholder="Mensaje" rows="3" name="msj" required></textarea>
             </div>
           </form>
           <div class="row center">
