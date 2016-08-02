@@ -292,7 +292,7 @@
             <div class="col-3">
               <div class="img-list tabla-contenido-portafolio claro">
                 <div class="item">
-                  <a href="//github.com/jointdeveloper/Aprendizaje-Web">
+                  <a href="//github.com/jointdeveloper/Aprendizaje-Web" target="_blank">
                     <img src="../../IMG/no-img.jpg" />
                     <span class="text-content"><span>Comunidad jointDeveloper - Web</span></span>
                   </a>
@@ -302,7 +302,7 @@
             <div class="col-3">
               <div class="img-list tabla-contenido-portafolio oscuro">
                 <div class="item">
-                  <a href="//github.com/carolinajimenez26">
+                  <a href="//github.com/carolinajimenez26" target="_blank">
                     <img src="../../IMG/cjg/github.jpg" alt="" />
                     <span class="text-content"><span>Otras Contribuciones en Proyectos</span></span>
                   </a>
@@ -407,22 +407,22 @@
           Contacto
         </div>
         <div class="contenido center">
-          <form class="" action="" method="">
+          <form action="#" method="post" onsubmit="return confirm('¿Esta seguro se hacer el envio?')">
             <div class="row">
               <div class="col-6">
-                <input type="text" placeholder="Nombre" name="name" value="">
+                <input type="text" placeholder="Nombre" name="name" required>
               </div>
               <div class="col-6">
-                <input type="email" placeholder="Correo Electrónico" name="name" value="">
+                <input type="email" placeholder="Correo Electrónico" name="email" required>
               </div>
             </div>
             <div class="row">
-              <textarea name="name" placeholder="Mensaje" rows="3" ></textarea>
+              <textarea name="name" placeholder="Mensaje" rows="3" name="msj" required></textarea>
+            </div>
+            <div class="row center">
+              <input class="btn" type="submit" name="enviar" value="Enviar" />
             </div>
           </form>
-          <div class="row center">
-            <input class="btn" type="submit" name="enviar" value="Enviar" />
-          </div>
         </div>
       </div>
 			<div class="footer">
@@ -456,7 +456,6 @@
             <a href="//utp.edu.co" target="_blank"><img src="../../IMG/icons/utp.png" style="width: 100px" alt="" /></a>
           </div>
         </div>
-
 			</div>
     </div>
     <script src="../../JS/jquery.min.js"></script>
