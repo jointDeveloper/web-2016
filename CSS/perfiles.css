@@ -424,8 +424,7 @@ progress[value]::-moz-progress-bar {
 }
 
 .profileItem {
-  width: 300px;
-  height: 300px;
+  width: 100%;
   border-radius: 50%;
 }
 
@@ -459,19 +458,20 @@ progress[value]::-moz-progress-bar {
 }
 
 .container-img {
-    width: 300px;
-    height: 300px;
-    float: left;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    cursor: default;
-    background: #fff;
+  width: 95%;
+  height: 95%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: #fff;
+  padding: 2.5% 0;
 }
 
 .container-img .mascara {
-  width: 300px;
-  height: 300px;
+  width: 95%;
+  height: 95%;
   position: absolute;
   overflow: hidden;
   top: 0;
@@ -570,7 +570,7 @@ progress[value]::-moz-progress-bar {
 
 /* Medias */
 
-@media (min-width: 1024px) and (max-width: 1205px) {
+/*@media (min-width: 1024px) and (max-width: 1205px) {
   ul.topnav li a {
     padding: 16px 8px;
     font-size: 15px;
@@ -598,7 +598,7 @@ progress[value]::-moz-progress-bar {
   }
 
 }
-
+*/
 .h1Title{
   font-family: 'Pacifico', cursive;
   color: #f06292;
