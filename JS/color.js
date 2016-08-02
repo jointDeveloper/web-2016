@@ -7,8 +7,21 @@
 
     return r + "," + g + "," + b;
   }
+
+  function toRgba(rgb, alpha) {
+    if(rgb.indexOf('a') == -1){
+      var result = rgb.replace(')', ', '+ alpha + ')').replace('rgb', 'rgba');
+    }
+    return result;
+  }
   //alert(hexToRgb(003355));
-  var color = $('body').attr('background-color');
-  alert(color);
+  var color = $('body').css('background-color');
+  var body = toRgba(color, 0.05);
+  //alert(body);
+  $('html').css('background-color', body);
+  $('.circular').css('border-color', color);
+  $('.claro, input:focus, .btn').css('background', toRgba(color, 0.3));
+  $('.oscuro').css('background', toRgba(color, 0.7));
+  //alert(color);
 
 })(jQuery);
