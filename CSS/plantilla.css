@@ -616,6 +616,4 @@ span.text-content {
   opacity: 0;
 }
 
-.content > .titulo {
-
-}
+.down { bottom: 0; }

@@ -32,7 +32,7 @@
       }).appendTo("#integrantes");
     });
 
-    $('.footer').css("bottom", `${-width * 0.8}px`);
+    $('.footer').css("bottom", `${-width * 0.6}px`);
 
     function redirect(url) {
       window.location = url;
