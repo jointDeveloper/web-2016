@@ -16,17 +16,15 @@
 			if (id == "#nav-inicio") $(".navbar a, .banner a").css('background', 'rgba(0, 0, 0, 0.5)');
 			else $(".navbar a, .banner a").css('background', '#444');
 		});
-	});
 
-	$(function ($) {
-	  $('a[href^="#"]').on('click', function(event) {
-	      var target = $(this.getAttribute('href'));
-	      if( target.length ) {
-          event.preventDefault();
-          $('html, body').stop().animate({
-              scrollTop: target.offset().top
-          }, 1000);
-	      }
-	  });
+		$('a[href^="#"]').on('click', function(ev) {
+			var target = $(this.getAttribute('href'));
+			if(typeof target !== "undefined") {
+				ev.preventDefault();
+				$('html, body').stop().animate({
+					scrollTop: target.offset().top
+				}, 1000);
+			}
+		});
 	});
 })(jQuery);
