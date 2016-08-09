@@ -25,7 +25,7 @@ ul.topnav > li {
 .dropdown li {
   list-style: none;
   float: none !important;
-  background-color: red;/*SI SE ESTA POSICIONANDO BIEN, PERO SE ESTÁ TAPANDO*/
+  background-color: #444444;/*SI SE ESTA POSICIONANDO BIEN, PERO SE ESTÁ TAPANDO*/
 }
 
 .dropdown-container:hover .dropdown {
