@@ -1,0 +1,180 @@
+body {
+  color: #263238;
+}
+ul.topnav li a:hover:not(.active) {
+  color: #C06FFF;
+  font-weight: bold;
+  border-bottom: 2px solid #C06FFF;
+}
+
+ul.topnav li a.active {
+  color: #C06FFF;
+  background-color: #444;
+  font-weight: bold;
+  border-bottom: 2px solid #C06FFF;
+}
+
+.bio-title{
+	font-size: 12px;
+}
+
+.section-title{
+  font-size: 12px;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.title-section{
+  color: #8C51BA !important;
+}
+
+.info-title {
+  font-family: 'Linden Hill', serif;
+  font-size: 1.5em;
+}
+
+.circular {
+  max-width: 70%;
+  border-radius: 50%;
+  border:3px solid #8C51BA;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.button {
+  background-color: white;
+  border: 2px solid #C06FFF;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+}
+
+.button:hover {
+  background-color: #C06FFF;
+  color: white;
+}
+
+input:focus, textarea:focus {
+  color: #2E3133;
+  border: 2px solid #C06FFF;
+  outline:0px;
+}
+
+button {
+  background-color: white;
+  border: 2px solid #C06FFF;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+}
+
+button:hover {
+  background-color: #C06FFF;
+  color: white;
+}
+
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+
+  /* Get rid of default border in Firefox. */
+  border: none;
+
+  /* Dimensions */
+  width: 90%;
+  height: 20px;
+
+  /* For IE10 */
+  color: #C06FFF;
+}
+
+progress[value]::-webkit-progress-value {
+  background-image:
+    -webkit-linear-gradient(-45deg,
+                           transparent 33%, rgba(0, 0, 0, .1) 33%,
+                           rgba(0,0, 0, .1) 66%, transparent 66%),
+    -webkit-linear-gradient(top,
+                           rgba(255, 255, 255, .25),
+                           rgba(0, 0, 0, .25)),
+    -webkit-linear-gradient(left, #C06FFF, #8217CC);
+  border-radius: 0px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+progress[value]::-moz-progress-bar {
+  background-image:
+    -moz-linear-gradient(
+      135deg,
+      transparent 33%,
+      rgba(0, 0, 0, 0.1) 33%,
+      rgba(0, 0, 0, 0.1) 66%,
+      transparent 66%
+    ),
+    -moz-linear-gradient(
+      top,
+      rgba(255, 255, 255, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),
+    -moz-linear-gradient(
+      left,
+      #C06FFF,
+      #8217CC
+    );
+  border-radius: 0px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+hr {
+  background-color: #4a148c;
+  height: 5px;
+  width: 60%;
+}
+
+.div-border-c {
+  padding: 5px;
+  width: 70%;
+  height: 320px;
+  position:relative;
+  background-color: #DAC3EF;
+}
+
+.div-border-c:before {
+  content:'';
+  position: absolute;
+  border: 4px solid #4a148c;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  -moz-transition-duration: 0.3s;
+  -webkit-transition-duration:0.3s;
+}
+.div-border-c:hover:before {
+  top: -12px;
+  bottom: -12px;
+  left: -12px;
+  right: -12px;
+}
+
+.info-style {
+  font-size: 25px;
+}

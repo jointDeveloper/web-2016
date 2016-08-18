@@ -5,4 +5,4 @@
 			$(this).addClass('active');
 		});
 	});
-})(jQuery)
+})(jQuery);

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="../../CSS/plantilla.css" rel="stylesheet">
+    <link href="../../CSS/leiver.css" rel="stylesheet">
+    <link href="../../CSS/fonts.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../../IMG/favicon.ico" />
+    <script type="text/javascript" src="../../JS/Chart.min.js"></script>
+    <link rel="stylesheet prefetch" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href='//fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+    <title>Leiver Andrés Campeón - jointDeveloper</title>
+  </head>
+  <body>
+    <div class="container center">
+      <header>
+        <div class="banner">
+          <a id="jointDev" href="/">jointDeveloper</a>
+          <a id="nombre">Leiver Andrés Campeón</a>
+        </div>
+        <div class="navbar">
+          <a id="nav-inicio" class="group active" href="#inicio">Inicio</a>
+          <a id="nav-info" class="group" href="#info">Info</a>
+          <a id="nav-aptitudes" class="group" href="#aptitudes">Aptitudes</a>
+          <a id="nav-educacion" class="group" href="#educacion">Educación</a>
+          <a id="nav-cursos" class="group" href="#cursos">Cursos</a>
+          <a id="nav-proyectosport" class="group" href="#proyectosport">Portafolio</a>
+          <a id="nav-pasatiempos" class="group" href="#pasatiempos">Pasatiempos</a>
+          <!-- <a id="nav-articulos" class="group" href="#articulos">Artículos</a> -->
+          <a id="nav-contacto" class="group" href="#contacto">Contacto</a>
+        </div>
+      </header>
+      <div class="content scroll style-title" id="inicio">
+        <div class="contenido-intro">
+          <div class="fondo-intro">
+            <div class="col-4">
+              <div class="titulo right">
+                <img src="../../IMG/leiver.jpg" class="circular-intro" alt="" />
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="right">
+                <div class="nombre-intro">
+                  Leiver Andrés Campeón
+                </div>
+                <a href="../../IMG/josorio/HojaDeVida-JohnOsorio.pdf" download="John H. Osorio" class="btn-inicio center">Descargar CV</a>
+                <h3 style="color: #fff">
+                  Estudiante Ingeniería de Sistemas y Computación
+                </h3>
+                <div class="row">
+                  <a href="//github.com/leiverandres" target="_blank"><i class="fa fa-github-square icon-title fa-3x" aria-hidden="true"></i></a>
+                  <a href="mailto:leiverandres@utp.edu.co" target="_blank"><i class="fa fa-envelope-square icon-title fa-3x" aria-hidden="true"></i></a>
+                  <a href="//facebook.com/L3iV3R" target="_blank"><i class="fa fa-facebook-square icon-title fa-3x" aria-hidden="true"></i></a>
+                  <a href="//twitter.com/leiverandres" target="_blank"><i class="fa fa-twitter-square icon-title fa-3x" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+				</div>
+      </div>
+      <div class="content scroll" id="info">
+				<div class="row vertical-center">
+          <div class="titulo center">
+            <img src="../../IMG/leiver.jpg" class="circular" alt="" />
+            <div class="nombre">Leiver Andrés Campeón</div>
+          </div>
+          <div class="left">
+            <p>Soy estudiante de Ingeniería de Sistemas y Computación. Me apasiona todo lo relacionado con las ciencias de la computación, participo en maratones de programación competitiva desde el 2014 y me gusta aprender cosas nuevas todo el tiempo, por eso soy un entusiasta de la educación autodidacta y online.</p>
+            <p>Actualmente intento enriquecer mis conocimiento en desarrollo web y estoy llevando acabo mi proyecto de grado, el cual esta enfocado hacia la investigación e implementación de un algoritmo de correspondencia entre imágenes usando Hipergrafos.</p>
+          </div>
+				</div>
+      </div>
+      <div class="content scroll" id="aptitudes">
+        <div class="titulo center">
+          Aptitudes
+        </div>
+        <div class="contenido">
+          <div class="row">
+            <div class="col-6">
+              <h4>Derrollo Web</h4>
+              <canvas id="myChart" class="chart-aptitudes center"></canvas>
+              <script>
+              var ctx = document.getElementById("myChart").getContext("2d");
+              var data_web = {
+                labels: [
+                "HTML",
+                "CSS",
+                "Javascript",
+                  ],
+                  datasets: [
+                    {
+                      data: [25, 10, 65],
+                      backgroundColor: [
+                          "#F22613",
+                          "#4183D7",
+                          "#F4D03F"
+                      ],
+                      hoverBackgroundColor: [
+                          "#EF4836",
+                          "#446CB3",
+                          "#F3C13A"
+                      ]
+                }]
+              };
+
+              var myRadarChart = new Chart(ctx, {
+                  type: 'doughnut',
+                  data: data_web,
+                  options: {
+                     scale: {
+                        ticks: {
+                          beginAtZero: true,
+                          max: 100
+                      }
+                    }
+                  }
+              });
+              </script>
+            </div>
+            <div class="col-6">
+              <h4>Programación</h4>
+              <canvas id="myChart2" class="chart-aptitudes center"></canvas>
+              <script>
+              var ctx = document.getElementById("myChart2").getContext("2d");
+              var data_web = {
+                labels: [
+                "C/C++",
+                "Python",
+                "Java",
+                "Node js"
+                  ],
+                  datasets: [
+                    {
+                      data: [30, 30, 10, 20],
+                      backgroundColor: [
+                          "#4B77BE",
+                          "#3A539B",
+                          "#ABB7B7",
+                          "#F89406"
+                      ],
+                      hoverBackgroundColor: [
+                          "#5C97BF",
+                          "#5C97BF",
+                          "#6C7A89",
+                          "#E87E04"
+                      ]
+                }]
+              };
+
+              var myRadarChart = new Chart(ctx, {
+                  type: 'doughnut',
+                  data: data_web,
+                  options: {
+                     scale: {
+                        ticks: {
+                          beginAtZero: true,
+                          max: 100
+                      }
+                    }
+                  }
+              });
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content scroll" id="educacion">
+        <div class="titulo center">
+            Educación
+        </div>
+        <div class="contenido">
+          <div class="row">
+            <div class="col-4">
+              <div class="tabla-contenido claro">
+                <p class="bold">
+                  Ingeniero de Sistemas y Computación
+                </p>
+                Duración: 10 Semestres<br>
+                Universidad Tecnológica de Pereira<br />
+                Estado: En progreso
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content scroll" id="cursos">
+        <div class="titulo center">
+          Cursos
+        </div>
+        <div class="contenido">
+          <div class="row">
+            <div class="col-4">
+              <div class="tabla-contenido claro">
+                <p class="bold">
+                  Agilidad y Lean
+                </p>
+                Duración: 7 Semanas<br />
+                Curso virtual de Miríada X<br />
+                Estado: Finalizado
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="tabla-contenido oscuro">
+                <p class="bold">
+                  HTML 5
+                </p>
+                Curso virtual de Acamica<br />
+                Estado: Finalizado
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="tabla-contenido claro">
+                <p class="bold">
+                  CSS 3
+                </p>
+                Curso virtual de Acamica<br />
+                Estado: Finalizado
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="tabla-contenido oscuro">
+                <p class="bold">
+                  Node js, el comienzo
+                </p>
+                Curso virtual de Acamica<br />
+                Estado: Finalizado
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="tabla-contenido claro">
+                <p class="bold">
+                  Express
+                </p>
+                Curso virtual de Acamica<br />
+                Estado: Finalizado
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="tabla-contenido oscuro">
+                <p class="bold">
+                  Git y Github
+                </p>
+                Curso virtual de Acamica<br />
+                Estado: Finalizado
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content scroll" id="proyectosport">
+        <div class="titulo center">
+          Proyectos - Portafolio
+        </div>
+        <div class="contenido">
+          <div class="row">
+            <div class="col-3">
+              <div class="img-list tabla-contenido-portafolio claro">
+                <div class="item">
+                  <a href="//github.com/jointdeveloper/Aprendizaje-Web" target="_blank">
+                    <img src="../../IMG/leiver/jointrobot.png" />
+                    <span class="text-content"><span>Comunidad jointDeveloper - Web</span></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="img-list tabla-contenido-portafolio oscuro">
+                <div class="item">
+                  <a href="//github.com/leiverandres" target="_blank">
+                    <img src="../../IMG/cjg/github.jpg" alt="" />
+                    <span class="text-content"><span>Todos mis proyectos</span></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="img-list tabla-contenido-portafolio oscuro">
+                <div class="item">
+                  <a href="//github.com/kala855/hypergraphs-matching" target="_blank">
+                    <img src="../../IMG/leiver/match.png" alt="" />
+                    <span class="text-content"><span>Algoritmo Image Matching usando Hipergrafos</span></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content scroll" id="pasatiempos">
+        <div class="titulo center">
+          Pasatiempos
+        </div>
+        <div class="contenido center">
+          <div class="row">
+            <div class="col-5">
+              <div class="tabla-pasatiempo right">
+                <div class="bold">
+                  Leer / Reading
+                </div>
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="tabla-pasatiempo claro left">
+                <img src="../../IMG/leiver/booklogo.png">
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="tabla-pasatiempo oscuro right">
+                <img src="../../IMG/leiver/drummslogo.png">
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="tabla-pasatiempo left">
+                <div class="bold">
+                  Bateria / Drumms
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-5">
+              <div class="tabla-pasatiempo right">
+                <div class="bold">
+                  Fotografía / Photography
+                </div>
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="tabla-pasatiempo oscuro left">
+                <img src="../../IMG/leiver/cameralogo.png">
+              </div>
+            </div>
+            <div class="col-1">
+              <div class="tabla-pasatiempo claro right">
+                <img src="../../IMG/icons/template/programar.png">
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="tabla-pasatiempo left">
+                <div class="bold">
+                  Programación / Programming
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll" id="contacto">
+        <div class="titulo center">
+          Contacto
+        </div>
+        <div class="contenido center">
+          <form action="#" method="post" onsubmit="return confirm('¿Esta seguro se hacer el envio?')">
+            <div class="row">
+              <div class="col-6">
+                <input type="text" placeholder="Nombre" name="name" required>
+              </div>
+              <div class="col-6">
+                <input type="email" placeholder="Correo Electrónico" name="email" required>
+              </div>
+            </div>
+            <div class="row">
+              <textarea name="name" placeholder="Mensaje" rows="3" name="msj" required></textarea>
+            </div>
+            <div class="row center">
+              <input class="btn" type="submit" name="enviar" value="Enviar" />
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="row">
+          <div class="col-2 center">
+            <a href="//sirius.utp.edu.co" target="_blank"><img src="../../IMG/icons/sirius.png" style="width: 80px" alt="" /></a>
+          </div>
+          <div class="col-8">
+            <!--<div class="fb-like" data-href="https://www.facebook.com/jointDeveloper/" data-width="80px" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+            <a class="twitter-follow-button"
+              href="https://twitter.com/jointDev"
+              data-size="large">
+            Follow @jointDev</a>-->
+            <div class="row">
+                <a href="//github.com/joindeveloper" target="_blank"><i class="fa fa-github-square icon-title fa-3x" aria-hidden="true"></i></a>
+                <a href="mailto:developerjoint@gmail.com" target="_blank"><i class="fa fa-envelope-square icon-title fa-3x" aria-hidden="true"></i></a>
+                <a href="//youtube.com/channel/UC1hMrYBNsvKnufvG8t6q7ZQ" target="_blank"><i class="fa fa-youtube-square icon-title fa-3x" aria-hidden="true"></i></a>
+                <a href="//plus.google.com/u/1/113539795181089700851" target="_blank"><i class="fa fa-google-plus-square icon-title fa-3x" aria-hidden="true"></i></a>
+                <a href="//instagram.com/jointDeveloper/" target="_blank"><i class="fa fa-instagram icon-title fa-3x" aria-hidden="true"></i></a>
+                <a href="//snapchat.com/add/jointDev" target="_blank"><i class="fa fa-snapchat-square icon-title fa-3x" aria-hidden="true"></i></a>
+                <a href="//facebook.com/jointDeveloper/" target="_blank"><i class="fa fa-facebook-square icon-title fa-3x" aria-hidden="true"></i></a>
+                <div class="fb-like" data-href="https://www.facebook.com/jointDeveloper/" data-width="80px" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                <a href="//twitter.com/jointdev" target="_blank"><i class="fa fa-twitter-square icon-title fa-3x" aria-hidden="true"></i></a>
+                <a class="twitter-follow-button"
+                  href="https://twitter.com/jointDev"
+                  data-size="large">
+                Follow</a>
+            </div>
+          </div>
+          <div class="col-2 center">
+            <a href="//utp.edu.co" target="_blank"><img src="../../IMG/icons/utp.png" style="width: 100px" alt="" /></a>
+          </div>
+        </div>
+			</div>
+    </div>
+    <script src="../../JS/jquery.min.js"></script>
+    <script src="../../JS/twitter.js"></script>
+    <script src="../../JS/facebook.js"></script>
+    <script src="../../JS/googleA.js"></script>
+    <script src="../../JS/color.js"></script>
+    <script type="text/javascript" src="../../JS/hoover.js"></script>
+    <script type="text/javascript" src="../../JS/scroll.js"></script>
+    <script type="text/javascript" src="../../JS/inicio.js"></script>
+  </body>
+</html>
