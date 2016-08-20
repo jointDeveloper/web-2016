@@ -5,9 +5,9 @@ html, body {
   width: 100%;
   margin: 0;
   padding: 0;
-  /*font-family: 'Arima-Madurai', cursive;*/
-  font-family: 'Josefin Slab', 'Myriad Pro', Arial, sans-serif;
-  font-size: 20px;
+  font-family: 'Arima Madurai', cursive;
+  /*font-family: 'Josefin Slab', 'Myriad Pro', Arial, sans-serif;*/
+  font-size: 18px;
   /*background: #118811;*/
   background: #f06292;
   /*background: rgba(240, 99, 146, 0.1);*/
@@ -138,7 +138,7 @@ html, body {
 	cursor: pointer;
 	height: 30px;
 	line-height: 30px;
-  font-weight: bold;
+  /*font-weight: bold;*/
   font-size: 20px;
 	color: #fff;
   background: #444;
@@ -167,7 +167,7 @@ html, body {
 .navbar > a:hover {
   border-bottom: #f06292 solid 2px;
   color: #f06292;
-  font-weight: bold;
+  /*font-weight: bold;*/
   z-index: 9999;
 }
 
