@@ -15,6 +15,11 @@ html, body {
   src: url(../../FONTS/Cinzel/Cinzel-Regular.ttf);
 }
 
+@font-face {
+  font-family: Arima-Madurai;
+  src: url(../../FONTS/Arima_Madurai/ArimaMadurai-Regular.ttf);
+}
+
 .letra {
   font-family: 'Lato', sans-serif
 }
@@ -119,8 +124,8 @@ html, body {
 
 .footer {
   position: relative;
-  height: 50%;
-  background-color: #333;
+  height: 150px;
+  background-color: #444;
   padding: 10px;
   color: white;
 }
@@ -411,11 +416,8 @@ progress[value]::-moz-progress-bar {
 
 /*Iconos*/
 
-.icon-title {
-  width: 4%;
-  height: 4%;
-  padding: 5px;
-}
+.icon-title, .icon-title:visited { color: #fff; }
+.icon-title:hover, .btn-inicio:hover { opacity: 0.5; }
 
 .icon-footer {
   width: 10%;
