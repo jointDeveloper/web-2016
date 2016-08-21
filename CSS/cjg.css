@@ -1,16 +1,1 @@
 body { background: #6BFF49; }
-
-.circular-intro {
-  width: 90%
-  border-radius: 100%;
-  border: #fff solid 5px;
-  /*box-shadow: 2px 1px 2px #444;*/
-}
-
-.Ppal {
-  transform:translateY(-100px);;
-}
-
-.Secundary > img{
-  width: 15%;
-}
