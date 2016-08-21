@@ -1,3 +1,5 @@
+body { background: rgb(51, 193, 69); }
+
 .navbar > a { width: 12.5%; }
 
 #nav-inicio        { left: 0%; }
