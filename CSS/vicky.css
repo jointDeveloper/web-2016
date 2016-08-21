@@ -1,12 +1,5 @@
 /* Azul verdoso: #78DEBC */
 html, body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  /*font-family: 'Arima-Madurai', cursive;*/
-  font-family: 'Josefin Slab', 'Myriad Pro', Arial, sans-serif;
-  font-size: 20px;
   /*background: #118811;*/
   background: #29C753;
   /*background: rgba(240, 99, 146, 0.1);*/
