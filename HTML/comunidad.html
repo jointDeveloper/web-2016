@@ -2,21 +2,189 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Comunidad</title>
-	<link href="../public/stylesheet/comunidad.css" rel="stylesheet">
+	<link href="../CSS/plantilla.css" rel="stylesheet">
+	<link href="../CSS/comunidad.css" rel="stylesheet">
+    <link href="../CSS/fonts.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../../IMG/favicon.ico" />
+    <script type="text/javascript" src="../../JS/Chart.min.js"></script>
+    <link rel="stylesheet prefetch" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!-- <link href='//fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'> -->
+		<link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet"> 
+    <title>Comunidad</title>
 </head>
 <body>
-	<div class="header">Comunidad</div>
-	<div class="container">
+	<div class="container center">
+		<nav class="container_nav">
+			<ul class="topnav border" id="menu">
+				<li><img src="../IMG/robot.png" class="robo-nav" /></li>
+				<li><a id="logo-nav" href="../index.html" style="padding-right: 2px">jointDeveloper</a></li>
+				<li><a href="#inicio" id="nav-inicio" class="group"><span>Inicio</span></a></li>
+				<li><a href="#comunidad" id="nav-info" class="group"><span>Comunidad</span></a></li>
+				<li><a href="#patrocinadores" id="nav-info" class="group"><span>Patrocinadores</span></a></li>
+				<li><a href="#colaboradores" id="nav-info" class="group"><span>Colaboradores</span></a></li>
+				<li><a href="contacto.html" id="nav-contacto" class="group"><span>Contacto</span></a></li>
+			</ul>
+		</nav>
+		<div class="content scroll style-title titulo comunidad-titulo" id="inicio">
+			<h2>Comunidad</h2>
+			<a href="#comunidad" class="btn-circle page-scroll">
+				<i class="fa fa-angle-double-down animated"></i>
+			</a>
+		</div>
+		<div class="content scroll" id="comunidad">
+			<p class="titulo-content center">
+				Comunidad 
+			</p>
+			<p class="center texto-titulo">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.					
+			</p>
+		</div>
+		<div class="content scroll" id="patrocinadores">
+			<div>
+				<p class="titulo-content center">
+					Patrocinadores 
+				</p>
+				<p class="center texto-titulo">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.					
+				</p>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<ul class="comunidades">
+						<li class="portfolio-item col-12">
+							<div class="col-4 sirius">
+								<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+									<img class="img-circle" src="../IMG/icons/sirius.png">
+								</a>
+							</div>
+							<div class="col-4 texto-comu">
+								<h4>Grupo de Investigación Sirius</h4>
+								<p>
+									El <a target="_blank" href="http://sirius.utp.edu.co/sirius/">Grupo de Investigación Sirius</a> surgió con el objetivo de fomentar los desarrollos en las áreas de la electrónica digital, lógica programable y arquitectura de computadores en el programa de Ingeniería de Sistemas y Computación de la Universidad Tecnológica de Pereira.
+								</p>
+							</div>
+						</li>
+						<li class="col-12 border-seccion">
+							<div class="col-4 texto-comu">
+								<h4>Pioneras</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+								</p>
+							</div>
+							<div class="col-4 pioneras">
+								<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+									<img class="img-circle" src="../IMG/pioneras-dev.png">
+								</a>
+							</div>
+						</li>
+						<li class="col-12">
+							<div class="row col-4 pereirajs">
+								<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+									<img class="img-circle" src="../IMG/pereirajs.png">
+								</a>
+							</div>
+							<div class="col-4 texto-comu">
+								<h4>Pereira.JS</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+								</p>
+							</div>
+						</li>
+						<li class="col-12 border-seccion">
+							<div class="col-4 texto-comu">
+								<h4>NODESOURCE</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+								</p>
+							</div>
+							<div class="row col-4 nodesource">
+								<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+									<img class="img-circle" src="../IMG/node-source.jpg">
+								</a>
+							</div>							
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>	
+		<div class="content scroll" id="colaboradores">
+			<div>
+				<p class="titulo-content center">
+					Colaboradores
+				</p>
+				<p class="center texto-titulo">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.					
+				</p>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<ul class="comunidades">						
+						<li class="col-12">
+							<div class="row col-4 pereirajs">
+								<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+									<img class="img-circle" src="../IMG/pulpa.jpg">
+								</a>
+							</div>
+							<div class="col-4 texto-comu">
+								<h4>Pulpa</h4>
+								<p>
+									<a target="_black" href="https://www.facebook.com/slpulpa/?fref=ts">Pulpa</a> es un grupo de investigación que surgió con el objetivo de impulsar el Software Libre y la Cultura Libre en la región del Eje Cafetero Colombiano, a través de la realización de actividades y proyectos que hagan uso de esta filosofía.						
+								</p>
+							</div>
+						</li>
+						<li class="col-12 border-seccion">
+							<div class="col-4 texto-comu">
+								<h4>Insilico</h4>
+								<p>
+									<a target="_blank" href="https://in-silico.github.io/">Insilico</a> es un semillero de estudio, adscrito al programa de Ingenierias de la Universidad Tecnológica de Pereira, que desea contribuir en la solución de problemas sociales y ambientales haciendo uso de la Inteligencia Artificial y, en general, de la Ciencias en la Computación. 
+								</p>
+							</div>
+							<div class="row col-4 nodesource">
+								<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+									<img class="img-circle" src="../IMG/insilico.png">
+								</a>
+							</div>							
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<div class="footer">
+			<div class="row">
+			<div class="col-2 center">
+					<a href="//sirius.utp.edu.co" target="_blank"><img src="../IMG/icons/sirius.png" style="width: 80px" alt="" /></a>
+				</div>
+				<div class="col-8">
+            <!--<div class="fb-like" data-href="https://www.facebook.com/jointDeveloper/" data-width="80px" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+            <a class="twitter-follow-button"
+              href="https://twitter.com/jointDev"
+              data-size="large">
+              Follow @jointDev</a>-->
+              <div class="row">
+              	<a href="//github.com/joindeveloper" target="_blank"><i class="fa fa-github-square icon-title fa-3x" aria-hidden="true"></i></a>
+              	<a href="mailto:developerjoint@gmail.com" target="_blank"><i class="fa fa-envelope-square icon-title fa-3x" aria-hidden="true"></i></a>
+              	<a href="//youtube.com/channel/UC1hMrYBNsvKnufvG8t6q7ZQ" target="_blank"><i class="fa fa-youtube-square icon-title fa-3x" aria-hidden="true"></i></a>
+              	<a href="//plus.google.com/u/1/113539795181089700851" target="_blank"><i class="fa fa-google-plus-square icon-title fa-3x" aria-hidden="true"></i></a>
+              	<a href="//instagram.com/jointDeveloper/" target="_blank"><i class="fa fa-instagram icon-title fa-3x" aria-hidden="true"></i></a>
+              	<a href="//snapchat.com/add/jointDev" target="_blank"><i class="fa fa-snapchat-square icon-title fa-3x" aria-hidden="true"></i></a>
+              	<a href="//facebook.com/jointDeveloper/" target="_blank"><i class="fa fa-facebook-square icon-title fa-3x" aria-hidden="true"></i></a>
+              	<div class="fb-like" data-href="https://www.facebook.com/jointDeveloper/" data-width="80px" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+              	<a href="//twitter.com/jointdev" target="_blank"><i class="fa fa-twitter-square icon-title fa-3x" aria-hidden="true"></i></a>
+              	<a class="twitter-follow-button"
+              	href="https://twitter.com/jointDev"
+              	data-size="large">
+              	Follow</a>
+              </div>
+          </div>
+          <div class="col-2 center">
+          	<a href="//utp.edu.co" target="_blank"><img src="../IMG/icons/utp.png" style="width: 100px" alt="" /></a>
+          </div>
+      </div>
+
   </div>
-
-	<footer>
-	  <em>
-	    <p>JointDeveloper. 2016</p>
-	    <p> &copy; Todos los derechos reservados. </p>
-	    <br><br>
-	  </em>
-  </footer>
-
+	</div>
+	<script src="../JS/jquery.min.js"></script>
 </body>
 </html>

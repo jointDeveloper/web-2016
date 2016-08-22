@@ -1,39 +1,18 @@
   {
   "perfiles": [
     {
-      "name": "Angelica Aguirre Castro",
-      "img": "./IMG/angelica_aguirre.jpg",
-      "page": "./HTML/perfiles/angelicaaguirre.html",
-      "email": "anaguirre@utp.edu.co",
-      "description": "Ingeniera de Sistemas y Computación"
-    },
-    {
-      "name": "Carolina Gómez Trejos",
-      "img": "./IMG/carogt.jpg",
-      "page": "./HTML/perfiles/carogt.html",
-      "email": "",
-      "description": "Estudiante Ingenieria de Sistemas y Computación"
-    },
-    {
       "name": "Yensy Helena Gómez Villegas",
-      "img": "./IMG/yenGomez.jpg",
+      "img": "./IMG/yhgv/yenGomez.jpg",
       "page": "./HTML/perfiles/yhgv.html",
       "email": "yensy@sirius.utp.edu.co",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
-    },
-    {
-      "name": "Carolina Jiménez Gómez",
-      "img": "./IMG/cjg.jpg",
-      "page": "./HTML/perfiles/cjg.html",
-      "email": "",
-      "description": "Estudiante Ingenieria de Sistemas y Computación."
+      "description": "Fundadora - jointDeveloper<br />Ingeniera de Sistemas y Computación"
     },
     {
       "name": "Giseth Johana Grimaldo B.",
-      "img": "./IMG/fotoGiseth.JPG",
+      "img": "./IMG/imagenPerfilGjg.jpg",
       "page": "./HTML/perfiles/giseth.html",
       "email": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
+      "description": "Ingeniera de Sistemas y Computación"
     },
     {
       "name": "Naranjita Golden",
@@ -43,30 +22,51 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
     {
+      "name": "Angelica Aguirre Castro",
+      "img": "./IMG/angelicaaguirre/angelica_aguirre.jpg",
+      "page": "./HTML/perfiles/angelicaaguirre.html",
+      "email": "anaguirre@utp.edu.co",
+      "description": "Ingeniera de Sistemas y Computación"
+    },
+    {
+      "name": "Carolina Gómez Trejos",
+      "img": "./IMG/carogt.jpg",
+      "page": "./HTML/perfiles/carogt.html",
+      "email": "caro_gomezt@utp.edu.co",
+      "description": "Estudiante Ingeniería de Sistemas y Computación"
+    },
+    {
+      "name": "Carolina Jiménez Gómez",
+      "img": "./IMG/cjg/cjg.jpg",
+      "page": "./HTML/perfiles/cjg.html",
+      "email": "carolina.jimenez@utp.edu.co",
+      "description": "Estudiante Ingeniería de Sistemas y Computación."
+    },
+    {
       "name": "María Victoria Gasca",
-      "img": "./IMG/vicky.jpg",
+      "img": "./IMG/vicky/perfil.jpg",
       "page": "./HTML/perfiles/Vicky.html",
       "email": "mvgasca@utp.edu.co",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
+      "description": "Ingeniera Electricista."
     },
     {
       "name": "Alejandro E. Rendon",
-      "img": "./IMG/arendon.jpg",
+      "img": "./IMG/arendon/arendon.jpg",
       "page": "./HTML/perfiles/arendon.html",
       "email": "alejorendon@utp.edu.co",
       "description": "Estudiante de Ingeniería de Sistemas y Computación. Grupo de Investigación Sirius."
     },
     {
       "name": "Sebastian Duque",
-      "img": "./IMG/sduque.jpg",
+      "img": "./IMG/sduque/sduque.jpg",
       "page": "./HTML/perfiles/sduque.html",
       "email": "sebas.duque@utp.edu.co",
-      "description": "Estudiante Ingenieria de Sistemas y Computación"
+      "description": "Estudiante Ingeniería de Sistemas y Computación"
     },
     {
       "name": "Leiver Campeón",
-      "img": "./IMG/github.png",
-      "page": "//github.com/leiverandres",
+      "img": "./IMG/leiver.jpg",
+      "page": "./HTML/perfiles/leiver.html",
       "email": "",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
     },
@@ -75,7 +75,7 @@
       "img": "./IMG/josorio.jpg",
       "page": "./HTML/perfiles/josorio.html",
       "email": "john@sirius.utp.edu.co",
-      "description": "Ingeniero de Sistemas y Computación"
+      "description": "Ingeniero de Sistemas y Computación<br />Especialista en Electrónica Digital<br />Investigador Principal Centro de Educación GPU nVidia<br />Director de Investigación Grupo Sirius HPC"
     },
     {
       "name": "Angie Melissa Delgado",

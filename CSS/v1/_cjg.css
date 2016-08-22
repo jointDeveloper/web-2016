@@ -1,0 +1,135 @@
+ul.topnav li a:hover:not(.active) {
+  color: #6BFF49;
+  font-weight: bold;
+  border-bottom: 2px solid #6bff49;
+}
+
+ul.topnav li a.active {
+  color: #6BFF49;
+  background-color: #444;
+  font-weight: bold;
+  border-bottom: 2px solid #6bff49;
+}
+
+.circular {
+  max-width: 70%;
+  border-radius: 50%;
+  border:3px solid #6bff49;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.button {
+  background-color: white;
+  border: 2px solid #6BFF49;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+}
+
+.button:hover {
+  background-color: #6bff49;
+  color: white;
+}
+
+input:focus, textarea:focus {
+  color: #2E3133;
+  border: 2px solid #6bff49;
+  outline:0px;
+}
+
+button {
+  background-color: white;
+  border: 2px solid #6bff49;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+}
+
+button:hover {
+  background-color: #6bff49;
+  color: white;
+}
+
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+
+  /* Get rid of default border in Firefox. */
+  border: none;
+
+  /* Dimensions */
+  width: 90%;
+  height: 20px;
+
+  /* For IE10 */
+  color: #6bff49;
+}
+
+progress[value]::-webkit-progress-value {
+  background-image:
+    -webkit-linear-gradient(-45deg,
+                           transparent 33%, rgba(0, 0, 0, .1) 33%,
+                           rgba(0,0, 0, .1) 66%, transparent 66%),
+    -webkit-linear-gradient(top,
+                           rgba(255, 255, 255, .25),
+                           rgba(0, 0, 0, .25)),
+    -webkit-linear-gradient(left, #6bff49, #6bff49);
+  border-radius: 0px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+progress[value]::-moz-progress-bar {
+  background-image:
+    -moz-linear-gradient(
+      135deg,
+      transparent 33%,
+      rgba(0, 0, 0, 0.1) 33%,
+      rgba(0, 0, 0, 0.1) 66%,
+      transparent 66%
+    ),
+    -moz-linear-gradient(
+      top,
+      rgba(255, 255, 255, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),
+    -moz-linear-gradient(
+      left,
+      #6bff49,
+      #6bff49
+    );
+  border-radius: 0px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+.div-border {
+  margin: 10px;
+  /*height: 220px;*/
+  height: auto; 
+  border: 2px solid #555;
+  border-radius: 20px;
+}
+
+.ul-icon{
+    list-style-image:url(../IMG/little_robotCJG.png);
+    font-size: 20px;
+    font-weight: bold;
+}

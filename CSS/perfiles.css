@@ -5,7 +5,7 @@ html, body {
   padding: 0;
   font-size: 1.063em;
   background-color: #fff;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Arima Madurai', cursive;
 }
 
 /*Fonts*/
@@ -13,6 +13,11 @@ html, body {
 @font-face {
   font-family: Cinzel;
   src: url(../../FONTS/Cinzel/Cinzel-Regular.ttf);
+}
+
+@font-face {
+  font-family: Arima-Madurai;
+  src: url(../../FONTS/Arima_Madurai/ArimaMadurai-Regular.ttf);
 }
 
 .letra {
@@ -119,8 +124,8 @@ html, body {
 
 .footer {
   position: relative;
-  height: 50%;
-  background-color: #333;
+  height: 150px;
+  background-color: #444;
   padding: 10px;
   color: white;
 }
@@ -163,9 +168,13 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-a {
-  color: black;
+a { color: #000; }
+a i {
+  color: #fff;
+  position: absolute;
+  bottom: 10px;
 }
+a i:hover { opacity: 0.7; }
 
 ul.topnav li a:hover:not(.active) {
   color: #f06292;
@@ -411,11 +420,8 @@ progress[value]::-moz-progress-bar {
 
 /*Iconos*/
 
-.icon-title {
-  width: 4%;
-  height: 4%;
-  padding: 5px;
-}
+.icon-title, .icon-title:visited { color: #fff; }
+.icon-title:hover, .btn-inicio:hover { opacity: 0.5; }
 
 .icon-footer {
   width: 10%;
@@ -424,8 +430,7 @@ progress[value]::-moz-progress-bar {
 }
 
 .profileItem {
-  width: 300px;
-  height: 300px;
+  width: 100%;
   border-radius: 50%;
 }
 
@@ -453,25 +458,26 @@ progress[value]::-moz-progress-bar {
   background-color: white;
   margin: auto;
   width: 100%;
-  height: 95% !important;
+  height: 100% !important;
   padding-top: 5%;
 
 }
 
 .container-img {
-    width: 300px;
-    height: 300px;
-    float: left;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    cursor: default;
-    background: #fff;
+  width: 95%;
+  height: 95%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: #fff;
+  padding: 2.5% 0;
 }
 
 .container-img .mascara {
-  width: 300px;
-  height: 300px;
+  width: 95%;
+  height: 95%;
   position: absolute;
   overflow: hidden;
   top: 0;
@@ -570,7 +576,7 @@ progress[value]::-moz-progress-bar {
 
 /* Medias */
 
-@media (min-width: 1024px) and (max-width: 1205px) {
+/*@media (min-width: 1024px) and (max-width: 1205px) {
   ul.topnav li a {
     padding: 16px 8px;
     font-size: 15px;
@@ -598,7 +604,7 @@ progress[value]::-moz-progress-bar {
   }
 
 }
-
+*/
 .h1Title{
   font-family: 'Pacifico', cursive;
   color: #f06292;
@@ -627,6 +633,12 @@ progress[value]::-moz-progress-bar {
     font-weight: bold;
 }
 
+canvas.skills {
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+  vertical-align: baseline;
+}
 /*
 mobile-portrait: min:320px - max:479px;
 mobile-landscape: min:480px - max:599px;

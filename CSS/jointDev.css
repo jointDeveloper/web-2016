@@ -1,0 +1,231 @@
+* { box-sizing: border-box; }
+
+html, body {
+	width: 100%;
+  height: 100%;
+  margin: 0;
+	top: 0;
+	left: 0;
+  /*font-family: 'Arima Madurai', cursive;*/
+  font-family: 'Josefin Slab', 'Myriad Pro', Arial, sans-serif;
+  font-size: 20px;
+}
+
+@font-face {
+  font-family: Cinzel;
+  src: url(../../FONTS/Cinzel/Cinzel-Regular.ttf);
+}
+
+/*Grid*/
+
+[class*="col-"] {
+  float: left;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.row {width: 100%;}
+
+.center {
+  margin: auto 0;
+  text-align: center;
+}
+.left { text-align: left; }
+.right { text-align: right; }
+
+.bold { font-weight: bold; }
+
+a:link { text-decoration: none; }
+
+a:active, a:active * { outline: none !important; -moz-outline-style: none !important; }
+a:focus, a:focus * { outline: none !important; -moz-outline-style: none !important; }
+
+.container { height: 100% !important; }
+
+section {
+	position: relative;
+	content: "";
+	clear: both;
+	display: block;
+	min-height: 95% !important;
+}
+
+.pag {
+	position: relative;
+	content: "";
+	clear: both;
+	display: block;
+	min-height: 95% !important;
+	height: 100%	;
+  padding: 50px;
+  margin: 0 auto !important;
+  float: none !important;
+  max-width: 1366px;
+}
+
+#jointDev {
+  font-family: 'Linden Hill', serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.banner > a,
+.navbar > a {
+	position: fixed;
+	cursor: pointer;
+	height: 30px;
+	line-height: 30px;
+  font-weight: bold;
+  font-size: 20px;
+	color: #fff;
+  background: #444;
+	text-align: center;
+}
+
+.banner,
+.navbar {
+  position: fixed;
+}
+
+.banner:before,
+.banner > a { top: 0; }
+
+.navbar:before,
+.navbar > a { bottom: 0; }
+
+.banner > a { width: 50%; }
+.navbar > a { width: 11.11%; }
+
+.banner > a:hover,
+.navbar > a:hover {
+  color: #f06292;
+  font-weight: bold;
+}
+
+.navbar > a.active {
+  color: #444;
+  background-color: #f06292;
+  font-weight: bold;
+}
+
+#nav-inicio        { left: 0%; }
+#nav-info          { left: 11.11%; }
+#nav-aptitudes     { left: 22.22%; }
+#nav-educacion     { left: 33.33%; }
+#nav-cursos        { left: 44.44%; }
+#nav-proyectosport { left: 55.55%; }
+#nav-pasatiempos   { left: 66.66%; }
+#nav-articulos     { left: 77.77%; }
+#nav-contacto      { left: 88.89%; }
+
+#jointDev { left: 0% }
+#nombre   { left: 50% }
+
+/* Contenido */
+#inicio {
+  background-color: #f06292;
+}
+
+.titulo {
+  font-size: 40px;
+  padding: 2% 0;
+}
+
+.contenido {
+  padding: 2% 20px;
+}
+
+input, textarea {
+  border: 1px solid #DBE1EB;
+  font-size: 18px;
+  /*font-family: 'Arima Madurai', cursive;*/
+  font-family: 'Josefin Slab', 'Myriad Pro', Arial, sans-serif;
+  padding: 5px;
+  margin: 5px 0;
+  width: 99%;
+  transition-duration: 0.5s;
+  background: #F7F9FA;
+  color: #2E3133;
+}
+
+input:focus, textarea:focus {
+  color: #444;
+  background: rgba(240, 99, 146, 0.4);
+  border: 1px solid rgba(240, 99, 146, 0.01);
+  outline: 0px;
+}
+
+textarea {
+  width: 99.5%;
+  resize: none;
+}
+
+.btn {
+  background: rgba(240, 99, 146, 0.4);
+  width: initial;
+  font-weight: bold;
+  border: 1px solid rgba(240, 99, 146, 0.01);
+  color: #444;
+}
+
+.btn:hover {
+  background: #f06292;
+  color: #fff;
+  font-weight: bold;
+}
+
+.fondo-contenido { background: rgba(240, 99, 146, 0.1); }
+
+.circular {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: #f06292 solid 2px;
+}
+
+.nombre {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.tabla-contenido {
+  background: #f06292;
+  font-size: 18px;
+  padding: 5px 5px 10px;
+  margin: 5px;
+  text-align: center;
+  min-height: 150px;
+}
+
+.tabla-contenido-portafolio {
+  background: #f06292;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  min-height: 200px;
+}
+
+.tabla-contenido-portafolio > img {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+}
+
+/* footer */
+
+footer {
+  height: 150px;
+  background: #444;
+  color: #fff;
+  padding: 10px;
+  margin-top: -150px;
+}
