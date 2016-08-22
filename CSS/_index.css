@@ -1,0 +1,308 @@
+/*-----------------GENERAL------------------*/
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: auto auto;
+  padding: 0;
+  font-size: 17px;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  font-family: 'Linden Hill', serif;
+  font-size: 2em;
+	font-style: italic;
+}
+
+.letra {
+  font-family: 'Lato', sans-serif;
+}
+
+.middle {
+  display: inline-block;
+  position: relative;
+  margin: auto auto;
+}
+
+.up{/*resaltar*/
+  float: left;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -ms-transition: margin 0.5s ease-out;
+  transition: margin 0.5s ease-out;
+}
+
+.container {
+	background-color: #444;
+	width: 100%;
+	height: 80%;
+	margin: auto;
+}
+
+.col {
+  width: 33.3%;
+  float: left;
+  height: 100%;
+}
+
+/*----------HEADER--------------*/
+
+.header {
+	background-color: white;
+  font-size: 0.5em;
+	width: 100%;
+	height: 10%;
+	margin: auto;
+  color: black;
+}
+
+/*---------------ABOUT----------------*/
+
+.Acercade{
+	background-color: pink;
+  background-image: url("../IMG/acercade.jpg");
+  float: left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	width: 100%;
+	height: 50%;
+	float: left;
+  text-shadow: 2px 2px #444;
+}
+
+.Acercade:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/*---------------COMUNIDAD----------------*/
+
+.Comunidad{
+	background-color: blue;
+	width: 100%;
+	height: 50%;
+	float: left;
+  background-image: url("../IMG/comunidad.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 2px 2px #444;
+}
+
+.Comunidad:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/*---------------PERFILES----------------*/
+.Perfiles{
+	width: 100%;
+	height: 50%;
+	float: left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 2px 2px #444;
+}
+
+.Perfiles:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/*---------------BLOG----------------*/
+
+.Blog{
+	background-color: maroon;
+	width: 100%;
+	height: 30%;
+	float: left;
+  background-image: url("../IMG/blog.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 2px 2px #444;
+}
+
+.Blog:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/*---------------EVENTOS----------------*/
+.Eventos{
+	/*background-color: silver;*/
+	width: 100%;
+	height: 25%;
+	float: left;
+  background-image: url("../IMG/eventos.JPG");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 2px 2px #444;
+}
+
+.Eventos:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/*---------------CONTACTO----------------*/
+
+.Contacto{
+	background-color: #FF9999;
+	width: 100%;
+	height: 35%;
+	float: left;
+  background-image: url("../IMG/contacto-background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 2px 2px #444;
+}
+
+.Contacto:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/*---------------PORTAFOLIO----------------*/
+
+.Portafolio{
+	background-color: green;
+	width: 100%;
+	height: 25%;
+	float: left;
+  background-image: url("../IMG/portafolio.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 2px 2px #444;
+}
+
+.Portafolio:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/*---------------APOYANOS----------------*/
+
+.Apoyanos{
+	background-color: green;
+  background-image: url("../IMG/apoyanos.jpg");
+  float: left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	width: 100%;
+	height: 35%;
+	float: left;
+  text-shadow: 2px 2px #444;
+}
+
+.Apoyanos:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/*---------------FOOTER----------------*/
+
+footer{
+	background-color: white;
+	width: 100%;
+	height: 10%;
+	margin: auto;
+  color: black;
+  text-align: center;
+  color: #0E253A;
+  vertical-align: middle;
+  position: fixed;
+  bottom: 0px;
+}
+
+footer em{
+  margin: auto;
+  padding-top: 10px;
+  font-size: 10px;
+}
+
+#left {
+  float: left;
+}
+
+#right {
+  float: right;
+}
+
+#left:hover, #right:hover, #allProfiles:hover {
+  color: #C1BCBC;
+}
+
+#allProfiles {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* Media */
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .col {
+    width: 50%;
+  }
+
+  .col .Apoyanos, .col .Blog, .col .Contacto {
+    width: 200%;
+  }
+
+  .header {
+    position: fixed;
+  }
+
+  .About {
+    padding-top: 10%;
+  }
+
+  .About, .Comunidad, .Perfiles, .Blog, .Eventos,
+  .Contacto, .Portafolio, .Apoyanos{
+
+  }
+
+}
+
+@media (max-width: 599px) {
+  .col {
+    width: 100%;
+  }
+
+  .header {
+    position: fixed;
+  }
+
+  .About {
+    padding-top: 10%;
+  }
+
+  .About, .Comunidad, .Perfiles, .Blog, .Eventos,
+  .Contacto, .Portafolio, .Apoyanos{
+
+  }
+
+}
+
+
+
+/*
+mobile-portrait: min:320px - max:479px;
+mobile-landscape: min:480px - max:599px;
+small-tablet-portrait: min:600px - max:799px;
+small-tablet-landscape: min:800px - max:767px;
+tablet-portrait: min:768px - max:1023px;
+tablet-landscape: min:1024px; */
