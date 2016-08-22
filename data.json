@@ -44,10 +44,10 @@
     },
     {
       "name": "María Victoria Gasca",
-      "img": "./IMG/vicky.jpg",
+      "img": "./IMG/vicky/perfil.jpg",
       "page": "./HTML/perfiles/Vicky.html",
       "email": "mvgasca@utp.edu.co",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
+      "description": "Ingeniera Electricista."
     },
     {
       "name": "Alejandro E. Rendon",
