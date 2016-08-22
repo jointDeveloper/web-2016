@@ -20,6 +20,11 @@ html, body {
   src: url(../../FONTS/Cinzel/Cinzel-Regular.ttf);
 }
 
+a i {
+  color: #fff;
+}
+a i:hover { opacity: 0.7; }
+
 .letra { font-family: 'Lato', sans-serif }
 .titulo {
   font-size: 40px;
@@ -334,7 +339,7 @@ img { max-width:100%; }
 
 input, textarea {
   border: 1px solid #DBE1EB;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Arima Madurai', cursive;
   /*font-family: 'Josefin Slab', 'Myriad Pro', Arial, sans-serif;*/
   padding: 5px;

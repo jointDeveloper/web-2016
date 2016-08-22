@@ -168,9 +168,13 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-a {
-  color: black;
+a { color: #000; }
+a i {
+  color: #fff;
+  position: absolute;
+  bottom: 10px;
 }
+a i:hover { opacity: 0.7; }
 
 ul.topnav li a:hover:not(.active) {
   color: #f06292;
