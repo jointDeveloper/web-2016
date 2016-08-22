@@ -14,14 +14,19 @@
     }
     return result;
   }
-  //alert(hexToRgb(003355));
+
   var color = $('body').css('background-color');
   var body = toRgba(color, 0.05);
-  //alert(body);
+
   $('html').css('background-color', body);
   $('.circular').css('border-color', color);
   $('.claro, input:focus, .btn').css('background', toRgba(color, 0.3));
   $('.oscuro').css('background', toRgba(color, 0.7));
-  //alert(color);
 
+  // color banner
+  $('.banner > a').hover(function () {
+    $(this).css('color', color);
+  }, function () {
+    $(this).css('color', 'white')
+  });
 })(jQuery);

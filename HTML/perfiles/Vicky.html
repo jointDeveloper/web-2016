@@ -8,7 +8,8 @@
     <link rel="icon" type="image/png" href="../../IMG/favicon.ico" />
     <script type="text/javascript" src="../../JS/Chart.min.js"></script>
     <link rel="stylesheet prefetch" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link href='//fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+    <!-- <link href='//fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'> -->
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
     <title>Perfiles - jointDeveloper</title>
   </head>
   <body>
@@ -79,7 +80,7 @@
         <div class="contenido">
           <div class="row">
             <div class="col-6">
-              <h4>Derrollo Web</h4>
+              <h4>Desarrollo Web</h4>
               <canvas id="myChart" class="chart-aptitudes center"></canvas>
               <script>
               var ctx = document.getElementById("myChart").getContext("2d");
@@ -202,7 +203,7 @@
             </div>
             <div class="col-1">
               <div class="tabla-pasatiempo claro left">
-                <img src="../../IMG/vicky/baile.jpg">
+                <img src="../../IMG/vicky/baile.png">
               </div>
             </div>
             <div class="col-1">
@@ -230,7 +231,7 @@
             </div>
             <div class="col-1">
               <div class="tabla-pasatiempo oscuro left">
-                <img src="../../IMG/vicky/bici.jpg">
+                <img src="../../IMG/vicky/bici.png">
               </div>
             </div>
             <div class="col-1">
@@ -265,29 +266,31 @@
               </p>
             </div>
           </div>
-          <div class="scroll" id="contacto">
-            <div class="titulo center">
-              Contacto
+        </div>
+      </div>
+      <div class="scroll" id="contacto">
+        <div class="titulo center">
+          Contacto
+        </div>
+        <div class="contenido center">
+          <form action="#" method="post" onsubmit="return confirm('¿Esta seguro se hacer el envio?')">
+            <div class="row">
+              <div class="col-6">
+                <input type="text" placeholder="Nombre" name="name" required>
+              </div>
+              <div class="col-6">
+                <input type="email" placeholder="Correo Electrónico" name="email" required>
+              </div>
             </div>
-            <div class="contenido center">
-              <form action="#" method="post" onsubmit="return confirm('¿Esta seguro se hacer el envio?')">
-                <div class="row">
-                  <div class="col-6">
-                    <input type="text" placeholder="Nombre" name="name" required>
-                  </div>
-                  <div class="col-6">
-                    <input type="email" placeholder="Correo Electrónico" name="email" required>
-                  </div>
-                </div>
-                <div class="row">
-                  <textarea name="name" placeholder="Mensaje" rows="3" name="msj" required></textarea>
-                </div>
-                <div class="row center">
-                  <input class="btn" type="submit" name="enviar" value="Enviar" />
-                </div>
-              </form>
+            <div class="row">
+              <textarea name="name" placeholder="Mensaje" rows="3" name="msj" required></textarea>
             </div>
-          </div>
+            <div class="row center">
+              <input class="btn" type="submit" name="enviar" value="Enviar" />
+            </div>
+          </form>
+        </div>
+      </div>
       <div class="footer">
         <div class="row">
           <div class="col-2 center">
@@ -319,7 +322,7 @@
             <a href="//utp.edu.co" target="_blank"><img src="../../IMG/icons/utp.png" style="width: 100px" alt="" /></a>
           </div>
         </div>
-			</div>
+      </div>
     </div>
     <script src="../../JS/jquery.min.js"></script>
     <script src="../../JS/twitter.js"></script>

@@ -1,1 +1,12 @@
 body {background: #C06FFF; }
+
+.navbar > a { width: 12.5%; }
+
+#nav-inicio        { left: 0%; }
+#nav-info          { left: 12.5%; }
+#nav-aptitudes     { left: 25.0%; }
+#nav-educacion     { left: 37.5%; }
+#nav-cursos        { left: 50.0%; }
+#nav-proyectosport { left: 62.5%; }
+#nav-pasatiempos   { left: 75.0%; }
+#nav-contacto      { left: 87.5%; }
