@@ -1,3 +1,8 @@
+.row {
+  width: 100%;
+  display: inline-block;
+}
+
 /*------------General-----------*/
 .centered {
   position: relative;
