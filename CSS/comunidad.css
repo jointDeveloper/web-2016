@@ -99,7 +99,7 @@ html, body {
   background-color: white;
   margin: 10px auto;
   padding: 10px;
-  width: 90%;
+  width: 100%;
   min-height: 95% !important;
   padding-top: 5%;
 }
@@ -678,11 +678,20 @@ a{
 .titulo-content{
   font-size: 40px;
   padding: 2% 0;
+  font-weight: bold;
 }
 
 .texto-titulo{
   padding: 32px 150px;
   margin-bottom: 37px;
+}
+
+.content-gray{
+  background-color: #f7f7f7;
+}
+
+.texto-comu > h4 {
+  font-weight: bold;
 }
 /*
 mobile-portrait: min:320px - max:479px;
