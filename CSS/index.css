@@ -1,106 +1,142 @@
-/*-----------------GENERAL------------------*/
+* { box-sizing: border-box; }
+
 html, body {
   height: 100%;
   width: 100%;
   margin: auto auto;
   padding: 0;
-  font-size: 17px;
-  color: white;
-  font-weight: bolder;
+  font-size: 16px;
+  color: #000;
+  background: yellow;
   text-align: center;
-  font-family: 'Linden Hill', serif;
-  font-size: 2em;
-	font-style: italic;
+  font-family: 'Arima Madurai', cursive;
 }
 
-.letra {
-  font-family: 'Lato', sans-serif;
+@font-face {
+  font-family: Arima-Madurai;
+  src: url(FONTS/Arima_Madurai/ArimaMadurai-Regular.ttf);
 }
 
-.middle {
+[class*="col-"] { float: left; }
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.first-row { margin-top: 50px; }
+
+.left { text-align: left; }
+
+.row {
+  width: 100%;
   display: inline-block;
-  position: relative;
-  margin: auto auto;
-}
-
-.up{/*resaltar*/
-  float: left;
-  -webkit-transition: margin 0.5s ease-out;
-  -moz-transition: margin 0.5s ease-out;
-  -ms-transition: margin 0.5s ease-out;
-  transition: margin 0.5s ease-out;
 }
 
 .container {
-	background-color: #444;
-	width: 100%;
-	height: 80%;
-	margin: auto;
+  max-width: 1366px;
+  width: 100%;
 }
 
-.col {
-  width: 33.3%;
+ul.topnav {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #444;
+  top: 0px;
+  height: 100px;
+}
+
+ul.topnav li {
   float: left;
-  height: 100%;
 }
 
-/*----------HEADER--------------*/
-
-.header {
-	background-color: white;
-  font-size: 0.5em;
-	width: 100%;
-	height: 10%;
-	margin: auto;
-  color: black;
+ul.topnav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
 }
 
-/*---------------ABOUT----------------*/
+a { color: #000; }
+a i {
+  color: #fff;
+  bottom: 10px;
+}
+a i:hover { opacity: 0.7; }
 
-.Acercade{
-	background-color: pink;
-  background-image: url("../IMG/acercade.jpg");
-  float: left;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-	width: 100%;
-	height: 50%;
-	float: left;
-  text-shadow: 2px 2px #444;
+ul.topnav li a:hover:not(.active) {
+  color: #f06292;
+  font-weight: bold;
+  border-bottom: 2px solid #f06292;
 }
 
-.Acercade:hover{
-  opacity: 0.7;
-  cursor: pointer;
+ul.topnav li a.active {
+  color: #f06292;
+  background-color: #444;
+  font-weight: bold;
+  border-bottom: 2px solid #f06292;
 }
 
-/*---------------COMUNIDAD----------------*/
-
-.Comunidad{
-	background-color: blue;
-	width: 100%;
-	height: 50%;
-	float: left;
-  background-image: url("../IMG/comunidad.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-shadow: 2px 2px #444;
+ul.topnav ul.right {
+  float: right;
+  list-style-type: none;
 }
 
-.Comunidad:hover{
-  opacity: 0.7;
-  cursor: pointer;
+/*main {
+  height: calc(100% - 250px);
+}*/
+
+
+
+.footer {
+  /*position: relative;*/
+  height: 150px;
+  background-color: #444;
+  padding: 10px;
+  color: white;
 }
 
-/*---------------PERFILES----------------*/
+.icon-title, .icon-title:visited { color: #fff; }
+.icon-title:hover, .btn-inicio:hover { opacity: 0.5; }
+
+.icon-footer {
+  width: 10%;
+  height: 10%;
+  padding: 5px;
+}
+
+.profileItem {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.card {
+  margin: 10px;
+  background: #fff;
+  padding: 5px;
+  min-height: 150px;
+  /*position: relative;*/
+  height: auto;
+}
+
+/* Perfiles*/
+
 .Perfiles{
-	width: 100%;
-	height: 50%;
-	float: left;
+	width:  400px;
+	height: 400px;
+	/*float: left;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -112,197 +148,8 @@ html, body {
   opacity: 0.7;
   cursor: pointer;
 }
+/*fin perfiles*/
 
-/*---------------BLOG----------------*/
-
-.Blog{
-	background-color: maroon;
-	width: 100%;
-	height: 30%;
-	float: left;
-  background-image: url("../IMG/blog.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-shadow: 2px 2px #444;
+.ajuste{
+  width: calc(100% - 450px);
 }
-
-.Blog:hover{
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-/*---------------EVENTOS----------------*/
-.Eventos{
-	/*background-color: silver;*/
-	width: 100%;
-	height: 25%;
-	float: left;
-  background-image: url("../IMG/eventos.JPG");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-shadow: 2px 2px #444;
-}
-
-.Eventos:hover{
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-/*---------------CONTACTO----------------*/
-
-.Contacto{
-	background-color: #FF9999;
-	width: 100%;
-	height: 35%;
-	float: left;
-  background-image: url("../IMG/contacto-background.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-shadow: 2px 2px #444;
-}
-
-.Contacto:hover{
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-/*---------------PORTAFOLIO----------------*/
-
-.Portafolio{
-	background-color: green;
-	width: 100%;
-	height: 25%;
-	float: left;
-  background-image: url("../IMG/portafolio.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  text-shadow: 2px 2px #444;
-}
-
-.Portafolio:hover{
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-/*---------------APOYANOS----------------*/
-
-.Apoyanos{
-	background-color: green;
-  background-image: url("../IMG/apoyanos.jpg");
-  float: left;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-	width: 100%;
-	height: 35%;
-	float: left;
-  text-shadow: 2px 2px #444;
-}
-
-.Apoyanos:hover{
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-/*---------------FOOTER----------------*/
-
-footer{
-	background-color: white;
-	width: 100%;
-	height: 10%;
-	margin: auto;
-  color: black;
-  text-align: center;
-  color: #0E253A;
-  vertical-align: middle;
-  position: fixed;
-  bottom: 0px;
-}
-
-footer em{
-  margin: auto;
-  padding-top: 10px;
-  font-size: 10px;
-}
-
-#left {
-  float: left;
-}
-
-#right {
-  float: right;
-}
-
-#left:hover, #right:hover, #allProfiles:hover {
-  color: #C1BCBC;
-}
-
-#allProfiles {
-  color: #FFF;
-  text-decoration: none;
-}
-
-/* Media */
-
-@media (min-width: 600px) and (max-width: 767px) {
-  .col {
-    width: 50%;
-  }
-
-  .col .Apoyanos, .col .Blog, .col .Contacto {
-    width: 200%;
-  }
-
-  .header {
-    position: fixed;
-  }
-
-  .About {
-    padding-top: 10%;
-  }
-
-  .About, .Comunidad, .Perfiles, .Blog, .Eventos,
-  .Contacto, .Portafolio, .Apoyanos{
-
-  }
-
-}
-
-@media (max-width: 599px) {
-  .col {
-    width: 100%;
-  }
-
-  .header {
-    position: fixed;
-  }
-
-  .About {
-    padding-top: 10%;
-  }
-
-  .About, .Comunidad, .Perfiles, .Blog, .Eventos,
-  .Contacto, .Portafolio, .Apoyanos{
-
-  }
-
-}
-
-
-
-/*
-mobile-portrait: min:320px - max:479px;
-mobile-landscape: min:480px - max:599px;
-small-tablet-portrait: min:600px - max:799px;
-small-tablet-landscape: min:800px - max:767px;
-tablet-portrait: min:768px - max:1023px;
-tablet-landscape: min:1024px; */
