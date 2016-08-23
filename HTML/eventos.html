@@ -2,14 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="../CSS/plantilla.css" rel="stylesheet">
     <link href="../CSS/perfiles.css" rel="stylesheet">
     <link href="../CSS/fonts.css" rel="stylesheet">
     <link href="../CSS/eventos.css" rel="stylesheet">
+    <link rel="stylesheet prefetch" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href="//fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
     <link rel="icon" type="image/png" href="../IMG/favicon.ico" />
     <title>Eventos - jointDeveloper</title>
   </head>
   <body>
-
     <nav class="container_nav">
       <label for="show-menu" class="show-menu"><a id="logo-nav-responsive">jointDeveloper</a></label>
       <ul class="topnav border" id="menu">
@@ -17,18 +19,20 @@
         <li><a id="logo-nav" href="../index.html" style="padding-right: 2px">jointDeveloper</a></li>
         <li class="dropdown-container">
           <a href="#todosLosEventos" class="group"><span>Eventos</span></a>
+          <!--
           <ul class="dropdown">
             <li><a href="../HTML/codeparty.html"><span>CodeParty Pereira</span></a></li>
             <li><a href="#"><span>JointDeveloper KIDS</span></a></li>
             <li><a href="#"><span>Otro Evento</span></a></li>
           </ul>
+          -->
         </li>
-        <li><a href="#todasLasCharlas" class="group"><span>Charlas</span></a></li>
+        <!-- <li><a href="#todasLasCharlas" class="group"><span>Charlas</span></a></li> -->
       </ul>
     </nav>
 
     <div class="style-title-white intro-eventos">
-      <div class="vertical-center">
+      <div>
         <h1 class="intro">Eventos</h1>
       </div>
     </div>
@@ -40,52 +44,64 @@
         <p class="info letra" style="font-size:16px;">Descubre los eventos que hemos realizado, y animáte a ser parte de ellos.</p>
       </div>
 
-      <ul>
-				<li class="event">
-          <a href="./codeparty.html"><img src="../IMG/eventos.JPG"/></a>
-          <p class="text letra">
-            CodeParty Pereira
-          </p>
+      <ul class="event-list">
+				<li id="codeParty" class="event" style="background-image: url(../IMG/eventos.JPG">
+          <a href="codeparty.html">
+            <div class="text letra">
+              <span>CodeParty Pereira</span>
+            </div>
+          </a>
         </li>
-				<li class="event">
-          <a href="#"><img src="../IMG/Eventos/globo.jpg"/></a>
-          <p class="text letra">
-            Evento1
-          </p>
+        <!--
+				<li class="event" style="background-image: url(../IMG/Eventos/globo.jpg)">
+          <a href="#">
+            <div class="text letra">
+              <span>Evento1</span>
+            </div>
+          </a>
         </li>
-				<li class="event">
-          <a href="#"><img src="../IMG/Eventos/camino.jpg"/></a>
-          <p class="text letra">
-            Evento2
-          </p>
+				<li class="event" style="background-image: url(../IMG/Eventos/camino.jpg)">
+          <a href="#">
+            <div class="text letra">
+              <span>Evento2</span>
+            </div>
+          </a>
         </li>
-        <li class="event">
-          <a href="#"><img src="../IMG/Eventos/hombre.jpg"/></a>
-          <p class="text letra">
-            Evento3
-          </p>
+        <li class="event" style="background-image: url(../IMG/Eventos/hombre.jpg)">
+          <a href="#">
+            <div class="text letra">
+              <span>Evento3</span>
+            </div>
+          </a>
         </li>
-        <li class="event">
-          <a href="#"><img src="../IMG/Eventos/montana.jpg"/></a>
-          <p class="text letra">
-            Evento4
-          </p>
+        <li class="event" style="background-image: url(../IMG/Eventos/montana.jpg)">
+          <a href="#">
+            <div class="text letra">
+              <span>Evento4</span>
+            </div>
+          </a>
         </li>
-        <li class="event">
-          <a href="#"><img src="../IMG/Eventos/viaje.jpg"/></a>
-          <p class="text letra">
-            Evento5
-          </p>
+        <li class="event" style="background-image: url(../IMG/Eventos/viaje.jpg)">
+          <a href="#">
+            <div class="text letra">
+              <span>Evento5</span>
+            </div>
+          </a>
         </li>
-        <li class="event">
-          <a href="#"><img src="../IMG/Eventos/ventana.jpeg"/></a>
-          <p class="text letra">
-            Evento6
-          </p>
+        <li class="event" style="background-image: url(../IMG/Eventos/ventana.jpeg)">
+          <a href="#">
+            <div class="text letra">
+              <span>Evento6</span>
+            </div>
+          </a>
         </li>
+
+        -->
       </ul>
 
     </div>
+
+    <!--
 
     <div id="todasLasCharlas">
       <div class="up">
@@ -103,37 +119,42 @@
 
     </div>
 
+    -->
     <div class="footer">
-  		<div class="row">
-  			<div class="col-3">
-  				<a href="http://sirius.utp.edu.co" target="_blank"><img src="../IMG/sirius.png" alt="Facebook-jointDeveloper" style="width: 35%"/></a>
-  			</div>
-  			<div class="col-6">
-  				<div class="row">
-  					info@jointDevelopers.co
-  				</div>
-  				<br />
-  				<div class="row">
-  					<a href="https://www.facebook.com/jointDeveloper" target="_blank"><img src="../IMG/icons/template/white/facebook.png" alt="Facebook-jointDeveloper" class="icon-footer" /></a>
-  					<a href="https://github.com/jointDeveloper" target="_blank"><img src="../IMG/icons/template/white/github.png" alt="Facebook-jointDeveloper" class="icon-footer"  /></a>
-  					<a href="https://www.instagram.com/jointdeveloper/" target="_blank"><img src="../IMG/icons/template/white/instagram.png" alt="Facebook-jointDeveloper" class="icon-footer"  /></a>
-  					<a href="https://twitter.com/jointdev" target="_blank"><img src="../IMG/icons/template/white/twitter.png" alt="Facebook-jointDeveloper" class="icon-footer"  /></a>
-  					<a href="https://twitter.com/jointdev" target="_blank"><img src="../IMG/icons/template/white/google.png" alt="Facebook-jointDeveloper" class="icon-footer"  /></a>
-  					<a href="https://twitter.com/jointdev" target="_blank"><img src="../IMG/icons/template/white/whatsapp.png" alt="Facebook-jointDeveloper" class="icon-footer"  /></a>
-  				</div>
-  			</div>
-  		</div>
-  	</div>
-  <!-- <script>
-    var gallery = document.querySelector(".event-container ul");
-
-    gallery.addEventListener("mouseover",function(ev){
-      if (ev.target.className === 'text') {
-        a = ev.target.previousSibling.previousSibling;
-        img = a.childNodes[0];
-        img.style.filter = "contrast(70%)";
-      }
-    });
-  </script> -->
+      <div class="row">
+        <div class="col-2 center">
+          <a href="//sirius.utp.edu.co" target="_blank"><img src="../../IMG/icons/sirius.png" style="width: 80px" alt="" /></a>
+        </div>
+        <div class="col-8">
+          <!--<div class="fb-like" data-href="https://www.facebook.com/jointDeveloper/" data-width="80px" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+          <a class="twitter-follow-button"
+            href="https://twitter.com/jointDev"
+            data-size="large">
+          Follow @jointDev</a>-->
+          <div class="row">
+              <a href="//github.com/joindeveloper" target="_blank"><i class="fa fa-github-square icon-title fa-3x" aria-hidden="true"></i></a>
+              <a href="mailto:developerjoint@gmail.com" target="_blank"><i class="fa fa-envelope-square icon-title fa-3x" aria-hidden="true"></i></a>
+              <a href="//youtube.com/channel/UC1hMrYBNsvKnufvG8t6q7ZQ" target="_blank"><i class="fa fa-youtube-square icon-title fa-3x" aria-hidden="true"></i></a>
+              <a href="//plus.google.com/u/1/113539795181089700851" target="_blank"><i class="fa fa-google-plus-square icon-title fa-3x" aria-hidden="true"></i></a>
+              <a href="//instagram.com/jointDeveloper/" target="_blank"><i class="fa fa-instagram icon-title fa-3x" aria-hidden="true"></i></a>
+              <a href="//snapchat.com/add/jointDev" target="_blank"><i class="fa fa-snapchat-square icon-title fa-3x" aria-hidden="true"></i></a>
+              <a href="//facebook.com/jointDeveloper/" target="_blank"><i class="fa fa-facebook-square icon-title fa-3x" aria-hidden="true"></i></a>
+              <div class="fb-like" data-href="https://www.facebook.com/jointDeveloper/" data-width="80px" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+              <a href="//twitter.com/jointdev" target="_blank"><i class="fa fa-twitter-square icon-title fa-3x" aria-hidden="true"></i></a>
+              <a class="twitter-follow-button"
+                href="https://twitter.com/jointDev"
+                data-size="large">
+              Follow</a>
+          </div>
+        </div>
+        <div class="col-2 center">
+          <a href="//utp.edu.co" target="_blank"><img src="../../IMG/icons/utp.png" style="width: 100px" alt="" /></a>
+        </div>
+      </div>
+    </div>
+    <script src="../JS/twitter.js"></script>
+    <script src="../JS/facebook.js"></script>
+    <script src="../JS/googleA.js"></script>
+    <script src="../JS/eventos.js"></script>
   </body>
 </html>

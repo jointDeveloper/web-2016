@@ -46,7 +46,8 @@
       arrows = document.getElementsByClassName("panelup")[0].getElementsByTagName("a"),
       imageInfo = document.querySelector(".panelup .info .letra"),
       displayInfo = document.querySelector(".displayInfo"),
-      closeInfo = document.querySelector(".close");
+      closeInfo = document.querySelector(".close"),
+      eventInfo = document.querySelector("#EventInformation");
 
   var next = arrows[2],
       prev = arrows[0],
@@ -84,11 +85,11 @@
 
   displayInfo.addEventListener("click",function(ev){
     ev.preventDefault();
-    document.querySelector("#EventInformation").className = "";
+    eventInfo.className = "";
   });
 
   closeInfo.addEventListener("click",function(){
-    document.querySelector("#EventInformation").className = "hidden";
+    eventInfo.className = "hidden";
   });
 
 }())
