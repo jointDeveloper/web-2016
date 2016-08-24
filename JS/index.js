@@ -21,9 +21,9 @@
       view();
       size = perfiles.length;
       setInterval(moveRight, 2800);
-      left.addEventListener('click', (moveLeft));
-      right.addEventListener('click', (moveRight));
-      people.addEventListener('click', (viewProfile));
+      left.addEventListener('click', moveLeft);
+      right.addEventListener('click', moveRight);
+      people.addEventListener('click', viewProfile);
     });
 
     $('.link').click(function () {
@@ -48,6 +48,7 @@
     }
 
     function viewProfile(ev) {
+      console.log(ev.target.id);
       if (ev.target.id === "perfiles") {
         window.location = perfiles[index].page;
       }
