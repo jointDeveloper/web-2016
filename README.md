@@ -2,6 +2,8 @@
 
 # Comunidad jointDeveloper
 
+[![Github Issues](https://img.shields.io/github/issues/jointDeveloper/Aprendizaje-Web.svg)](http://github.com/jointDeveloper/Aprendizaje-Web/issues)
+
 ## Guía Rápida de Contribución a la Web-jointDeveloper
 
 1. Actualizar el repositorio local, por medio de `git pull origin gh-pages` para traer los cambios más recientes sobre el branch principal del repositorio.
