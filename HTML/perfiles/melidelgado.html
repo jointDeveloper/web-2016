@@ -7,17 +7,15 @@
     <link rel="icon" type="image/png" href="../../IMG/favicon.ico" />
     <script type="text/javascript" src="../../JS/Chart.min.js"></script>
     <link rel="stylesheet prefetch" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-    <!-- <link href='//fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'> -->
-    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
-    <link href="../../CSS/melidelgado.css" rel="stylesheet">
-    <title>Angie Melissa Delgado León - jointDeveloper</title>
+    <link href="//fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+    <title>Perfiles - jointDeveloper</title>
   </head>
   <body>
     <div class="container center">
       <header>
         <div class="banner">
           <a id="jointDev" href="/">jointDeveloper</a>
-          <a id="nombre">Angie Melissa Delgado León</a>
+          <a id="nombre">John H. Osorio</a>
         </div>
         <div class="navbar">
           <a id="nav-inicio" class="group active" href="#inicio">Inicio</a>
@@ -42,36 +40,38 @@
             <div class="col-8">
               <div class="right">
                 <div class="nombre-intro">
-                  Angie Melissa Delgado León
+                  Angie Melissa Delgado
                 </div>
-                <a href="../../IMG/josorio/HojaDeVida-JohnOsorio.pdf" download="John H. Osorio" class="btn-inicio center">Descargar CV</a>
+                <a href="../../IMG/josorio/CV-Meli-Delgado.pdf" target="_blank" class="btn-inicio center">Descargar CV</a>
                 <h3 style="color: #fff">
-                  Ingeniero de Sistemas y Computación <br />
-                  Universidad Francisco de Paula Santander
+                  Estudiante de Ingenieria de Sístemas <br />
+                  Universidad Francisco de Paula Santander <br />
+                  Directora Grupo de Estudio en Programación Competitiva UFPS <br />
                 </h3>
                 <div class="row">
-                  <a href="//github.com/kala855" target="_blank"><i class="fa fa-github-square icon-title fa-3x" aria-hidden="true"></i></a>
-                  <a href="mailto:john@sirius.utp.edu.co" target="_blank"><i class="fa fa-envelope-square icon-title fa-3x" aria-hidden="true"></i></a>
-                  <a href="//facebook.com/john.osorio.12" target="_blank"><i class="fa fa-facebook-square icon-title fa-3x" aria-hidden="true"></i></a>
-                  <a href="//twitter.com/kala855" target="_blank"><i class="fa fa-twitter-square icon-title fa-3x" aria-hidden="true"></i></a>
-                  <a href="//www.linkedin.com/in/john-h-osorio-r%C3%ADos-74b547b4?trk=hp-identity-name" target="_blank"><i class="fa fa-linkedin-square icon-title fa-3x" aria-hidden="true"></i></a>
+                  <a href="//github.com/Meyito" target="_blank"><i class="fa fa-github-square icon-title fa-3x" aria-hidden="true"></i></a>
+                  <a href="mailto:amelisdl@gmail.com" target="_blank"><i class="fa fa-envelope-square icon-title fa-3x" aria-hidden="true"></i></a>
+                  <a href="//facebook.com/amelisdl" target="_blank"><i class="fa fa-facebook-square icon-title fa-3x" aria-hidden="true"></i></a>
+                  <a href="//twitter.com/Meyito_" target="_blank"><i class="fa fa-twitter-square icon-title fa-3x" aria-hidden="true"></i></a>
+                  <a href="//www.linkedin.com/in/angie-melissa-delgado-león-680a81ab" target="_blank"><i class="fa fa-linkedin-square icon-title fa-3x" aria-hidden="true"></i></a>
                 </div>
               </div>
             </div>
           </div>
-				</div>
+          <a href="#info"><i class="fa fa-chevron-circle-down fa-4x" aria-hidden="true"></i></a>
+        </div>
       </div>
       <div class="content scroll" id="info">
-				<div class="row vertical-center">
+        <div class="row vertical-center">
           <div class="titulo center">
             <img src="../../IMG/meli.jpg" class="circular" alt="" />
-            <div class="nombre">Angie Melissa Delgado León</div>
+            <div class="nombre">Meli Delgado</div>
           </div>
           <div class="left">
-            <p>Soy estudiante de Ingeniería de Sistemas de la Universidad Francisco de Paula Santander.</p>
-            <p>Apasionada por la Programación Competitiva, me gusta enseñar, compartir conocimiento y aprender cosas nuevas.</p>
+            <p>Soy estudiante de Ingeniería de Sistemas de la Universidad Francisco de Paula Santander. Apasionada por la Programación Competitiva, me gusta enseñar, compartir conocimiento y aprender cosas nuevas.</p>
+            <p>Mi tesis de grado está enfocada en la construcción de un marco de trabajo para la preparación de estudiantes de Ingeniera de Sistemas en competencias de programación tipo ACM-ICPC.</p>
           </div>
-				</div>
+        </div>
       </div>
       <div class="content scroll" id="aptitudes">
         <div class="titulo center">
@@ -80,25 +80,28 @@
         <div class="contenido">
           <div class="row">
             <div class="col-6">
-              <h4>Derrollo Web</h4>
+              <h4>Desarrollo Web</h4>
               <canvas id="myChart" class="chart-aptitudes center"></canvas>
               <script>
               var ctx = document.getElementById("myChart").getContext("2d");
               var data_web = {
                 labels: [
                 "HTML",
-                "CSS"
+                "CSS",
+                "AngularJs",
                   ],
                   datasets: [
                     {
-                      data: [50, 50],
+                      data: [40, 35, 25],
                       backgroundColor: [
-                          "#F22613",
-                          "#4183D7"
+                          "#ce93d8",
+                          "#ab47bc",
+                          "#8e24aa"
                       ],
                       hoverBackgroundColor: [
-                          "#EF4836",
-                          "#446CB3"
+                          "#e1bee7",
+                          "#ba68c8",
+                          "#9c27b0"
                       ]
                 }]
               };
@@ -125,24 +128,27 @@
               var data_web = {
                 labels: [
                 "C++",
-                "C",
-                "Python",
-                "Java"
+                "Java",
+                "PHP",
+                "javascript",
+                "NodeJs"
                   ],
                   datasets: [
                     {
-                      data: [25, 40, 25, 10],
+                      data: [25, 25, 15, 25, 10],
                       backgroundColor: [
-                          "#4B77BE",
-                          "#3A539B",
-                          "#ABB7B7",
-                          "#F89406"
+                          "#f8bbd0",
+                          "#f06292",
+                          "#e91e63",
+                          "#c2185b",
+                          "#880e4f"
                       ],
                       hoverBackgroundColor: [
-                          "#5C97BF",
-                          "#5C97BF",
-                          "#6C7A89",
-                          "#E87E04"
+                          "#fce4ec",
+                          "#f48fb1",
+                          "#ec407a",
+                          "#d81b60",
+                          "#ad1457"
                       ]
                 }]
               };
@@ -173,11 +179,11 @@
             <div class="col-4">
               <div class="tabla-contenido claro">
                 <p class="bold">
-                  Ingeniero de Sistemas
+                  Ingenieria de Sistemas
                 </p>
                 Duración: 10 Semestres<br>
                 Universidad Francisco de Paula Santander<br />
-                Estado: 9no Semestre
+                Estado: En curso
               </div>
             </div>
           </div>
@@ -185,7 +191,7 @@
       </div>
       <div class="content scroll" id="cursos">
         <div class="titulo center">
-          Cursos
+            Cursos
         </div>
         <div class="contenido">
           <div class="row">
@@ -194,8 +200,78 @@
                 <p class="bold">
                   Server-side Development with NodeJS
                 </p>
-                The Hong Kong University of Science and Technology<br />
-                Coursera
+                The Hong Kong University of Science and Technology - Coursera <br/>
+                Estado: Finalizado
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="tabla-contenido oscuro">
+                <p class="bold">
+                  Redacción Científica
+                </p>
+                Universidad Francisco de Paula Santander<br/>
+                Estado: Finalizado
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="titulo center">
+          Eventos
+        </div>
+        <div class="contenido">
+          <div class="row">
+            <div class="col-4">
+              <div class="tabla-contenido claro">
+                <p class="bold">
+                  Participante: Latin America ACM-ICPC Regional Contest
+                </p>
+                Universidad de los Andes<br />
+                Noviembre de 2014<br />
+                Bógotá, Colombia
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="tabla-contenido oscuro">
+                <p class="bold">
+                  Participante: Startup Weekend Cúcuta
+                </p>
+                <br />
+                Universidad Francisco de Paula Santander<br />
+                Noviembre de 2014<br />
+                Cúcuta, Colombia
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="tabla-contenido claro">
+                <p class="bold">
+                  Participante: Latin America ACM-ICPC Regional Contest
+                </p>
+                Universidad Politecnico Grancolombiano<br />
+                Noviembre de 2015<br />
+                Bogotá, Colombia
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="tabla-contenido claro">
+                <p class="bold">
+                  Ponente: Segundo Encuentro de Semilleros de Investigación
+                </p>
+                <br />
+                Universidad Francisco de Paula Santander<br />
+                Noviembre de 2015<br />
+                Cúcuta, Colombia
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="tabla-contenido oscuro">
+                <p class="bold">
+                  Ponente: II Encuentro Departamental de Semilleros de Investigación RedColsi Nodo Norte de Santander
+                </p>
+                Universidad de Pamplona<br />
+                Mayo de 2016<br />
+                Pamplona, Colombia
               </div>
             </div>
           </div>
@@ -210,51 +286,9 @@
             <div class="col-3">
               <div class="img-list tabla-contenido-portafolio claro">
                 <div class="item">
-                  <a href="http://nataliemac.com">
-                    <img src="../../IMG/josorio/fpga.jpg" />
-                    <span class="text-content"><span>Implementación de Controladores de Tráfico sobre la Ciudad de Pereira Utilizando FPGAs</span></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="img-list tabla-contenido-portafolio oscuro">
-                <div class="item">
-                  <a href="http://nataliemac.com">
-                    <img src="../../IMG/josorio/global.jpg" alt="" />
-                    <span class="text-content"><span>Integración de Unidades de Medida Inercial y Sistemas de Posicionamiento Global utilizando Filtros de Kalman</span></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="img-list tabla-contenido-portafolio claro">
-                <div class="item">
-                  <a href="http://nataliemac.com">
-                    <img src="../../IMG/josorio/gpu.jpeg" alt="" />
-                    <span class="text-content"><span>Detección de Displasias Corticales Focales Utilizando GPU</span></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="img-list tabla-contenido-portafolio oscuro">
-                <div class="item">
-                  <a href="http://nataliemac.com">
-                    <img src="../../IMG/josorio/modelo-cardiaco.jpg" alt="" />
-                    <span class="text-content"><span>Simulación y Visualización de Modelo Eléctrico Auricular Cardíaco utilizando GPUs</span></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-3">
-              <div class="img-list tabla-contenido-portafolio oscuro">
-                <div class="item">
-                  <a href="http://nataliemac.com">
-                    <img src="../../IMG/josorio/ecuaciones.jpeg" alt="" />
-                    <span class="text-content"><span>Aceleración del Método de Diferencias Finitas para Solucionar Sistemas de Ecuaciones Diferenciales</span></span>
+                  <a href="//github.com/ProgramacionCompetitivaUFPS" target="_blank">
+                    <img src="../../IMG/melidelgado/logo.png" />
+                    <span class="text-content"><span>Programación Competitiva UFPS</span></span>
                   </a>
                 </div>
               </div>
@@ -271,25 +305,25 @@
             <div class="col-5">
               <div class="tabla-pasatiempo right">
                 <div class="bold">
-                  Fútbol / Soccer
+                  Viajar / Travel
                 </div>
                 I like...
               </div>
             </div>
             <div class="col-1">
               <div class="tabla-pasatiempo claro left">
-                <img src="../../IMG/icons/template/futbol.png">
+                <img src="../../IMG/carogt/travel.png">
               </div>
             </div>
             <div class="col-1">
               <div class="tabla-pasatiempo oscuro right">
-                <img src="../../IMG/icons/template/movie128.png">
+                <img src="../../IMG/carogt/movie.png">
               </div>
             </div>
             <div class="col-5">
               <div class="tabla-pasatiempo left">
                 <div class="bold">
-                  Cine / Películas
+                  Cine / Movies
                 </div>
                 I like...
               </div>
@@ -299,14 +333,14 @@
             <div class="col-5">
               <div class="tabla-pasatiempo right">
                 <div class="bold">
-                  Ejercicio / Gym
+                  Leer / Read
                 </div>
                 I like...
               </div>
             </div>
             <div class="col-1">
-              <div class="tabla-pasatiempo oscuro left">
-                <img src="../../IMG/icons/template/gym.png">
+              <div class="tabla-pasatiempo claro left">
+                <img src="../../IMG/carogt/book.png">
               </div>
             </div>
             <div class="col-1">
@@ -317,12 +351,12 @@
             <div class="col-5">
               <div class="tabla-pasatiempo left">
                 <div class="bold">
-                  Programación
+                  Programar / Programming
                 </div>
                 I like...
               </div>
             </div>
-          </div>
+          </div>s
         </div>
       </div>
       <div class="content scroll" id="articulos">
@@ -332,90 +366,12 @@
         <div class="contenido">
           <div class="row">
             <div class="col-5 claro tabla-articulo-titulo right">
-              <h4>Modelling and Simulation of an Atrium Fiber Using GPUs</h4>
+              <h4>Desarrollo e implementación de un marco de trabajo para el entrenamiento en programación competitiva</h4>
             </div>
             <div class="col-7 tabla-articulo-descripcion left">
               <p>
-                GPU Technology Conference. Computation Biology.<br />
-                Conference Poster.<br />
-                <a href="https://mygtc.gputechconf.com/form/session-listing&doSearch=true&queryInput=&topic_selector=Computational+Biology">Más info.</a>
-              </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-7 tabla-articulo-descripcion right">
-              <p>
-                GPU Technology Conference.<br />
-                Computational Physics. <br />
-                Conference Poster.<br />
-                <a href="https://mygtc.gputechconf.com/form/session-listing&doSearch=true&queryInput=&topic_selector=Computational+Biology">Más info.</a>
-              </p>
-            </div>
-            <div class="col-5 oscuro tabla-articulo-titulo left">
-              <h4>Implementation of the Vlasov-Poisson Equations in 2D Using PIC on GPUs</h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-5 claro tabla-articulo-titulo right">
-              <h4>Simulation of Plume-Plasma Expansion with One-Dimensional Particle-In-Cell</h4>
-            </div>
-            <div class="col-7 tabla-articulo-descripcion left">
-              <p>
-                GISSN: 1742-6596.<br />
-                Año: 2011.<br />
-                Revista: IOP Publishing.<br />
-                <a href="https://mygtc.gputechconf.com/form/session-listing&doSearch=true&queryInput=&topic_selector=Computational+Biology">Más info.</a>
-              </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-7 tabla-articulo-descripcion right">
-              <p>
-                ISSN: 0122-1701.<br />
-                Año: 2011.<br />
-                Revista: Scientia et Technica.<br />
-                <a href="https://mygtc.gputechconf.com/form/session-listing&doSearch=true&queryInput=&topic_selector=Computational+Biology">Más info.</a>
-              </p>
-            </div>
-            <div class="col-5 oscuro tabla-articulo-titulo left">
-              <h4>Comparación del Tiempo de Ejecución de un Algoritmo en GPU y CPU</h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-5 claro tabla-articulo-titulo right">
-              <h4>Linux sobre una FPGA</h4>
-            </div>
-            <div class="col-7 tabla-articulo-descripcion left">
-              <p>
-                ISSN: 0122-1701.<br />
-                Año: 2007.<br />
-                Revista: Scientia et Technica.<br />
-                <a href="https://mygtc.gputechconf.com/form/session-listing&doSearch=true&queryInput=&topic_selector=Computational+Biology">Más info.</a>
-              </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-7 tabla-articulo-descripcion right">
-              <p>
-                ISBN: 978-1-4799-6717-9.<br />
-                Computing Colombian Conference (9CCC).<br />
-                Año: 2014.<br />
-                <a href="https://mygtc.gputechconf.com/form/session-listing&doSearch=true&queryInput=&topic_selector=Computational+Biology">Más info.</a>
-              </p>
-            </div>
-            <div class="col-5 oscuro tabla-articulo-titulo left">
-              <h4>LU Decomposition Method Implementation Using Graphics Processing Units - GPU</h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-5 claro tabla-articulo-titulo right">
-              <h4>Sistema de Instrumentación Remota en UAVs usando Linux sobre FPGA</h4>
-            </div>
-            <div class="col-7 tabla-articulo-descripcion left">
-              <p>
-                Designer Forum IV Southern Conference on Programmable Logic.<br />
-                ISBN: 978-84-612-2376-3.<br />
-                <a href="https://mygtc.gputechconf.com/form/session-listing&doSearch=true&queryInput=&topic_selector=Computational+Biology">Más info.</a>
+                Revista Universidad, Ciencia y Tecnología UCT. ISSN 1316-4821<br />
+                <!--a href="">Más info.</a-->
               </p>
             </div>
           </div>
@@ -426,7 +382,7 @@
           Contacto
         </div>
         <div class="contenido center">
-          <form action="#" method="post" onsubmit="return confirm('¿Esta seguro se hacer el envio?')">
+          <form action="#" method="post" onsubmit="return confirm('¿Esta seguro de realizar el envio?')">
             <div class="row">
               <div class="col-6">
                 <input type="text" placeholder="Nombre" name="name" required>
@@ -475,13 +431,13 @@
             <a href="//utp.edu.co" target="_blank"><img src="../../IMG/icons/utp.png" style="width: 100px" alt="" /></a>
           </div>
         </div>
-			</div>
+      </div>
     </div>
     <script src="../../JS/jquery.min.js"></script>
     <script src="../../JS/twitter.js"></script>
     <script src="../../JS/facebook.js"></script>
-    <script src="../../JS/googleA.js"></script>
     <script src="../../JS/color.js"></script>
+    <script src="../../JS/googleA.js"></script>
     <script type="text/javascript" src="../../JS/hoover.js"></script>
     <script type="text/javascript" src="../../JS/scroll.js"></script>
     <script type="text/javascript" src="../../JS/inicio.js"></script>
