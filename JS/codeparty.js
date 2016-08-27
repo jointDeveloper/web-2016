@@ -27,7 +27,7 @@
   function PrevImg(img,lis){
     i -= 1;
     if(i == -1){
-      i = lis.length;//hasta el tamaño de la lista de imagenes
+      i = lis.length - 1;//hasta el tamaño de la lista de imagenes
     }
     var prevImg = lis[i].getElementsByTagName("img")[0];
     setImage(img,prevImg);
