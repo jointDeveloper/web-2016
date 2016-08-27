@@ -1,3 +1,5 @@
+* { box-sizing: border-box; }
+
 html, body {
   height: 100%;
   width: 100%;
@@ -88,6 +90,11 @@ html, body {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+.row {
+  width: 100%;
+  display: inline-block;
+}
+
 .first-row {margin-top: 50px;}
 
 /*Content*/
@@ -114,18 +121,11 @@ html, body {
 
 .center {
   text-align: center;
+  margin: auto;
 }
 
 .left {
   text-align: left;
-}
-
-.footer {
-  position: relative;
-  height: 150px;
-  background-color: #444;
-  padding: 10px;
-  color: white;
 }
 
 .down {
@@ -169,7 +169,6 @@ ul.topnav li a {
 a { color: #000; }
 a i {
   color: #fff;
-  position: absolute;
   bottom: 10px;
 }
 a i:hover { opacity: 0.7; }
@@ -298,7 +297,8 @@ input,textarea {
   -o-border-radius: 4px;
   background: #eff0f2;
   color: #2E3133;
-}
+}.icon-title, .icon-title:visited { color: #fff; }
+.icon-title:hover, .btn-inicio:hover { opacity: 0.5; }
 
 input:focus, textarea:focus {
   color: #2E3133;
@@ -426,6 +426,15 @@ progress[value]::-moz-progress-bar {
   height: 10%;
   padding: 5px;
 }
+
+.footer {
+  /*position: relative;*/
+  height: 150px;
+  background-color: #444;
+  padding: 10px;
+  color: white;
+}
+
 
 .profileItem {
   width: 100%;
