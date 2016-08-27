@@ -32,6 +32,68 @@ html,body {
   display: none;
 }
 
+@font-face {
+  font-family: Cinzel;
+  src: url(../../FONTS/Cinzel/Cinzel-Regular.ttf);
+}
+
+/*-------------NAVBAR---------------*/
+
+#logo-nav, #logo-nav-responsive {
+  font-family: 'Linden Hill', serif;
+  font-size: 35px;
+  font-weight: bold;
+  border-bottom: 0;
+  padding: 0px;
+}
+
+ul.topnav {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #444;
+  position: fixed;
+  top: 0px;
+  z-index: 9999;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+ul.topnav li a:hover:not(.active) {
+  color: #f06292;
+  font-weight: bold;
+  border-bottom: 2px solid #f06292;
+}
+
+ul.topnav li a.active {
+  color: #f06292;
+  background-color: #444;
+  font-weight: bold;
+  border-bottom: 2px solid #f06292;
+}
+
+ul.topnav ul.right {
+  float: right;
+  list-style-type: none;
+}
+
+
 /*-----------Event Information(lightbox)---------*/
 
 #EventInformation {
