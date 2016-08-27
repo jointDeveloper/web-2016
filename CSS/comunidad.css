@@ -121,7 +121,6 @@ html, body {
 
 .footer {
   position: relative;
-  height: 50%;
   background-color: #333;
   padding: 10px;
   color: white;
@@ -412,12 +411,6 @@ progress[value]::-moz-progress-bar {
 }
 
 /*Iconos*/
-
-.icon-title {
-  width: 4%;
-  height: 4%;
-  padding: 5px;
-}
 
 .icon-footer {
   width: 10%;
