@@ -101,6 +101,78 @@ hr {
   background-color: #757575;
 }
 
+.button {
+  background-color: white;
+  border: 2px solid #f06292;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+}
+
+.button:hover {
+  background-color: #f06292;
+  color: white;
+}
+
+input, textarea {
+  border: 1px solid #DBE1EB;
+  font-size: 16px;
+  font-family: 'Arima Madurai', cursive;
+  /*font-family: 'Josefin Slab', 'Myriad Pro', Arial, sans-serif;*/
+  padding: 5px;
+  width: 99%;
+  transition-duration: 0.5s;
+  background: #444;
+  color: #DBE1EB;
+}
+
+textarea {
+  width: 99.5%;
+  resize: none;
+}
+
+input:focus, textarea:focus {
+  color: #444;
+  background: #DBE1EB;
+  outline: 0px;
+}
+
+.btn {
+  background: rgba(240, 99, 146, 0.4);
+  width: initial;
+  font-weight: bold;
+  border: 1px solid rgba(240, 99, 146, 0.01);
+  color: #444;
+}
+
+.btn:hover {
+  background: #f06292;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-inicio {
+  width: initial;
+  font-weight: bold;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px;
+}
+
+
+
+
+
+
 @media (max-width: 720px) {
   .card-img > img {
     width: 100%;
