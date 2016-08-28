@@ -97,18 +97,10 @@ html, body {
   clear: both;
   display: block;
   background-color: white;
-  margin: 10px auto;
   padding: 10px;
   width: 100%;
   min-height: 95% !important;
   padding-top: 5%;
-}
-
-.container{
-  max-width: 100%;
-  margin: 10px auto;
-  background-color:  #fff;
-  height: 100% !important;
 }
 
 .center {
@@ -470,8 +462,8 @@ progress[value]::-moz-progress-bar {
 
 .img-circle{
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
 }
 
 .container-img img {
@@ -648,7 +640,7 @@ progress[value]::-moz-progress-bar {
 }
 
 .pioneras{
-  padding: 30px 0;
+  padding: 110px 0;
 }
 
 .nodesource{
@@ -657,7 +649,7 @@ progress[value]::-moz-progress-bar {
 
 .pereirajs{
   margin-left: 189px;
-  padding: 30px 0;
+  padding: 102px 0;
 }
 
 .texto-comu{
