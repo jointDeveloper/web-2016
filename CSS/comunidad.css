@@ -186,6 +186,10 @@ ul.topnav ul.right {
   list-style-type: none;
 }
 
+ul.topnav li {
+    float: right;
+}
+
 .style-title {
   font-family: 'Linden Hill', serif;
   text-align: center;
