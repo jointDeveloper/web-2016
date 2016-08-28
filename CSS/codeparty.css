@@ -121,11 +121,15 @@ ul.topnav ul.right {
   box-sizing: border-box;
   max-height: 700px;
   position: relative;
+  overflow: scroll;
 }
 
 #EventInformation .robot {
-  /*position: absolute;
-  left: -21%;*/
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  width: 20%;
+  height: auto;
 }
 
 #EventInformation .letra {
@@ -144,8 +148,8 @@ ul.topnav ul.right {
   color: white;
   font-size: 40px;
   position: absolute;
-  top: -7%;
-  left: 102%;
+  top: 0;
+  left: 100%;
 }
 
 #EventInformation .close:hover {
