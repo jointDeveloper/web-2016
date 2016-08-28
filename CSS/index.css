@@ -114,11 +114,71 @@ ul.topnav ul.right {
   padding: 20px 0;
 }
 
+/*Imagen jointDeveloper*/
+.content {
+  position: relative;
+  content: "";
+  clear: both;
+  display: block;
+  background-color: white;
+  margin: 10px auto;
+  padding: 10px;
+  width: 90%;
+  min-height: 95% !important;
+  padding-top: 5%;
+}
+
+.style-title {
+  font-family: 'Linden Hill', serif;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.fondo{
+  background-image: url(../IMG/bannerAcercade.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.vertical-center {
+  position: relative;
+  -ms-transform: translateY(-25%);
+  -webkit-transform: translateY(-25%);
+  transform: translateY(-25%);
+}
+
+.intro {
+  font-size: 5em;
+  text-shadow: 2px 2px #444;
+}
+
+.slogan {
+  -webkit-margin-after: 0;
+}
+
+.h1Title{
+  font-family: 'Pacifico', cursive;
+  color: #f06292;
+  font-size: 159px
+}
+
+.posicionH2{
+  padding: 0px 4px 39px 637px;
+}
+
+/*fin Imagen jointDeveloper*/
+
 /* Perfiles*/
 
 .Perfiles{
-	width: 100%;
-	height: 360px;
+	width: 98%;
+	height: 370px;
 	float: left;
   -webkit-background-size: cover;
   -moz-background-size: cover;
