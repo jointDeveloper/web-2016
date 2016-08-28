@@ -50,13 +50,6 @@
       "description": "Ingeniera Electricista."
     },
     {
-      "name": "Alejandro E. Rendon",
-      "img": "./IMG/arendon/arendon.jpg",
-      "page": "./HTML/perfiles/arendon.html",
-      "email": "alejorendon@utp.edu.co",
-      "description": "Estudiante de Ingeniería de Sistemas y Computación. Grupo de Investigación Sirius."
-    },
-    {
       "name": "Sebastian Duque",
       "img": "./IMG/sduque/sduque.jpg",
       "page": "./HTML/perfiles/sduque.html",

@@ -1,0 +1,117 @@
+* { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arima Madurai', cursive;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.3;
+  /*font-family: 'Josefin Slab', 'Myriad Pro', Arial, sans-serif;*/
+  font-size: 16px;
+  background-image: url(../../IMG/perfiles.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*Grid*/
+
+[class*="col-"] { float: left; }
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row {
+  width: 100%;
+  display: inline-block;
+}
+
+h1, h2, h3, h4, h5 { margin: 0; }
+
+.center { text-align: center; }
+.left { text-align: left; }
+
+main {
+  width: 100%;
+  margin: 5px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.oscuro {
+  background-color: #CCC;
+}
+
+.card-img {
+  border-radius: 2px;
+  margin: 5px 5px;
+  padding: 0 0 15px 0;
+  background-color: #F5F5F5;
+}
+
+.card-img > img {
+  width: 100%;
+}
+
+.card-title {
+  margin: 5px 5px 0;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  background-color: #BFBFBF;
+  color: #FFF;
+  border-radius: 3px 3px 0 0;
+}
+
+.card-down {
+  margin: 0 5px 5px 5px;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  background-color: #F5F5F5;
+  border-radius: 0 0 3px 3px;
+}
+
+.card {
+  margin: 5px;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  background-color: #F5F5F5;
+  border-radius: 3px;
+  text-align: justify;
+}
+
+.icon-title > a { color: #444; }
+
+hr {
+  height: 1px;
+  border: 0;
+  background-color: #757575;
+}
+
+@media (max-width: 720px) {
+  .card-img > img {
+    width: 100%;
+  }
+  .portafolio > .card-img > img { width: 100%; }
+
+  [class*="col-"] { width: 100%; }
+}
+
+@media (max-width: 500px) {
+  .card-img > img {
+    width: 100%;
+  }
+}
