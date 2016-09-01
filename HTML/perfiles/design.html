@@ -8,9 +8,24 @@
     <script type="text/javascript" src="../../JS/Chart.min.js"></script>
     <link rel="stylesheet prefetch" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link href="//fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Linden+Hill:400italic' rel='stylesheet' type='text/css'>
     <title>Perfiles Plantilla - jointDeveloper</title>
   </head>
   <body>
+    <nav id="inicio" class="container_nav">
+      <ul class="topnav" id="menu">
+        <li style="float: left;"><img src="../../IMG/robot.png" class="robo-nav" /></li>
+        <li style="float: left;"><a id="logo-nav" href="../../index.html" style="padding-right: 2px">jointDeveloper</a></li>
+        <li><a href="#contacto1" class="group"><span>Contacto</span></a></li>
+        <li><a href="#articulos" class="group"><span>Artículos</span></a></li>
+        <li><a href="#pasatiempos" class="group"><span>Pasatiempos</span></a></li>
+        <li><a href="#proyectos" class="group"><span>Proyectos - Portafolio</span></a></li>
+        <li><a href="#cursos" class="group"><span>Cursos</span></a></li>
+        <li><a href="#educacion" class="group"><span>Educación</span></a></li>
+        <li><a href="#aptitudes" class="group"><span>Aptitudes</span></a></li>
+        <li><a href="#inicio" class="group"><span>Inicio</span></a></li>
+      </ul>
+    </nav>
     <main>
       <div class="row name">
         <div class="col-3">
@@ -27,14 +42,14 @@
             Investigador Principal Centro de Educación GPU nVidia<br />
             Director de Investigación Grupo Sirius HPC
             </h3>
-            <div class="row icon-title">
-              <a href="//github.com/kala855" target="_blank"><i class="fa fa-github-square icon-title fa-4x" aria-hidden="true"></i></a>
-              <a href="mailto:john@sirius.utp.edu.co" target="_blank"><i class="fa fa-envelope-square icon-title fa-4x" aria-hidden="true"></i></a>
-              <a href="//facebook.com/john.osorio.12" target="_blank"><i class="fa fa-facebook-square icon-title fa-4x" aria-hidden="true"></i></a>
-              <a href="//twitter.com/kala855" target="_blank"><i class="fa fa-twitter-square icon-title fa-4x" aria-hidden="true"></i></a>
-              <a href="//www.linkedin.com/in/john-h-osorio-r%C3%ADos-74b547b4?trk=hp-identity-name" target="_blank"><i class="fa fa-linkedin-square icon-title fa-4x" aria-hidden="true"></i></a>
+            <div class="row">
+              <a href="//github.com/kala855" target="_blank"><i class="fa fa-github-square icon-info fa-4x" aria-hidden="true"></i></a>
+              <a href="mailto:john@sirius.utp.edu.co" target="_blank"><i class="fa fa-envelope-square icon-info fa-4x" aria-hidden="true"></i></a>
+              <a href="//facebook.com/john.osorio.12" target="_blank"><i class="fa fa-facebook-square icon-info fa-4x" aria-hidden="true"></i></a>
+              <a href="//twitter.com/kala855" target="_blank"><i class="fa fa-twitter-square icon-info fa-4x" aria-hidden="true"></i></a>
+              <a href="//www.linkedin.com/in/john-h-osorio-r%C3%ADos-74b547b4?trk=hp-identity-name" target="_blank"><i class="fa fa-linkedin-square icon-info fa-4x" aria-hidden="true"></i></a>
               <a href="../../IMG/josorio/HojaDeVida-JohnOsorio.pdf">
-                <span class="fa-stack icon-title fa-2x" style="vertical-align: bottom"aria-hidden="true">
+                <span class="fa-stack icon-info fa-2x" style="vertical-align: bottom"aria-hidden="true">
                   <i class="fa fa-square fa-stack-2x"></i>
                   <i class="fa fa-file-pdf-o fa-stack-1x fa-inverse"></i>
                 </span>
@@ -51,7 +66,7 @@
           <p>Mi maestría esta orientada a la simulación y visualización de un modelo eléctrico celular de aurícula humana sobre GPUs.</p>
         </div>
       </div>
-      <div class="row">
+      <div id="aptitudes" class="row">
         <div class="card-title">
           <h3 class="center">Aptitudes</h3>
         </div>
@@ -146,7 +161,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div id="educacion" class="row">
         <div class="card-title">
           <h3 class="center">Educación</h3>
         </div>
@@ -186,7 +201,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div id="cursos" class="row">
         <div class="card-title">
           <h3 class="center">Cursos</h3>
         </div>
@@ -203,7 +218,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div id="proyectos" class="row">
         <div class="card-title">
           <h3 class="center">Proyectos - Portafolio</h3>
         </div>
@@ -252,7 +267,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div id="pasatiempos" class="row">
         <div class="card-title">
           <h3 class="center">Pasatiempos</h3>
         </div>
@@ -291,7 +306,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div id="articulos" class="row">
         <div class="card-title">
           <h3 class="center">Artículos</h3>
         </div>
@@ -380,7 +395,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div id="contacto1" class="row">
         <div class="card-title">
           <h3 class="center">Contacto</h3>
         </div>
@@ -400,12 +415,40 @@
               <textarea name="name" placeholder="Mensaje" rows="3" name="msj" required></textarea>
             </div>
             <div class="row center">
+              <div class="row"></div>
               <input class="btn" type="submit" name="enviar" value="Enviar" />
             </div>
           </form>
         </div>
       </div>
     </main>
+    <div class="footer">
+			<div class="row">
+				<div class="col-2 center">
+					<a href="//sirius.utp.edu.co" target="_blank"><img src="../../IMG/icons/sirius.png" style="width: 80px" alt="" /></a>
+				</div>
+				<div class="col-8">
+					<div class="row center">
+							<a href="//github.com/joindeveloper" target="_blank"><i class="fa fa-github-square icon-title fa-3x" aria-hidden="true"></i></a>
+							<a href="mailto:developerjoint@gmail.com" target="_blank"><i class="fa fa-envelope-square icon-title fa-3x" aria-hidden="true"></i></a>
+							<a href="//youtube.com/channel/UC1hMrYBNsvKnufvG8t6q7ZQ" target="_blank"><i class="fa fa-youtube-square icon-title fa-3x" aria-hidden="true"></i></a>
+							<a href="//plus.google.com/u/1/113539795181089700851" target="_blank"><i class="fa fa-google-plus-square icon-title fa-3x" aria-hidden="true"></i></a>
+							<a href="//instagram.com/jointDeveloper/" target="_blank"><i class="fa fa-instagram icon-title fa-3x" aria-hidden="true"></i></a>
+							<a href="//snapchat.com/add/jointDev" target="_blank"><i class="fa fa-snapchat-square icon-title fa-3x" aria-hidden="true"></i></a>
+							<a href="//facebook.com/jointDeveloper/" target="_blank"><i class="fa fa-facebook-square icon-title fa-3x" aria-hidden="true"></i></a>
+							<div class="fb-like" data-href="https://www.facebook.com/jointDeveloper/" data-width="80px" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+							<a href="//twitter.com/jointdev" target="_blank"><i class="fa fa-twitter-square icon-title fa-3x" aria-hidden="true"></i></a>
+							<a class="twitter-follow-button"
+								href="https://twitter.com/jointDev"
+								data-size="large">
+							Follow</a>
+					</div>
+				</div>
+				<div class="col-2 center">
+					<a href="//utp.edu.co" target="_blank"><img src="../../IMG/icons/utp.png" style="width: 100px" alt="" /></a>
+				</div>
+			</div>
+		</div>
     <script src="../../JS/jquery.min.js"></script>
     <script src="../../JS/twitter.js"></script>
     <script src="../../JS/facebook.js"></script>

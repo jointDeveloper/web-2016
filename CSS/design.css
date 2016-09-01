@@ -44,14 +44,83 @@ h1, h2, h3, h4, h5 { margin: 0; }
 .center { text-align: center; }
 .left { text-align: left; }
 
+/*Navigation*/
+
+#logo-nav, #logo-nav-responsive {
+  font-family: 'Linden Hill', serif;
+  font-size: 35px;
+  font-weight: bold;
+  border-bottom: 0;
+  padding: 0px;
+}
+
+ul.topnav {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #444;
+  position: fixed;
+  top: 0px;
+  z-index: 9999;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+}
+
+a { color: #000; }
+
+/*a i:hover { opacity: 0.7; }
+
+a span:hover {
+    opacity: 0.7;
+}*/
+
+
+ul.topnav li a:hover:not(.active) {
+  color: #f06292;
+  font-weight: bold;
+  border-bottom: 2px solid #f06292;
+}
+
+ul.topnav li a.active {
+  color: #f06292;
+  background-color: #444;
+  font-weight: bold;
+  border-bottom: 2px solid #f06292;
+}
+
+ul.topnav ul.right {
+  float: right;
+  list-style-type: none;
+}
+
+ul.topnav li {
+    float: right;
+}
+/*fin navigation*/
+
 main {
   width: 100%;
   margin: 5px;
   max-width: 900px;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 80px 0;
 }
 
+#aptitudes, #educacion, #cursos, #proyectos, #pasatiempos, #articulos, #contacto1 {
+  padding: 50px 0;
+}
 .oscuro {
   background-color: #CCC;
 }
@@ -71,7 +140,7 @@ main {
   margin: 5px 5px 0;
   padding: 20px 10px;
   box-sizing: border-box;
-  background-color: #BFBFBF;
+  background-color: #444;
   color: #FFF;
   border-radius: 3px 3px 0 0;
 }
@@ -93,7 +162,13 @@ main {
   text-align: justify;
 }
 
-.icon-title > a { color: #444; }
+.icon-info {
+  color: #444;
+}
+
+.icon-info:hover {
+  opacity: 0.7;
+}
 
 hr {
   height: 1px;
@@ -146,7 +221,7 @@ input:focus, textarea:focus {
 }
 
 .btn {
-  background: rgba(240, 99, 146, 0.4);
+  background: #f06292;
   width: initial;
   font-weight: bold;
   border: 1px solid rgba(240, 99, 146, 0.01);
@@ -154,7 +229,7 @@ input:focus, textarea:focus {
 }
 
 .btn:hover {
-  background: #f06292;
+  background: #F283B0;
   color: #fff;
   font-weight: bold;
 }
@@ -168,6 +243,30 @@ input:focus, textarea:focus {
   padding: 5px;
 }
 
+/*footer*/
+.footer {
+  /*position: relative;*/
+  height: 150px;
+  background-color: #444;
+  padding: 10px;
+  color: white;
+}
+
+.icon-title, .icon-title:visited { color: #fff; }
+.icon-title:hover, .btn-inicio:hover { opacity: 0.5; }
+
+.icon-footer {
+  width: 10%;
+  height: 10%;
+  padding: 5px;
+}
+
+.profileItem {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/*fin footer*/
 
 
 
