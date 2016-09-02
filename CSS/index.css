@@ -108,9 +108,7 @@ ul.topnav ul.right {
   list-style-type: none;
 }
 
-ul.topnav li {
-    float: right;
-}
+ul.topnav li { float: right; }
 
 /*Imagen jointDeveloper*/
 .titulo {
