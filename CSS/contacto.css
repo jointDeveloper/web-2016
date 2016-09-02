@@ -8,11 +8,15 @@ html, body {
   color: white;
   font-weight: bolder;
   text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Arima-Madurai', cursive;
   font-size: 30px;
 	font-style: italic;
 }
 
+@font-face {
+  font-family: Arima-Madurai;
+  src: url(../FONTS/Arima_Madurai/ArimaMadurai-Regular.ttf);
+}
 .container {
 	max-width: 1024px;
 	background-color: #fff456;
