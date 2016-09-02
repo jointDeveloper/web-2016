@@ -9,12 +9,12 @@ html, body {
   color: #000;
   background: #F48FB1;
   text-align: center;
-  font-family: 'Arima Madurai', cursive;
+  font-family: 'Arima-Madurai', cursive;
 }
 
 @font-face {
   font-family: Arima-Madurai;
-  src: url(FONTS/Arima_Madurai/ArimaMadurai-Regular.ttf);
+  src: url(../FONTS/Arima_Madurai/ArimaMadurai-Regular.ttf);
 }
 
 [class*="col-"] { float: left; }
@@ -50,6 +50,14 @@ html, body {
   width: 100%;
 }
 
+#logo-nav, #logo-nav-responsive {
+  font-family: 'Linden Hill', serif;
+  font-size: 35px;
+  font-weight: bold;
+  border-bottom: 0;
+  padding: 0px;
+}
+
 ul.topnav {
   width: 100%;
   list-style-type: none;
@@ -57,20 +65,20 @@ ul.topnav {
   padding: 0;
   overflow: hidden;
   background-color: #444;
+  position: fixed;
   top: 0px;
-  height: 100px;
-  vertical-align: middle;
+  z-index: 9999;
 }
 
 ul.topnav li {
-  float: right;
+  float: left;
 }
 
 ul.topnav li a {
   display: block;
   color: #fff;
   text-align: center;
-  padding: 30px 15px;
+  padding: 14px 15px;
   text-decoration: none;
 }
 
@@ -80,7 +88,6 @@ a i {
   bottom: 10px;
 }
 
-li a { font-size: 20px; }
 a i:hover { opacity: 0.7; }
 
 ul.topnav li a:hover:not(.active) {
@@ -101,49 +108,32 @@ ul.topnav ul.right {
   list-style-type: none;
 }
 
-/*main {
-  height: calc(100% - 250px);
-}*/
-.robo-nav {   padding: 20px 10px; }
-
-#logo-nav {
-  font-family: 'Linden Hill', serif;
-  font-size: 45px;
-  font-weight: bold;
-  border-bottom: 0;
-  padding: 20px 0;
+ul.topnav li {
+    float: right;
 }
 
 /*Imagen jointDeveloper*/
-.content {
+.titulo {
+  font-family: 'Pacifico', cursive;
+  color: #f06292;
+  font-size: 90.3333px;
+  font-size: 5em;
+  text-shadow: 2px 2px #444;
+}
+
+.intro-index {
+  background-image: url(../IMG/bannerAcercade.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   position: relative;
   content: "";
   clear: both;
   display: block;
   background-color: white;
-  margin: 10px auto;
-  padding: 10px;
-  width: 90%;
-  min-height: 95% !important;
-  padding-top: 5%;
-}
-
-.style-title {
-  font-family: 'Linden Hill', serif;
-  text-align: center;
-  position: relative;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.fondo{
-  background-image: url(../IMG/bannerAcercade.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin: auto;
   width: 100%;
+  height: 100% !important;
+  padding-top: 5%;
 }
 
 .vertical-center {
@@ -153,22 +143,8 @@ ul.topnav ul.right {
   transform: translateY(-25%);
 }
 
-.intro {
-  font-size: 5em;
-  text-shadow: 2px 2px #444;
-}
-
-.slogan {
-  -webkit-margin-after: 0;
-}
-
-.h1Title{
-  font-family: 'Pacifico', cursive;
-  color: #f06292;
-  font-size: 159px
-}
-
 .posicionH2{
+  font-family: 'Linden Hill', serif;
   padding: 0px 4px 39px 637px;
 }
 
