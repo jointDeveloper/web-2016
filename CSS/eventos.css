@@ -152,6 +152,10 @@ ul.topnav li {
   align-items: center;
 }
 /*-----------Eventos----------*/
+.b1 {
+  width: 100%;
+  background-color: rgba(111,144,208,.3);
+}
 
 .info {
   font-weight: bold;
@@ -221,6 +225,11 @@ ul.topnav li {
 }
 
 /*---------Charlas--------*/
+.b2 {
+  width: 100%;
+  background-color: rgba(220,126,126,.2);
+}
+
 #todasLasCharlas {
   width: 90%;
   max-width: 2048px;
