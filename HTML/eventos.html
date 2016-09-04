@@ -99,7 +99,7 @@
 
     </div>
 
-    <div class="event-container" id="todasLasCharlas">
+    <div class="" id="todasLasCharlas">
       <div class="up">
         <h2 class="info letra">Descubre lo que hacemos y cómo lo hacemos</h2>
         <p class="info letra" style="font-size:16px;">
@@ -110,10 +110,10 @@
 
         <ul class="event-list">
 
-          <li class="charla event-general" style="background-image: url(../IMG/Eventos/montana.jpg)">
+          <li class="charla event-general" style="background-image: url(../IMG/Charlas/jquery-hd.jpg)">
             <a href="#">
-              <div class="light-box">
-        					<p class="letra text">
+              <div class="light-box hidden">
+        					<p class="letra text center">
                     <strong>
         						  Información del evento
         					  </strong>
@@ -122,10 +122,10 @@
             </a>
           </li>
 
-          <li class="charla event-general" style="background-image: url(../IMG/Eventos/globo.jpg)">
+          <li class="charla event-general" style="background-image: url(../IMG/Charlas/html-css.jpg)">
             <a href="#">
-              <div class="light-box">
-                <p class="letra text">
+              <div class="light-box hidden">
+                <p class="letra text center">
                   <strong>
                     Información del evento
                   </strong>
@@ -134,10 +134,10 @@
             </a>
           </li>
 
-          <li class="charla event-general" style="background-image: url(../IMG/Eventos/ventana.jpeg)">
+          <li class="charla event-general" style="background-image: url(../IMG/Charlas/Pensamiento-Lógico.jpg)">
             <a href="#">
-              <div class="light-box">
-                <p class="letra text">
+              <div class="light-box hidden">
+                <p class="letra text center">
                   <strong>
                     Información del evento
                   </strong>
@@ -146,10 +146,10 @@
             </a>
           </li>
 
-          <li class="charla event-general" style="background-image: url(../IMG/Eventos/viaje.jpg)">
+          <li class="charla event-general" style="background-image: url(../IMG/Charlas/Linux-4.0.png)">
             <a href="#">
-              <div class="light-box">
-                <p class="letra text">
+              <div class="light-box hidden">
+                <p class="letra text center">
                   <strong>
                     Información del evento
                   </strong>
@@ -161,7 +161,7 @@
         </ul>
 
     </div>
-<!--
+
     <div class="footer">
       <div class="row">
         <div class="col-2 center">
@@ -190,7 +190,17 @@
         </div>
       </div>
     </div>
--->
+    <script>
+      var ul = document.querySelector("#todasLasCharlas .event-list");
+
+      ul.addEventListener("mouseover", function (e){
+        var element = e.target.childNodes[1].childNodes[1];
+        if (e.target.nodeName === 'LI') {
+          element.className = element.className.replace("hidden","");
+        }
+      });
+
+    </script>
     <script src="../JS/twitter.js"></script>
     <script src="../JS/facebook.js"></script>
     <script src="../JS/googleA.js"></script>

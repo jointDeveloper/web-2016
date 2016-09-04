@@ -53,6 +53,10 @@
   margin: auto;
 }
 
+.hidden {
+  display: none;
+}
+
 /*-----------Intro----------*/
 .intro {
   font-size: 5em;
@@ -175,7 +179,7 @@ ul.topnav li {
 }
 
   .event:hover {
-    opacity: 0.8
+    opacity: 0.8;
   }
 
   @media (min-width: 600px) {
@@ -218,28 +222,20 @@ ul.topnav li {
 
 /*---------Charlas--------*/
 #todasLasCharlas {
-  height: 100%;
-  width: 100%;
-  border: 1px solid black;
+  width: 90%;
+  max-width: 2048px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #todasLasCharlas h2 {
   padding-top: 20px;
 }
 
-#todasLasCharlas .info {
-  color:black;
-}
-
 .up {
   height: 20%;
-  border: 1px solid blue;
 }
 
-.down {
-  height: 80%;
-  border: 1px solid red;
-}
 
 .light-box {
   position: relative;
@@ -257,7 +253,7 @@ ul.topnav li {
   @media (min-width: 600px) {
     .charla {
       height: 400px;
-      width: 50%;
+      width: calc(100% / 3);
       float: left;
     }
   }
