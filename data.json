@@ -15,11 +15,11 @@
       "description": "Ingeniera de Sistemas y Computación"
     },
     {
-      "name": "Naranjita Golden",
-      "img": "./IMG/naranjita.jpg",
-      "page": "./HTML/perfiles/naranjita.html",
-      "email": "",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada."
+      "name": "Juliana Hernández",
+      "img": "./IMG/julianah.png",
+      "page": "./HTML/perfiles/julianah.html",
+      "email": "julianahdiaz@analyticboard.com",
+      "description": "Diseñadora Estrategica<br /> Antropóloga"
     },
     {
       "name": "Angelica Aguirre Castro",
