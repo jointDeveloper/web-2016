@@ -118,12 +118,9 @@ main {
   padding: 80px 0;
 }
 
-#aptitudes, #educacion, #cursos, #proyectos, #pasatiempos, #articulos, #contacto1, #eventos {
-  padding: 50px 0;
-}
-.oscuro {
-  background-color: #CCC;
-}
+#aptitudes, #educacion, #cursos, #proyectos, #pasatiempos, #articulos, #contacto1, #eventos { padding: 50px 0 20px; }
+
+.oscuro { background-color: #CCC; }
 
 .card-img {
   border-radius: 2px;
@@ -132,9 +129,7 @@ main {
   background-color: #F5F5F5;
 }
 
-.card-img > img {
-  width: 100%;
-}
+.card-img > img { width: 100%; }
 
 .card-title {
   margin: 5px 5px 0;
@@ -162,13 +157,8 @@ main {
   text-align: justify;
 }
 
-.icon-info {
-  color: #444;
-}
-
-.icon-info:hover {
-  opacity: 0.7;
-}
+.icon-info { color: #444; }
+.icon-info:hover { opacity: 0.7; }
 
 hr {
   height: 1px;
