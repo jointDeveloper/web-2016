@@ -2,519 +2,408 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="../../CSS/plantilla.css" rel="stylesheet">
+    <link href="../../CSS/design.css" rel="stylesheet">
     <link href="../../CSS/sduque.css" rel="stylesheet">
-    <link href="../../CSS/fonts.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="../../IMG/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="../../JS/Chart.min.js"></script>
     <link rel="stylesheet prefetch" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-    <!-- <link href='//fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'> -->
-    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Linden+Hill:400italic' rel='stylesheet' type='text/css'>
     <title>Sebastian Duque Restrepo - jointDeveloper</title>
   </head>
   <body>
-    <div class="container center">
-      <header>
-        <div class="banner">
-          <a id="jointDev" href="/">jointDeveloper</a>
-          <a id="nombre">Sebastian Duque Restrepo</a>
+    <nav id="inicio" class="container_nav">
+      <ul class="topnav" id="menu">
+        <li style="float: left;"><img src="../../IMG/robot.png" class="robo-nav" /></li>
+        <li style="float: left;"><a id="logo-nav" href="../../index.html" style="padding-right: 2px">jointDeveloper</a></li>
+        <li><a href="#contacto1" class="group"><span>Contacto</span></a></li>
+        <!--<li><a href="#articulos" class="group"><span>Artículos</span></a></li>-->
+        <li><a href="#eventos" class="group"><span>Eventos</span></a></li>
+        <li><a href="#pasatiempos" class="group"><span>Pasatiempos</span></a></li>
+        <li><a href="#proyectos" class="group"><span>Proyectos - Portafolio</span></a></li>
+        <li><a href="#cursos" class="group"><span>Cursos</span></a></li>
+        <li><a href="#educacion" class="group"><span>Educación</span></a></li>
+        <li><a href="#aptitudes" class="group"><span>Aptitudes</span></a></li>
+        <li><a href="#inicio" class="group"><span>Inicio</span></a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="row name">
+        <div class="col-3">
+          <div class="card-img center">
+            <img src="../../IMG/sduque/sduque.jpg" alt="" />
+            <h2>Sebastian Duque Restrepo</h2>
+          </div>
         </div>
-        <div class="navbar">
-          <a id="nav-inicio" class="group active" href="#inicio">Inicio</a>
-          <a id="nav-info" class="group" href="#info">Info</a>
-          <a id="nav-aptitudes" class="group" href="#aptitudes">Aptitudes</a>
-          <a id="nav-educacion" class="group" href="#educacion">Educación</a>
-          <a id="nav-cursos" class="group" href="#cursos">Cursos</a>
-          <a id="nav-proyectosport" class="group" href="#proyectosport">Portafolio</a>
-          <a id="nav-pasatiempos" class="group" href="#pasatiempos">Pasatiempos</a>
-          <!-- <a id="nav-articulos" class="group" href="#articulos">Artículos</a> -->
-          <a id="nav-contacto" class="group" href="#contacto">Contacto</a>
-        </div>
-      </header>
-      <div class="content scroll style-title" id="inicio">
-        <div class="contenido-intro">
-          <div class="fondo-intro">
-            <div class="col-4">
-              <div class="titulo right">
-                <img src="../../IMG/sduque/sduque.jpg" class="circular-intro" alt="" />
-              </div>
-            </div>
-            <div class="col-8">
-              <div class="right">
-                <div class="nombre-intro">
-                  Sebastian Duque Restrepo
-                </div>
-                <h1 style="color: #fff">Co-Fundador jointDeveloper</h1>
-                <a href="../../IMG/josorio/HojaDeVida-JohnOsorio.pdf" download="John H. Osorio" class="btn-inicio center">Descargar CV</a>
-                <h3 style="color: #fff">
-                  Estudiante Ingeniería de Sistemas y Computación
-                </h3>
-                <div class="row">
-                  <a href="//github.com/sebas095" target="_blank"><i class="fa fa-github-square icon-title fa-3x" aria-hidden="true"></i></a>
-                  <a href="mailto:sebas.duque@utp.edu.co" target="_blank"><i class="fa fa-envelope-square icon-title fa-3x" aria-hidden="true"></i></a>
-                  <a href="//facebook.com/sebasduk3" target="_blank"><i class="fa fa-facebook-square icon-title fa-3x" aria-hidden="true"></i></a>
-                  <a href="//twitter.com/sebasd095" target="_blank"><i class="fa fa-twitter-square icon-title fa-3x" aria-hidden="true"></i></a>
-                  <a href="//instagram.com/sebas095" target="_blank"><i class="fa fa-instagram icon-title fa-3x" aria-hidden="true"></i></a>
-                  <a href="//youtube.com/user/MrSebasduke" target="_blank"><i class="fa fa-youtube-square icon-title fa-3x" aria-hidden="true"></i></a>
-                </div>
-              </div>
+        <div class="col-9">
+          <div class="card">
+            <h3>
+            Co-Fundador jointDeveloper<br />
+            Estudiante Ingeniería de Sistemas y Computación<br />
+            </h3>
+            <div class="row">
+              <a href="//github.com/sebas095" target="_blank"><i class="fa fa-github-square icon-info fa-4x" aria-hidden="true"></i></a>
+              <a href="mailto:sebas.duque@utp.edu.co" target="_blank"><i class="fa fa-envelope-square icon-info fa-4x" aria-hidden="true"></i></a>
+              <a href="//facebook.com/sebasduk3" target="_blank"><i class="fa fa-facebook-square icon-info fa-4x" aria-hidden="true"></i></a>
+              <a href="//twitter.com/sebasd095" target="_blank"><i class="fa fa-twitter-square icon-info fa-4x" aria-hidden="true"></i></a>
+              <!--<a href="//www.linkedin.com/in/john-h-osorio-r%C3%ADos-74b547b4?trk=hp-identity-name" target="_blank"><i class="fa fa-linkedin-square icon-info fa-4x" aria-hidden="true"></i></a>
+              <a href="../../IMG/josorio/HojaDeVida-JohnOsorio.pdf" target="_blank">
+                <span class="fa-stack icon-info fa-2x" style="vertical-align: bottom"aria-hidden="true">
+                  <i class="fa fa-square fa-stack-2x"></i>
+                  <i class="fa fa-file-pdf-o fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>-->
             </div>
           </div>
-				</div>
-      </div>
-      <div class="content scroll" id="info">
-				<div class="row vertical-center">
-          <div class="titulo center">
-            <img src="../../IMG/sduque/sduque.jpg" class="circular" alt="" />
-            <div class="nombre">Sebastian Duque Restrepo</div>
-          </div>
-          <div class="left">
-            <p>Soy estudiante de Ingenieria de Sistemas y Computación de la Universidad Tecnológica de Pereira, hace un poco más de 2 años participo en maratones de programación competitiva (RPC), me encantan las matemáticas, la programación, aprender cada dia cosas nuevas, me apasionan mucho todo lo referente con la ciencia y la tecnología, también me encantan el desarrollo web y tengo ya un poco de conocimiento sobre él (un poco d backend y un poco de fronted).</p>
-            <p>Me gusta viajar, leer, programar, ir a cine, estar en familia, convivir con amigos y montar bicicleta.</p>
-            <p>Me considero una persona respetuosa, hnesta, amigable, simpatica y con muchos sueños por cumplir y apasionado con todo lo que haga.</p>
-          </div>
-				</div>
-      </div>
-      <div class="content scroll" id="aptitudes">
-        <div class="titulo center">
-          Aptitudes
         </div>
-        <div class="contenido">
-          <div class="row">
-            <div class="col-6">
-              <h4>Desarrollo Web</h4>
+      </div>
+      <div class="row">
+        <div class="card">
+          <h3 class="center">Información</h3>
+          <hr />
+          <p>Soy estudiante de Ingenieria de Sistemas y Computación de la Universidad Tecnológica de Pereira, hace un poco más de 2 años participo en maratones de programación competitiva (RPC), me encantan las matemáticas, la programación, aprender cada dia cosas nuevas, me apasionan mucho todo lo referente con la ciencia y la tecnología, también me encantan el desarrollo web y tengo ya un poco de conocimiento sobre él (un poco de backend y un poco de fronted).</p>
+          <p>Me gusta viajar, leer, programar, ir a cine, estar en familia, convivir con amigos y montar bicicleta.</p>
+          <p>Me considero una persona respetuosa, honesta, amigable, simpatica y con muchos sueños por cumplir y apasionado con todo lo que haga.</p>
+        </div>
+      </div>
+      <div id="aptitudes" class="row">
+        <div class="card-title">
+          <h3 class="center">Aptitudes</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="card">
+            <canvas id="myChart" class="chart-aptitudes center"></canvas>
+            <script>
+            var ctx = document.getElementById("myChart").getContext("2d");
+            var data_web = {
+              labels: [
+                "HTML",
+                "CSS",
+                "Javascript"
+              ],
+                datasets: [
+                  {
+                    data: [70, 50, 80],
+                    backgroundColor: [
+                        "#F22613",
+                        "#4183D7",
+                        "rgba(207, 193, 18, 0.92)"
+                    ],
+                    hoverBackgroundColor: [
+                        "#EF4836",
+                        "#446CB3",
+                        "rgba(207, 194, 35, 0.85)"
+                    ]
+              }]
+            };
 
-              <canvas id="myChart" class="chart-aptitudes center"></canvas>
-              <script>
-              var ctx = document.getElementById("myChart").getContext("2d");
-              var data_web = {
-                labels: [
-                  "HTML",
-                  "CSS",
-                  "Javascript"
+            var myRadarChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: data_web,
+                options: {
+                   scale: {
+                      ticks: {
+                        beginAtZero: true,
+                        max: 100
+                    }
+                  }
+                }
+            });
+            </script>
+            <hr />
+            <h4>Desarrollo Web</h4>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card">
+            <canvas id="myChart2" class="chart-aptitudes center"></canvas>
+            <script>
+            var ctx = document.getElementById("myChart2").getContext("2d");
+            var data_web = {
+              labels: [
+              "C++",
+              "C",
+              "Python",
+              "Java",
+              "Node js",
+              "Go",
                 ],
-                  datasets: [
-                    {
-                      data: [70, 50, 80],
-                      backgroundColor: [
-                          "#F22613",
-                          "#4183D7",
-                          "rgba(207, 193, 18, 0.92)"
-                      ],
-                      hoverBackgroundColor: [
-                          "#EF4836",
-                          "#446CB3",
-                          "rgba(207, 194, 35, 0.85)"
-                      ]
-                }]
-              };
+                datasets: [
+                  {
+                    data: [80, 50, 70, 40, 80, 20],
+                    backgroundColor: [
+                        "#4B77BE",
+                        "#3A539B",
+                        "#ABB7B7",
+                        "#F89406",
+                        "rgba(13, 149, 14, 0.87)",
+                        "rgba(19, 180, 185, 0.93)"
+                    ],
+                    hoverBackgroundColor: [
+                        "#5C97BF",
+                        "#5C97BF",
+                        "#6C7A89",
+                        "#E87E04",
+                        "rgba(25, 138, 26, 0.77)",
+                        "rgba(50, 182, 186, 0.84)"
+                    ]
+              }]
+            };
 
-              var myRadarChart = new Chart(ctx, {
-                  type: 'doughnut',
-                  data: data_web,
-                  options: {
-                     scale: {
-                        ticks: {
-                          beginAtZero: true,
-                          max: 100
-                      }
+            var myRadarChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: data_web,
+                options: {
+                   scale: {
+                      ticks: {
+                        beginAtZero: true,
+                        max: 100
                     }
                   }
-              });
-              </script>
-            </div>
-            <div class="col-6">
-              <h4>Programación</h4>
-              <canvas id="myChart2" class="chart-aptitudes center"></canvas>
-              <script>
-              var ctx = document.getElementById("myChart2").getContext("2d");
-              var data_web = {
-                labels: [
-                "C++",
-                "C",
-                "Python",
-                "Java",
-                "Node js",
-                "Go",
-                  ],
-                  datasets: [
-                    {
-                      data: [80, 50, 70, 40, 80, 20],
-                      backgroundColor: [
-                          "#4B77BE",
-                          "#3A539B",
-                          "#ABB7B7",
-                          "#F89406",
-                          "rgba(13, 149, 14, 0.87)",
-                          "rgba(19, 180, 185, 0.93)"
-                      ],
-                      hoverBackgroundColor: [
-                          "#5C97BF",
-                          "#5C97BF",
-                          "#6C7A89",
-                          "#E87E04",
-                          "rgba(25, 138, 26, 0.77)",
-                          "rgba(50, 182, 186, 0.84)"
-                      ]
-                }]
-              };
-
-              var myRadarChart = new Chart(ctx, {
-                  type: 'doughnut',
-                  data: data_web,
-                  options: {
-                     scale: {
-                        ticks: {
-                          beginAtZero: true,
-                          max: 100
-                      }
-                    }
-                  }
-              });
-              </script>
-            </div>
+                }
+            });
+            </script>
+            <hr />
+            <h4>Programación</h4>
           </div>
         </div>
       </div>
-      <div class="content scroll" id="educacion">
-        <div class="titulo center">
-            Educación
+      <div id="educacion" class="row">
+        <div class="card-title">
+          <h3 class="center">Educación</h3>
         </div>
-        <div class="contenido">
-          <div class="row">
-            <div class="col-4">
-              <div class="tabla-contenido claro">
-                <p class="bold">
-                  Técnico en Documentacion y Registro de Operaciones Contables
-                </p>
-                Duración: 1 año<br>
-                Servicio Nacional de Aprendizaje - SENA<br />
-                Terminación: 2011
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="tabla-contenido oscuro">
-                <p class="bold">
-                  Ingenieria de Sistemas y Computación
-                </p>
-                Duración: 10 Semestres<br />
-                Universidad Tecnológica de Pereira<br />
-                Cursando: 9 semestre
-              </div>
-            </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="card">
+            <h4 class="center">Técnico en Documentacion y Registro de Operaciones Contables</h4>
+            <hr />
+            <p class="center">
+              Duración: 1 año<br>
+              Servicio Nacional de Aprendizaje - SENA<br />
+              Terminación: 2011
+            </p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <h4 class="center">Ingenieria de Sistemas y Computación</h4>
+            <hr />
+            <p class="center">
+              Duración: 10 Semestres<br />
+              Universidad Tecnológica de Pereira<br />
+              Cursando: 9 semestre
+            </p>
           </div>
         </div>
       </div>
-      <div class="content scroll" id="cursos">
-        <div class="titulo center">
-          Cursos
+      <div id="cursos" class="row">
+        <div class="card-title">
+          <h3 class="center">Cursos</h3>
         </div>
-        <div class="contenido">
-          <div class="row">
-            <div class="col-4">
-              <div class="tabla-contenido claro">
-                <p class="bold">
-                  DEV204x Programming with C#
-                </p>
-                Curso virtual<br />
-                Duración: 2 meses<br />
-                EDX<br />
-                Terminación: 17 de Mayo del 2015
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="tabla-contenido oscuro">
-                <p class="bold">
-                  Desarrollo en HTML5, CSS y Javascript de Webapps, INCL. Móviles Firefox OS
-                </p>
-                Curso virtual<br />
-                Duración: 50 horas<br />
-                MIRIADA X<br />
-                Terminación: 16 de Marzo del 2015
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="tabla-contenido claro">
-                <p class="bold">
-                  Desarrollo de Servicios en la nube con HTML5, Javascript y Node.JS
-                </p>
-                Curso virtual<br />
-                Duración: 50 horas<br />
-                Miriada X<br />
-                Terminación: 22 de Agosto del 2015
-              </div>
-            </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="card">
+            <h4 class="center">DEV204x Programming with C#</h4>
+            <hr />
+            <p class="center">
+              Curso virtual<br />
+              Duración: 2 meses<br />
+              EDX<br />
+              Terminación: 17 de Mayo del 2015
+            </p>
           </div>
         </div>
-        <div class="titulo center">
-          Eventos
+        <div class="col-4">
+          <div class="card">
+            <h4 class="center">Desarrollo en HTML5, CSS y Javascript de Webapps, INCL. Móviles Firefox OS</h4>
+            <hr />
+            <p class="center">
+              Curso virtual<br />
+              Duración: 50 horas<br />
+              MIRIADA X<br />
+              Terminación: 16 de Marzo del 2015
+            </p>
+          </div>
         </div>
-        <div class="contenido">
-          <div class="row">
-            <div class="col-4">
-              <div class="tabla-contenido claro">
-                <p class="bold">
-                  Noveno Congreso Colombiano de Computación 9CCC
-                </p>
-                Universidad Tecnológica de Pereira<br />
-                3, 4 y 5 de Septiembre de 2014<br />
-                Pereira, Colombia
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="tabla-contenido oscuro">
-                <p class="bold">
-                  Powerful Big Data: Ciclo de Conferencias
-                </p>
-                Universidad Tecnológica de Pereira<br />
-                25 de Mayo de 2016<br />
-                Pereira, Colombia
-              </div>
-            </div>
+        <div class="col-4">
+          <div class="card">
+            <h4 class="center">Desarrollo de Servicios en la nube con HTML5, Javascript y Node.JS</h4>
+            <hr />
+            <p class="center">
+              Curso virtual<br />
+              Duración: 50 horas<br />
+              Miriada X<br />
+              Terminación: 22 de Agosto del 2015
+            </p>
           </div>
         </div>
       </div>
-      <div class="content scroll" id="proyectosport">
-        <div class="titulo center">
-          Proyectos - Portafolio
+      <div id="proyectos" class="row">
+        <div class="card-title">
+          <h3 class="center">Proyectos - Portafolio</h3>
         </div>
-        <div class="contenido">
-          <div class="row">
-            <div class="col-3">
-              <div class="img-list tabla-contenido-portafolio claro">
-                <div class="item">
-                  <a href="https://github.com/jointdeveloper/">
-                    <img src="../../IMG/sduque/robot_normal.png" />
-                    <span class="text-content"><span>Comunidad - jointDeveloper - Web</span></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="img-list tabla-contenido-portafolio oscuro">
-                <div class="item">
-                  <a href="https://github.com/in-silico/judge-frontend">
-                    <img src="../../IMG/sduque/insilico.png" />
-                    <span class="text-content"><span>In-silico Proyecto  UTPJudge(Frontend)</span></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="img-list tabla-contenido-portafolio claro">
-                <div class="item">
-                  <a href="https://github.com/in-silico/judge-backend">
-                    <img src="../../IMG/sduque/insilico.png" />
-                    <span class="text-content"><span>In-silico Proyecto UTPJudge(Backend)</span></span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="img-list tabla-contenido-portafolio oscuro">
-                <div class="item">
-                  <a href="https://github.com/sebas095">
-                    <img src="../../IMG/sduque/github.png" />
-                    <span class="text-content"><span>Otras contribuciones - Github.com</span></span>
-                  </a>
-                </div>
-              </div>
-            </div>
+      </div>
+      <div class="row portafolio">
+        <div class="col-4">
+          <div class="card-img center">
+            <a href="//github.com/jointdeveloper/" target="_blank"><img src="../../IMG/sduque/robot_normal.png" alt="" /></a>
+            <p>
+              Comunidad jointDeveloper - Web
+            </p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card-img center">
+            <a href="//github.com/in-silico/judge-frontend" target="_blank"><img src="../../IMG/sduque/insilico.png" alt="" /></a>
+            <p>
+              In-silico Proyecto <br /> UTPJudge(Frontend)
+            </p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card-img center">
+            <a href="//github.com/in-silico/judge-backend" target="_blank"><img src="../../IMG/sduque/insilico.png" alt="" /></a>
+            <p>
+              In-silico Proyecto <br />  UTPJudge(Backend)
+            </p>
           </div>
         </div>
       </div>
-      <div class="content scroll" id="pasatiempos">
-        <div class="titulo center">
-          Pasatiempos
-        </div>
-        <div class="contenido center">
-          <div class="row">
-            <div class="col-5">
-              <div class="tabla-pasatiempo right">
-                <div class="bold">
-                  Viajar / Travel
-                </div>
-                I like...
-              </div>
-            </div>
-            <div class="col-1">
-              <div class="tabla-pasatiempo claro left">
-                <img src="../../IMG/sduque/travel.svg">
-              </div>
-            </div>
-            <div class="col-1">
-              <div class="tabla-pasatiempo oscuro right">
-                <img src="../../IMG/sduque/movie.svg">
-              </div>
-            </div>
-            <div class="col-5">
-              <div class="tabla-pasatiempo left">
-                <div class="bold">
-                  Cine / Movies
-                </div>
-                I like...
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-5">
-              <div class="tabla-pasatiempo right">
-                <div class="bold">
-                  Nadar / Swim
-                </div>
-                I like...
-              </div>
-            </div>
-            <div class="col-1">
-              <div class="tabla-pasatiempo oscuro left">
-                <img src="../../IMG/sduque/nadar.svg">
-              </div>
-            </div>
-            <div class="col-1">
-              <div class="tabla-pasatiempo claro right">
-                <img src="../../IMG/sduque/prog.svg">
-              </div>
-            </div>
-            <div class="col-5">
-              <div class="tabla-pasatiempo left">
-                <div class="bold">
-                  Programar / Programación
-                </div>
-                I like...
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-5">
-              <div class="tabla-pasatiempo right">
-                <div class="bold">
-                  Montar bici / Ride the bicycle
-                </div>
-                I like...
-              </div>
-            </div>
-            <div class="col-1">
-              <div class="tabla-pasatiempo claro left">
-                <img src="../../IMG/sduque/bici.svg">
-              </div>
-            </div>
-            <div class="col-1">
-              <div class="tabla-pasatiempo oscuro right">
-                <img src="../../IMG/sduque/read.svg">
-              </div>
-            </div>
-            <div class="col-5">
-              <div class="tabla-pasatiempo left">
-                <div class="bold">
-                  Leer / Read
-                </div>
-                I like...
-              </div>
-            </div>
+      <div class="row portafolio">
+        <div class="col-4">
+          <div class="card-img center">
+            <a href="//github.com/sebas09" target="_blank"><img src="../../IMG/sduque/github.png" alt="" /></a>
+            <p>
+              Otras contribuciones - Github.com
+            </p>
           </div>
         </div>
       </div>
-      <!-- <div class="content scroll" id="articulos">
-        <div class="titulo center">
-          Artículos
+      <div id="pasatiempos" class="row">
+        <div class="card-title">
+          <h3 class="center">Pasatiempos</h3>
         </div>
-        <div class="contenido">
-          <div class="row">
-            <div class="col-5 claro tabla-articulo-titulo right">
-              <h4>Modelling and Simulation of an Atrium Fiber Using GPUs</h4>
-            </div>
-            <div class="col-7 tabla-articulo-descripcion left">
-              <p>
-                GPU Technology Conference. Computation Biology.<br />
-                Conference Poster.<br />
-                <a href="https://mygtc.gputechconf.com/form/session-listing&doSearch=true&queryInput=&topic_selector=Computational+Biology">Más info.</a>
-              </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-7 tabla-articulo-descripcion right">
-              <p>
-                GPU Technology Conference.<br />
-                Computational Physics. <br />
-                Conference Poster.<br />
-                <a href="https://mygtc.gputechconf.com/form/session-listing&doSearch=true&queryInput=&topic_selector=Computational+Biology">Más info.</a>
-              </p>
-            </div>
-            <div class="col-5 oscuro tabla-articulo-titulo left">
-              <h4>Implementation of the Vlasov-Poisson Equations in 2D Using PIC on GPUs</h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-5 claro tabla-articulo-titulo right">
-              <h4>Simulation of Plume-Plasma Expansion with One-Dimensional Particle-In-Cell</h4>
-            </div>
-            <div class="col-7 tabla-articulo-descripcion left">
-              <p>
-                GISSN: 1742-6596.<br />
-                Año: 2011.<br />
-                Revista: IOP Publishing.<br />
-                <a href="https://mygtc.gputechconf.com/form/session-listing&doSearch=true&queryInput=&topic_selector=Computational+Biology">Más info.</a>
-              </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-7 tabla-articulo-descripcion right">
-              <p>
-                ISSN: 0122-1701.<br />
-                Año: 2011.<br />
-                Revista: Scientia et Technica.<br />
-                <a href="https://mygtc.gputechconf.com/form/session-listing&doSearch=true&queryInput=&topic_selector=Computational+Biology">Más info.</a>
-              </p>
-            </div>
-            <div class="col-5 oscuro tabla-articulo-titulo left">
-              <h4>Comparación del Tiempo de Ejecución de un Algoritmo en GPU y CPU</h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-5 claro tabla-articulo-titulo right">
-              <h4>Linux sobre una FPGA</h4>
-            </div>
-            <div class="col-7 tabla-articulo-descripcion left">
-              <p>
-                ISSN: 0122-1701.<br />
-                Año: 2007.<br />
-                Revista: Scientia et Technica.<br />
-                <a href="https://mygtc.gputechconf.com/form/session-listing&doSearch=true&queryInput=&topic_selector=Computational+Biology">Más info.</a>
-              </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-7 tabla-articulo-descripcion right">
-              <p>
-                ISBN: 978-1-4799-6717-9.<br />
-                Computing Colombian Conference (9CCC).<br />
-                Año: 2014.<br />
-                <a href="https://mygtc.gputechconf.com/form/session-listing&doSearch=true&queryInput=&topic_selector=Computational+Biology">Más info.</a>
-              </p>
-            </div>
-            <div class="col-5 oscuro tabla-articulo-titulo left">
-              <h4>LU Decomposition Method Implementation Using Graphics Processing Units - GPU</h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-5 claro tabla-articulo-titulo right">
-              <h4>Sistema de Instrumentación Remota en UAVs usando Linux sobre FPGA</h4>
-            </div>
-            <div class="col-7 tabla-articulo-descripcion left">
-              <p>
-                Designer Forum IV Southern Conference on Programmable Logic.<br />
-                ISBN: 978-84-612-2376-3.<br />
-                <a href="https://mygtc.gputechconf.com/form/session-listing&doSearch=true&queryInput=&topic_selector=Computational+Biology">Más info.</a>
-              </p>
-            </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <div class="card-img center">
+            <img src="../../IMG/sduque/travel.svg" alt="" />
+            <p>
+              Viajar
+            </p>
           </div>
         </div>
-      </div> -->
-      <div class="scroll" id="contacto">
-        <div class="titulo center">
-          Contacto
+        <div class="col-2">
+          <div class="card-img center">
+            <img src="../../IMG/sduque/movie.svg" alt="" />
+            <p>
+              Cine - Películas
+            </p>
+          </div>
         </div>
-        <div class="contenido center">
+        <div class="col-2">
+          <div class="card-img center">
+            <img src="../../IMG/sduque/nadar.svg" alt="" />
+            <p>
+              Nadar
+            </p>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card-img center">
+            <img src="../../IMG/sduque/prog.svg" alt="" />
+            <p>
+              Programación
+            </p>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card-img center">
+            <img src="../../IMG/sduque/bici.svg" alt="" />
+            <p>
+              Montar bici
+            </p>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card-img center">
+            <img src="../../IMG/sduque/read.svg" alt="" />
+            <p>
+              Leer
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="eventos" class="row">
+        <div class="card-title">
+          <h3 class="center">Eventos</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="card">
+            <h4 class="center">Noveno Congreso Colombiano de Computación 9CCC</h4>
+            <hr />
+            <p>
+              Universidad Tecnológica de Pereira.<br />
+              3,4 y 5 de Septiembre de 2014<br />
+              Pereira, Colombia
+            </p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card">
+            <h4 class="center">Powerful Big Data: Ciclo de Conferencias</h4>
+            <hr />
+            <p>
+              Universidad Tecnológica de Pereira. <br />
+              25 de Mayo de 2016 <br />
+              Pereira, Colombia<br />
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--<div id="articulos" class="row">
+        <div class="card-title">
+          <h3 class="center">Artículos</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="card">
+            <h4 class="center">Modelling and Simulation of an Atrium Fiber Using GPUs</h4>
+            <hr />
+            <p>
+              GPU Technology Conference. Computation Biology.<br />
+              Conference Poster.<br />
+              <a href="https://mygtc.gputechconf.com/form/session-listing&doSearch=true&queryInput=&topic_selector=Computational+Biology">Más info.</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card">
+            <h4 class="center">Implementation of the Vlasov-Poisson Equations in 2D Using PIC on GPUs</h4>
+            <hr />
+            <p>
+              GPU Technology Conference.<br />
+              Computational Physics. <br />
+              Conference Poster.<br />
+            </p>
+          </div>
+        </div>
+      </div>-->
+      <div id="contacto1" class="row">
+        <div class="card-title">
+          <h3 class="center">Contacto</h3>
+        </div>
+      </div>
+      <div class="row" id="contacto">
+        <div class="card" style="background: #444">
           <form action="#" method="post" onsubmit="return confirm('¿Esta seguro se hacer el envio?')">
             <div class="row">
               <div class="col-6">
@@ -528,51 +417,48 @@
               <textarea name="name" placeholder="Mensaje" rows="3" name="msj" required></textarea>
             </div>
             <div class="row center">
+              <div class="row"></div>
               <input class="btn" type="submit" name="enviar" value="Enviar" />
             </div>
           </form>
         </div>
       </div>
-      <div class="footer">
-        <div class="row">
-          <div class="col-2 center">
-            <a href="//sirius.utp.edu.co" target="_blank"><img src="../../IMG/icons/sirius.png" style="width: 80px" alt="" /></a>
-          </div>
-          <div class="col-8">
-            <!--<div class="fb-like" data-href="https://www.facebook.com/jointDeveloper/" data-width="80px" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-            <a class="twitter-follow-button"
-              href="https://twitter.com/jointDev"
-              data-size="large">
-            Follow @jointDev</a>-->
-            <div class="row">
-                <a href="//github.com/joindeveloper" target="_blank"><i class="fa fa-github-square icon-title fa-3x" aria-hidden="true"></i></a>
-                <a href="mailto:developerjoint@gmail.com" target="_blank"><i class="fa fa-envelope-square icon-title fa-3x" aria-hidden="true"></i></a>
-                <a href="//youtube.com/channel/UC1hMrYBNsvKnufvG8t6q7ZQ" target="_blank"><i class="fa fa-youtube-square icon-title fa-3x" aria-hidden="true"></i></a>
-                <a href="//plus.google.com/u/1/113539795181089700851" target="_blank"><i class="fa fa-google-plus-square icon-title fa-3x" aria-hidden="true"></i></a>
-                <a href="//instagram.com/jointDeveloper/" target="_blank"><i class="fa fa-instagram icon-title fa-3x" aria-hidden="true"></i></a>
-                <a href="//snapchat.com/add/jointDev" target="_blank"><i class="fa fa-snapchat-square icon-title fa-3x" aria-hidden="true"></i></a>
-                <a href="//facebook.com/jointDeveloper/" target="_blank"><i class="fa fa-facebook-square icon-title fa-3x" aria-hidden="true"></i></a>
-                <div class="fb-like" data-href="https://www.facebook.com/jointDeveloper/" data-width="80px" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-                <a href="//twitter.com/jointdev" target="_blank"><i class="fa fa-twitter-square icon-title fa-3x" aria-hidden="true"></i></a>
-                <a class="twitter-follow-button"
-                  href="https://twitter.com/jointDev"
-                  data-size="large">
-                Follow</a>
-            </div>
-          </div>
-          <div class="col-2 center">
-            <a href="//utp.edu.co" target="_blank"><img src="../../IMG/icons/utp.png" style="width: 100px" alt="" /></a>
-          </div>
-        </div>
+    </main>
+    <div class="footer">
+			<div class="row">
+				<div class="col-2 center">
+					<a href="//sirius.utp.edu.co" target="_blank"><img src="../../IMG/icons/sirius.png" style="width: 80px" alt="" /></a>
+				</div>
+				<div class="col-8">
+					<div class="row center">
+							<a href="//github.com/joindeveloper" target="_blank"><i class="fa fa-github-square icon-title fa-3x" aria-hidden="true"></i></a>
+							<a href="mailto:developerjoint@gmail.com" target="_blank"><i class="fa fa-envelope-square icon-title fa-3x" aria-hidden="true"></i></a>
+							<a href="//youtube.com/channel/UC1hMrYBNsvKnufvG8t6q7ZQ" target="_blank"><i class="fa fa-youtube-square icon-title fa-3x" aria-hidden="true"></i></a>
+							<a href="//plus.google.com/u/1/113539795181089700851" target="_blank"><i class="fa fa-google-plus-square icon-title fa-3x" aria-hidden="true"></i></a>
+							<a href="//instagram.com/jointDeveloper/" target="_blank"><i class="fa fa-instagram icon-title fa-3x" aria-hidden="true"></i></a>
+							<a href="//snapchat.com/add/jointDev" target="_blank"><i class="fa fa-snapchat-square icon-title fa-3x" aria-hidden="true"></i></a>
+							<a href="//facebook.com/jointDeveloper/" target="_blank"><i class="fa fa-facebook-square icon-title fa-3x" aria-hidden="true"></i></a>
+							<div class="fb-like" data-href="https://www.facebook.com/jointDeveloper/" data-width="80px" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+							<a href="//twitter.com/jointdev" target="_blank"><i class="fa fa-twitter-square icon-title fa-3x" aria-hidden="true"></i></a>
+							<a class="twitter-follow-button"
+								href="https://twitter.com/jointDev"
+								data-size="large">
+							Follow</a>
+					</div>
+				</div>
+				<div class="col-2 center">
+					<a href="//utp.edu.co" target="_blank"><img src="../../IMG/icons/utp.png" style="width: 100px" alt="" /></a>
+				</div>
 			</div>
-    </div>
+		</div>
     <script src="../../JS/jquery.min.js"></script>
     <script src="../../JS/twitter.js"></script>
     <script src="../../JS/facebook.js"></script>
-    <script src="../../JS/googleA.js"></script>
     <script src="../../JS/color.js"></script>
-    <script src="../../JS/hoover.js"></script>
-    <script src="../../JS/scroll.js"></script>
-    <script src="../../JS/inicio.js"></script>
+    <script src="../../JS/googleA.js"></script>
+    <script src="../../JS/card.js"></script>
+    <script type="text/javascript" src="../../JS/hoover.js"></script>
+    <script type="text/javascript" src="../../JS/scroll.js"></script>
+    <script type="text/javascript" src="../../JS/inicio.js"></script>
   </body>
 </html>
