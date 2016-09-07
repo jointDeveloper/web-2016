@@ -153,7 +153,7 @@ ul.topnav li { float: right; }
 /* Perfiles*/
 
 .Perfiles{
-	width: 98%;
+	width: 95%;
 	height: 370px;
 	float: left;
   -webkit-background-size: cover;
@@ -200,7 +200,7 @@ a.link:hover {
 }
 
 #perfiles {
-  margin: 10px 0 10px 0;
+  margin: 40px 20px 40px 0;
   padding: 5px;
 }
 
@@ -213,7 +213,7 @@ a.link:hover {
 /*Blog*/
 
 .blog {
-  margin: 10px;
+  margin: 0 40px 0;
   /*position: relative;*/
   height: auto;
   background: #444;
@@ -230,6 +230,10 @@ a.link:hover {
 
 .blog-img:hover {
   opacity: 0.7;
+}
+
+.card-tw {
+  margin: 0 20px 0 0;
 }
 /*fin blog*/
 .footer {
@@ -255,9 +259,9 @@ a.link:hover {
 }
 
 .card {
-  margin: 10px;
+  margin: 40px;
   background: #fafafa;
-  padding: 15px;
+  padding: 25px;
   min-height: 380px;
   /*position: relative;*/
   height: auto;
