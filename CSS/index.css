@@ -120,9 +120,9 @@ ul.topnav li { float: right; }
 }
 
 .intro-index {
-  background-image: url(../IMG/bannerAcercade.jpg);
+  background-image: url(../IMG/navlogo.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
   position: relative;
   content: "";
   clear: both;
@@ -130,8 +130,10 @@ ul.topnav li { float: right; }
   background-color: white;
   margin: auto;
   width: 100%;
-  height: 100% !important;
+  height: 60% !important;
   padding-top: 5%;
+  margin-top: 55px;
+}
 }
 
 .vertical-center {
