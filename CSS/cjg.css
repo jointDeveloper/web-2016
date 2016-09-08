@@ -3,6 +3,6 @@
   height: 250px;
 }
 
-.card-img > img {
+.card-img-fixed > img{
   width: 90%;
 }
