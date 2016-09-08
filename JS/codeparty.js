@@ -101,6 +101,7 @@
     NextImg(imgppal,lis);
     changeInfo(imageInfo);
   });
+
   prev.addEventListener("click",function(ev){
     ev.preventDefault();
     PrevImg(imgppal,lis);
