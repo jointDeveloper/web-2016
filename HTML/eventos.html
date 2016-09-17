@@ -205,14 +205,19 @@
         </div>
       </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>
-      var ul = document.querySelector("#todasLasCharlas .event-list");
 
-      ul.addEventListener("mouseover", function (e){
-        var element = e.target.childNodes[1].childNodes[1];
-        if (e.target.nodeName === 'LI') {
-          element.className = element.className.replace("hidden","");
-        }
+      $(document).ready(function(){
+        $(".charla").mouseenter(function(){
+          var element = this.childNodes[1].childNodes[1];
+          $(element).removeClass("hidden");
+
+        });
+        $(".charla").mouseleave(function(){
+          var element = this.childNodes[1].childNodes[1];
+          $(element).addClass("hidden");
+        });
       });
 
     </script>
