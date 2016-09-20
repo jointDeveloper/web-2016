@@ -30,7 +30,7 @@
     },
     {
       "name": "Carolina Gómez Trejos",
-      "img": "./IMG/carogt.jpg",
+      "img": "./IMG/carogt/carogt.jpg",
       "page": "./HTML/perfiles/carogt.html",
       "email": "caro_gomezt@utp.edu.co",
       "description": "Estudiante Ingeniería de Sistemas y Computación"
