@@ -46,8 +46,9 @@ html, body {
 }
 
 .container {
-  max-width: 1366px;
+  max-width: 1200px;
   width: 100%;
+  margin: auto;
 }
 
 #logo-nav, #logo-nav-responsive {
@@ -84,6 +85,10 @@ ul.topnav li a {
 }
 
 a { color: #000; }
+a, a:active, a:focus {
+  outline: none;
+  text-decoration: none;
+}
 a i {
   color: #fff;
   bottom: 10px;
@@ -129,7 +134,6 @@ ul.topnav li { float: right; }
   display: block;
   margin: auto;
   width: 100%;
-  padding-top: 55px;
 }
 
 .vertical-center {
@@ -150,7 +154,7 @@ ul.topnav li { float: right; }
 
 .Perfiles{
 	width: 95%;
-	height: 370px;
+	height: 380px;
 	float: left;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -196,7 +200,7 @@ a.link:hover {
 }
 
 #perfiles {
-  margin: 10% 5% 10% 0;
+  margin: 20px;
   padding: 5px;
 }
 
@@ -209,7 +213,7 @@ a.link:hover {
 /*Blog*/
 
 .blog {
-  margin: 0 5% 0;
+  margin: 0 20px 0;
   /*position: relative;*/
   height: auto;
   background: #444;
@@ -229,7 +233,8 @@ a.link:hover {
 }
 
 .card-tw {
-  margin: 0 5% 0 0;
+  margin: 0;
+  padding-left: 15px;
 }
 /*fin blog*/
 .footer {
@@ -255,9 +260,9 @@ a.link:hover {
 }
 
 .card {
-  margin: 5%;
+  margin: 20px;
   background: #fafafa;
-  padding: 25px;
+  padding: 10px;
   min-height: 380px;
   /*position: relative;*/
   height: auto;
@@ -265,4 +270,20 @@ a.link:hover {
 
 .ajuste{
   width: calc(100% - 450px);
+}
+
+.danger {
+  position: relative;
+  background: #F7CA18;
+  padding: 60px 0 0 0;
+  color: #fff;
+}
+
+.danger:hover {
+  background: #F5D76E ;
+}
+
+a > .danger {
+  font-size: 1.55em;
+  color: #fff;
 }
