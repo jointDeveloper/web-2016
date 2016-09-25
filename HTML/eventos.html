@@ -25,7 +25,7 @@
           </ul>
           -->
         </li>
-        <!-- <li><a href="#todasLasCharlas" class="group"><span>Charlas</span></a></li> -->
+        <li><a href="#todasLasCharlas" class="group"><span>Charlas</span></a></li>
       </ul>
     </nav>
 
@@ -34,7 +34,7 @@
         <h1 class="intro">Eventos</h1>
       </div>
     </div>
-
+  <div class="b1">
 		<div class="event-container" id="todosLosEventos">
 
       <div>
@@ -43,7 +43,7 @@
       </div>
 
       <ul class="event-list">
-				<li id="codeParty" class="event" style="background-image: url(../IMG/eventos.JPG">
+				<li id="codeParty" class="event event-general" style="background-image: url(../IMG/eventos.JPG">
           <a href="codeparty.html">
             <div class="text letra">
               <span>CodeParty Pereira</span>
@@ -98,10 +98,10 @@
       </ul>
 
     </div>
+  </div>
+  <div class="b2">
 
-    <!--
-
-    <div id="todasLasCharlas">
+    <div class="" id="todasLasCharlas">
       <div class="up">
         <h2 class="info letra">Descubre lo que hacemos y cómo lo hacemos</h2>
         <p class="info letra" style="font-size:16px;">
@@ -110,25 +110,80 @@
         </p>
       </div>
 
-      <div class="scroll-container">
-        <i class="arrow"> < </i>
-        <i class="arrow"> > </i>
-      </div>
+        <ul class="event-list">
+
+          <li class="charla event-general" style="background-image: url(../IMG/Charlas/html-css.jpg)">
+            <a href="#">
+              <div class="light-box hidden">
+                <p class="letra text center">
+                  <strong>
+                    Html + Css
+                  </strong>
+                </p>
+              </div>
+            </a>
+          </li>
+
+          <li class="charla event-general" style="background-image: url(../IMG/Charlas/jquery-hd.jpg)">
+            <a href="#">
+              <div class="light-box hidden">
+        					<p class="letra text center">
+                    <strong>
+        						  Jquery.
+        					  </strong>
+                  </p>
+              </div>
+            </a>
+          </li>
+
+          <li class="charla event-general" style="background-image: url(../IMG/Charlas/JavaScript-logo.png)">
+            <a href="#">
+              <div class="light-box hidden">
+                <p class="letra text center">
+                  <strong>
+                    Javascript.
+                  </strong>
+                </p>
+              </div>
+            </a>
+          </li>
+
+          <li class="charla event-general" style="background-image: url(../IMG/Charlas/Linux-4.0.png)">
+            <a href="#">
+              <div class="light-box hidden">
+                <p class="letra text center">
+                  <strong>
+                    Introducción a linux.
+                  </strong>
+                </p>
+              </div>
+            </a>
+          </li>
+
+          <li class="charla event-general" style="background-image: url(../IMG/Charlas/Pensamiento-Lógico.jpg)">
+            <a href="#">
+              <div class="light-box hidden">
+                <p class="letra text center">
+                  <strong>
+                    Introducción al pensamiento lógico
+                  </strong>
+                </p>
+              </div>
+            </a>
+          </li>
+
+        </ul>
 
     </div>
 
-    -->
+  </div>
     <div class="footer">
       <div class="row">
         <div class="col-2 center">
           <a href="//sirius.utp.edu.co" target="_blank"><img src="../IMG/icons/sirius.png" style="width: 80px" alt="" /></a>
         </div>
         <div class="col-8">
-          <!--<div class="fb-like" data-href="https://www.facebook.com/jointDeveloper/" data-width="80px" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-          <a class="twitter-follow-button"
-            href="https://twitter.com/jointDev"
-            data-size="large">
-          Follow @jointDev</a>-->
+
           <div class="row">
               <a href="//github.com/joindeveloper" target="_blank"><i class="fa fa-github-square icon-title fa-3x" aria-hidden="true"></i></a>
               <a href="mailto:developerjoint@gmail.com" target="_blank"><i class="fa fa-envelope-square icon-title fa-3x" aria-hidden="true"></i></a>
@@ -150,6 +205,22 @@
         </div>
       </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+
+      $(document).ready(function(){
+        $(".charla").mouseenter(function(){
+          var element = this.childNodes[1].childNodes[1];
+          $(element).removeClass("hidden");
+
+        });
+        $(".charla").mouseleave(function(){
+          var element = this.childNodes[1].childNodes[1];
+          $(element).addClass("hidden");
+        });
+      });
+
+    </script>
     <script src="../JS/twitter.js"></script>
     <script src="../JS/facebook.js"></script>
     <script src="../JS/googleA.js"></script>
