@@ -117,18 +117,48 @@ header h1{
 
 .contenidoItemHorasCodigo{
   position: relative;
-  margin: 0;
+  width: auto;
+  height: auto;
+  margin: 20px;
 
 }
 
-img{
+.contenidoItemDesarrolloProyectos{
+
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 20px;
+
+}
+
+.contenidoItemEntrenamiento{
+
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 20px;
+
+}
+
+
+.transicion-imagen{
   position: absolute;
-  transition: all 0.3s ease;
+  transition:all 2s;
+  width: 280px;
+  height: 350px;
+  left: 0px;
 
 }
 
-img:hover{
-  border-radius: 50%;
+.transicion-imagen:hover{
+  border-radius: 100px;
+  width: 180px;
+  height: 180px;
+  left: 60px;
+
+
+
 }
 
 .opciones{
