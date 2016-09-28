@@ -4,7 +4,7 @@
 
 [![Github Issues](https://img.shields.io/github/issues/jointDeveloper/Aprendizaje-Web.svg)](http://github.com/jointDeveloper/Aprendizaje-Web/issues)
 
-## Guía Rápida de Contribución a la Web-jointDeveloper (v 2.0)*
+## Guía Rápida de Contribución a la Web-jointDeveloper
 
 
 1. Si es la primera vez que va a contribuir se debe clonar el repositorio a través de `git clone https://github.com/jointDeveloper/jointdeveloper.github.io.git` de lo contrario
