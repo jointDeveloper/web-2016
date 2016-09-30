@@ -142,23 +142,33 @@ header h1{
 }
 
 
-.transicion-imagen{
-  position: absolute;
+.transicion-imagen {
   transition:all 2s;
   width: 280px;
   height: 350px;
   left: 0px;
+  display: block;
 
 }
 
-.transicion-imagen:hover{
+.contenidoItem:hover .transicion-imagen{
   border-radius: 100px;
   width: 180px;
   height: 180px;
   left: 60px;
+  transform: translate(0px,-180px);
 
+}
 
+.texto{
+  display: block;
+  transform: translate(0px);
+  transition: all 4s;
+}
 
+.contenidoItem:hover .texto{
+  display: block;
+  transform: translate(0px,-150px);
 }
 
 .opciones{
