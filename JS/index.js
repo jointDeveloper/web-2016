@@ -8,6 +8,7 @@
     var perfiles = [];
     var index = 0;
     var size = 0;
+    var imageCarousel = null;
 
     $.getJSON("./data.json", function (data) {
       data.perfiles.forEach(function (perfil) {
@@ -20,7 +21,7 @@
 
       view();
       size = perfiles.length;
-      setInterval(moveRight, 2800);
+      imageCarousel = setInterval(moveRight, 2800);
       left.addEventListener('click', moveLeft);
       right.addEventListener('click', moveRight);
       people.addEventListener('click', viewProfile);
@@ -30,6 +31,12 @@
       var id = $(this).attr('id');
       var name = "HTML/" + id + ".html";
       if (id != 'perfiles') window.location = name;
+    });
+
+    $('.link').hover(function() {
+      window.clearInterval(imageCarousel);
+    }, function() {
+      imageCarousel = setInterval(moveRight, 2800);
     });
 
     function moveLeft() {
