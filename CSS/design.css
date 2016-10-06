@@ -60,6 +60,7 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  font-weight: bold;
   background-color: #444;
   position: fixed;
   top: 0px;
@@ -79,17 +80,21 @@ ul.topnav li a {
 }
 
 a { color: #000; }
+a, a:active, a:focus {
+  outline: none;
+  text-decoration: none;
+}
+a i {
+  color: #fff;
+  bottom: 10px;
+}
 
-/*a i:hover { opacity: 0.7; }
-
-a span:hover {
-    opacity: 0.7;
-}*/
-
+a i:hover { opacity: 0.7; }
 
 ul.topnav li a:hover:not(.active) {
   color: #f06292;
   font-weight: bold;
+  padding-bottom: 2px;
   border-bottom: 2px solid #f06292;
 }
 
@@ -97,6 +102,7 @@ ul.topnav li a.active {
   color: #f06292;
   background-color: #444;
   font-weight: bold;
+  padding-bottom: 2px;
   border-bottom: 2px solid #f06292;
 }
 
@@ -105,9 +111,7 @@ ul.topnav ul.right {
   list-style-type: none;
 }
 
-ul.topnav li {
-    float: right;
-}
+ul.topnav li { float: right; }
 /*fin navigation*/
 
 main {
