@@ -20,7 +20,7 @@ actualizar el repositorio local, por medio de `git pull origin master` para trae
 
 
 
-_NOTA:_ Realizar actualizaciones sobre la rama `master` sólo si se está completamente seguro de que los cambios están correctos
+_NOTA:_ Realizar actualizaciones sobre la rama `master` sólo si se está completamente seguro de que los cambios sean correctos.
 
 *La nueva versión de la guía rápida se debe a que la rama principal cambió de gh-pages a master, al igual que el nombre de repositorio de Aprendizaje-web a jointdeveloper.github.io
 
