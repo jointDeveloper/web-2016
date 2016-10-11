@@ -15,7 +15,7 @@ html, body {
 }
 
 #horizontal {
-  padding-top: 50px;
+  padding-top: 20%;
 }
 
 #horizontal ul{
@@ -27,7 +27,10 @@ html, body {
    text-align: center;
    margin: 0 10px 0 0;
    position: relative;
+
 }
+
+
 
 header h1{
 	text-align: center;
@@ -145,7 +148,7 @@ header h1{
 .transicion-imagen {
   transition:all 2s;
   width: 280px;
-  height: 350px;
+  height: 200px;
   left: 0px;
   display: block;
 
@@ -155,8 +158,9 @@ header h1{
   border-radius: 100px;
   width: 180px;
   height: 180px;
-  left: 60px;
-  transform: translate(0px,-180px);
+  left: 40px;
+  transform: translate(20px,-80px);
+
 
 }
 
@@ -164,11 +168,12 @@ header h1{
   display: block;
   transform: translate(0px);
   transition: all 4s;
+
 }
 
 .contenidoItem:hover .texto{
   display: block;
-  transform: translate(0px,-150px);
+  transform: translate(5px,-80px);
 }
 
 .opciones{
