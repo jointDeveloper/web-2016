@@ -6,7 +6,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-size: 18px;
-  background-color: #fff;
+  background-image: url('../IMG/background.jpg');
   font-family: 'Arima-Madurai', cursive;
 }
 @font-face {
@@ -15,7 +15,7 @@ html, body {
 }
 
 #horizontal {
-  padding-top: 20%;
+  padding-top: 15%;
 }
 
 #horizontal ul{
@@ -164,17 +164,37 @@ header h1{
 
 }
 
-.texto{
+.tituloItem{
   display: block;
   transform: translate(0px);
   transition: all 4s;
+  color: #e8175d;
+
 
 }
 
-.contenidoItem:hover .texto{
+.contenidoItem:hover .tituloItem {
   display: block;
   transform: translate(5px,-80px);
 }
+
+.textoItem{
+  display: none;
+  transform: translate(0px);
+  transition: all 4s;
+  color: #e8175d;
+  background: rgba(250, 209, 223,0.5);
+  background-size: auto;
+  width: 280px;
+  height: auto;;
+}
+
+.contenidoItem:hover .textoItem{
+  display: block;
+  transform: translate(0px);
+}
+
+
 
 .opciones{
   width: 100%;
