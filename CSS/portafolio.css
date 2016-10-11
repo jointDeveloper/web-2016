@@ -194,7 +194,16 @@ header h1{
   transform: translate(0px);
 }
 
-
+.contenidoItem .boton{
+  background-color: #e8175d;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+}
 
 .opciones{
   width: 100%;
