@@ -6,7 +6,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-size: 18px;
-  background-color: #fff;
+  background-image: url('../IMG/background.jpg');
   font-family: 'Arima-Madurai', cursive;
 }
 @font-face {
@@ -15,7 +15,7 @@ html, body {
 }
 
 #horizontal {
-  padding-top: 50px;
+  padding-top: 15%;
 }
 
 #horizontal ul{
@@ -27,7 +27,10 @@ html, body {
    text-align: center;
    margin: 0 10px 0 0;
    position: relative;
+
 }
+
+
 
 header h1{
 	text-align: center;
@@ -53,12 +56,11 @@ header h1{
 
 }
 
-.content {
+.detalleOpciones {
   position: relative;
   content: "";
   clear: both;
   display: block;
-  background-color: white;
   margin: 10px auto;
   padding: 10px;
   width: 70%;
@@ -98,25 +100,6 @@ header h1{
 	padding-left: 2em;
 }
 
-.horas-codigo figcaption{
-	position: absolute;
-	background: #f06292;
-	top: 0;
-	left:0;
-	color: #FFF;
-	padding-left: 1em;
-	padding-right: 1em;
-	border-radius: 10px;
-}
-
-.horas-codigo figcaption h3 {
-    padding-top: 8em;
-    font-family: 'Lato',cursive;
-}
-
-.horas-codigo img{
-	border-radius: 10px;
-}
 
 .box {
   margin: 10px;
@@ -124,67 +107,7 @@ header h1{
   background-color: #F8BBD0;
   font-size: 20px;
 }
-/*Tipos de etiquetas http://programacion.jias.es/2012/12/css3-etiquetas-propias-de-cada-navegador-webkit-moz-ms-o/ */
-.caption li {
-	-webkit-perspective: 1800px; /*Para Chrome y Safari*/
-	-moz-perspective: 1800px; /*Para Firefox*/
-	perspective: 1800px;
-	-webkit-perspective-origin: 0 50%;  /*Para Chrome y Safari*/
-	-moz-perspective-origin: 0 0%;  /*Para Firefox*/
-	perspective-origin: 0 0%;
-}
 
-/*Decir al navegador que se trabajara en 3d*/
-.caption figure {
-	-webkit-transform-style: preserve-3d;
-	-moz-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-}
-
-/*Tiempo en el que se da el movimiento de la imagen*/
-.caption figure img {
-	-webkit-transition: -webkit-transform 0.3s ease-out;
-	-moz-transition: -moz-transform 0.3s ease-out;
-	transition: transform 0.3s ease-out;
-}
-
-/*Mueve la imagen un 23% de su lugar original cuando se ubica el cursor sobre la misma*/
-.caption figure:hover img
-{
-	-webkit-transform: translateX(23%);
-	-moz-transform: translateX(23%);
-	-ms-transform: translateX(23%);
-	transform: translateX(23%);
-	cursor: pointer;
-}
-
-.caption figcaption {
-	height: 100%;
-	width: 50%;
-	opacity: 0;
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-webkit-transform-origin: 0 0;
-	-moz-transform-origin: 0 0;
-	transform-origin: 0 0;
-	-webkit-transform: rotateY(-90deg);
-	-moz-transform: rotateY(-90deg);
-	transform: rotateY(-90deg);
-	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
-	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
-	transition: transform 0.4s, opacity 0.1s 0.3s;
-}
-
-.caption figure:hover figcaption{
-	opacity: 1;
-	-webkit-transform: rotateY(0deg);
-	-moz-transform: rotateY(0deg);
-	transform: rotateY(0deg);
-	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
-	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
-	transition: transform 0.4s, opacity 0.1s;
-}
 
 .item{
 	list-style-image: url('../IMG/item.png');
@@ -193,4 +116,97 @@ header h1{
 .fondoitem{
 	background-color: #F8BBD0;
 	width: 87%;
+}
+
+.contenidoItemHorasCodigo{
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 20px;
+
+}
+
+.contenidoItemDesarrolloProyectos{
+
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 20px;
+
+}
+
+.contenidoItemEntrenamiento{
+
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 20px;
+
+}
+
+
+.transicion-imagen {
+  transition:all 2s;
+  width: 280px;
+  height: 200px;
+  left: 0px;
+  display: block;
+
+}
+
+.contenidoItem:hover .transicion-imagen{
+  border-radius: 100px;
+  width: 180px;
+  height: 180px;
+  left: 40px;
+  transform: translate(20px,-80px);
+
+
+}
+
+.tituloItem{
+  display: block;
+  transform: translate(0px);
+  transition: all 4s;
+  color: #e8175d;
+
+
+}
+
+.contenidoItem:hover .tituloItem {
+  display: block;
+  transform: translate(5px,-80px);
+}
+
+.textoItem{
+  display: none;
+  transform: translate(0px);
+  transition: all 4s;
+  color: #e8175d;
+  background: rgba(250, 209, 223,0.5);
+  background-size: auto;
+  width: 280px;
+  height: auto;;
+}
+
+.contenidoItem:hover .textoItem{
+  display: block;
+  transform: translate(0px);
+}
+
+.contenidoItem .boton{
+  background-color: #e8175d;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+}
+
+.opciones{
+  width: 100%;
+  height: 100%;
+  display: block;
 }
