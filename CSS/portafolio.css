@@ -151,6 +151,8 @@ header h1{
   height: 200px;
   left: 0px;
   display: block;
+  padding: 20px;
+  background: rgba(250, 209, 223,0.9);
 
 }
 
