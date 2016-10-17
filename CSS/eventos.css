@@ -1,10 +1,20 @@
 /*------------General-----------*/
+body {
+  background-image: url(..IMG/background.jpg);
+}
+
 .centered {
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   /*transform: translate(-525px, -150px);*/
+}
+
+.center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .row {
@@ -147,14 +157,13 @@ ul.topnav li {
   background-color: white;
   height: 100vh;
   min-height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 /*-----------Eventos----------*/
 .b1 {
   width: 100%;
-  background-color: rgba(111,144,208,.3);
+  /*border-style: solid;
+  border-color: #F77E7E;*/
+  background-color: white;/*rgba(236,123,123,.3);*/
 }
 
 .info {
@@ -219,15 +228,12 @@ ul.topnav li {
     left: 0;
     right: 0;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /*---------Charlas--------*/
 .b2 {
   width: 100%;
-  background-color: rgba(220,126,126,.2);
+  background-color: rgba(255,222,222,.3);
 }
 
 #todasLasCharlas {
@@ -266,6 +272,28 @@ ul.topnav li {
       float: left;
     }
   }
+
+/*-----------NodeSchool Girls-------*/
+
+#NodeSchoolGirls {
+  width: 90%;
+  max-width: 2048px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#NodeSchoolGirls .row .col-6 {
+  height: 500px;
+}
+
+#NodeSchoolGirls .img {
+  width: 300px;
+  height: auto;
+}
+
+.otro {
+  vertical-align: center;
+}
 
 /*--------Footer--------*/
 
