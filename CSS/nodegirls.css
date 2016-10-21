@@ -13,31 +13,23 @@ body {
 
 .letra { font-family: 'Lato', sans-serif; }
 
+.border {
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+}
+
 /**/
 
 .content {
   background-color: #F7F7F7;
-  border-style: solid;
-  border-color: black;
-  border-width: thin;
   width: 90%;
   margin-top: 50px;
   display: block;
 }
 
-.content div:nth-child(2) {
-  border-style: solid;
-  border-color: black;
-  border-width: thin;
-  height: 90%;
-  width: 100%;
-}
-
   /**/
   .header {
-    border-style: solid;
-    border-color: black;
-    border-width: thin;
     height: 10%;
     width: 100%;
   }
@@ -48,7 +40,7 @@ body {
   }
 
   .header p {
-    font-size: 20px;
+    font-size: 15px;
     margin: 10px;
   }
 
@@ -74,4 +66,30 @@ body {
     background: #f7da03;
     text-decoration: none;
     color: #3a3a3a;
+  }
+
+  /**/
+  .content2 {
+    height: 90%;
+    width: 100%;
+  }
+
+  .content2 .row .col {
+    float: left;
+  }
+
+  .content2 .row .col:nth-of-type(1) {
+    width: 70%;
+  }
+
+  .content2 .row .col:nth-of-type(2) {
+    width: 30%;
+  }
+
+  .content2 .row .col:nth-of-type(2) h2 {
+    color: #333333;
+  }
+
+  .content2 .row .col:nth-of-type(2) p {
+    font-size: 15px;
   }
