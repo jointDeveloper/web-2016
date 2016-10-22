@@ -1,4 +1,4 @@
-body {
+html,body {
   background-color: #F3F3F3;
   width: 100%;
   max-width: 2048px;
@@ -25,7 +25,7 @@ body {
   background-color: #F7F7F7;
   width: 90%;
   margin-top: 50px;
-  display: block;
+  margin-bottom: 50px;
 }
 
   /**/
