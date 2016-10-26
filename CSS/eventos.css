@@ -67,6 +67,17 @@ body {
   display: none;
 }
 
+.b2 {
+  width: 100%;
+  background-image: url(../IMG/background.jpg);
+}
+
+.b1 {
+  background-color: #FEF9FD;
+  border-style:double;
+  border-color: #FFD5D8;
+}
+
 /*-----------Intro----------*/
 .intro {
   font-size: 5em;
@@ -159,12 +170,6 @@ ul.topnav li {
   min-height: 500px;
 }
 /*-----------Eventos----------*/
-.b1 {
-  width: 100%;
-  /*border-style: solid;
-  border-color: #F77E7E;*/
-  background-color: white;/*rgba(236,123,123,.3);*/
-}
 
 .info {
   font-weight: bold;
@@ -231,20 +236,19 @@ ul.topnav li {
 }
 
 /*---------Charlas--------*/
-.b2 {
-  width: 100%;
-  background-color: rgba(255,222,222,.3);
-}
 
 #todasLasCharlas {
   width: 90%;
   max-width: 2048px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom:50px;
+  padding-top: 20px;
 }
 
+
 #todasLasCharlas h2 {
-  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .up {
