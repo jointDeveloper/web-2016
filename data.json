@@ -83,6 +83,20 @@
       "page": "./HTML/perfiles/daniel.html",
       "email": "danielfernandolargo@gmail.com",
       "description": "Estudiante de Ingeniería de Sistemas y Computación."
+    },
+    {
+      "name": "Vanessa Penagos Rios",
+      "img": "./IMG/vanessa/vanessa.jpg",
+      "page": "./HTML/perfiles/vanessa.html",
+      "email": "",
+      "description": "Estudiante de Ingeniería de Sistemas y Computación."
+    },
+    {
+      "name": "Daniela Zuluaga Ocampo",
+      "img": "./IMG/danielaz/danielaz.jpg",
+      "page": "./HTML/perfiles/daniela.html",
+      "email": "",
+      "description": "Estudiante de Ingeniería de Sistemas y Computación."
     }
   ]
 }
