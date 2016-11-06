@@ -1,5 +1,4 @@
 html,body {
-  background-color: #F3F3F3;
   width: 100%;
   max-width: 2048px;
   padding: 0;
@@ -20,74 +19,73 @@ html,body {
 /**/
 
 .content {
-  background-color: #F7F7F7;
   width: 90%;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-  /**/
-  .header {
-    height: 10%;
-    width: 100%;
-  }
+/**/
+.header {
+  height: 10%;
+  width: 100%;
+}
 
-  .header h2 {
-    margin: 20px;
-    font-size: 30px;
-  }
+.header h2 {
+  margin: 20px;
+  font-size: 30px;
+}
 
-  .header p {
-    font-size: 15px;
-    margin: 10px;
-  }
+.header p {
+  font-size: 15px;
+  margin: 10px;
+}
 
-  .header .col {
-    margin: 20px;
-  }
+.header .col {
+  margin: 20px;
+}
 
-  .btn {
-    background: #f7da03;
-    -webkit-border-radius: 3;
-    -moz-border-radius: 3;
-    border-radius: 3px;
-    box-shadow: 0px 1px 0px 0px gray inset;
-    border: 1px solid black;
-    color: black;
-    font-size: 16px;
-    padding: 9px 18px 10px 20px;
-    text-decoration: none;
-    margin: 10px;
-  }
+.btn {
+  background: #f7da03;
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  box-shadow: 0px 1px 0px 0px gray inset;
+  border: 1px solid black;
+  color: black;
+  font-size: 16px;
+  padding: 9px 18px 10px 20px;
+  text-decoration: none;
+  margin: 10px;
+}
 
-  .btn:hover {
-    background: #f7da03;
-    text-decoration: none;
-    color: #3a3a3a;
-  }
+.btn:hover {
+  background: #f7da03;
+  text-decoration: none;
+  color: #3a3a3a;
+}
 
-  /**/
-  .content2 {
-    height: 90%;
-    width: 100%;
-  }
+/**/
+.content2 {
+  height: 90%;
+  width: 100%;
+}
 
-  .content2 .row .col {
-    float: left;
-  }
+.content2 .row .col {
+  float: left;
+}
 
-  .content2 .row .col:nth-of-type(1) {
-    width: 70%;
-  }
+.content2 .row .col:nth-of-type(1) {
+  width: 70%;
+}
 
-  .content2 .row .col:nth-of-type(2) {
-    width: 30%;
-  }
+.content2 .row .col:nth-of-type(2) {
+  width: 30%;
+}
 
-  .content2 .row .col:nth-of-type(2) h2 {
-    color: #333333;
-  }
+.content2 .row .col:nth-of-type(2) h2 {
+  color: #333333;
+}
 
-  .content2 .row .col:nth-of-type(2) p {
-    font-size: 15px;
-  }
+.content2 .row .col:nth-of-type(2) p {
+  font-size: 15px;
+}
