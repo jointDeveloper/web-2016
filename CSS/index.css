@@ -131,14 +131,18 @@ ul.topnav li { float: right; }
   text-shadow: 2px 2px #444;
 }
 
+.intro-index {
+  background: #FFF;
+}
+
 .intro-index > img {
   position: relative;
   content: "";
   clear: both;
   display: block;
   margin: auto;
+  max-width: 1200px;
   width: 100%;
-  color: white;
 }
 
 .vertical-center {
