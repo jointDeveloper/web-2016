@@ -11,8 +11,6 @@ html,body {
   margin: auto;
 }
 
-.letra { font-family: 'Lato', sans-serif; }
-
 .border {
   border-style: solid;
   border-color: black;

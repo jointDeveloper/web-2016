@@ -5,6 +5,7 @@
     <link href="../CSS/perfiles.css" rel="stylesheet">
     <link href="../CSS/fonts.css" rel="stylesheet">
     <link href="../CSS/nodegirls.css" rel="stylesheet">
+    <link href="../CSS/eventos.css" rel="stylesheet">
     <link rel="stylesheet prefetch" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="icon" type="image/png" href="../IMG/favicon.ico" />
     <title>NodeSchool Pereira-jointDeveloper</title>
@@ -19,14 +20,17 @@
         <li><a href="#NodeSchoolGirls" class="group"><span>NodeSchool Girls</span></a></li> -->
       </ul>
     </nav>
-
+    <div class="row intro-index" style="margin-top: 15px;">
+  		<img src="../IMG/navlogo.png" alt="" />
+  	</div>
     <div class="content">
+      <h1 class="center-text">Nodeschool Pereira jointDeveloper</h1>
       <div class="center-text">
         <img src="../IMG/Eventos/Nodeschool.png" alt="Publicidad Nodeschool Pereira" />
       </div>
       <div class="header">
-        <h2 class="center-text letra">Workshoppers</h2>
-        <p class="center-text letra">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2 class="center-text ">Workshoppers</h2>
+        <p class="center-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <div class="row center">
           <div class="col">
             <button type="button" class="btn">View Workshopper List</button>
@@ -36,25 +40,54 @@
           </div>
         </div>
       </div>
-
-
       <div class="content2">
-
         <div class="row">
-
           <div class="col">
             .
           </div>
-
           <div class="col">
-            <h2 class="letra"> Empieza -- </h2>
-            <p class="letra"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2 class=""> Empieza -- </h2>
+            <p class=""> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
 
         </div>
-
+        <h2 class="center-text">Slides</h2>
+        <ul class="event-list">
+          <li class="charla event-general" style="background-image: url(../IMG/Charlas/git.jpg)">
+            <a href="./eventos/nodeschool/slides-git-it.html">
+              <div class="light-box hidden">
+                <p class=" text center-content">
+                  <strong>
+                    Git-it
+                  </strong>
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="charla event-general" style="background-image: url(../IMG/Charlas/JavaScript-logo.png)">
+            <a href="#">
+              <div class="light-box hidden">
+        					<p class=" text center-content">
+                    <strong>
+        						  Javascripting
+        					  </strong>
+                  </p>
+              </div>
+            </a>
+          </li>
+          <li class="charla event-general" style="background-image: url(../IMG/Charlas/nodejs.png)">
+            <a href="#">
+              <div class="light-box hidden">
+                <p class=" text center-content">
+                  <strong>
+                    Learnyounode
+                  </strong>
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
       </div>
-
     </div>
 
     <div class="footer">
@@ -85,6 +118,21 @@
         </div>
       </div>
     </div>
+    <script>
+
+      $(document).ready(function(){
+        $(".charla").mouseenter(function(){
+          var element = this.childNodes[1].childNodes[1];
+          $(element).removeClass("hidden");
+
+        });
+        $(".charla").mouseleave(function(){
+          var element = this.childNodes[1].childNodes[1];
+          $(element).addClass("hidden");
+        });
+      });
+
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../JS/twitter.js"></script>
     <script src="../JS/facebook.js"></script>
