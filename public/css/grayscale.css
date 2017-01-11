@@ -271,12 +271,16 @@ a:focus {
   background: #ec7ca2;
 }
 
+.about h4 {
+  line-height: 1.3;
+}
+
 #about {
   color: #FFF;
 }
 
 .event {
-  background: #eee; 
+  background: #eee;
 }
 
 .content-section {
@@ -420,10 +424,12 @@ body {
   line-height: 1;
 }
 
-.logo {
+.profileImg {
+  background: #FFF;
+  border-radius: 50%;
   height: auto;
   margin: 5px;
-  width: 50%;
+  width: 60%;
 }
 
 a {
