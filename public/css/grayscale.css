@@ -9,8 +9,9 @@ body {
     height: 100%;
     /*font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-family: 'Roboto', sans-serif;
-    color: #fff;
-    background-color: #000;
+    font-weight: lighter;
+    color: #000;
+    background-color: #FFF;
 }
 
 html {
@@ -25,10 +26,11 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
-    font-family: 'Roboto', sans-serif;
-    /*font-weight: 700;*/
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
     letter-spacing: 1px;
 }
 
@@ -40,9 +42,9 @@ p {
 
 @media(min-width:767px) {
     p {
-        margin: 0 0 35px;
+        margin: 0 0 30px;
         font-size: 20px;
-        line-height: 1.6;
+        line-height: 1.2;
     }
 }
 
@@ -69,7 +71,8 @@ a:focus {
     text-transform: uppercase;
     /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-family: 'Roboto', sans-serif;
-    background-color: #000;
+    font-weight: bold;
+    background-color: #FFF;
 }
 
 .navbar-custom .navbar-brand {
@@ -87,7 +90,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: black;
+    color: #FFF;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -96,7 +99,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #000;
 }
 
 .navbar-custom .nav li.active {
@@ -129,7 +132,7 @@ a:focus {
     }
 
   .navbar-custom a {
-      color: black;
+      color: white;
   }
 
     .top-nav-collapse {
@@ -148,7 +151,7 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
+    color: #000;
     background-image: url(/img/test-bg.png);
     background-color: #ffe51f;
     -webkit-background-size: cover;
@@ -166,11 +169,11 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 20px;
-    color: black;
+    color: white;
 }
 
 .intro .intro-body .intro-text {
-    color: black;
+    color: white;
     font-size: 18px;
 }
 
@@ -182,7 +185,7 @@ a:focus {
 
     .intro .intro-body .brand-heading {
         font-size: 40px;
-    margin-top: 20px
+        margin-top: 20px
     }
 
     .intro .intro-body .intro-text {
@@ -264,6 +267,18 @@ a:focus {
     }
 }
 
+.about {
+  background: #ec7ca2;
+}
+
+#about {
+  color: #FFF;
+}
+
+.event {
+  background: #eee; 
+}
+
 .content-section {
     padding-top: 100px;
 }
@@ -271,7 +286,7 @@ a:focus {
 .download-section {
     width: 100%;
     padding: 50px 0;
-    color: #FFF;
+    color: #000;
     background: url(../img/viaducto.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
@@ -289,7 +304,8 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        /*padding-top: 250px;*/
+        padding-top: 100px;
     }
 
     .download-section {
@@ -381,7 +397,7 @@ body {
 }
 
 .jointDeveloper {
-  color: #000;
+  color: #FFF;
   font-family: 'Linden Hill', serif;
   font-style: italic;
   text-transform: none;

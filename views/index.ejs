@@ -21,7 +21,8 @@
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Linden+Hill:400i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -52,17 +53,16 @@
               <a class="page-scroll" href="#about">Acerca de</a>
             </li>
             <li>
-              <a class="page-scroll" href="#register">Registrarse</a>
+              <a class="page-scroll" href="#event">Eventos</a>
             </li>
             <li>
-              <a class="page-scroll" href="#contact">Contacto</a>
+              <a class="page-scroll" href="#contact">Comunidad</a>
             </li>
             <li>
-              <a class="page-scroll" href="#map">Mapa</a>
+              <a class="page-scroll" href="#map">Blog</a>
             </li>
             <li>
-              <a href="conduct.html">Código de Conducta</a>
-
+              <a href="conduct.html">Contacto</a>
             </li>
           </ul>
         </div>
@@ -96,111 +96,54 @@
     </header>
 
     <!-- About Section -->
-    <section id="about" class="container content-section text-center">
+    <div class="about">
+      <section id="about" class="container content-section text-center">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-          <h2>Acerca de Nodeschool Pereira</h2>
-          <a href="http://jointdeveloper.com" target="_blank"><h1 class="jointDeveloper" style="color: #fff">jointDeveloper</h1></a>
-          <p><a href="http://nodeschool.io" target="_blank"><b>NodeSchool</b></a> es una comunidad mundial que hace eventos
-             en más de 200 ciudades en el mundo, los eventos consisten
-             en talleres presenciales que son gratis y abiertos a todo público.
+          <h1>Acerca de</h1>
+          <p>Somos una comunidad que busca generar interés en la   mujer en áreas programación y tecnológia, por medio de espacios diversos que promueva su participación.
           </p>
-          <p>Durante el día contaremos con diferentes mentores que estarán
-             disponibles para guiar y enseñar a los asistentes a través de
-             la serie de retos diseñados para enseñar los fundamentos de
-             desarrollo web.
+          <p>Esta comunidad comparte conocimientos y recursos técnicos que ayudan a crear una red de intercambio con otras comunidades fortaleciendo nuestra formación y contribuyendo al desarrollo tecnológico.
           </p>
         </div>
         <div class="col-lg-8 col-lg-offset-2">
-          <h2>Workshops</h2>
-          <div class="col-lg-4">
-            <img src="/img/logo/git.png" class="logo" alt="" />
-            <p class="descripcion">
-              <i>"<b>Git</b> es un software de control de versiones diseñado por Linus Tolvas, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones"</i>
-            </p>
+          <h1>Miembros</h1>
+            <% for (let i = 0; i < profiles.length; i++) { %>
+              <% if(i % 4 === 1) { %>
+                <div class="row">
+              <% } %>
+              <div class="col-lg-3">
+                <img src="<%= profiles[i].img %>" class="logo" alt="" />
+                <h4><%= profiles[i].name %></h4>
+              </div>
+              <% if(i % 4 === 0) { %>
+                </div>
+              <% } %>
+            <% } %>
           </div>
-          <div class="col-lg-4">
-            <img src="/img/logo/javascript.png" class="logo" alt="" />
-            <p class="descripcion">
-              <i>"<b>Javascript</b> es un lenguaje de programación que se puede utilizar para construir sitios Web y para hacerlos más interactivos"</i>
-            </p>
-          </div>
-          <div class="col-lg-4">
-            <img src="/img/logo/nodejs.png" class="logo" alt="" />
-            <p class="descripcion">
-              <i>"<b>Node</b> es un interprete Javascript del lado del servidor. Su meta es permitir a un programador construir aplicaciones altamente escalables"</i>
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-8 col-lg-offset-2">
-          <h5><i>Presentados por:</i></h5>
-          <div class="col-lg-4">
-            <img src="/img/profile/oriana.png" class="img-perfil" alt="Oriana Cadavid" />
-            <h5>Oriana Cadavid</h5>
-            <p class="nombre">
-              Estudiante Ing. Física
-            </p>
-          </div>
-          <div class="col-lg-4">
-            <img src="/img/profile/jimenez.png" class="img-perfil" alt="Carolina Jiménez" />
-            <h5>Carolina Jiménez</h5>
-            <p class="nombre">
-              Estudiante Ing. Sistemas<br>
-              Co-fundadora
-            </p>
-            <p class="jointDeveloper" style="color: #fff;">
-              jointDeveloper
-            </p>
-          </div>
-          <div class="col-lg-4">
-            <img src="/img/profile/vega.png" class="img-perfil" alt="Sebastián Vega" />
-            <h5>Sebastián Vega</h5>
-            <p class="nombre">
-              Estudiante Ing. Sistemas
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-8 col-lg-offset-2">
-          <!-- <p>Los talleres serán dictados en el auditorio de la universidad,
-             recomendamos a los asistentes traer sus computadores personales
-             con <a href="http://nodejs.org">Node.js</a> previamente instalado,
-             para que puedan realizar los tallers correctamente.
-          </p> -->
-          <p>Todas las edades, niveles de experiencia y conocimiento son
-             bienvenidos. No es necesario tener ningún conocimiento previo.
-          </p>
-
-          <h3>Nodeschool Pereira</h3>
-          <p>
-            <b>Sábado Noviembre 5, 8:00AM-5:00PM @ Universidad Tecnológica de Pereira</b>
-            <br />
-            <a class="page-scroll" href="#register">Regístrate más abajo</a>
-          </p>
         </div>
       </div>
     </section>
-
+    </div>
     <!-- Register Section -->
-    <section id="register" class="content-section text-center">
-      <div class="download-section">
+    <div class="event">
+      <section id="event" class="content-section text-center">
         <div class="container">
           <div class="col-lg-8 col-lg-offset-2">
-            <h2>Interesad@ en Nodeschool Pereira?</h2>
-            <p>Sólo tendremos 30 cupos disponibles, es necesario que reserves
-               el tuyo lo más pronto posible, te estaremos recordando por
-               correo electrónico sobre el evento.
+            <h1>Eventos</h1>
+            <p>Realizamos charlas mensuales sobre diferentes temas para incentivar y animar a más personas a que hagan parte de esta comunidad.
             </p>
-            <a href="http://jointdeveloper.com/eventos/nodeschoolGirls" class="btn btn-default btn-lg" target="_blank">Reserva Aquí!</a>
+            <p>Descubre los eventos que hemos realizado y anímate a ser parte de ellos.</p>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-          <h2>Contacto</h2>
+          <h1>Comunidad</h1>
           <p>Si tienes dudas, preguntas o comentarios, por favor escribenos!
           <div class="col-lg-6">
             <br>Comunidad de aprendizaje del lenguaje JavaScript: PereiraJS<p>
