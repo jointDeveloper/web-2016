@@ -10,10 +10,24 @@
       "content": "",
       "date": "",
       "hour": "",
-      "place": "",
+      "place": "Universidad Tecnológica de Pereira",
+      "room": "",
+      "image": ""
+    },
+    {
+      "title": "jQuery",
+      "author": "",
+      "profile": {
+        "username": "baldor"
+      },
+      "Resume": "",
+      "content": "",
+      "date": "",
+      "hour": "",
+      "place": "Universidad Tecnológica de Pereira",
       "room": "",
       "image": ""
     }
   ],
-  "eventos:":[]
+  "events:":[]
 }

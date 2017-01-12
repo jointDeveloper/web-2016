@@ -131,9 +131,9 @@ a:focus {
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
 
-  .navbar-custom a {
-      color: white;
-  }
+    .navbar-custom a {
+        color: white;
+    }
 
     .top-nav-collapse {
         padding: 0;
@@ -152,14 +152,15 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #000;
-    background-image: url(/img/test-bg.png);
-    background-color: #ffe51f;
+    background-image: url(/img/intro.jpg);
+    background-color: #e097b0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     background-blend-mode: multiply;
-    background-size: 25%;
+    background-repeat: no-repeat;
+    /*background-size: 25%;*/
 }
 
 .intro .intro-body {
@@ -369,7 +370,7 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 0;
 }
 
 footer p {
@@ -438,4 +439,8 @@ a {
 
 a:focus {
   outline: 0;
+}
+
+.blog {
+  background: #eee;
 }
