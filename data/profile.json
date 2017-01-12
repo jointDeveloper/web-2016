@@ -1,102 +1,104 @@
 {
   "profiles": [
     {
-      "name": "Yensy Helena Gómez Villegas",
-      "img": "/img/profile/yen/profile.jpg",
-      "page": "./HTML/perfiles/yhgv.html",
-      "email": "yensy@sirius.utp.edu.co",
-      "description": "Fundadora - jointDeveloper<br />Ingeniera de Sistemas y Computación"
-    },
-    {
-      "name": "Giseth Johana Grimaldo B.",
-      "img": "/img/profile/giseth/profile.jpg",
-      "page": "./HTML/perfiles/giseth.html",
-      "email": "",
-      "description": "Ingeniera de Sistemas y Computación"
-    },
-    {
-      "name": "John H. Osorio Ríos",
-      "img": "/img/profile/john/profile.jpg",
-      "page": "./HTML/perfiles/josorio.html",
-      "email": "john@sirius.utp.edu.co",
-      "description": "Ingeniero de Sistemas y Computación<br />Especialista en Electrónica Digital<br />Investigador Principal Centro de Educación GPU nVidia<br />Director de Investigación Grupo Sirius HPC"
-    },
-    {
-      "name": "Alejandro E. Rendón",
-      "img": "/img/profile/alejandro/profile.jpg",
-      "page": "./HTML/perfiles/carogt.html",
-      "email": "caro_gomezt@utp.edu.co",
-      "description": "Estudiante Ingeniería de Sistemas y Computación"
-    },
-    {
-      "name": "Angelica Aguirre Castro",
-      "img": "/img/profile/angelica/profile.jpg",
-      "page": "./HTML/perfiles/angelicaaguirre.html",
-      "email": "anaguirre@utp.edu.co",
-      "description": "Ingeniera de Sistemas y Computación"
-    },
-    {
-      "name": "Carolina Gómez Trejos",
-      "img": "/img/profile/carolinaGomez/profile.jpg",
-      "page": "./HTML/perfiles/carogt.html",
-      "email": "caro_gomezt@utp.edu.co",
-      "description": "Estudiante Ingeniería de Sistemas y Computación"
-    },
-    {
-      "name": "Carolina Jiménez Gómez",
-      "img": "/img/profile/carolinaJimenez/profile.jpg",
-      "page": "./HTML/perfiles/cjg.html",
-      "email": "carolina.jimenez@utp.edu.co",
-      "description": "Estudiante Ingeniería de Sistemas y Computación."
-    },
-    {
-      "name": "María Victoria Gasca",
-      "img": "/img/profile/victoria/profile.jpg",
-      "page": "./HTML/perfiles/Vicky.html",
-      "email": "mvgasca@utp.edu.co",
-      "description": "Ingeniera Electricista."
-    },
-    {
-      "name": "Sebastian Duque",
-      "img": "/img/profile/baldor/profile.jpg",
-      "page": "./HTML/perfiles/sduque.html",
-      "email": "sebas.duque@utp.edu.co",
-      "description": "Estudiante Ingeniería de Sistemas y Computación"
-    },
-    {
-      "name": "Leiver Campeón",
-      "img": "/img/profile/leiver/profile.jpg",
-      "page": "./HTML/perfiles/leiver.html",
-      "email": "leiverandres@utp.edu.co",
-      "description": "Estudiante Ingeniería de Sistemas y Computación"
-    },
-    {
-      "name": "Angie Melissa Delgado",
-      "img": "/img/profile/melissa/profile.jpg",
-      "page": "./HTML/perfiles/melidelgado.html",
-      "email": "adelgadoleon@acm.org",
-      "description": "Estudiante de Ingeniería de Sistemas"
-    },
-    {
-      "name": "Daniel Fernando Largo Guerrero",
-      "img": "/img/profile/daniel/profile.jpg",
-      "page": "./HTML/perfiles/daniel.html",
-      "email": "danielfernandolargo@gmail.com",
-      "description": "Estudiante de Ingeniería de Sistemas y Computación."
-    },
-    {
-      "name": "Vanessa Penagos Rios",
-      "img": "/img/profile/vanessa/profile.jpg",
-      "page": "./HTML/perfiles/vanessa.html",
-      "email": "angie-19-v@utp.edu.co",
-      "description": "Estudiante de Ingeniería de Sistemas y Computación."
-    },
-    {
-      "name": "Daniela Zuluaga Ocampo",
-      "img": "/img/profile/daniela/profile.jpg",
-      "page": "./HTML/perfiles/daniela.html",
-      "email": "daniela-zuluaga@utp.edu.co",
-      "description": "Estudiante de Ingeniería de Sistemas y Computación."
+      "yen": {
+        "name": "Yensy Helena Gómez Villegas",
+        "img": "/img/profile/yen/profile.jpg",
+        "page": "./HTML/perfiles/yhgv.html",
+        "email": "yensy@sirius.utp.edu.co",
+        "description": "Fundadora - jointDeveloper<br />Ingeniera de Sistemas y Computación"
+      },
+      "giseth": {
+        "name": "Giseth Johana Grimaldo B.",
+        "img": "/img/profile/giseth/profile.jpg",
+        "page": "./HTML/perfiles/giseth.html",
+        "email": "",
+        "description": "Ingeniera de Sistemas y Computación"
+      },
+      "john": {
+        "name": "John H. Osorio Ríos",
+        "img": "/img/profile/john/profile.jpg",
+        "page": "./HTML/perfiles/josorio.html",
+        "email": "john@sirius.utp.edu.co",
+        "description": "Ingeniero de Sistemas y Computación<br />Especialista en Electrónica Digital<br />Investigador Principal Centro de Educación GPU nVidia<br />Director de Investigación Grupo Sirius HPC"
+      },
+      "alejandro": {
+        "name": "Alejandro E. Rendón",
+        "img": "/img/profile/alejandro/profile.jpg",
+        "page": "./HTML/perfiles/carogt.html",
+        "email": "caro_gomezt@utp.edu.co",
+        "description": "Estudiante Ingeniería de Sistemas y Computación"
+      },
+      "angelica": {
+        "name": "Angelica Aguirre Castro",
+        "img": "/img/profile/angelica/profile.jpg",
+        "page": "./HTML/perfiles/angelicaaguirre.html",
+        "email": "anaguirre@utp.edu.co",
+        "description": "Ingeniera de Sistemas y Computación"
+      },
+      "carolinaGomez": {
+        "name": "Carolina Gómez Trejos",
+        "img": "/img/profile/carolinaGomez/profile.jpg",
+        "page": "./HTML/perfiles/carogt.html",
+        "email": "caro_gomezt@utp.edu.co",
+        "description": "Estudiante Ingeniería de Sistemas y Computación"
+      },
+      "carolinaJimenez": {
+        "name": "Carolina Jiménez Gómez",
+        "img": "/img/profile/carolinaJimenez/profile.jpg",
+        "page": "./HTML/perfiles/cjg.html",
+        "email": "carolina.jimenez@utp.edu.co",
+        "description": "Estudiante Ingeniería de Sistemas y Computación."
+      },
+      "victoria": {
+        "name": "María Victoria Gasca",
+        "img": "/img/profile/victoria/profile.jpg",
+        "page": "./HTML/perfiles/Vicky.html",
+        "email": "mvgasca@utp.edu.co",
+        "description": "Ingeniera Electricista."
+      },
+      "baldor": {
+        "name": "Sebastian Duque",
+        "img": "/img/profile/baldor/profile.jpg",
+        "page": "./HTML/perfiles/sduque.html",
+        "email": "sebas.duque@utp.edu.co",
+        "description": "Estudiante Ingeniería de Sistemas y Computación"
+      },
+      "leiver": {
+        "name": "Leiver Campeón",
+        "img": "/img/profile/leiver/profile.jpg",
+        "page": "./HTML/perfiles/leiver.html",
+        "email": "leiverandres@utp.edu.co",
+        "description": "Estudiante Ingeniería de Sistemas y Computación"
+      },
+      "melissa": {
+        "name": "Angie Melissa Delgado",
+        "img": "/img/profile/melissa/profile.jpg",
+        "page": "./HTML/perfiles/melidelgado.html",
+        "email": "adelgadoleon@acm.org",
+        "description": "Estudiante de Ingeniería de Sistemas"
+      },
+      "daniel": {
+        "name": "Daniel Fernando Largo Guerrero",
+        "img": "/img/profile/daniel/profile.jpg",
+        "page": "./HTML/perfiles/daniel.html",
+        "email": "danielfernandolargo@gmail.com",
+        "description": "Estudiante de Ingeniería de Sistemas y Computación."
+      },
+      "vanessa": {
+        "name": "Vanessa Penagos Rios",
+        "img": "/img/profile/vanessa/profile.jpg",
+        "page": "./HTML/perfiles/vanessa.html",
+        "email": "angie-19-v@utp.edu.co",
+        "description": "Estudiante de Ingeniería de Sistemas y Computación."
+      },
+      "daniela": {
+        "name": "Daniela Zuluaga Ocampo",
+        "img": "/img/profile/daniela/profile.jpg",
+        "page": "./HTML/perfiles/daniela.html",
+        "email": "daniela-zuluaga@utp.edu.co",
+        "description": "Estudiante de Ingeniería de Sistemas y Computación."
+      }
     }
   ]
 }

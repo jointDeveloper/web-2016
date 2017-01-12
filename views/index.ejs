@@ -108,22 +108,24 @@
         </div>
         <div class="col-lg-8 col-lg-offset-2">
           <h1>Miembros</h1>
-            <% for (let i = 0; i < profiles.length; i++) { %>
+            <% let i = 0; %>
+            <%  for (profile in profiles) { %>
               <% if(i % 4 === 0) { %>
                 <div class="row">
               <% } %>
-              <div class="col-lg-3 col-sm-6 col-xs-12">
-                <img src="<%= profiles[i].img %>" class="profileImg" alt="" />
-                <h4><%= profiles[i].name %></h4>
+              <div class="col-lg-3 col-sm-6 col-xs-6">
+                <img src="<%= profiles[profile].img %>" class="profileImg" alt="" />
+                <h4><%= profiles[profile].name %></h4>
               </div>
               <% if(i % 4 === 3) { %>
                 </div>
               <% } %>
+            <% i++; %>
             <% } %>
           </div>
         </div>
         <div class="col-lg-8 col-lg-offset-2">
-          <div class="col-lg-4 col-sm-6 col-xs-12 col-lg-offset-4 col-sm-offset-3">
+          <div class="col-lg-4 col-sm-6 col-xs-6 col-lg-offset-4 col-sm-offset-3 col-xs-offset-3">
             <img src="/img/profile/profile.svg" class="profileImg" alt="" />
           </div>
         </div>
