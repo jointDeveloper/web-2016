@@ -40,6 +40,14 @@ p {
     line-height: 1.5;
 }
 
+.oswald {
+  font-family: 'Oswald', sans-serif;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;*/
+}
+
 @media(min-width:767px) {
     p {
         margin: 0 0 30px;
@@ -151,8 +159,8 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #000;
-    background-image: url(/img/intro.jpg);
+    color: #fff;
+    background-image: url(/img/intro/intro.jpg);
     background-color: #e097b0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -170,6 +178,7 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 20px;
+    /*font-family: 'Roboto', sans-serif;*/
     color: white;
 }
 
@@ -185,7 +194,7 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 40px;
+        font-size: 30px;
         margin-top: 20px
     }
 
@@ -199,10 +208,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 35px;
     font-size: 40px;
-    color: black;
+    color: white;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -212,7 +221,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: black;
+    color: white;
     background: rgba(255,255,255,.1);
 }
 
@@ -281,6 +290,8 @@ a:focus {
 }
 
 .event {
+  height: auto;
+  min-height: 100%;
   background: #eee;
 }
 
@@ -442,5 +453,7 @@ a:focus {
 }
 
 .blog {
+  height: auto;
+  min-height: 100%;
   background: #eee;
 }
